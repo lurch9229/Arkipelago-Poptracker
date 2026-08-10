@@ -1,0 +1,3711 @@
+[
+ {
+  "name": "Achatina",
+  "type": "toggle",
+  "codes": "achatina",
+  "img": "images/dinos/achatina.png"
+ },
+ {
+  "name": "Allosaurus",
+  "type": "toggle",
+  "codes": "allosaurus",
+  "img": "images/dinos/allosaurus.png"
+ },
+ {
+  "name": "Allosaurus Saddle",
+  "type": "toggle",
+  "codes": "allosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Allosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "allosaurus_ride",
+  "item_left": "allosaurus",
+  "item_right": "allosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/allosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/allosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/allosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/allosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Angler",
+  "type": "toggle",
+  "codes": "angler",
+  "img": "images/dinos/angler.png"
+ },
+ {
+  "name": "Ankylosaurus",
+  "type": "toggle",
+  "codes": "ankylosaurus,anky",
+  "img": "images/dinos/ankylosaurus.png"
+},
+{
+  "name": "Ankylosaurus Saddle",
+  "type": "toggle",
+  "codes": "ankylosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+},
+{
+  "name": "Ankylosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "ankylosaurus_ride",
+  "item_left": "ankylosaurus",
+  "item_right": "ankylosaurus_saddle",
+  "images": [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/ankylosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/ankylosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/ankylosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/ankylosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+},
+ {
+  "name": "Archaeopteryx",
+  "type": "toggle",
+  "codes": "archaeopteryx",
+  "img": "images/dinos/archaeopteryx.png"
+ },
+ {
+  "name": "Argentavis",
+  "type": "toggle",
+  "codes": "argentavis",
+  "img": "images/dinos/argentavis.png"
+ },
+ {
+  "name": "Argentavis Saddle",
+  "type": "toggle",
+  "codes": "argentavis_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Argentavis Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "argentavis_ride",
+  "item_left": "argentavis",
+  "item_right": "argentavis_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/argentavis.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/argentavis.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/argentavis.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/argentavis.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Arthropluera",
+  "type": "toggle",
+  "codes": "arthropluera",
+  "img": "images/dinos/arthropluera.png"
+ },
+ {
+  "name": "Arthropluera Saddle",
+  "type": "toggle",
+  "codes": "arthropluera_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Arthropluera Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "arthropluera_ride",
+  "item_left": "arthropluera",
+  "item_right": "arthropluera_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/arthropluera.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/arthropluera.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/arthropluera.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/arthropluera.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Baryonyx",
+  "type": "toggle",
+  "codes": "baryonyx",
+  "img": "images/dinos/baryonyx.png"
+ },
+ {
+  "name": "Baryonyx Saddle",
+  "type": "toggle",
+  "codes": "baryonyx_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Baryonyx Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "baryonyx_ride",
+  "item_left": "baryonyx",
+  "item_right": "baryonyx_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/baryonyx.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/baryonyx.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/baryonyx.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/baryonyx.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Basilosaurus",
+  "type": "toggle",
+  "codes": "basilosaurus",
+  "img": "images/dinos/basilosaurus.png"
+ },
+ {
+  "name": "Basilosaurus Saddle",
+  "type": "toggle",
+  "codes": "basilosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Basilosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "basilosaurus_ride",
+  "item_left": "basilosaurus",
+  "item_right": "basilosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/basilosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/basilosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/basilosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/basilosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Castoroides",
+  "type": "toggle",
+  "codes": "castoroides",
+  "img": "images/dinos/castoroides.png"
+ },
+ {
+  "name": "Castoroides Saddle",
+  "type": "toggle",
+  "codes": "castoroides_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Castoroides Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "castoroides_ride",
+  "item_left": "castoroides",
+  "item_right": "castoroides_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/castoroides.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/castoroides.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/castoroides.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/castoroides.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Dung Beetle",
+  "type": "toggle",
+  "codes": "dungbeetle, dung_beetle",
+  "img": "images/dinos/dungbeetle.png"
+ },
+ {
+  "name": "Gigantopithecus",
+  "type": "toggle",
+  "codes": "gigantopithecus",
+  "img": "images/dinos/gigantopithecus.png"
+ },
+ {
+  "name": "Bronto",
+  "type": "toggle",
+  "codes": "bronto",
+  "img": "images/dinos/brontosaurus.png"
+ },
+ {
+  "name": "Bronto Saddle",
+  "type": "toggle",
+  "codes": "bronto_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Bronto Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "bronto_ride",
+  "item_left": "bronto",
+  "item_right": "bronto_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/brontosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/brontosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/brontosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/brontosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Carno",
+  "type": "toggle",
+  "codes": "carno",
+  "img": "images/dinos/carnotaurus.png"
+ },
+ {
+  "name": "Carno Saddle",
+  "type": "toggle",
+  "codes": "carno_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Carno Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "carno_ride",
+  "item_left": "carno",
+  "item_right": "carno_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/carnotaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/carnotaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/carnotaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/carnotaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Chalicotherium",
+  "type": "toggle",
+  "codes": "chalicotherium",
+  "img": "images/dinos/chalicotherium.png"
+ },
+ {
+  "name": "Chalicotherium Saddle",
+  "type": "toggle",
+  "codes": "chalicotherium_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Chalicotherium Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "chalicotherium_ride",
+  "item_left": "chalicotherium",
+  "item_right": "chalicotherium_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/chalicotherium.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/chalicotherium.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/chalicotherium.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/chalicotherium.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Compy",
+  "type": "toggle",
+  "codes": "compsognathus, compy",
+  "img": "images/dinos/compy.png"
+ },
+ {
+  "name": "Daeodon",
+  "type": "toggle",
+  "codes": "daeodon",
+  "img": "images/dinos/daeodon.png"
+ },
+ {
+  "name": "Daeodon Saddle",
+  "type": "toggle",
+  "codes": "daeodon_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Daeodon Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "daeodon_ride",
+  "item_left": "daeodon",
+  "item_right": "daeodon_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/daeodon.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/daeodon.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/daeodon.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/daeodon.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Dilophosaur",
+  "type": "toggle",
+  "codes": "dilophosaur",
+  "img": "images/dinos/dilophosaur.png"
+ },
+ {
+  "name": "Dimetrodon",
+  "type": "toggle",
+  "codes": "dimetrodon",
+  "img": "images/dinos/dimetrodon.png"
+ },
+ {
+  "name": "Dimorphodon",
+  "type": "toggle",
+  "codes": "dimorphodon",
+  "img": "images/dinos/dimorphodon.png"
+ },
+ {
+  "name": "Diplodocus",
+  "type": "toggle",
+  "codes": "diplodocus",
+  "img": "images/dinos/diplodocus.png"
+ },
+ {
+  "name": "Diplodocus Saddle",
+  "type": "toggle",
+  "codes": "diplodocus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Diplodocus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "diplodocus_ride",
+  "item_left": "diplodocus",
+  "item_right": "diplodocus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/diplodocus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/diplodocus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/diplodocus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/diplodocus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Diplocaulus",
+  "type": "toggle",
+  "codes": "diplocaulus",
+  "img": "images/dinos/diplocaulus.png"
+ },
+ {
+  "name": "Direbear",
+  "type": "toggle",
+  "codes": "direbear",
+  "img": "images/dinos/direbear.png"
+ },
+ {
+  "name": "Direbear Saddle",
+  "type": "toggle",
+  "codes": "direbear_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Direbear Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "direbear_ride",
+  "item_left": "direbear",
+  "item_right": "direbear_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/direbear.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/direbear.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/direbear.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/direbear.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Direwolf",
+  "type": "toggle",
+  "codes": "direwolf",
+  "img": "images/dinos/direwolf.png"
+ },
+ {
+  "name": "Dodo",
+  "type": "toggle",
+  "codes": "dodo",
+  "img": "images/dinos/dodo.png"
+ },
+ {
+  "name": "Doedicurus",
+  "type": "toggle",
+  "codes": "doedicurus",
+  "img": "images/dinos/doedicurus.png"
+ },
+ {
+  "name": "Doedicurus Saddle",
+  "type": "toggle",
+  "codes": "doedicurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Doedicurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "doedicurus_ride",
+  "item_left": "doedicurus",
+  "item_right": "doedicurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/doedicurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/doedicurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/doedicurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/doedicurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Ichthyosaurus",
+  "type": "toggle",
+  "codes": "ichthyosaurus",
+  "img": "images/dinos/ichthyosaurus.png"
+ },
+ {
+  "name": "Ichthyosaurus Saddle",
+  "type": "toggle",
+  "codes": "ichthyosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Ichthyosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "ichthyosaurus_ride",
+  "item_left": "ichthyosaurus",
+  "item_right": "ichthyosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/ichthyosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/ichthyosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/ichthyosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/ichthyosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Dunkleosteus",
+  "type": "toggle",
+  "codes": "dunkleosteus",
+  "img": "images/dinos/dunkleosteus.png"
+ },
+ {
+  "name": "dunkleosteus Saddle",
+  "type": "toggle",
+  "codes": "dunkleosteus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "dunkleosteus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "dunkleosteus_ride",
+  "item_left": "dunkleosteus",
+  "item_right": "dunkleosteus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/dunkleosteus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/dunkleosteus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/dunkleosteus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/dunkleosteus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Electrophorus",
+  "type": "toggle",
+  "codes": "electrophorus",
+  "img": "images/dinos/electrophorus.png"
+ },
+ {
+  "name": "Equus",
+  "type": "toggle",
+  "codes": "equus",
+  "img": "images/dinos/equus.png"
+ },
+ {
+  "name": "Equus Saddle",
+  "type": "toggle",
+  "codes": "equus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Equus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "equus_ride",
+  "item_left": "equus",
+  "item_right": "equus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/equus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/equus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/equus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/equus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Gallimimus",
+  "type": "toggle",
+  "codes": "gallimimus",
+  "img": "images/dinos/gallimimus.png"
+ },
+ {
+  "name": "Gallimimus Saddle",
+  "type": "toggle",
+  "codes": "gallimimus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Gallimimus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "gallimimus_ride",
+  "item_left": "gallimimus",
+  "item_right": "gallimimus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/gallimimus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/gallimimus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/gallimimus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/gallimimus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Giganotosaurus",
+  "type": "toggle",
+  "codes": "giganotosaurus",
+  "img": "images/dinos/giganotosaurus.png"
+ },
+ {
+  "name": "Giganotosaurus Saddle",
+  "type": "toggle",
+  "codes": "giganotosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Giganotosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "giganotosaurus_ride",
+  "item_left": "giganotosaurus",
+  "item_right": "giganotosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/giganotosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/giganotosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/giganotosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/giganotosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Hesperornis",
+  "type": "toggle",
+  "codes": "hesperornis",
+  "img": "images/dinos/hesperornis.png"
+ },
+ {
+  "name": "Hyaenodon",
+  "type": "toggle",
+  "codes": "hyaenodon",
+  "img": "images/dinos/hyaenodon.png"
+ },
+ {
+  "name": "Ichthyornis",
+  "type": "toggle",
+  "codes": "ichthyornis",
+  "img": "images/dinos/ichthyornis.png"
+ },
+ {
+  "name": "Iguanodon",
+  "type": "toggle",
+  "codes": "iguanodon",
+  "img": "images/dinos/iguanodon.png"
+ },
+ {
+  "name": "Iguanodon Saddle",
+  "type": "toggle",
+  "codes": "iguanodon_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Iguanodon Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "iguanodon_ride",
+  "item_left": "iguanodon",
+  "item_right": "iguanodon_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/iguanodon.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/iguanodon.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/iguanodon.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/iguanodon.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Kairuku",
+  "type": "toggle",
+  "codes": "kairuku",
+  "img": "images/dinos/kairuku.png"
+ },
+ {
+  "name": "Procoptodon",
+  "type": "toggle",
+  "codes": "procoptodon",
+  "img": "images/dinos/procoptodon.png"
+ },
+ {
+  "name": "Procoptodon Saddle",
+  "type": "toggle",
+  "codes": "procoptodon_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Procoptodon Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "procoptodon_ride",
+  "item_left": "procoptodon",
+  "item_right": "procoptodon_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/procoptodon.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/procoptodon.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/procoptodon.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/procoptodon.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Kaprosuchus",
+  "type": "toggle",
+  "codes": "kaprosuchus",
+  "img": "images/dinos/kaprosuchus.png"
+ },
+ {
+  "name": "Kaprosuchus Saddle",
+  "type": "toggle",
+  "codes": "kaprosuchus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Kaprosuchus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "kaprosuchus_ride",
+  "item_left": "kaprosuchus",
+  "item_right": "kaprosuchus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/kaprosuchus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/kaprosuchus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/kaprosuchus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/kaprosuchus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Kentrosaurus",
+  "type": "toggle",
+  "codes": "kentrosaurus",
+  "img": "images/dinos/kentrosaurus.png"
+ },
+ {
+  "name": "Liopleurodon",
+  "type": "toggle",
+  "codes": "liopleurodon",
+  "img": "images/dinos/liopleurodon.png"
+ },
+ {
+  "name": "Lystrosaurus",
+  "type": "toggle",
+  "codes": "lystrosaurus",
+  "img": "images/dinos/lystrosaurus.png"
+ },
+ {
+  "name": "Mammoth",
+  "type": "toggle",
+  "codes": "mammoth",
+  "img": "images/dinos/mammoth.png"
+ },
+ {
+  "name": "Mammoth Saddle",
+  "type": "toggle",
+  "codes": "mammoth_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Mammoth Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "mammoth_ride",
+  "item_left": "mammoth",
+  "item_right": "mammoth_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/mammoth.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/mammoth.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/mammoth.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/mammoth.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Manta",
+  "type": "toggle",
+  "codes": "manta",
+  "img": "images/dinos/manta.png"
+ },
+ {
+  "name": "Manta Saddle",
+  "type": "toggle",
+  "codes": "manta_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Manta Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "manta_ride",
+  "item_left": "manta",
+  "item_right": "manta_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/manta.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/manta.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/manta.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/manta.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Megalodon",
+  "type": "toggle",
+  "codes": "megalodon",
+  "img": "images/dinos/megalodon.png"
+ },
+ {
+  "name": "Megalodon Saddle",
+  "type": "toggle",
+  "codes": "megalodon_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Megalodon Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "megalodon_ride",
+  "item_left": "megalodon",
+  "item_right": "megalodon_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/megalodon.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/megalodon.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/megalodon.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/megalodon.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Megalania",
+  "type": "toggle",
+  "codes": "megalania",
+  "img": "images/dinos/megalania.png"
+ },
+ {
+  "name": "Megalania Saddle",
+  "type": "toggle",
+  "codes": "megalania_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Megalania Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "megalania_ride",
+  "item_left": "megalania",
+  "item_right": "megalania_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/megalania.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/megalania.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/megalania.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/megalania.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Megalosaurus",
+  "type": "toggle",
+  "codes": "megalosaurus",
+  "img": "images/dinos/megalosaurus.png"
+ },
+ {
+  "name": "Megalosaurus Saddle",
+  "type": "toggle",
+  "codes": "megalosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Megalosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "megalosaurus_ride",
+  "item_left": "megalosaurus",
+  "item_right": "megalosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/megalosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/megalosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/megalosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/megalosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Megatherium",
+  "type": "toggle",
+  "codes": "megatherium",
+  "img": "images/dinos/megatherium.png"
+ },
+ {
+  "name": "Megatherium Saddle",
+  "type": "toggle",
+  "codes": "megatherium_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Megatherium Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "megatherium_ride",
+  "item_left": "megatherium",
+  "item_right": "megatherium_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/megatherium.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/megatherium.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/megatherium.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/megatherium.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Microraptor",
+  "type": "toggle",
+  "codes": "microraptor",
+  "img": "images/dinos/microraptor.png"
+ },
+ {
+  "name": "Mesopithecus",
+  "type": "toggle",
+  "codes": "mesopithecus",
+  "img": "images/dinos/mesopithecus.png"
+ },
+ {
+  "name": "Mosasaur",
+  "type": "toggle",
+  "codes": "mosasaur",
+  "img": "images/dinos/mosasaurus.png"
+ },
+ {
+  "name": "Mosasaur Saddle",
+  "type": "toggle",
+  "codes": "mosasaur_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Mosasaur Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "mosasaur_ride",
+  "item_left": "mosasaur",
+  "item_right": "mosasaur_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/mosasaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/mosasaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/mosasaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/mosasaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Moschops",
+  "type": "toggle",
+  "codes": "moschops",
+  "img": "images/dinos/moschops.png"
+ },
+ {
+  "name": "Otter",
+  "type": "toggle",
+  "codes": "otter",
+  "img": "images/dinos/otter.png"
+ },
+ {
+  "name": "Oviraptor",
+  "type": "toggle",
+  "codes": "oviraptor",
+  "img": "images/dinos/oviraptor.png"
+ },
+ {
+  "name": "Pachy",
+  "type": "toggle",
+  "codes": "pachy",
+  "img": "images/dinos/pachy.png"
+ },
+ {
+  "name": "Pachy Saddle",
+  "type": "toggle",
+  "codes": "pachy_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Pachy Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "pachy_ride",
+  "item_left": "pachy",
+  "item_right": "pachy_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/pachy.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/pachy.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/pachy.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/pachy.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Pachyrhinosaurus",
+  "type": "toggle",
+  "codes": "pachyrhinosaurus",
+  "img": "images/dinos/pachyrhinosaurus.png"
+ },
+ {
+  "name": "Pachyrhinosaurus Saddle",
+  "type": "toggle",
+  "codes": "pachyrhinosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Pachyrhinosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "pachyrhinosaurus_ride",
+  "item_left": "pachyrhinosaurus",
+  "item_right": "pachyrhinosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/pachyrhinosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/pachyrhinosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/pachyrhinosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/pachyrhinosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Parasaur",
+  "type": "toggle",
+  "codes": "parasaur",
+  "img": "images/dinos/parasaur.png"
+ },
+ {
+  "name": "Parasaur Saddle",
+  "type": "toggle",
+  "codes": "parasaur_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Parasaur Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "parasaur_ride",
+  "item_left": "parasaur",
+  "item_right": "parasaur_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/parasaur.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/parasaur.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/parasaur.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/parasaur.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Paracer",
+  "type": "toggle",
+  "codes": "paracer",
+  "img": "images/dinos/paracer.png"
+ },
+ {
+  "name": "Paracer Saddle",
+  "type": "toggle",
+  "codes": "paracer_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Paracer Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "paracer_ride",
+  "item_left": "paracer",
+  "item_right": "paracer_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/paracer.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/paracer.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/paracer.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/paracer.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Pegomastax",
+  "type": "toggle",
+  "codes": "pegomastax",
+  "img": "images/dinos/pegomastax.png"
+ },
+ {
+  "name": "Pelagornis",
+  "type": "toggle",
+  "codes": "pelagornis",
+  "img": "images/dinos/pelagornis.png"
+ },
+ {
+  "name": "Pelagornis Saddle",
+  "type": "toggle",
+  "codes": "pelagornis_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Pelagornis Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "pelagornis_ride",
+  "item_left": "pelagornis",
+  "item_right": "pelagornis_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/pelagornis.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/pelagornis.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/pelagornis.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/pelagornis.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Phiomia",
+  "type": "toggle",
+  "codes": "phiomia",
+  "img": "images/dinos/phiomia.png"
+ },
+ {
+  "name": "Phiomia Saddle",
+  "type": "toggle",
+  "codes": "phiomia_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Phiomia Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "phiomia_ride",
+  "item_left": "phiomia",
+  "item_right": "phiomia_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/phiomia.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/phiomia.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/phiomia.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/phiomia.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Plesiosaur",
+  "type": "toggle",
+  "codes": "plesiosaur",
+  "img": "images/dinos/plesiosaur.png"
+ },
+ {
+  "name": "Plesiosaur Saddle",
+  "type": "toggle",
+  "codes": "plesiosaur_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Plesiosaur Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "plesiosaur_ride",
+  "item_left": "plesiosaur",
+  "item_right": "plesiosaur_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/plesiosaur.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/plesiosaur.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/plesiosaur.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/plesiosaur.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Pteranodon",
+  "type": "toggle",
+  "codes": "pteranodon",
+  "img": "images/dinos/pteranodon.png"
+ },
+ {
+  "name": "Pteranodon Saddle",
+  "type": "toggle",
+  "codes": "pteranodon_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Pteranodon Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "pteranodon_ride",
+  "item_left": "pteranodon",
+  "item_right": "pteranodon_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/pteranodon.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/pteranodon.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/pteranodon.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/pteranodon.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Purlovia",
+  "type": "toggle",
+  "codes": "purlovia",
+  "img": "images/dinos/purlovia.png"
+ },
+ {
+  "name": "Quetzal",
+  "type": "toggle",
+  "codes": "quetzal",
+  "img": "images/dinos/quetzal.png"
+ },
+ {
+  "name": "Quetzal Saddle",
+  "type": "toggle",
+  "codes": "quetzal_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Quetzal Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "quetzal_ride",
+  "item_left": "quetzal",
+  "item_right": "quetzal_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/quetzal.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/quetzal.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/quetzal.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/quetzal.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Raptor",
+  "type": "toggle",
+  "codes": "raptor",
+  "img": "images/dinos/raptor.png"
+ },
+ {
+  "name": "Raptor Saddle",
+  "type": "toggle",
+  "codes": "raptor_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Raptor Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "raptor_ride",
+  "item_left": "raptor",
+  "item_right": "raptor_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/raptor.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/raptor.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/raptor.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/raptor.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Rex",
+  "type": "toggle",
+  "codes": "rex",
+  "img": "images/dinos/rex.png"
+ },
+ {
+  "name": "Rex Saddle",
+  "type": "toggle",
+  "codes": "rex_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Rex Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "rex_ride",
+  "item_left": "rex",
+  "item_right": "rex_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/rex.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/rex.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/rex.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/rex.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Woolly Rhino",
+  "type": "toggle",
+  "codes": "woollyrhino,rhino",
+  "img": "images/dinos/woollyrhino.png"
+ },
+ {
+  "name": "Woolly Rhino Saddle",
+  "type": "toggle",
+  "codes": "woollyrhino_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Woolly Rhino Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "woollyrhino_ride",
+  "item_left": "woollyrhino",
+  "item_right": "woollyrhino_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/woollyrhino.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/woollyrhino.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/woollyrhino.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/woollyrhino.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Sabertooth",
+  "type": "toggle",
+  "codes": "sabertooth",
+  "img": "images/dinos/sabertooth.png"
+ },
+ {
+  "name": "Sabertooth Saddle",
+  "type": "toggle",
+  "codes": "sabertooth_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Sabertooth Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "sabertooth_ride",
+  "item_left": "sabertooth",
+  "item_right": "sabertooth_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/sabertooth.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/sabertooth.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/sabertooth.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/sabertooth.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Sarco",
+  "type": "toggle",
+  "codes": "sarco",
+  "img": "images/dinos/sarco.png"
+ },
+ {
+  "name": "sarco Saddle",
+  "type": "toggle",
+  "codes": "sarco_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "sarco Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "sarco_ride",
+  "item_left": "sarco",
+  "item_right": "sarco_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/sarco.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/sarco.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/sarco.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/sarco.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Pulmonoscorpius",
+  "type": "toggle",
+  "codes": "pulmonoscorpius",
+  "img": "images/dinos/pulmonoscorpius.png"
+ },
+ {
+  "name": "Pulmonoscorpius Saddle",
+  "type": "toggle",
+  "codes": "pulmonoscorpius_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Pulmonoscorpius Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "pulmonoscorpius_ride",
+  "item_left": "pulmonoscorpius",
+  "item_right": "pulmonoscorpius_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/pulmonoscorpius.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/pulmonoscorpius.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/pulmonoscorpius.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/pulmonoscorpius.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Ovis",
+  "type": "toggle",
+  "codes": "ovis",
+  "img": "images/dinos/ovis.png"
+ },
+ {
+  "name": "Araneo",
+  "type": "toggle",
+  "codes": "araneo",
+  "img": "images/dinos/araneo.png"
+ },
+ {
+  "name": "Araneo Saddle",
+  "type": "toggle",
+  "codes": "araneo_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Araneo Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "araneo_ride",
+  "item_left": "araneo",
+  "item_right": "araneo_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/araneo.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/araneo.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/araneo.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/araneo.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Spino",
+  "type": "toggle",
+  "codes": "spino",
+  "img": "images/dinos/spinosaur.png"
+ },
+ {
+  "name": "spino Saddle",
+  "type": "toggle",
+  "codes": "spino_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "spino Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "spino_ride",
+  "item_left": "spino",
+  "item_right": "spino_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/spinosaur.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/spinosaur.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/spinosaur.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/spinosaur.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Megaloceros",
+  "type": "toggle",
+  "codes": "megaloceros",
+  "img": "images/dinos/megaloceros.png"
+ },
+ {
+  "name": "Megaloceros Saddle",
+  "type": "toggle",
+  "codes": "megaloceros_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Megaloceros Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "megaloceros_ride",
+  "item_left": "megaloceros",
+  "item_right": "megaloceros_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/megaloceros.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/megaloceros.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/megaloceros.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/megaloceros.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Stego",
+  "type": "toggle",
+  "codes": "stegosaurus",
+  "img": "images/dinos/stegosaurus.png"
+ },
+ {
+  "name": "stego Saddle",
+  "type": "toggle",
+  "codes": "stegosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "stegos Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "stegosaurus_ride",
+  "item_left": "stegosaurus",
+  "item_right": "stegosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/stegosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/stegosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/stegosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/stegosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Tapejara",
+  "type": "toggle",
+  "codes": "tapejara",
+  "img": "images/dinos/tapejara.png"
+ },
+ {
+  "name": "Tapejara Saddle",
+  "type": "toggle",
+  "codes": "tapejara_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Tapejara Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "tapejara_ride",
+  "item_left": "tapejara",
+  "item_right": "tapejara_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/tapejara.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/tapejara.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/tapejara.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/tapejara.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Terror Bird",
+  "type": "toggle",
+  "codes": "terror_bird, terrorbird",
+  "img": "images/dinos/terrorbird.png"
+ },
+ {
+  "name": "Terror Bird Saddle",
+  "type": "toggle",
+  "codes": "terrorbird_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Terror Bird Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "terrorbird_ride",
+  "item_left": "terrorbird",
+  "item_right": "terrorbird_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/terrorbird.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/terrorbird.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/terrorbird.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/terrorbird.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Therizinosaur",
+  "type": "toggle",
+  "codes": "therizinosaur",
+  "img": "images/dinos/therizinosaurus.png"
+ },
+ {
+  "name": "therizinosaur Saddle",
+  "type": "toggle",
+  "codes": "therizinosaur_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "therizinosaur Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "therizinosaur_ride",
+  "item_left": "therizinosaur",
+  "item_right": "therizinosaur_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/therizinosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/therizinosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/therizinosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/therizinosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Thylacoleo",
+  "type": "toggle",
+  "codes": "thylacoleo",
+  "img": "images/dinos/thylacoleo.png"
+ },
+ {
+  "name": "Thylacoleo Saddle",
+  "type": "toggle",
+  "codes": "thylacoleo_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Thylacoleo Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "thylacoleo_ride",
+  "item_left": "thylacoleo",
+  "item_right": "thylacoleo_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/thylacoleo.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/thylacoleo.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/thylacoleo.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/thylacoleo.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Titanosaur",
+  "type": "toggle",
+  "codes": "titanosaur",
+  "img": "images/dinos/titanosaur.png"
+ },
+ {
+  "name": "Titanosaur Saddle",
+  "type": "toggle",
+  "codes": "titanosaur_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Titanosaur Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "titanosaur_ride",
+  "item_left": "titanosaur",
+  "item_right": "titanosaur_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/titanosaur.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/titanosaur.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/titanosaur.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/titanosaur.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Titanoboa",
+  "type": "toggle",
+  "codes": "titanoboa",
+  "img": "images/dinos/titanoboa.png"
+ },
+ {
+  "name": "Beelzebufo",
+  "type": "toggle",
+  "codes": "beelzebufo",
+  "img": "images/dinos/beelzebufo.png"
+ },
+ {
+  "name": "Beelzebufo Saddle",
+  "type": "toggle",
+  "codes": "beelzebufo_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Beelzebufo Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "beelzebufo_ride",
+  "item_left": "beelzebufo",
+  "item_right": "beelzebufo_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/beelzebufo.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/beelzebufo.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/beelzebufo.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/beelzebufo.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Triceratops",
+  "type": "toggle",
+  "codes": "triceratops, trike",
+  "img": "images/dinos/triceratops.png"
+ },
+ {
+  "name": "Triceratops Saddle",
+  "type": "toggle",
+  "codes": "triceratops_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Triceratops Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "triceratops_ride",
+  "item_left": "triceratops",
+  "item_right": "triceratops_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/triceratops.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/triceratops.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/triceratops.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/triceratops.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Troodon",
+  "type": "toggle",
+  "codes": "troodon",
+  "img": "images/dinos/troodon.png"
+ },
+ {
+  "name": "Carbonemys",
+  "type": "toggle",
+  "codes": "carbonemys",
+  "img": "images/dinos/carbonemys.png"
+ },
+ {
+  "name": "Carbonemys Saddle",
+  "type": "toggle",
+  "codes": "carbonemys_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Carbonemys Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "carbonemys_ride",
+  "item_left": "carbonemys",
+  "item_right": "carbonemys_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/carbonemys.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/carbonemys.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/carbonemys.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/carbonemys.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Tusoteuthis",
+  "type": "toggle",
+  "codes": "tusoteuthis",
+  "img": "images/dinos/tusoteuthis.png"
+ },
+ {
+  "name": "Tusoteuthis Saddle",
+  "type": "toggle",
+  "codes": "tusoteuthis_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Tusoteuthis Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "tusoteuthis_ride",
+  "item_left": "tusoteuthis",
+  "item_right": "tusoteuthis_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/tusoteuthis.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/tusoteuthis.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/tusoteuthis.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/tusoteuthis.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Yutyrannus",
+  "type": "toggle",
+  "codes": "yutyrannus",
+  "img": "images/dinos/yutyrannus.png"
+ },
+ {
+  "name": "Yutyrannus Saddle",
+  "type": "toggle",
+  "codes": "yutyrannus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Yutyrannus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "yutyrannus_ride",
+  "item_left": "yutyrannus",
+  "item_right": "yutyrannus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/yutyrannus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/yutyrannus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/yutyrannus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/yutyrannus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Onyc",
+  "type": "toggle",
+  "codes": "onyc",
+  "img": "images/dinos/onyc.png"
+ },
+ {
+  "name": "Giant Bee",
+  "type": "toggle",
+  "codes": "giant_bee, giantbee",
+  "img": "images/dinos/giantbee.png"
+ },
+ {
+  "name": "Rhyniognatha",
+  "type": "toggle",
+  "codes": "rhyniognatha",
+  "img": "images/dinos/rhyniognatha.png"
+ },
+ {
+  "name": "Rhyniognatha Saddle",
+  "type": "toggle",
+  "codes": "rhyniognatha_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Rhyniognatha Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "rhyniognatha_ride",
+  "item_left": "rhyniognatha",
+  "item_right": "rhyniognatha_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/rhyniognatha.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/rhyniognatha.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/rhyniognatha.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/rhyniognatha.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Carcharodontosaurus",
+  "type": "toggle",
+  "codes": "carcharodontosaurus",
+  "img": "images/dinos/carcharodontosaurus.png"
+ },
+ {
+  "name": "Carcharodontosaurus Saddle",
+  "type": "toggle",
+  "codes": "carcharodontosaurus_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Carcharodontosaurus Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "carcharodontosaurus_ride",
+  "item_left": "carcharodontosaurus",
+  "item_right": "carcharodontosaurus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/carcharodontosaurus.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/carcharodontosaurus.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/carcharodontosaurus.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/carcharodontosaurus.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+  },
+ {
+  "name": "Unicorn",
+  "type": "toggle",
+  "codes": "unicorn",
+  "img": "images/dinos/unicorn.png"
+ },
+ {
+  "name": "Unicorn Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "unicorn_ride",
+  "item_left": "unicorn",
+  "item_right": "equus_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/unicorn.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/unicorn.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/unicorn.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/unicorn.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+ },
+ {
+  "name": "Yeti",
+  "type": "toggle",
+  "codes": "kill_yeti",
+  "img": "images/dinos/yeti.png"
+ },
+ {
+  "name": "Supply Drop - White",
+  "type": "toggle",
+  "codes": "drop_white",
+  "img": "images/crates/White_Beacon.png"
+ },
+ {
+  "name": "Supply Drop - Green",
+  "type": "toggle",
+  "codes": "drop_green",
+  "img": "images/crates/Green_Beacon.png"
+ },
+ {
+  "name": "Supply Drop - Blue",
+  "type": "toggle",
+  "codes": "drop_blue",
+  "img": "images/crates/Blue_Beacon.png"
+ },
+ {
+  "name": "Supply Drop - Purple",
+  "type": "toggle",
+  "codes": "drop_purple",
+  "img": "images/crates/Purple_Beacon.png"
+ },
+ {
+  "name": "Supply Drop - Yellow",
+  "type": "toggle",
+  "codes": "drop_yellow",
+  "img": "images/crates/Yellow_Beacon.png"
+ },
+ {
+  "name": "Supply Drop - Red",
+  "type": "toggle",
+  "codes": "drop_red",
+  "img": "images/crates/Red_Beacon.png"
+ },
+ {
+  "name": "Loot Crate - White",
+  "type": "toggle",
+  "codes": "crate_white",
+  "img": "images/crates/White_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Green",
+  "type": "toggle",
+  "codes": "crate_green",
+  "img": "images/crates/Green_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Blue",
+  "type": "toggle",
+  "codes": "crate_blue",
+  "img": "images/crates/Blue_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Purple",
+  "type": "toggle",
+  "codes": "crate_purple",
+  "img": "images/crates/Purple_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Yellow",
+  "type": "toggle",
+  "codes": "crate_yellow",
+  "img": "images/crates/Yellow_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Red",
+  "type": "toggle",
+  "codes": "crate_red",
+  "img": "images/crates/Red_Crate.png"
+ },
+ {
+  "name": "Deep Sea Crate",
+  "type": "toggle",
+  "codes": "sea_crate",
+  "img": "images/crates/Ocean_Crate.png"
+ },
+ {
+  "name": "Engram - Campfire",
+  "type": "toggle",
+  "codes": "campfire",
+  "img": "images/engrams/Campfire.png"
+ },
+ {
+  "name": "Engram - Mortar & Pestle",
+  "type": "toggle",
+  "codes": "mortar",
+  "img": "images/engrams/Mortar_And_Pestle.png"
+ },
+ {
+  "name": "Engram - Smithy",
+  "type": "toggle",
+  "codes": "smithy",
+  "img": "images/engrams/Smithy.png"
+ },
+ {
+  "name": "Engram - Narcotic",
+  "type": "toggle",
+  "codes": "narcotic",
+  "img": "images/engrams/Narcotic.png"
+ },
+ {
+  "name": "Engram - Sparkpowder",
+  "type": "toggle",
+  "codes": "sparkpowder",
+  "img": "images/engrams/Sparkpowder.png"
+ },
+ {
+  "name": "Engram - Gunpowder",
+  "type": "toggle",
+  "codes": "gunpowder",
+  "img": "images/engrams/Gunpowder.png"
+ },
+ {
+  "name": "Engram - Stimulant",
+  "type": "toggle",
+  "codes": "stimulant",
+  "img": "images/engrams/stimulant.png"
+ },
+ {
+  "name": "Engram - Bug Repellant",
+  "type": "toggle",
+  "codes": "repellant",
+  "img": "images/engrams/Bug_Repellant.png"
+ },
+ {
+  "name": "Engram - Absorbent Substrate",
+  "type": "toggle",
+  "codes": "substrate",
+  "img": "images/engrams/Absorbent_Substrate.png"
+ },
+ {
+  "name": "Engram - Air Conditioner",
+  "type": "toggle",
+  "codes": "aircon",
+  "img": "images/engrams/Air_Conditioner.png"
+ },
+ {
+  "name": "Engram - Beer Barrel",
+  "type": "toggle",
+  "codes": "beer_barrel",
+  "img": "images/engrams/Beer_Barrel.png"
+ },
+ {
+  "name": "Engram - Bola",
+  "type": "toggle",
+  "codes": "bola",
+  "img": "images/engrams/Bola.png"
+ },
+ {
+  "name": "Engram - Bow",
+  "type": "toggle",
+  "codes": "bow",
+  "img": "images/engrams/Bow.png"
+ },
+ {
+  "name": "Engram - Canteen",
+  "type": "toggle",
+  "codes": "canteen",
+  "img": "images/engrams/Canteen.png"
+ },
+ {
+  "name": "Engram - Cementing Paste",
+  "type": "toggle",
+  "codes": "CP, cementing_paste",
+  "img": "images/engrams/Cementing_Paste.png"
+ },
+ {
+  "name": "Engram - Chemistry Bench",
+  "type": "toggle",
+  "codes": "chem_bench",
+  "img": "images/engrams/Chemistry_Bench.png"
+ },
+ {
+  "name": "Engram - Crossbow",
+  "type": "toggle",
+  "codes": "crossbow",
+  "img": "images/engrams/Crossbow.png"
+ },
+ {
+  "name": "Engram - Egg Incubator",
+  "type": "toggle",
+  "codes": "incubator",
+  "img": "images/engrams/Egg_Incubator.png"
+ },
+ {
+  "name": "Engram - Electrical Outlet",
+  "type": "toggle",
+  "codes": "outlet",
+  "img": "images/engrams/Electrical_Outlet.png"
+ },
+ {
+  "name": "Engram - Electronics",
+  "type": "toggle",
+  "codes": "electronics",
+  "img": "images/engrams/Electronics.png"
+ },
+ {
+  "name": "Engram - Fabricator",
+  "type": "toggle",
+  "codes": "fabricator",
+  "img": "images/engrams/Fabricator.png"
+ },
+ {
+  "name": "Engram - Flak Boots",
+  "type": "toggle",
+  "codes": "flak_boots",
+  "img": "images/engrams/Flak_Boots.png"
+ },
+ {
+  "name": "Engram - Flak Chestpiece",
+  "type": "toggle",
+  "codes": "flak_chest",
+  "img": "images/engrams/Flak_Chestpiece.png"
+ },
+ {
+  "name": "Engram - Flak Gauntlets",
+  "type": "toggle",
+  "codes": "flak_gloves",
+  "img": "images/engrams/Flak_Gauntlets.png"
+ },
+ {
+  "name": "Engram - Flak Leggings",
+  "type": "toggle",
+  "codes": "flak_legs",
+  "img": "images/engrams/Flak_Leggings.png"
+ },
+ {
+  "name": "Engram - Flak Helmet",
+  "type": "toggle",
+  "codes": "flak_helmet",
+  "img": "images/engrams/Flak_Helmet.png"
+ },
+ {
+  "name": "Engram - Ghillie Boots",
+  "type": "toggle",
+  "codes": "ghillie_boots",
+  "img": "images/engrams/Ghillie_Boots.png"
+ },
+ {
+  "name": "Engram - Ghillie Chestpiece",
+  "type": "toggle",
+  "codes": "ghillie_chest",
+  "img": "images/engrams/Ghillie_Chestpiece.png"
+ },
+ {
+  "name": "Engram - Ghillie Gauntlets",
+  "type": "toggle",
+  "codes": "ghillie_gloves",
+  "img": "images/engrams/Ghillie_Gauntlets.png"
+ },
+ {
+  "name": "Engram - Ghillie Leggings",
+  "type": "toggle",
+  "codes": "ghillie_legs",
+  "img": "images/engrams/Ghillie_Leggings.png"
+ },
+ {
+  "name": "Engram - Ghillie Mask",
+  "type": "toggle",
+  "codes": "ghillie_mask",
+  "img": "images/engrams/Ghillie_Mask.png"
+ },
+ {
+  "name": "Engram - Fur Boots",
+  "type": "toggle",
+  "codes": "fur_boots",
+  "img": "images/engrams/Fur_Boots.png"
+ },
+ {
+  "name": "Engram - Fur Chestpiece",
+  "type": "toggle",
+  "codes": "fur_chest",
+  "img": "images/engrams/Fur_Chestpiece.png"
+ },
+ {
+  "name": "Engram - Fur Gauntlets",
+  "type": "toggle",
+  "codes": "fur_gloves",
+  "img": "images/engrams/Fur_Gauntlets.png"
+ },
+ {
+  "name": "Engram - Fur Leggings",
+  "type": "toggle",
+  "codes": "fur_legs",
+  "img": "images/engrams/Fur_Leggings.png"
+ },
+ {
+  "name": "Engram - Fur Cap",
+  "type": "toggle",
+  "codes": "fur_helmet",
+  "img": "images/engrams/Fur_Cap.png"
+ },
+ {
+  "name": "Engram - Gas Mask",
+  "type": "toggle",
+  "codes": "gas_mask",
+  "img": "images/engrams/Gas_Mask.png"
+ },
+ {
+  "name": "Engram - Grappling Hook",
+  "type": "toggle",
+  "codes": "grapple",
+  "img": "images/engrams/Grappling_Hook.png"
+ },
+ {
+  "name": "Engram - Harpoon Launcher",
+  "type": "toggle",
+  "codes": "harpoon_gun",
+  "img": "images/engrams/Harpoon_Launcher.png"
+ },
+ {
+  "name": "Engram - Large Crop Plot",
+  "type": "toggle",
+  "codes": "large_plot",
+  "img": "images/engrams/Large_Crop_Plot.png"
+ },
+ {
+  "name": "Engram - Longneck Rifle",
+  "type": "toggle",
+  "codes": "longneck",
+  "img": "images/engrams/Longneck_Rifle.png"
+ },
+ {
+  "name": "Engram - Medium Crop Plot",
+  "type": "toggle",
+  "codes": "medium_plot",
+  "img": "images/engrams/Medium_Crop_Plot.png"
+ },
+ {
+  "name": "Engram - Net Projectile",
+  "type": "toggle",
+  "codes": "net_gun",
+  "img": "images/engrams/Net_Projectile.png"
+ },
+ {
+  "name": "Engram - Polymer",
+  "type": "toggle",
+  "codes": "polymer",
+  "img": "images/engrams/Polymer.png"
+ },
+ {
+  "name": "Engram - Preserving Bin",
+  "type": "toggle",
+  "codes": "preserving_bin",
+  "img": "images/engrams/Preserving_Bin.png"
+ },
+ {
+  "name": "Engram - Refining Forge",
+  "type": "toggle",
+  "codes": "basic_forge",
+  "img": "images/engrams/Refining_Forge.png"
+ },
+ {
+  "name": "Engram - Refrigerator",
+  "type": "toggle",
+  "codes": "fridge",
+  "img": "images/engrams/Refrigerator.png"
+ },
+ {
+  "name": "Engram - SCUBA Flippers",
+  "type": "toggle",
+  "codes": "scuba_flippers",
+  "img": "images/engrams/SCUBA_Flippers.png"
+ },
+ {
+  "name": "Engram - SCUBA Leggings",
+  "type": "toggle",
+  "codes": "scuba_legs",
+  "img": "images/engrams/SCUBA_Leggings.png"
+ },
+ {
+  "name": "Engram - SCUBA Mask",
+  "type": "toggle",
+  "codes": "scuba_mask",
+  "img": "images/engrams/SCUBA_Mask.png"
+ },
+ {
+  "name": "Engram - SCUBA Tank",
+  "type": "toggle",
+  "codes": "scuba_tank",
+  "img": "images/engrams/SCUBA_Tank.png"
+ },
+ {
+  "name": "Engram - Simple Rifle Ammo",
+  "type": "toggle",
+  "codes": "rifle_ammo",
+  "img": "images/engrams/Simple_Rifle_Ammo.png"
+ },
+ {
+  "name": "Engram - Stone Arrow",
+  "type": "toggle",
+  "codes": "stone_arrow",
+  "img": "images/engrams/Stone_Arrow.png"
+ },
+ {
+  "name": "Engram - Stone Foundation",
+  "type": "toggle",
+  "codes": "stone_foundation",
+  "img": "images/engrams/Stone_Foundation.png"
+ },
+ {
+  "name": "Engram - Straight Electrical Cable",
+  "type": "toggle",
+  "codes": "straight_cable",
+  "img": "images/engrams/Straight_Electrical_Cable.png"
+ },
+ {
+  "name": "Engram - Thatch Foundation",
+  "type": "toggle",
+  "codes": "thatch_foundation",
+  "img": "images/engrams/Thatch_Foundation.png"
+ },
+ {
+  "name": "Engram - Tranq Arrow",
+  "type": "toggle",
+  "codes": "tranq_arrow",
+  "img": "images/engrams/Tranq_Arrow.png"
+ },
+ {
+  "name": "Engram - Tranquilizer Dart",
+  "type": "toggle",
+  "codes": "tranq_dart",
+  "img": "images/engrams/Tranquilizer_Dart.png"
+ },
+ {
+  "name": "Engram - Tree Sap Tap",
+  "type": "toggle",
+  "codes": "treetap",
+  "img": "images/engrams/Tree_Sap_Tap.png"
+ },
+ {
+  "name": "Engram - Vertical Electrical Cable",
+  "type": "toggle",
+  "codes": "verticle_cable",
+  "img": "images/engrams/Vertical_Electrical_Cable.png"
+ },
+ {
+  "name": "Engram - Water Jar",
+  "type": "toggle",
+  "codes": "water_jar",
+  "img": "images/engrams/Water_Jar.png"
+ },
+ {
+  "name": "Engram - Waterskin",
+  "type": "toggle",
+  "codes": "waterskin",
+  "img": "images/engrams/Waterskin.png"
+ },
+ {
+  "name": "Engram - Wooden Foundation",
+  "type": "toggle",
+  "codes": "wood_foundation",
+  "img": "images/engrams/Wooden_Foundation.png"
+ },
+ {
+  "name": "Engram - Slingshot",
+  "type": "toggle",
+  "codes": "slingshot",
+  "img": "images/engrams/Slingshot.png"
+ },
+ {
+  "name": "Engram - Generator",
+  "type": "toggle",
+  "codes": "generator",
+  "img": "images/engrams/Electrical_Generator.png"
+ },
+ {
+  "name": "Engram - Stone Intake Pipe",
+  "type": "toggle",
+  "codes": "stone_intake",
+  "img": "images/Engrams/Stone_Intake.png"
+ },
+ {
+  "name": "Engram - Stone Tap",
+  "type": "toggle",
+  "codes": "stone_tap",
+  "img": "images/engrams/Stone_Tap.png"
+ },
+ {
+  "name": "Engram - Metal Intake Pipe",
+  "type": "toggle",
+  "codes": "metal_intake",
+  "img": "images/engrams/Metal_Intake.png"
+ },{
+  "name": "Engram - Metal Tap",
+  "type": "toggle",
+  "codes": "metal_tap",
+  "img": "images/engrams/Metal_Tap.png"
+ },
+ {
+  "name": "Engram - Shotgun Shell",
+  "type": "toggle",
+  "codes": "shotgun_shell",
+  "img": "images/engrams/Simple_Shotgun_Ammo.png"
+ },
+ {
+  "name": "Engram - Chainsaw",
+  "type": "toggle",
+  "codes": "chainsaw",
+  "img": "images/engrams/Chainsaw.png"
+ },
+ {
+  "name": "Engram - Industrial Forge",
+  "type": "toggle",
+  "codes": "industrial_forge",
+  "img": "images/engrams/Industrial_Forge.png"
+ },
+ {
+  "name": "Engram - Industrial Grill",
+  "type": "toggle",
+  "codes": "industrial_grill",
+  "img": "images/engrams/Industrial_Grill.png"
+ },
+ {
+  "name": "Engram - Industrial Cooker",
+  "type": "toggle",
+  "codes": "industrial_cooker",
+  "img": "images/engrams/Industrial_Cooker.png"
+ },
+ {
+  "name": "Engram - Cooking Pot",
+  "type": "toggle",
+  "codes": "cooking_pot",
+  "img": "images/engrams/Cooking_Pot.png"
+ },
+ {
+  "name": "Engram - Grenade",
+  "type": "toggle",
+  "codes": "grenade",
+  "img": "images/engrams/Grenade.png"
+ },
+ {
+  "name": "Engram - Fabricated Pistol",
+  "type": "toggle",
+  "codes": "fabricated_pistol",
+  "img": "images/engrams/Fabricated_Pistol.png"
+ },
+ {
+  "name": "Engram - Simple Pistol",
+  "type": "toggle",
+  "codes": "simple_pistol",
+  "img": "images/engrams/Simple_Pistol.png"
+ },
+ {
+  "name": "Engram - Simple Bullet",
+  "type": "toggle",
+  "codes": "simple_ammo",
+  "img": "images/engrams/Simple_Bullet.png"
+ },
+ {
+  "name": "Engram - Advanced Bullet",
+  "type": "toggle",
+  "codes": "advanced_pistol_ammo",
+  "img": "images/engrams/Advanced_Bullet.png"
+ },
+ {
+  "name": "Engram - Stone Pick",
+  "type": "static",
+  "codes": "stone_pick",
+  "img": "images/engrams/Stone_Pick.png"
+ },
+ {
+  "name": "Engram - Stone Hatchet",
+  "type": "toggle",
+  "codes": "stone_hatchet",
+  "img": "images/engrams/Stone_Hatchet.png"
+ },
+ {
+  "name": "Engram - Spear",
+  "type": "toggle",
+  "codes": "spear",
+  "img": "images/engrams/Spear.png"
+ },
+ {
+  "name": "Engram - Metal Pick",
+  "type": "toggle",
+  "codes": "metal_pick",
+  "img": "images/engrams/Metal_Pick.png"
+ },
+ {
+  "name": "Engram - Metal Hatchet",
+  "type": "toggle",
+  "codes": "metal_hatchet",
+  "img": "images/engrams/Metal_Hatchet.png"
+ },
+ {
+  "name": "Engram - Pike",
+  "type": "toggle",
+  "codes": "pike",
+  "img": "images/engrams/Pike.png"
+ },
+ {
+  "name": "Engram - Sword",
+  "type": "toggle",
+  "codes": "sword",
+  "img": "images/engrams/Sword.png"
+ },
+ {
+  "name": "Engram - Wooden Tree Platform",
+  "type": "toggle",
+  "codes": "wooden_tree_platform",
+  "img": "images/engrams/Wooden_Tree_Platform.png"
+ },
+ {
+  "name": "Engram - Metal Tree Platform",
+  "type": "toggle",
+  "codes": "metal_tree_platform",
+  "img": "images/engrams/Metal_Tree_Platform.png"
+ },
+ {
+  "name": "Engram - Shotgun",
+  "type": "toggle",
+  "codes": "simple_shotgun",
+  "img": "images/engrams/Shotgun.png"
+ },
+ {
+  "name": "Engram - Pump-Action Shotgun",
+  "type": "toggle",
+  "codes": "pump_shotgun",
+  "img": "images/engrams/Pump-Action_Shotgun.png"
+ },
+ {
+  "name": "Engram - Fabricated Sniper Rifle",
+  "type": "toggle",
+  "codes": "fabricated_sniper",
+  "img": "images/engrams/Fabricated_Sniper_Rifle.png"
+ },
+ {
+  "name": "Engram - Advanced Sniper Bullet",
+  "type": "toggle",
+  "codes": "advanced_sniper_ammo",
+  "img": "images/engrams/Advanced_Sniper_Bullet.png"
+ },
+ {
+  "name": "Engram - Cryopod",
+  "type": "toggle",
+  "codes": "cryopod",
+  "img": "images/engrams/Cryopod.png"
+ },
+ {
+  "name": "Level",
+  "type": "consumable",
+  "min_quantity": 1,
+  "max_quantity": 105,
+  "increment": 1,
+  "loop": "false",
+  "img": "images/engrams/Level.png",
+  "overlay_background": "#000",
+  "overlay_font_size": 15,
+  "codes": "level"
+ },
+ {
+  "name": "Artifact - Massive",
+  "type": "toggle",
+  "codes": "artifact_massive",
+  "img": "images/engrams/Artifact_of_the_Massive.png"
+ },
+ {
+  "name": "Artifact - Hunter",
+  "type": "toggle",
+  "codes": "artifact_hunter",
+  "img": "images/engrams/Artifact_of_the_Hunter.png"
+ },
+ {
+  "name": "Artifact - Pack",
+  "type": "toggle",
+  "codes": "artifact_pack",
+  "img": "images/engrams/Artifact_of_the_Pack.png"
+ },
+ {
+  "name": "Artifact - Immune",
+  "type": "toggle",
+  "codes": "artifact_immune",
+  "img": "images/engrams/Artifact_of_the_Immune.png"
+ },
+ {
+  "name": "Artifact - Cunning",
+  "type": "toggle",
+  "codes": "artifact_cunning",
+  "img": "images/engrams/Artifact_of_the_Cunning.png"
+ },
+ {
+  "name": "Artifact - Brute",
+  "type": "toggle",
+  "codes": "artifact_brute",
+  "img": "images/engrams/Artifact_of_the_Brute.png"
+ },
+ {
+  "name": "Artifact - Devourer",
+  "type": "toggle",
+  "codes": "artifact_devourer",
+  "img": "images/engrams/Artifact_of_the_Devourer.png"
+ },
+ {
+  "name": "Artifact - Clever",
+  "type": "toggle",
+  "codes": "artifact_clever",
+  "img": "images/engrams/Artifact_of_the_Clever.png"
+ },
+ {
+  "name": "Artifact - Skylord",
+  "type": "toggle",
+  "codes": "artifact_skylord",
+  "img": "images/engrams/Artifact_of_the_Skylord.png"
+ },
+ {
+  "name": "Artifact - Strong",
+  "type": "toggle",
+  "codes": "artifact_strong",
+  "img": "images/engrams/Artifact_of_the_Strong.png"
+ },
+ {
+  "name": "Trophy - Broodmother",
+  "type": "toggle",
+  "codes": "broodmother_trophy",
+  "img": "images/engrams/broodmother_trophy.png"
+ },
+ {
+  "name": "Trophy - Megapithecus",
+  "type": "toggle",
+  "codes": "megapithecus_trophy",
+  "img": "images/engrams/megapithecus_trophy.png"
+ },
+ {
+  "name": "Trophy - Dragon",
+  "type": "toggle",
+  "codes": "dragon_trophy",
+  "img": "images/engrams/dragon_trophy.png"
+ },
+ {
+  "name": "Can Build",
+  "type": "toggle",
+  "codes": "can_build",
+  "img": "images/engrams/can_build.png"
+ },
+ {
+  "name": "Can Tap Trees",
+  "type": "toggle",
+  "codes": "can_tree_tap",
+  "img": "images/engrams/can_tree_tap.png"
+ },
+ {
+  "name": "Store Water",
+  "type": "toggle",
+  "codes": "store_water",
+  "img": "images/engrams/store_water.png"
+ },
+ {
+  "name": "Grow Crops",
+  "type": "toggle",
+  "codes": "grow_crops",
+  "img": "images/engrams/grow_crops.png"
+ },
+ {
+  "name": "Use Power",
+  "type": "toggle",
+  "codes": "use_power",
+  "img": "images/engrams/use_power.png"
+ },
+ {
+  "name": "Irrigation",
+  "type": "toggle",
+  "codes": "irrigation",
+  "img": "images/engrams/irrigation.png"
+ },
+ {
+  "name": "Use Smithy",
+  "type": "toggle",
+  "codes": "use_smithy",
+  "img": "images/engrams/use_smithy.png"
+ }
+]

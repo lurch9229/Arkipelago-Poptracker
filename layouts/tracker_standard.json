@@ -1,0 +1,356 @@
+﻿{
+  "dino_grid": 
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "40,40",
+    "rows": 
+    [
+      ["achatina", "allosaurus_ride", "ankylosaurus_ride", "araneo_ride", "archaeopteryx", "arthropluera_ride", "baryonyx_ride", "beelzebufo_ride", "bronto_ride", "carbonemys_ride"],
+      ["carcharodontosaurus_ride", "carno_ride", "castoroides_ride", "chalicotherium_ride", "compy", "daeodon_ride", "dilophosaur", "dimetrodon", "dimorphodon", "diplocaulus"],
+      ["diplodocus_ride", "direbear_ride", "direwolf", "dodo", "doedicurus_ride", "dungbeetle", "equus_ride", "gallimimus_ride", "giantbee", "giganotosaurus_ride"],
+      ["gigantopithecus", "hesperornis", "hyaenodon", "ichthyornis", "iguanodon_ride", "kairuku", "kaprosuchus_ride", "kentrosaurus", "lystrosaurus", "mammoth_ride"],
+      ["megalania_ride", "megaloceros_ride", "megalosaurus_ride", "megatherium_ride", "mesopithecus", "microraptor", "moschops", "onyc", "otter", "oviraptor"],
+      ["ovis", "pachy_ride", "pachyrhinosaurus_ride", "paracer_ride", "parasaur_ride", "pegomastax", "phiomia_ride", "procoptodon_ride", "pulmonoscorpius_ride", "purlovia"],
+      ["raptor_ride", "rex_ride", "sabertooth_ride", "sarco_ride", "spino_ride", "stegosaurus_ride", "terrorbird_ride", "therizinosaur_ride", "thylacoleo_ride", "titanoboa"],
+      ["triceratops_ride", "troodon", "unicorn_ride", "woollyrhino_ride", "yutyrannus_ride"],
+      ["angler", "basilosaurus_ride", "dunkleosteus_ride", "electrophorus", "ichthyosaurus_ride", "liopleurodon", "manta_ride", "megalodon_ride"],
+      ["mosasaur_ride", "plesiosaur_ride", "tusoteuthis_ride"],
+      ["argentavis_ride", "pelagornis_ride", "pteranodon_ride", "quetzal_ride", "rhyniognatha_ride", "tapejara_ride"]
+    ]
+  },
+
+  "loot_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["drop_white", "crate_white", "sea_crate"],
+      ["drop_green", "crate_green"],
+      ["drop_blue", "crate_blue"],
+      ["drop_purple", "crate_purple"],
+      ["drop_yellow", "crate_yellow"],
+      ["drop_red", "crate_red"]
+    ]
+  },
+
+  "artifact_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["artifact_brute", "artifact_clever", "broodmother_trophy"],
+      ["artifact_cunning", "artifact_devourer", "megapithecus_trophy"],
+      ["artifact_hunter", "artifact_immune", "dragon_trophy"],
+      ["artifact_massive", "artifact_pack"],
+      ["artifact_skylord", "artifact_strong"]
+    ]
+  },
+
+   "armor_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["flak_helmet", "ghillie_mask", "fur_helmet", "scuba_mask"],
+      ["flak_chest", "ghillie_chest", "fur_chest", "scuba_tank"],
+      ["flak_gloves", "ghillie_gloves", "fur_gloves", "scuba_legs"],
+      ["flak_legs", "ghillie_legs", "fur_legs", "scuba_flippers"],
+      ["flak_boots", "ghillie_boots", "fur_boots", "gas_mask"]
+    ]
+  },
+
+  "weapon_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["stone_pick", "stone_hatchet", "spear", "metal_pick", "metal_hatchet", "pike", "sword"],
+      ["slingshot", "bola", "bow", "crossbow", "stone_arrow", "tranq_arrow", "grapple"],
+      ["simple_pistol", "simple_ammo", "longneck", "rifle_ammo", "tranq_dart", "simple_shotgun", "shotgun_shell"],
+      ["fabricated_pistol", "advanced_pistol_ammo", "pump_shotgun", "chainsaw", "fabricated_sniper", "advanced_sniper_ammo", "grenade"],
+      ["harpoon_gun", "net_gun", "", "", "", "", "cryopod"]
+    ]
+  },
+
+  "macro_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["can_build", "store_water"],
+      ["use_smithy", "irrigation"],
+      ["use_power", "grow_crops"],
+      ["can_tree_tap"],
+      ["level"]
+    ]
+  },
+
+  "crafting_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["campfire", "mortar", "preserving_bin", "basic_forge", "smithy", "fabricator", "chem_bench"],
+      ["sparkpowder", "gunpowder", "narcotic", "stimulant", "CP", "repellant", "substrate"],
+      ["electronics", "polymer", "aircon", "fridge", "industrial_forge", "industrial_grill", "incubator"],
+      ["cooking_pot", "beer_barrel", "industrial_cooker"]
+    ]
+  },
+
+  "tracker_horizontal": 
+	{
+    	"type": "container",
+    	"content": {
+      		"type": "dock",
+      		"dropshadow": true,
+      		"content": [
+                {
+                    "type": "array",
+                    "dock": "bottom",
+                    "orientation": "horizontal",
+                    "content": 
+                    [
+                      {
+                        "type": "group",
+                        "header": "Crafting",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "crafting_grid"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Weapons",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "weapon_grid"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Armor",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "armor_grid"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Macros",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "macro_grid"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Loot Crates",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "loot_grid"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Artifacts",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "artifact_grid"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                },
+                {
+                    "type": "array",
+                    "dock": "left",
+                    "orientation": "vertical",
+                    "content": 
+                    [
+                      {
+                        "type": "group",
+                        "header": "Tames",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "dino_grid"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                },
+                {
+                    "type": "array",
+                    "v_alignment": "stretch",
+                    "h_alignment": "stretch",
+                    "margin": "0, 0, 0, 0",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "left",
+                            "tabs": [
+                                {
+                                    "title": "The Island",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["The_Island"]
+                                    }
+                                },
+                                {
+                                    "title": "Central Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Central_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Caverns of Lost Hope",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Lost_Hope"]
+                                    }
+                                },
+                                {
+                                    "title": "Lower South Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Lower_South_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Upper South Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Upper_South_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Lava Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Lava_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Carno Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["North_East_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Swamp Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Swamp_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Caverns of Lost Faith",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Lost_Faith"]
+                                    }
+                                },
+                                {
+                                    "title": "North West Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["North_West_Cave"]
+                                    }
+                                },
+                                {
+                                    "title": "Snow Cave",
+                                    "content": {
+                                        "type":"map",
+                                        "maps": ["Snow_Cave"]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+			]
+		}
+	}
+}

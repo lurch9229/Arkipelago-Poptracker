@@ -1,0 +1,5157 @@
+[
+    {
+        "name": "Dinos",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Achatina",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Achatina",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "achatina, $MakeCake"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Achatina",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Allosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Allosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "allosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Allosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ankylosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Ankylosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ankylosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Ankylosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Araneo",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Araneo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "araneo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Araneo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Archaeopteryx",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Archaeopteryx",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "archaeopteryx"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Archaeopteryx",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Arthropluera",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Arthropluera",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "arthropluera"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Arthropluera",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Baryonyx",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Baryonyx",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "baryonyx"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Baryonyx",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, $UseNets"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beelzebufo",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 25
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Beelzebufo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "beelzebufo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Beelzebufo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "bola, $UseMelee",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Brontosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Brontosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "bronto"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Brontosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Carbonemys",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Carbonemys",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "carbonemys"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Carbonemys",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Carcharodontosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Carcharodontosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "carcharodontosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Carcharodontosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$InsaneFightTames",
+                            "$CanBleed"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Carno",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Carno",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "carno"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Carno",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, $UseNets"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Castoroides",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Castoroides",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "castoroides"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Castoroides",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chalicotherium",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Chalicotherium",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "chalicotherium"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Chalicotherium",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, $UseNets"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Compy",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Compy",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "compy"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Compy",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Daeodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 58
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Daeodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "daeodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Daeodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                          "$MediumFightTames",
+                          "$UsePistol",
+                          "$UseShotgun",
+                          "$UseFabSniper",
+                          "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dilophosaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dilophosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "dilophosaur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Dilophosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dimetrodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dimetrodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "dimetrodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Dimetrodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dimorphodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dimorphodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "dimorphodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Dimorphodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Diplocaulus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Diplocaulus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "diplocaulus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Diplocaulus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee",
+                            "$UseMelee, bola",
+                            "$UseMelee, $UseNets"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Diplodocus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Diplodocus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "diplodocus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Diplodocus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dire Bear",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dire Bear",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "direbear"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Dire Bear",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Direwolf",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Direwolf",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "direwolf"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Direwolf",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseRifle",
+                            "$UseShotgun",
+                            "$UseNets, $UseMelee",
+                            "bola, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dodo",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dodo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "dodo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Dodo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Doedicurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Doedicurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "doedicurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Doedicurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dung Beetle",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dung Beetle",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "dungbeetle"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Dung Beetle",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Equus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Equus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "equus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Equus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gallimimus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Gallimimus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "gallimimus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Gallimimus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows, bola",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee, bola"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Giant Bee",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Giant Bee",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "giantbee"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Giant Bee",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "direbear, direbear_saddle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Giganotosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Giganotosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "giganotosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Giganotosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$InsaneFightTames",
+                            "$CanBleed"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gigantopithecus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Gigantopithecus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "gigantopithecus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Gigantopithecus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee, bola"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hesperornis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 125
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Hesperornis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "hesperornis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Hesperornis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hyaenodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Hyaenodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "hyaenodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Hyaenodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee",
+                            "spear"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ichthyornis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Ichthyornis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ichthyornis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Ichthyornis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iguanodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Iguanodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "iguanodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Iguanodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kairuku",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$EnterSnow"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Kairuku",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "kairuku, $RifleKO"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Kairuku",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kaprosuchus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Kaprosucus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "kaprosuchus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Kaprosuchus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kentrosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Kentrosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "kentrosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Kentrosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Leech",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Leech",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lystrosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 158
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Lystrosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "lystrosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Lystrosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mammoth",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Mammoth",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "Mammoth"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Mammoth",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megalania",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Megalania",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megalania"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Megalania",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megaloceros",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Megaloceros",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megaloceros"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Megaloceros",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows, bola",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, bola"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megalosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Megalosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megalosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Megalosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meganeura",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Meganeura",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megatherium",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Megatherium",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megatherium"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Megatherium",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mesopithecus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Mesopithecus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "mesopithecus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Mesopithecus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Microraptor",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 191
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Microraptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "microraptor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Microraptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Moschops",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Moschops",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "moschops"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Moschops",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Onyc",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Onyc",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "onyc"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Onyc",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Otter",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Otter",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "otter"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Otter",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Oviraptor",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Oviraptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "oviraptor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Oviraptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ovis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Ovis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ovis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Ovis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pachy",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Pachy",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "pachy"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Pachy",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pachyrhinosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Pachyrhinosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "pachyrhinosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Pachyrhinosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Paracer",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 224
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Paracer",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "paracer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Paracer",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Parasaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Parasaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "parasaur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Parasaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pegomastax",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Pegomastax",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "pegomastax"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Pegomastax",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Phiomia",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Phiomia",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "phiomia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Phiomia",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Procoptodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Procoptodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "procoptodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Procoptodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pulmonoscorpius",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Pulmonoscorpius",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "pulmonoscorpius"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Pulmonoscorpius",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Purlovia",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Purlovia",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "purlovia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Purlovia",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Raptor",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Raptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "raptor"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Raptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, bola"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rex",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Rex",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "rex"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Rex",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseNets, $MediumFightTames",
+                            "$UseRifle",
+                            "$UseShotgun"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sabertooth",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Sabertooth",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "sabertooth"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Sabertooth",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, bola"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sarco",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Sarco",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "sarco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Sarco",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spino",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Spino",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "spino"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Spino",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $MediumFightTames"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Stego",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Stego",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "stego"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Stego",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Terrorbird",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Terrorbird",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "terrorbird"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Terrorbird",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $UseMelee",
+                            "bola, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Therizinosaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Therizinosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "therizinosaur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Therizinosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Thylacoleo",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Thylacoleo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "thylacoleo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Thylacoleo",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titanoboa",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 257,
+                        "y": 290
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Titanoboa",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "titanoboa"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Titanoboa",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titanomyrma",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Titanomyrma",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titanosaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Titanosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$CanBleed",
+                            "$InsaneFightTames"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Trike",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Trike",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "trike"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Trike",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Trilobite",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Trilobite",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Troodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Troodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "troodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Troodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Unicorn",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Unicorn",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "unicorn"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Unicorn",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseCrossbow",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Woolly Rhino",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Woolly Rhino",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "rhino"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Woolly Rhino",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Yeti",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 256,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Yeti",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseRifle",
+                            "$UseShotgun",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Yutyrannus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 355
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Yutyrannus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "yutyrannus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Yutyrannus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ammonite",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Ammonite",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Angler",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Angler",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "angler, $shallow_tames, $CrossbowKO",
+                            "angler, $deep_tames, $CrossbowKO"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Angler",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Basilosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Basilosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "basilosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Basilosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat",
+                            "$UseCrossbow"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cnidaria",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Cnidaria",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseCrossbow",
+                            "basilosaurus, basilosaurus_saddle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Coelacanth",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Coelacanth",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dunkleosteus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Dunkleosteus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "dunkleosteus, $shallow_tames, $CrossbowKO",
+                            "dunkleosteus, $deep_tames, $CrossbowKO"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Dunkleosteus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat,",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Electrophorus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Electrophorus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "electrophorus, $shallow_tames",
+                            "electrophorus, $deep_tames"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Electrophorus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eurypterid",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 258,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Eurypterid",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ichthyosaurus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                  {
+                        "name": "Tame an Icthyosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "ichthyosaurus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Icthyosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Leedsichthys",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Leedsichthys",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Liopleurodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Liopleurodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "liopleurodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Liopleurodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Manta",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Manta",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "manta"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Manta",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseCrossbow",
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat",
+                            "$UseNets, $UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megalodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Megalodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megalodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Megalodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$shallow_tames_combat",
+                            "$deep_tames_combat",
+                            "$UseCrossbow",
+                            "$UseNets, $AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mosasaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Mosasaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "mosasaur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Mosasaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$deep_tames_combat",
+                            "megalodon, megalodon_saddle",
+                            "basilosaurus, basilosaurus_saddle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Piranha",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Piranha",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Plesiosaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 258,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Plesiosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "plesiosaur"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Plesiosaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$deep_tames_combat",
+                            "megalodon, megalodon_saddle",
+                            "basilosaurus, basilosaurus_saddle",
+                            "$UseNets, $shallow_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sabertooth Salmon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 455
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Sabertooth Salmon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Tusoteuthis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 455
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Tusoteuthis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "tusoteuthis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Tusoteuthis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$deep_tames_combat",
+                            "basilosaurus, basilosaurus_saddle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Argentavis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 488
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame an Argentavis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "argentavis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill an Argentavis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, $UseNets"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pelagornis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 488
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Pelagornis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "pelagornis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Pelagornis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, bola"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pteranodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 488
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Pteranodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "pteranodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Pteranodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$UseMelee, bola",
+                            "$UseMelee, $UseNets"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Quetzal",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 488
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$UseNets"
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Quetzal",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "quetzal"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Quetzal",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$BasicFightTames",
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$UseArrows",
+                            "$UsePistol",
+                            "$UseShotgun",
+                            "$UseRifle",
+                            "$AdvancedMelee"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rhyniognatha",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 488
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Rhyniognatha",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "rhyniognatha"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Rhyniognatha",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseNets, $MediumFightTames",
+                            "$UseNets, $StrongFightTames",
+                            "$UseNets, $InsaneFightTames",
+                            "$UseNets, $UseShotgun"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Tapejara",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 191,
+                        "y": 488
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Tapejara",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "tapejara"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Tapejara",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseNets, $UsePistol",
+                            "$UseNets, $UseArrows",
+                            "$UseNets, $AdvancedMelee",
+                            "$UseRifle",
+                            "$UseShotgun"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Raptor",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 25,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Alpha Raptor",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$MediumFightTames",
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$CanBleed"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Carno",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 58,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Aplha Carno",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$StrongFightTames",
+                            "$InsaneFightTames",
+                            "$CanBleed"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Rex",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Alpha Rex",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$CanBleed",
+                            "$InsaneFightTames"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Megalodon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Alpha Megalodon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$deep_tames_combat",
+                            "megalodon, megalodon_saddle",
+                            "basilosaurus, basilosaurus_saddle"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Leedsichthys",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Alpha Leedsichthys",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megalodon, megalodon_saddle",
+                            "basilosaurus, basilosaurus_saddle",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Mosasaur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 192,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Alpha Mosasaur",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megalodon, megalodon_saddle",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Alpha Tusoteuthis",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 224,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "$DeepDive"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill an Alpha Tusoteuthis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "megalodon, megalodon_saddle",
+                            "$deep_tames_combat"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Broodmother",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 414,
+                        "y": 843,
+                        "size": 30
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "artifact_hunter, artifact_massive, artifact_clever"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill Broodmother",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "broodmother_trophy",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Broodmother Hologram",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Megapithecus",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 576,
+                        "y": 843,
+                        "size": 30
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "artifact_brute, artifact_devourer, artifact_pack"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill Megapithecus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "megapithecus_trophy",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Megapithecus Hologram",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dragon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 744,
+                        "y": 843,
+                        "size": 30
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "artifact_cunning, artifact_immune, artifact_skylord, artifact_strong"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill The Dragon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "dragon_trophy",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragon Hologram",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "The Overseer",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 907,
+                        "y": 843,
+                        "size": 30
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "dragon_trophy, megapithecus_trophy, broodmother_trophy"
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill The Overseer",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "hosted_item": "",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Overseer Hologram",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

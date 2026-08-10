@@ -1,0 +1,68 @@
+[
+  {
+    "name": "The_Island",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/the_island.png"
+  },
+  {
+    "name": "Central_Cave",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/maps/Central_Cave.png"
+  },
+  {
+    "name": "Lost_Hope",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Lost_Hope.png"
+  },
+  {
+    "name": "Lower_South_Cave",
+    "location_size": 15,
+    "location_border_thickness": 4,
+    "img": "images/maps/Lower_South_Cave.png"
+  },
+  {
+    "name": "Upper_South_Cave",
+    "location_size": 15,
+    "location_border_thickness": 4,
+    "img": "images/maps/Upper_South_Cave.png"
+  },
+  {
+    "name": "Lava_Cave",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Lava_Cave.png"
+  },
+  {
+    "name": "North_East_Cave",
+    "location_size": 20,
+    "location_border_thickness": 5,
+    "img": "images/maps/North_East_Cave.png"
+  },
+  {
+    "name": "Swamp_Cave",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Swamp_Cave.png"
+  },
+  {
+    "name": "Lost_Faith",
+    "location_size": 8,
+    "location_border_thickness": 2,
+    "img": "images/maps/Lost_Faith.png"
+  },
+  {
+    "name": "North_West_Cave",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/maps/North_West_Cave.png"
+  },
+  {
+    "name": "Snow_Cave",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Snow_Cave.png"
+  }
+]
