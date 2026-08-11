@@ -284,7 +284,7 @@ function deep_tames()
     return false
 end
 
-function shallow_tames_combat()
+function deep_tames_combat()
     for _, tame in ipairs(deep_tames_list) do
         if tame.can_fight and has_tame_and_saddle(tame.code)
         then
