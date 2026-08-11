@@ -2978,15 +2978,15 @@
   "img": "images/crates/White_Crate.png"
  },
  {
-  "name": "Loot Crate - Green",
+  "name": "Loot Crate - Green - Easy",
   "type": "toggle",
-  "codes": "crate_green",
+  "codes": "crate_green_easy",
   "img": "images/crates/Green_Crate.png"
  },
  {
-  "name": "Loot Crate - Blue",
+  "name": "Loot Crate - Blue - Easy",
   "type": "toggle",
-  "codes": "crate_blue",
+  "codes": "crate_blue_easy",
   "img": "images/crates/Blue_Crate.png"
  },
  {
@@ -2996,15 +2996,69 @@
   "img": "images/crates/Purple_Crate.png"
  },
  {
-  "name": "Loot Crate - Yellow",
+  "name": "Loot Crate - Yellow - Easy",
   "type": "toggle",
-  "codes": "crate_yellow",
+  "codes": "crate_yellow_easy",
   "img": "images/crates/Yellow_Crate.png"
  },
  {
-  "name": "Loot Crate - Red",
+  "name": "Loot Crate - Red - Easy",
   "type": "toggle",
-  "codes": "crate_red",
+  "codes": "crate_red_easy",
+  "img": "images/crates/Red_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Blue - Ice",
+  "type": "toggle",
+  "codes": "crate_blue_ice",
+  "img": "images/crates/Blue_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Yellow - Ice",
+  "type": "toggle",
+  "codes": "crate_yellow_ice",
+  "img": "images/crates/Yellow_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Red - Ice",
+  "type": "toggle",
+  "codes": "crate_red_ice",
+  "img": "images/crates/Red_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Blue - Swamp",
+  "type": "toggle",
+  "codes": "crate_blue_swamp",
+  "img": "images/crates/Blue_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Yellow - Swamp",
+  "type": "toggle",
+  "codes": "crate_yellow_swamp",
+  "img": "images/crates/Yellow_Crate.png"
+ },
+ {
+  "name": "Loot Crate - Red - Swamp",
+  "type": "toggle",
+  "codes": "crate_red_swamp",
+  "img": "images/crates/Red_Crate.png"
+ },
+ {
+  "name": "Ocean Cave Crate - Blue",
+  "type": "toggle",
+  "codes": "crate_blue_ocean",
+  "img": "images/crates/Blue_Crate.png"
+ },
+ {
+  "name": "Ocean Cave Crate - Yellow",
+  "type": "toggle",
+  "codes": "crate_yellow_ocean",
+  "img": "images/crates/Yellow_Crate.png"
+ },
+ {
+  "name": "Ocean Cave Crate - Red",
+  "type": "toggle",
+  "codes": "crate_red_ocean",
   "img": "images/crates/Red_Crate.png"
  },
  {
@@ -3370,7 +3424,7 @@
  {
   "name": "Engram - Vertical Electrical Cable",
   "type": "toggle",
-  "codes": "verticle_cable",
+  "codes": "vertical_cable",
   "img": "images/engrams/Vertical_Electrical_Cable.png"
  },
  {
@@ -3483,7 +3537,7 @@
  {
   "name": "Engram - Simple Bullet",
   "type": "toggle",
-  "codes": "simple_ammo",
+  "codes": "simple_bullet",
   "img": "images/engrams/Simple_Bullet.png"
  },
  {

@@ -888,7 +888,7 @@
                 ]
             },
             {
-                "name": "Cooked Prime Meat Jerky",
+                "name": "Prime Meat Jerky",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
@@ -1794,7 +1794,7 @@
                 ]
             },
             {
-                "name": "Bio-Toxin",
+                "name": "Bio Toxin",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
@@ -1806,7 +1806,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Cnidaria/Kill a Cnidaria"
                         ],
                 "sections": [
                     {
@@ -1817,7 +1817,7 @@
                         ],
                         "access_rules": 
                         [
-                            "grow_crops"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -2434,6 +2434,18 @@
                 "sections": [
                     {
                         "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "can_build, basic_forge"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x200",
                         "visibility_rules": 
                         [
                             ""
@@ -3062,6 +3074,18 @@
                             ""
                         ],
                 "sections": [
+                  {
+                        "name": "Explore 5 Regions",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
                   {
                         "name": "Explore 10 Regions",
                         "visibility_rules": 

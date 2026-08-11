@@ -277,6 +277,12 @@ function onLocation(location_id, location_name)
 			print(string.format("onLocation: skipping empty location_table"))
 		end
 	end
+  if location_id >= 8754000 and location_id <= 8754103 then
+        local level_item = Tracker:FindObjectForCode("level")
+        if level_item then
+            level_item.CurrentStage = level_item.CurrentStage + 1
+        end
+    end
 end
 
 -- called when a locations is scouted

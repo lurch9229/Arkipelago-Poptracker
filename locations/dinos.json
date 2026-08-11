@@ -372,7 +372,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Beelzebufo",
+                        "name": "Kill a Beelzebufo",
                         "visibility_rules": 
                         [
                             ""
@@ -518,7 +518,20 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Carcharodontosaurus",
+                        "name": "Kill a Carcharodontosaurus",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$InsaneFightTames",
+                            "$CanBleed"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Carcharodontosaurus Dossier",
                         "visibility_rules": 
                         [
                             ""
@@ -561,7 +574,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Carno",
+                        "name": "Kill a Carno",
                         "visibility_rules": 
                         [
                             ""
@@ -610,7 +623,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Castoroides",
+                        "name": "Kill a Castoroides",
                         "visibility_rules": 
                         [
                             ""
@@ -660,7 +673,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Chalicotherium",
+                        "name": "Kill a Chalicotherium",
                         "visibility_rules": 
                         [
                             ""
@@ -708,7 +721,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Compy",
+                        "name": "Kill a Compy",
                         "visibility_rules": 
                         [
                             ""
@@ -750,7 +763,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Daeodon",
+                        "name": "Kill a Daeodon",
                         "visibility_rules": 
                         [
                             ""
@@ -796,7 +809,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Dilophosaur",
+                        "name": "Kill a Dilophosaur",
                         "visibility_rules": 
                         [
                             ""
@@ -838,7 +851,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Dimetrodon",
+                        "name": "Kill a Dimetrodon",
                         "visibility_rules": 
                         [
                             ""
@@ -880,7 +893,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Dimorphodon",
+                        "name": "Kill a Dimorphodon",
                         "visibility_rules": 
                         [
                             ""
@@ -922,7 +935,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Diplocaulus",
+                        "name": "Kill a Diplocaulus",
                         "visibility_rules": 
                         [
                             ""
@@ -1024,7 +1037,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Dire Bear",
+                        "name": "Kill a Dire Bear",
                         "visibility_rules": 
                         [
                             ""
@@ -1072,7 +1085,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Direwolf",
+                        "name": "Kill a Direwolf",
                         "visibility_rules": 
                         [
                             ""
@@ -1122,7 +1135,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Dodo",
+                        "name": "Kill a Dodo",
                         "visibility_rules": 
                         [
                             ""
@@ -1164,7 +1177,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Doedicurus",
+                        "name": "Kill a Doedicurus",
                         "visibility_rules": 
                         [
                             ""
@@ -1213,7 +1226,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Dung Beetle",
+                        "name": "Kill a Dung Beetle",
                         "visibility_rules": 
                         [
                             ""
@@ -1263,7 +1276,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Equus",
+                        "name": "Kill a Equus",
                         "visibility_rules": 
                         [
                             ""
@@ -1312,7 +1325,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Gallimimus",
+                        "name": "Kill a Gallimimus",
                         "visibility_rules": 
                         [
                             ""
@@ -1362,7 +1375,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Giant Bee",
+                        "name": "Kill a Giant Bee",
                         "visibility_rules": 
                         [
                             ""
@@ -1447,7 +1460,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Gigantopithecus",
+                        "name": "Kill a Gigantopithecus",
                         "visibility_rules": 
                         [
                             ""
@@ -1497,7 +1510,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Hesperornis",
+                        "name": "Kill a Hesperornis",
                         "visibility_rules": 
                         [
                             ""
@@ -1539,7 +1552,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Hyaenodon",
+                        "name": "Kill a Hyaenodon",
                         "visibility_rules": 
                         [
                             ""
@@ -1590,7 +1603,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Ichthyornis",
+                        "name": "Kill a Ichthyornis",
                         "visibility_rules": 
                         [
                             ""
@@ -1639,7 +1652,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Iguanodon",
+                        "name": "Kill a Iguanodon",
                         "visibility_rules": 
                         [
                             ""
@@ -1690,7 +1703,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Kairuku",
+                        "name": "Kill a Kairuku",
                         "visibility_rules": 
                         [
                             ""
@@ -1720,7 +1733,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Tame a Kaprosucus",
+                        "name": "Tame a Kaprosuchus",
                         "visibility_rules": 
                         [
                             ""
@@ -1732,7 +1745,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Kaprosuchus",
+                        "name": "Kill a Kaprosuchus",
                         "visibility_rules": 
                         [
                             ""
@@ -1782,7 +1795,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Kentrosaurus",
+                        "name": "Kill a Kentrosaurus",
                         "visibility_rules": 
                         [
                             ""
@@ -1869,7 +1882,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Lystrosaurus",
+                        "name": "Kill a Lystrosaurus",
                         "visibility_rules": 
                         [
                             ""
@@ -1911,7 +1924,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Mammoth",
+                        "name": "Kill a Mammoth",
                         "visibility_rules": 
                         [
                             ""
@@ -2009,7 +2022,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Megaloceros",
+                        "name": "Kill a Megaloceros",
                         "visibility_rules": 
                         [
                             ""
@@ -2059,7 +2072,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Megalosaurus",
+                        "name": "Kill a Megalosaurus",
                         "visibility_rules": 
                         [
                             ""
@@ -2095,7 +2108,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Kill an Meganeura",
+                        "name": "Kill a Meganeura",
                         "visibility_rules": 
                         [
                             ""
@@ -2137,7 +2150,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Megatherium",
+                        "name": "Kill a Megatherium",
                         "visibility_rules": 
                         [
                             ""
@@ -2185,7 +2198,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Mesopithecus",
+                        "name": "Kill a Mesopithecus",
                         "visibility_rules": 
                         [
                             ""
@@ -2227,7 +2240,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Microraptor",
+                        "name": "Kill a Microraptor",
                         "visibility_rules": 
                         [
                             ""
@@ -2277,7 +2290,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Moschops",
+                        "name": "Kill a Moschops",
                         "visibility_rules": 
                         [
                             ""
@@ -2307,7 +2320,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Tame an Onyc",
+                        "name": "Tame a Onyc",
                         "visibility_rules": 
                         [
                             ""
@@ -2319,7 +2332,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Onyc",
+                        "name": "Kill a Onyc",
                         "visibility_rules": 
                         [
                             ""
@@ -2369,7 +2382,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Otter",
+                        "name": "Kill a Otter",
                         "visibility_rules": 
                         [
                             ""
@@ -2399,7 +2412,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Tame an Oviraptor",
+                        "name": "Tame a Oviraptor",
                         "visibility_rules": 
                         [
                             ""
@@ -2411,7 +2424,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Oviraptor",
+                        "name": "Kill a Oviraptor",
                         "visibility_rules": 
                         [
                             ""
@@ -2461,7 +2474,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Ovis",
+                        "name": "Kill a Ovis",
                         "visibility_rules": 
                         [
                             ""
@@ -2511,7 +2524,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Pachy",
+                        "name": "Kill a Pachy",
                         "visibility_rules": 
                         [
                             ""
@@ -3453,7 +3466,7 @@
                 ]
             },
             {
-                "name": "Trike",
+                "name": "Triceratops",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
@@ -3469,7 +3482,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Tame a Trike",
+                        "name": "Tame a Triceratops",
                         "visibility_rules": 
                         [
                             ""
@@ -3481,7 +3494,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill a Trike",
+                        "name": "Kill a Triceratops",
                         "visibility_rules": 
                         [
                             ""
@@ -4002,7 +4015,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Tame an Electrophorus",
+                        "name": "Tame a Electrophorus",
                         "visibility_rules": 
                         [
                             ""
@@ -4015,7 +4028,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Electrophorus",
+                        "name": "Kill a Electrophorus",
                         "visibility_rules": 
                         [
                             ""
@@ -4077,7 +4090,7 @@
                         ],
                 "sections": [
                   {
-                        "name": "Tame an Icthyosaurus",
+                        "name": "Tame a Ichthyosaurus",
                         "visibility_rules": 
                         [
                             ""
@@ -4089,7 +4102,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kill an Icthyosaurus",
+                        "name": "Kill a Ichthyosaurus",
                         "visibility_rules": 
                         [
                             ""
@@ -4705,6 +4718,21 @@
                             "$UseNets, $UseShotgun"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Rhyniognatha Dossier",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseNets, $MediumFightTames",
+                            "$UseNets, $StrongFightTames",
+                            "$UseNets, $InsaneFightTames",
+                            "$UseNets, $UseShotgun"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -4804,7 +4832,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "Kill an Aplha Carno",
+                        "name": "Kill an Alpha Carno",
                         "visibility_rules": 
                         [
                             ""

@@ -29,12 +29,12 @@
     "item_size": "35,35",
     "rows": 
     [
-      ["drop_white", "crate_white", "sea_crate"],
-      ["drop_green", "crate_green"],
-      ["drop_blue", "crate_blue"],
-      ["drop_purple", "crate_purple"],
-      ["drop_yellow", "crate_yellow"],
-      ["drop_red", "crate_red"]
+      ["drop_white", "crate_green_easy", "crate_blue_ice", "crate_blue_swamp", "sea_crate"],
+      ["drop_green", "crate_blue_easy", "crate_yellow_ice", "crate_yellow_swamp", "crate_blue_ocean"],
+      ["drop_blue", "crate_yellow_easy", "crate_red_ice", "crate_red_swamp", "crate_yellow_ocean"],
+      ["drop_purple", "crate_red_easy", "", "", "crate_red_ocean"],
+      ["drop_yellow"],
+      ["drop_red"]
     ]
   },
 
