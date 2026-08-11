@@ -5031,7 +5031,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "broodmother_trophy",
                         "item_count": 1
                     },
                     {
@@ -5044,6 +5043,7 @@
                         [
                             ""
                         ],
+                        "hosted_item": "broodmother_trophy",
                         "item_count": 1
                     }
                 ]
@@ -5075,7 +5075,6 @@
                         [
                             ""
                         ],
-                        "hosted_item": "megapithecus_trophy",
                         "item_count": 1
                     },
                     {
@@ -5088,6 +5087,7 @@
                         [
                             ""
                         ],
+                        "hosted_item": "megapithecus_trophy",
                         "item_count": 1
                     }
                 ]
@@ -5118,8 +5118,7 @@
                         "access_rules": 
                         [
                             ""
-                        ],
-                        "hosted_item": "dragon_trophy",
+                        ],                        
                         "item_count": 1
                     },
                     {
@@ -5132,6 +5131,7 @@
                         [
                             ""
                         ],
+                        "hosted_item": "dragon_trophy",
                         "item_count": 1
                     }
                 ]
