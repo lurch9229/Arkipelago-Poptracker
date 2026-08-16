@@ -5020,19 +5020,7 @@
                         [
                             "artifact_hunter, artifact_massive, artifact_clever"
                         ],
-                "sections": [
-                    {
-                        "name": "Kill Broodmother",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
+                "sections": [                    
                     {
                         "name": "Broodmother Hologram",
                         "visibility_rules": 
@@ -5066,18 +5054,6 @@
                         ],
                 "sections": [
                     {
-                        "name": "Kill Megapithecus",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Megapithecus Hologram",
                         "visibility_rules": 
                         [
@@ -5110,18 +5086,6 @@
                         ],
                 "sections": [
                     {
-                        "name": "Kill The Dragon",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],                        
-                        "item_count": 1
-                    },
-                    {
                         "name": "Dragon Hologram",
                         "visibility_rules": 
                         [
@@ -5153,19 +5117,6 @@
                             "dragon_trophy, megapithecus_trophy, broodmother_trophy"
                         ],
                 "sections": [
-                    {
-                        "name": "Kill The Overseer",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "hosted_item": "",
-                        "item_count": 1
-                    },
                     {
                         "name": "Overseer Hologram",
                         "visibility_rules": 

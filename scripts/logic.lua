@@ -1,4 +1,3 @@
----@diagnostic disable: lowercase-global
 function has(item, amount)
   local count = Tracker:ProviderCountForCode(item)
   amount = tonumber(amount)
@@ -9,7 +8,9 @@ function has(item, amount)
   end
 end
 
-------------------------------Macros---------------------
+--========================================================================
+
+--========================================================================
 -- Foundations
 function canBuild()
   local cb = Tracker:FindObjectForCode("can_build")
@@ -150,8 +151,8 @@ ScriptHost:AddWatchForCode("irrigation watch", "*", Irrigation)
 --===================================================================
 --Smithy
 function UseSmithy()
-  local ci = Tracker:FindObjectForCode("use_smithy")
-  if not ci
+  local smithy = Tracker:FindObjectForCode("use_smithy")
+  if not smithy
   then
     return
   end
@@ -169,7 +170,7 @@ function UseSmithy()
 
   local ok = hasAll(requirements)
 
-  ci.Active = ok
+  smithy.Active = ok
 end
 
 ScriptHost:AddWatchForCode("smithy watch", "*", UseSmithy)
@@ -261,9 +262,9 @@ function shallow_tames_combat()
     end
     return false
 end
---===============================================================
+--=====================================================================
 
---===============================================================
+--=====================================================================
 --Deep tame logic
 local deep_tames_list = {
     { code = { "mosasaur", "mosasaur_saddle" },can_fight = true },
@@ -293,9 +294,9 @@ function deep_tames_combat()
     end
     return false
 end
---=================================================================
+--=====================================================================
 
---=================================================================
+--=====================================================================
 --Can Fly Logic
 local flyer_list = {
     { code = { "argentavis", "argentavis_saddle" }},
@@ -315,9 +316,9 @@ function CanFly()
     end
     return false
 end
---=================================================================
+--=====================================================================
 
---================================================================
+--=====================================================================
 --Basic Fight Tames
 local basic_fight_tames_list = {
     { code = { "iguanadon", "iguanadon_saddle" }},
@@ -349,9 +350,9 @@ function BasicFightTames()
     end
     return false
 end
---==================================================================
+--=======================================================================
 
---==================================================================
+--=======================================================================
 --Medium Fight Tames
 local medium_fight_tames_list = {
     { code = { "argentavis", "argentavis_saddle" }},
@@ -382,9 +383,9 @@ function MediumFightTames()
     end
     return false
 end
---=======================================================================
+--=========================================================================
 
---=======================================================================
+--=========================================================================
 --Strong Fight Tames
 local strong_fight_tames_list = {
     { code = { "rex", "rex_saddle" }},
@@ -423,9 +424,211 @@ function InsaneFightTames()
     end
     return false
 end
---============================================================================
+--==========================================================================
 
---============================================================================
+--==========================================================================
+--Immune Useful Tames
+local immune_tames_list = {
+    { code = { "beelzebufo", "beelzebufo_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }}
+}
+
+function ImmuneTames()
+    for _, tame in ipairs(immune_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--==========================================================================
+
+--==========================================================================
+--Strong Useful Tames
+local strong_tames_list = {
+    { code = { "allosaurus", "allosaurus_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+    { code = { "yutyrannus", "yutyrannus_saddle"}}
+}
+
+function StrongTames()
+    for _, tame in ipairs(strong_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--==========================================================================
+
+--==========================================================================
+--Massive Useful Tames
+local massive_tames_list = {
+    { code = { "sabertooth", "sabertooth_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "direwolf" }},
+    { code = { "raptor", "raptor_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function MassiveTames()
+    for _, tame in ipairs(massive_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+
+--==========================================================================
+
+--==========================================================================
+--Clever Useful Tames
+local clever_tames_list = {
+    { code = { "sabertooth", "sabertooth_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "direwolf" }},
+    { code = { "raptor", "raptor_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function CleverTames()
+    for _, tame in ipairs(clever_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--=========================================================================
+
+--=========================================================================
+--Pack Useful Tames
+local pack_tames_list = {
+    { code = { "sarco", "sarco_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function PackTames()
+    for _, tame in ipairs(pack_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--=========================================================================
+
+--=========================================================================
+-- Hunter Useful Tames
+local hunter_tames_list = {
+    { code = { "sabertooth", "sabertooth_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "direwolf" }},
+    { code = { "raptor", "raptor_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function HunterTames()
+    for _, tame in ipairs(hunter_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--=========================================================================
+
+--=========================================================================
+-- Devourer Useful Tames
+local devourer_tames_list = {
+    { code = { "sabertooth", "sabertooth_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "direwolf" }},
+    { code = { "raptor", "raptor_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function DevourerTames()
+    for _, tame in ipairs(devourer_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--=======================================================================
+-- Central Useful Tames
+local central_tames_list = {
+    { code = { "sabertooth", "sabertooth_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "direwolf" }},
+    { code = { "raptor", "raptor_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function CentralTames()
+    for _, tame in ipairs(central_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+--========================================================================
+
+--========================================================================
+-- Upper South Tames
+local upper_south_tames_list = {
+    { code = { "sarco", "sarco_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function UpperSouthTames()
+    for _, tame in ipairs(upper_south_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+
+--========================================================================
+
+--========================================================================
+-- Lower South Tames
+local lower_south_tames_list = {
+    { code = { "sabertooth", "sabertooth_saddle" }},
+    { code = { "baryonyx", "baryonyx_saddle" }},
+    { code = { "direwolf" }},
+    { code = { "raptor", "raptor_saddle" }},
+    { code = { "thylacoleo", "thylacoleo_saddle" }},
+}
+
+function LowerSouthTames()
+    for _, tame in ipairs(lower_south_tames_list) do
+        if has_tame_and_saddle(tame.code)
+        then
+            return true
+        end
+    end
+    return false
+end
+
+--========================================================================
+
+--========================================================================
 --Enter Snow
 function EnterSnow()
   local requirements = {"fur_boots", "fur_leggings", "fur_gloves", "fur_chestpiece", "fur_helmet", "otter"}
@@ -454,9 +657,136 @@ function SnowMountains()
 
   return count >= 4
 end
---=================================================================================
+--==========================================================================
 
---=================================================================================
+--==========================================================================
+--Swamp Cave Logic
+function EnterSwampCave()
+  if CraftGasMask()
+  then
+    return true
+  end
+
+  local scubarequirements = {"scuba_tank", "scuba_mask", "scuba_flippers", "scuba_legs"}
+  local ghillierequirements = {"ghillie_mask", "ghillie_legs", "ghillie_gloves", "ghillie_chest", "ghillie_boots"}
+  local scubacount = 0
+  for _, item in ipairs(scubarequirements) do
+    if has(item)
+    then
+      scubacount = scubacount + 1
+    end
+  end
+  local ghilliecount = 0
+  for _, item in ipairs(ghillierequirements) do
+    if has(item)
+    then
+      ghilliecount = ghilliecount + 1
+    end
+  end
+
+  if scubacount == 4
+  -- or (scubacount == 3 and ghilliecount == 2) ADD TO HIGH DIFFICULTY
+  then
+    return true
+  else return false
+  end
+end
+--==========================================================================
+
+--=========================================================================
+-- Snow Cave Logic
+function EnterSnowCave()
+  local fur = {"fur_boots", "fur_leggings", "fur_gloves", "fur_chestpiece", "fur_helmet", "otter"}
+  local furcount = 0
+
+  for _, item in ipairs(fur) do
+    if has(item)
+    then
+      furcount = furcount + 1
+    end
+  end
+  return furcount >= 4 and has("grenade")and has("cryopod") and StrongTames()
+end
+--==========================================================================
+
+--==========================================================================
+-- Ice Cave Logic
+function EnterIceCave()
+  local fur = {"fur_boots", "fur_leggings", "fur_gloves", "fur_chestpiece", "fur_helmet", "otter"}
+  local furcount = 0
+
+  for _, item in ipairs(fur) do
+    if has(item)
+    then
+      furcount = furcount + 1
+    end
+  end
+  return furcount >= 3 and (UseShotgun() or AdvancedMelee())
+end
+--=========================================================================
+
+--=========================================================================
+-- Lava Cave Logic
+function EnterLavaCave()
+  if has("store_water") and has("otter") and (MassiveTames() or UseShotgun() or UseRifle())
+  then
+    return true
+  else
+    return false
+  end
+end
+--=========================================================================
+
+--=========================================================================
+-- Carno Cave Logic
+function EnterCarnoCave()
+  if DevourerTames() or UseShotgun() or UseRifle()
+  then
+    return true
+  else
+    return false
+  end
+end
+--========================================================================
+
+--========================================================================
+-- Central Cave Logic
+function EnterCentralCave()
+  if CentralTames() or UseShotgun() or UseRifle()
+  then
+    return true
+  else
+    return false
+  end
+end
+--========================================================================
+
+--========================================================================
+-- Upper South Logic
+function EnterUpperSouthCave()
+  if UpperSouthTames() or UseGrapple()
+  then
+    return true
+  else
+    return false
+  end
+end
+--========================================================================
+
+--========================================================================
+-- Lower South Logic
+function EnterLowerSouthCave()
+  if LowerSouthTames() or UseShotgun() or AdvancedMelee()
+  then
+    return true
+  else
+    return false
+  end
+end
+
+--========================================================================
+
+--========================================================================
 -- if has functions
 function CanUseMortar()
   if has("can_build") and has("mortar")
@@ -498,7 +828,7 @@ function CraftCharcoal()
   if has("campfire") or has("cooking_pot")
   then
     return true
-  elseif canBuild() and has("forge")
+  elseif canBuild() and has("basic_forge")
   then
     return true
   elseif CanUseFabricator() and has("indutrial_forge")
@@ -556,7 +886,7 @@ function CanBleed()
 end
 
 function tier1()
-  if has("mortar") and has("forge") and canBuild()
+  if has("mortar") and has("basic_forge") and has("can_build")
   then
     return true
   else
@@ -565,7 +895,7 @@ function tier1()
 end
 
 function tier2()
-  if tier1() and UseSmithy()
+  if tier1() and has("use_smithy")
   then
     return true
   else
@@ -694,6 +1024,27 @@ function MakeCake()
       (has("industrial_cooker") and has("irrigation")))
       and has("can_tree_tap") and has("grow_crops")
       and has("can_build") and has("mortar") and has("stimulant")
+  then
+    return true
+  else
+    return false
+  end
+end
+
+
+function CraftGasMask()
+  if has("use_power") and has("subsrate") and has("gas_mask")
+  then
+    return true
+  else
+    return false
+  end
+end
+
+function OceanArtifactTames()
+  if has("diplocaulus_tame")
+  or (has("ichthyosaurus") and has("ichthyosaurus_saddle"))
+  or (has("tusoteuthis") and has("tusoteuthis_saddle"))
   then
     return true
   else

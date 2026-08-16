@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3] - Cave Logic Applied
+
+### Fixed
+- Functions for tier recognition in `logic.lua`. Now explorer notes will turn green when conditions are met
+
+### Added
+- Logic added for caves, including tames and equipment required in `logic.lua`
+- Changed access rules for caves in `notes.json`
+
+### Changed
+- Removed Boss Kill Locations from `dinos.json`. Holograms are synced with `location_mapping.lua`
+
+### TODO
+- Give starter engrams when setting enabled
+- Sync saddles to tames when saddles are bundled
+- Work out a way for multiple engrams and tames when reward amount > 1
+
 ## [0.0.2] - Finalised Autotracking
 
 ### Fixed
