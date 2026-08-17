@@ -8,6 +8,7 @@
 ### Added
 - Logic added for caves, including tames and equipment required in `logic.lua`
 - Changed access rules for caves in `notes.json`
+- Some base assets for future Scorched Earth support
 
 ### Changed
 - Removed Boss Kill Locations from `dinos.json`. Holograms are synced with `location_mapping.lua`

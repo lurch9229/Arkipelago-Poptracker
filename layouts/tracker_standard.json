@@ -102,6 +102,18 @@
     ]
   },
 
+  "setting_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["op_BS"]
+    ]
+  },
+
   "crafting_grid":
   {
     "type": "itemgrid",
@@ -228,6 +240,23 @@
                             {
                               "type": "layout",
                               "key": "artifact_grid"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Settings",
+                        "content": 
+                        {
+                          "type": "array",
+                          "orientation": "vertical",
+                          "margin": "0,0",
+                          "content": 
+                          [
+                            {
+                              "type": "layout",
+                              "key": "setting_grid"
                             }
                           ]
                         }

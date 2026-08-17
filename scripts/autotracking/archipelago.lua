@@ -103,7 +103,13 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
- -- put any code here that slot_data should affect (toggling setting items for example)
+  if slot_data['bundle_saddles'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_BS")
+        if obj
+        then
+            obj.Active = (slot_data['bundle_saddles'] == true or slot_data['bundle_saddles'] == 1)
+        end
+    end
 end
 
 -- called right after an AP slot is connected
@@ -210,7 +216,84 @@ function onItem(index, item_id, item_name, player_number)
             local multiplier = item_table[3] or 1
             if item_code then
                 incrementItem(item_code, item_type, multiplier)
-                -- keep track which items we touch are local and which are global
+                
+                -- BUNDLE SADDLES INTERCEPTION
+                local bundle_saddles_active = Tracker:FindObjectForCode("op_BS")
+                if bundle_saddles_active and bundle_saddles_active.Active
+                then
+                    local tame_to_saddle_map = {
+                        ["phiomia"] = "phiomia_saddle",
+                        ["parasaur"] = "parasaur_saddle",
+                        ["ichthyosaurus"] = "ichthyosaurus_saddle",
+                        ["pachy"] = "pachy_saddle",
+                        ["raptor"] = "raptor_saddle",
+                        ["iguanodon"] = "iguanodon_saddle",
+                        ["triceratops"] = "triceratops_saddle",
+                        ["beelzebufo"] = "beelzebufo_saddle",
+                        ["terrorbird"] = "terrorbird_saddle",
+                        ["equus"] = "equus_saddle",
+                        ["pachyrhinosaurus"] = "pachyrhinosaurus_saddle",
+                        ["pulmonoscorpius"] = "pulmonoscorpius_saddle",
+                        ["carbonemys"] = "carbonemys_saddle",
+                        ["megaloceros"] = "megaloceros_saddle",
+                        ["gallimimus"] = "gallimimus_saddle",
+                        ["stegosaurus"] = "stegosaurus_saddle",
+                        ["doedicurus"] = "doedicurus_saddle",
+                        ["manta"] = "manta_saddle",
+                        ["paracer"] = "paracer_saddle",
+                        ["direbear"] = "direbear_saddle",
+                        ["diplodocus"] = "diplodocus_saddle",
+                        ["pteranodon"] = "pteranodon_saddle",
+                        ["sarco"] = "sarco_saddle",
+                        ["ankylosaurus"] = "ankylosaurus_saddle",
+                        ["mammoth"] = "mammoth_saddle",
+                        ["araneo"] = "araneo_saddle",
+                        ["dunkleosteus"] = "dunkleosteus_saddle",
+                        ["kaprosuchus"] = "kaprosuchus_saddle",
+                        ["pelagornis"] = "pelagornis_saddle",
+                        ["baryonyx"] = "baryonyx_saddle",
+                        ["sabertooth"] = "sabertooth_saddle",
+                        ["woollyrhino"] = "woollyrhino_saddle",
+                        ["thylacoleo"] = "thylacoleo_saddle",
+                        ["chalicotherium"] = "chalicotherium_saddle",
+                        ["carno"] = "carno_saddle",
+                        ["tapejara"] = "tapejara_saddle",
+                        ["daeodon"] = "daeodon_saddle",
+                        ["allosaurus"] = "allosaurus_saddle",
+                        ["arthropluera"] = "arthropluera_saddle",
+                        ["procoptodon"] = "procoptodon_saddle",
+                        ["basilosaurus"] = "basilosaurus_saddle",
+                        ["argentavis"] = "argentavis_saddle",
+                        ["bronto"] = "bronto_saddle",
+                        ["castoroides"] = "castoroides_saddle",
+                        ["therizinosaur"] = "therizinosaur_saddle",
+                        ["rex"] = "rex_saddle",
+                        ["spino"] = "spino_saddle",
+                        ["plesiosaur"] = "plesiosaur_saddle",
+                        ["quetzal"] = "quetzal_saddle",
+                        ["tusoteuthis"] = "tusoteuthis_saddle",
+                        ["megalosaurus"] = "megalosaurus_saddle",
+                        ["mosasaur"] = "mosasaur_saddle",
+                        ["giganotosaurus"] = "giganotosaurus_saddle",
+                        ["megatherium"] = "megatherium_saddle",
+                        ["yutyrannus"] = "yutyrannus_saddle",
+                        ["megalania"] = "megalania_saddle",
+                        ["carcharodontosaurus"] = "carcharodontosaurus_saddle",
+                        ["rhyniognatha"] = "rhyniognatha_saddle"
+                    }
+
+                    if tame_to_saddle_map[item_code] then
+                        local corresponding_saddle_code = tame_to_saddle_map[item_code]
+                        local saddle_obj = Tracker:FindObjectForCode(corresponding_saddle_code)
+                        if saddle_obj then
+                            saddle_obj.Active = true
+                            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                                print(string.format("Bundle Saddles: Automatically activated %s because player received %s", corresponding_saddle_code, item_code))
+                            end
+                        end
+                    end
+                end
+
                 if is_local then
                     if LOCAL_ITEMS[item_code] then
                         LOCAL_ITEMS[item_code] = LOCAL_ITEMS[item_code] + 1
@@ -239,6 +322,56 @@ function onItem(index, item_id, item_name, player_number)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions for local item tracking here
     end
+end
+
+
+--called when a location gets cleared
+function onLocation(location_id, location_name)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onLocation: %s, %s", location_id, location_name))
+    end
+    local v = LOCATION_MAPPING[location_id]
+    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+    end
+    if not v[1] then
+        return
+    end
+    local obj = Tracker:FindObjectForCode(v[1])
+    if obj then
+        if v[1]:sub(1, 1) == "@" then
+            obj.AvailableChestCount = obj.AvailableChestCount - 1
+        else
+            obj.Active = true
+        end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("onLocation: could not find object for code %s", v[1]))
+    end
+end
+
+-- Get dict of chests from Slot Data
+slotIds = {}
+
+function getLocksFromSlot(slot_data)
+    for id, info in pairs(slot_data["options"]["chestClearanceLevels"]) do
+        slotIds[id]=info
+    end
+    -- print("slotIDs", dump_table(slotIds))
+    idCheck(slotIds)
+end
+
+-- Match Slot IDs to Location Mapping
+function idCheck(slotIds)
+    for id, locationTable in pairs(LOCATION_MAPPING) do
+        for location,_ in pairs(locationTable) do
+            if string.find(location, "chest") then
+                if slotIds[id] == nil then
+                    print("No Match for ID:", id)
+                end
+            end
+        end
+    end
+    print("ID Check Finished")
 end
 
 -- called when a location gets cleared

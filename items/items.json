@@ -3631,6 +3631,12 @@
   "img": "images/engrams/Cryopod.png"
  },
  {
+  "name": "Setting - Bundle Saddles",
+  "type": "toggle",
+  "codes": "op_BS",
+  "img": "images/settings/op_BS.png"
+ },
+ {
   "name": "Level",
   "type": "consumable",
   "min_quantity": 1,
