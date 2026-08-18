@@ -16,6 +16,11 @@
 - Itemgrid added to layout in `tracker_standard.json` for settings visual
 - Updated version in `manifest.json`
 
+## TODO
+- Finish SE support
+- Add support for more setting once Ghios adds them to slot_data
+- Liase with Ghios  on a way to support > 1 location rewards
+
 ## [0.0.3] - Cave Logic Applied
 
 ### Fixed
