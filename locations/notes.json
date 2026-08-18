@@ -7964,6 +7964,4358 @@
             "ref": "Explorer Note - ??? #1/Tek Cave Overseer Arena: 23.6-78.2"
           }
         ]
+      },
+      {
+        "name": "Dossier - Deathworm",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Mantis",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Jerboa",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Jug Bug",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Lymantria",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Rock Elemental",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Thorny Dragon",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Wyvern",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Vulture",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Morellatops",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Dossier - Phoenix",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #1",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #2",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #3",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #4",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #5",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #6",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #7",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #8",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #9",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #10",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #11",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #12",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #13",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #14",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #15",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #16",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #17",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #18",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #19",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #20",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #21",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #22",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #23",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #24",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #25",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #26",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #27",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #28",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #29",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Raia #30",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #1",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #2",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #3",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #4",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #5",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #6",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #7",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #8",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #9",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #10",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #11",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #12",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #13",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #14",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #15",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #16",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #17",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #18",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #19",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #20",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #21",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #22",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #23",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #24",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #25",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #26",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #27",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #28",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #29",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Dahkeya #30",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #1",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #2",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #3",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #4",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #5",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #6",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #7",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #8",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #9",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #10",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #11",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #12",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #13",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #14",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #15",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #16",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #17",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #18",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #19",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #20",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #21",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #22",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #23",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #24",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #25",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #26",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #27",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #28",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #29",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Helena (SE) #30",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #1",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #2",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #3",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #4",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #5",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #6",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #7",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #8",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #9",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #10",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #11",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #12",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #13",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #14",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #15",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #16",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #17",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #18",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #19",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #20",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #21",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #22",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #23",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #24",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #25",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #26",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #27",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #28",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #29",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - Rockwell (SE) #30",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - ??? #2",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - ??? #5",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - ??? #8",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - ??? #11",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Explorer Note - ??? #14",
+        "chest_unopened_img": "images/items/chest_gold_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "map_locations": 
+        [
+          {
+              "map": "",
+              "x": 0,
+              "y": 0
+          }
+        ],
+        "access_rules": 
+        [
+            ""
+        ],
+        "sections": 
+        [
+          {
+            "name": "",
+            "visibility_rules": 
+            [
+                ""
+            ],
+            "access_rules": 
+            [
+                ""
+            ],
+            "item_count": 1
+          }
+        ]
       }
     ]
   }

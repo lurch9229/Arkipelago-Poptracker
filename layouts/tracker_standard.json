@@ -1,4 +1,23 @@
 ﻿{
+  "scorched_dino_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "40,40",
+    "rows": 
+    [
+      ["achatina","ankylosaurus_ride", "araneo_ride", "archaeopteryx", "arthropluera_ride", "carno_ride", "daeodon_ride"],
+      ["direwolf", "doedicurus_ride", "dungbeetle", "equus_ride", "gallimimus_ride", "giantbee", "hyaenodon", "iguanodon_ride"],
+      ["jerboa", "kaprosuchus_ride", "kentrosaurus", "lystrosaurus", "mantis", "megalania_ride", "megalosaurus_ride"],
+      ["megatherium_ride", "microraptor", "morellatops", "moschops", "onyc", "ovis", "paracer_ride", "parasaur_ride"],
+      ["pegomastax", "procoptodon_ride", "pulmonoscorpius_ride", "purlovia", "raptor_ride", "rex_ride", "rock_elemental", "sabertooth_ride"],
+      [ "thorny_dragon", "terrorbird_ride", "thylacoleo_ride", "titanoboa", "troodon", "unicorn_ride"],
+      ["vulture", "yutyrannus_ride"],
+      ["argentavis_ride","lymantria", "phoenix", "tapejara_ride", "wyvern"]
+    ]
+  },
+
   "dino_grid": 
   {
     "type": "itemgrid",
@@ -110,7 +129,7 @@
     "item_size": "35,35",
     "rows": 
     [
-      ["op_BS"]
+      ["op_BS", "op_FSE"]
     ]
   },
 

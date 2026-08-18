@@ -2801,6 +2801,24 @@
   "img": "images/dinos/giantbee.png"
  },
  {
+  "name": "Wyvern",
+  "type": "toggle",
+  "codes": "wyvern",
+  "img": "images/dinos/wyvern_fire.png"
+ },
+ {
+  "name": "Phoenix",
+  "type": "toggle",
+  "codes": "phoenix",
+  "img": "images/dinos/phoenix.png"
+ },
+ {
+  "name": "Jug Bug",
+  "type": "toggle",
+  "codes": "jugbug",
+  "img": "images/dinos/jugbug.png"
+ },
+ {
   "name": "Rhyniognatha",
   "type": "toggle",
   "codes": "rhyniognatha",
@@ -2925,6 +2943,230 @@
       "left": true,
       "right": true,
       "img": "images/dinos/unicorn.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+ }, {
+  "name": "Morellatops",
+  "type": "toggle",
+  "codes": "morellatops",
+  "img": "images/dinos/morellatops.png"
+ },
+ {
+  "name": "Morellatops Saddle",
+  "type": "toggle",
+  "codes": "morellatops_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Morellatops Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "morellatops_ride",
+  "item_left": "morellatops",
+  "item_right": "morellatops_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/morellatops.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/morellatops.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/morellatops.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/morellatops.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+ },
+ {
+  "name": "Thorny Dragon",
+  "type": "toggle",
+  "codes": "thorny_dragon",
+  "img": "images/dinos/thorny_dragon.png"
+ },
+ {
+  "name": "Thorny Dragon Saddle",
+  "type": "toggle",
+  "codes": "thorny_dragon_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Thorny Dragon Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "thorny_dragon_ride",
+  "item_left": "thorny_dragon",
+  "item_right": "mantis_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/thorny_dragon.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/thorny_dragon.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/thorny_dragon.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/thorny_dragon.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+ },
+ {
+  "name": "Mantis",
+  "type": "toggle",
+  "codes": "mantis",
+  "img": "images/dinos/mantis.png"
+ },
+ {
+  "name": "Mantis Saddle",
+  "type": "toggle",
+  "codes": "mantis_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Mantis Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "mantis_ride",
+  "item_left": "mantis",
+  "item_right": "mantis_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/mantis.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/mantis.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/mantis.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/mantis.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+ },
+ {
+  "name": "Rock Elemental",
+  "type": "toggle",
+  "codes": "rock_elemental",
+  "img": "images/dinos/rock_elemental.png"
+ },
+ {
+  "name": "Rock Elemental Saddle",
+  "type": "toggle",
+  "codes": "rock_elemental_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Rock Elemental Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "rock_elemental_ride",
+  "item_left": "rock_elemental",
+  "item_right": "rock_elemental_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/rock_elemental.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/rock_elemental.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/rock_elemental.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/rock_elemental.png",
+      "img_mods": "overlay|images/saddles/saddle2.png"
+    }
+  ]
+ },
+ {
+  "name": "Lymantria",
+  "type": "toggle",
+  "codes": "lymantria",
+  "img": "images/dinos/lymantria.png"
+ },
+ {
+  "name": "Lymantria Saddle",
+  "type": "toggle",
+  "codes": "lymantria_saddle",
+  "img": "images/saddles/saddle2.png"
+ },
+ {
+  "name": "Lymantria Tame + Ride",
+  "type": "composite_toggle",
+  "codes": "lymantria_ride",
+  "item_left": "lymantria",
+  "item_right": "lymantria_saddle",
+  "images": 
+  [
+    {
+      "left": false,
+      "right": false,
+      "img": "images/dinos/lymantria.png",
+      "img_mods": "@disabled"
+    },
+    {
+      "left": true,
+      "right": false,
+      "img": "images/dinos/lymantria.png"
+    },
+    {
+      "left": false,
+      "right": true,
+      "img": "images/dinos/lymantria.png",
+      "img_mods": "@disabled,overlay|images/saddles/saddle2.png"
+    },
+    {
+      "left": true,
+      "right": true,
+      "img": "images/dinos/lymantria.png",
       "img_mods": "overlay|images/saddles/saddle2.png"
     }
   ]
@@ -3635,6 +3877,12 @@
   "type": "toggle",
   "codes": "op_BS",
   "img": "images/settings/op_BS.png"
+ },
+ {
+  "name": "Setting - Free Starter Engrams",
+  "type": "toggle",
+  "codes": "op_FSE",
+  "img": "images/settings/op_FSE.png"
  },
  {
   "name": "Level",

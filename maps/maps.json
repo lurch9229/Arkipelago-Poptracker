@@ -64,5 +64,29 @@
     "location_size": 10,
     "location_border_thickness": 3,
     "img": "images/maps/Snow_Cave.png"
+  },
+  {
+    "name": "Scorched_Earth",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Scorched_Earth.png"
+  },
+  {
+    "name": "Old_Tunnels",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/The_Old_Tunnels.png"
+  },
+  {
+    "name": "Nosti_Ruins",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Ruins_of_Nosti.png"
+  },
+  {
+    "name": "Tyrants_Grave",
+    "location_size": 10,
+    "location_border_thickness": 3,
+    "img": "images/maps/Grave_of_the_Tyrants.png"
   }
 ]

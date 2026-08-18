@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.0.4] - Setting Support Phase One
+
+## Fixed
+- Nothing needed to be fixed this version
+
+## Added
+- Items for Settings in `items.json`
+- Functions for Bundled Saddles and Free Starter Engrams added to `archipelago.lua`
+- Scorched Earth ~ Added Locations to `dinos.json` and `notes.json`
+- Scorched Earth ~ Added map images and updated `maps.json`
+- Scorched Earth ~ Started work on `tracker_standard.json` for SE layout
+
+## Changed
+- Itemgrid added to layout in `tracker_standard.json` for settings visual
+- Updated version in `manifest.json`
+
 ## [0.0.3] - Cave Logic Applied
 
 ### Fixed

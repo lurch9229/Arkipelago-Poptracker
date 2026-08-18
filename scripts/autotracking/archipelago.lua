@@ -103,11 +103,35 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-  if slot_data['bundle_saddles'] ~= nil then
+    if slot_data['bundle_saddles'] ~= nil then
         local obj = Tracker:FindObjectForCode("op_BS")
-        if obj
-        then
+        if obj then
             obj.Active = (slot_data['bundle_saddles'] == true or slot_data['bundle_saddles'] == 1)
+        end
+    end
+
+    if slot_data['free_starter_engrams'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_FSE")
+        if obj then
+            local is_active = (slot_data['free_starter_engrams'] == true or slot_data['free_starter_engrams'] == 1)
+            obj.Active = is_active
+            if is_active
+            then
+                local free_starter_items = {
+                    "stone_hatchet",
+                    "spear",
+                    "campfire",
+                    "thatch_foundation",
+                    "waterskin"
+                }
+                for _, item_code in ipairs(free_starter_items) do
+                    local item_obj = Tracker:FindObjectForCode(item_code)
+                    if item_obj
+                    then
+                        item_obj.Active = true
+                    end
+                end
+            end
         end
     end
 end
@@ -349,31 +373,6 @@ function onLocation(location_id, location_name)
     end
 end
 
--- Get dict of chests from Slot Data
-slotIds = {}
-
-function getLocksFromSlot(slot_data)
-    for id, info in pairs(slot_data["options"]["chestClearanceLevels"]) do
-        slotIds[id]=info
-    end
-    -- print("slotIDs", dump_table(slotIds))
-    idCheck(slotIds)
-end
-
--- Match Slot IDs to Location Mapping
-function idCheck(slotIds)
-    for id, locationTable in pairs(LOCATION_MAPPING) do
-        for location,_ in pairs(locationTable) do
-            if string.find(location, "chest") then
-                if slotIds[id] == nil then
-                    print("No Match for ID:", id)
-                end
-            end
-        end
-    end
-    print("ID Check Finished")
-end
-
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -413,125 +412,8 @@ function onLocation(location_id, location_name)
             print(string.format("onLocation: skipping empty location_table"))
         end
     end
-    -- if location_id >= 8754000 and location_id <= 8754103 then
-    --     local level_item = Tracker:FindObjectForCode("level")
-    --     if level_item then
-    --         level_item.CurrentStage = level_item.CurrentStage + 1
-    --     end
-    -- end
 end
 
--- -- called when a locations is scouted
--- function onScout(location_id, location_name, item_id, item_name, item_player)
---  if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
---      print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
---          item_player))
---  end
---  -- not implemented yet :(
--- end
-
--- -- called when a bounce message is received
--- function onBounce(json)
---  if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
---      print(string.format("called onBounce: %s", dump_table(json)))
---  end
---  -- your code goes here
--- end
-
--- called whenever Archipelago:Get returns data from the data storage or
--- whenever a subscribed to (via Archipelago:SetNotify) key in data storgae is updated
--- oldValue might be nil (always nil for "_read" prefixed keys and via retrieved handler (from Archipelago:Get))
--- function onDataStorageUpdate(key, value, oldValue)
---  --if you plan to only use the hints key, you can remove this if
---  if key == getHintDataStorageKey() then
---      onHintsUpdate(value)
---  end
--- end
-
--- called whenever the hints key in data storage updated
--- NOTE: this should correctly handle having multiple mapped locations in a section.
---       if you only map sections 1 to 1 you can simplfy this. for an example see
---       https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/archipelago.lua
--- function onHintsUpdate(hints)
---  -- Highlight is only supported since version 0.32.0
---  if PopVersion < "0.32.0" or not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
---      return
---  end
---  local player_number = Archipelago.PlayerNumber
---  -- get all new highlight values per section
---  local sections_to_update = {}
---  for _, hint in ipairs(hints) do
---      -- we only care about hints in our world
---      if hint.finding_player == player_number then
---          updateHint(hint, sections_to_update)
---      end
---  end
---  -- update the sections
---  for location_code, highlight_code in pairs(sections_to_update) do
---      -- find the location object
---      local obj = Tracker:FindObjectForCode(location_code)
---      -- check if we got the location and if it supports Highlight
---      if obj and obj.Highlight then
---          obj.Highlight = highlight_code
---      end
---  end
--- end
-
--- -- update section highlight based on the hint
--- function updateHint(hint, sections_to_update)
---  -- get the highlight enum value for the hint status
---  local hint_status = hint.status
---  local highlight_code = nil
---  if hint_status then
---      highlight_code = HINT_STATUS_MAPPING[hint_status]
---  end
---  if not highlight_code then
---      if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
---          print(string.format("updateHint: unknown hint status %s for hint on location id %s", hint.status,
---              hint.location))
---      end
---      -- try to "recover" by checking hint.found (older AP versions without hint.status)
---      if hint.found == true then
---          highlight_code = Highlight.None
---      elseif hint.found == false then
---          highlight_code = Highlight.Unspecified
---      else
---          return
---      end
---  end
---  -- get the location mapping for the location id
---  local mapping_entry = LOCATION_MAPPING[hint.location]
---  if not mapping_entry then
---      if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
---          print(string.format("updateHint: could not find location mapping for id %s", hint.location))
---      end
---      return
---  end
---  --get the "highest" highlight value pre section
---  for _, location_table in pairs(mapping_entry) do
---      if location_table then
---          local location_code = location_table[1]
---          -- skip hosted items, they don't support Highlight
---          if location_code and location_code:sub(1, 1) == "@" then
---              -- see if we already set a Highlight for this section
---              local existing_highlight_code = sections_to_update[location_code]
---              if existing_highlight_code then
---                  -- make sure we only replace None or "increase" the highlight but never overwrite with None
---                  -- this so sections with mulitple mapped locations show the "highest" Highlight and
---                  -- only show no Highlight when all hints are found
---                  if existing_highlight_code == Highlight.None or (existing_highlight_code < highlight_code and highlight_code ~= Highlight.None) then
---                      sections_to_update[location_code] = highlight_code
---                  end
---              else
---                  sections_to_update[location_code] = highlight_code
---              end
---          end
---      end
---  end
--- end
-
--- add AP callbacks
--- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     Archipelago:AddItemHandler("item handler", onItem)
