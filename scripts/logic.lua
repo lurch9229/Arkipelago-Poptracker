@@ -1,3 +1,4 @@
+---@diagnostic disable: lowercase-global
 function has(item, amount)
   local count = Tracker:ProviderCountForCode(item)
   amount = tonumber(amount)
@@ -105,7 +106,7 @@ function usePower()
   local ok = false
 
   for _, f in ipairs(cable) do 
-    if has(f) and has("outlet") and has("fabricator") and has("basic_forge") and has("generator") and has("electronics") and has("polymer")
+    if has(f) and has("outlet") and has("fabricator") and has("basic_forge") and has("electronics") and has("polymer")and (has("generator") or has("wind_turbine"))
     then
       ok = true
       break
@@ -185,7 +186,7 @@ function UseTaps()
     return
   end
 
-  local platform = {"wooden_tree_platform", "metal_tree_platform"}
+  local platform = {"wooden_tree_platform", "metal_tree_platform", "glass_tree_platform", "stone_tree_platform"}
   local ok = false
 
   for _, f in ipairs(platform) do

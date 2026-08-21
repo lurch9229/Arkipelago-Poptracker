@@ -12,6 +12,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 25
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -110,6 +115,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 25
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -161,6 +171,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 25
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -211,6 +226,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 25
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -252,6 +272,11 @@
                     {
                         "map": "The_Island",
                         "x": 191,
+                        "y": 25
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
                         "y": 25
                     }
                 ],
@@ -554,6 +579,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 58
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -743,6 +773,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 58
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -1065,6 +1100,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 92
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1157,6 +1197,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 125
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1206,6 +1251,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 125
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1256,6 +1306,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 125
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1305,6 +1360,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 125
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1355,6 +1415,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 125
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1532,6 +1597,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 158
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1632,6 +1702,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 158
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 58
                     }
                 ],
                 "access_rules": 
@@ -1725,6 +1800,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 158
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -1775,6 +1855,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 158
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -1862,6 +1947,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 158
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -1953,6 +2043,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 191
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -2052,6 +2147,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 191
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -2130,6 +2230,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 191
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2220,6 +2325,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 191
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2270,6 +2380,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 224
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2312,6 +2427,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 224
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2454,6 +2574,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 224
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2596,6 +2721,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 224
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2644,6 +2774,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -2694,6 +2829,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -2778,6 +2918,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -2828,6 +2973,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -2878,6 +3028,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -2928,6 +3083,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -2978,6 +3138,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 257
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -3024,6 +3189,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 290
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -3218,6 +3388,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 290
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3316,6 +3491,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 290
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3364,6 +3544,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 290
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3413,6 +3598,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 323
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3443,6 +3633,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 323
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3553,6 +3748,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 323
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3603,6 +3803,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 323
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -3736,6 +3941,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 355
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 224
                     }
                 ],
                 "access_rules": 
@@ -3933,6 +4143,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 389
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 224
                     }
                 ],
                 "access_rules": 
@@ -4049,7 +4264,7 @@
                 "map_locations": [
                     {
                         "map": "The_Island",
-                        "x": 258,
+                        "x": 257,
                         "y": 389
                     }
                 ],
@@ -4369,7 +4584,7 @@
                 "map_locations": [
                     {
                         "map": "The_Island",
-                        "x": 258,
+                        "x": 257,
                         "y": 422
                     }
                 ],
@@ -4489,6 +4704,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 488
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 257
                     }
                 ],
                 "access_rules": 
@@ -4745,6 +4965,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 488
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 257
                     }
                 ],
                 "access_rules": 
@@ -4788,9 +5013,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 257
                     }
                 ],
                 "access_rules": 
@@ -4806,7 +5031,7 @@
                         ],
                         "access_rules": 
                         [
-                            "phoenix"
+                            "phoenix, flamethrower,flamethrower_ammo"
                         ],
                         "item_count": 1
                     },
@@ -4830,9 +5055,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 125
                     }
                 ],
                 "access_rules": 
@@ -4872,9 +5097,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 191
                     }
                 ],
                 "access_rules": 
@@ -4914,9 +5139,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 224
                     }
                 ],
                 "access_rules": 
@@ -4951,14 +5176,56 @@
                 ]
             },
             {
+                "name": "Lymantria",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Lymantria",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "lymantria"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Lymantria",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Rock Elemental",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 158
                     }
                 ],
                 "access_rules": 
@@ -5040,9 +5307,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -5082,9 +5349,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 25
                     }
                 ],
                 "access_rules": 
@@ -5107,14 +5374,44 @@
                 ]
             },
             {
+                "name": "Jug Bug",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 92
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Kill a Jug Bug",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Mantis",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 92
                     }
                 ],
                 "access_rules": 
@@ -5136,6 +5433,48 @@
                     },
                     {
                         "name": "Kill a Mantis",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wyvern",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 257
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "Tame a Wyvern",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "needs a new rule as you get an egg"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill a Wyvern",
                         "visibility_rules": 
                         [
                             ""
@@ -5376,9 +5715,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 290
                     }
                 ],
                 "access_rules": 
@@ -5406,9 +5745,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 290
                     }
                 ],
                 "access_rules": 
@@ -5563,9 +5902,9 @@
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "",
-                        "x": 0,
-                        "y": 0,
+                        "map": "Scorched_Earth",
+                        "x": 248,
+                        "y": 752,
                         "size": 30
                     }
                 ],

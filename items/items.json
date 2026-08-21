@@ -2423,13 +2423,13 @@
   "img": "images/dinos/therizinosaurus.png"
  },
  {
-  "name": "therizinosaur Saddle",
+  "name": "Therizinosaur Saddle",
   "type": "toggle",
   "codes": "therizinosaur_saddle",
   "img": "images/saddles/saddle2.png"
  },
  {
-  "name": "therizinosaur Tame + Ride",
+  "name": "Therizinosaur Tame + Ride",
   "type": "composite_toggle",
   "codes": "therizinosaur_ride",
   "item_left": "therizinosaur",
@@ -3172,6 +3172,18 @@
   ]
  },
  {
+  "name": "Jerboa",
+  "type": "toggle",
+  "codes": "jerboa",
+  "img": "images/dinos/jerboa.png"
+ },
+ {
+  "name": "Vulture",
+  "type": "toggle",
+  "codes": "vulture",
+  "img": "images/dinos/vulture.png"
+ },
+ {
   "name": "Yeti",
   "type": "toggle",
   "codes": "kill_yeti",
@@ -3873,6 +3885,94 @@
   "img": "images/engrams/Cryopod.png"
  },
  {
+  "name": "Engram - Clay",
+  "type": "toggle",
+  "codes": "clay",
+  "img": "images/engrams/Clay.png"
+ },
+ {
+  "name": "Engram - Propellant",
+  "type": "toggle",
+  "codes": "propellant",
+  "img": "images/engrams/Propellant.png"
+ },
+ {
+  "name": "Engram - Flamethrower",
+  "type": "toggle",
+  "codes": "flamethrower",
+  "img": "images/engrams/Flamethrower.png"
+ },
+ {
+  "name": "Engram - Flamethrower Ammo",
+  "type": "toggle",
+  "codes": "flamethrower_ammo",
+  "img": "images/engrams/Flamethrower_Ammo.png"
+ },
+ {
+  "name": "Engram - Wind Turbine",
+  "type": "toggle",
+  "codes": "wind_turbine",
+  "img": "images/engrams/Wind_Turbine.png"
+ },
+ {
+  "name": "Engram - Water Well",
+  "type": "toggle",
+  "codes": "water_well",
+  "img": "images/engrams/Water_Well.png"
+ },
+ {
+  "name": "Engram - Tent",
+  "type": "toggle",
+  "codes": "tent",
+  "img": "images/engrams/Tent.png"
+ },
+ {
+  "name": "Engram - Preserving Salt",
+  "type": "toggle",
+  "codes": "preserving_salt",
+  "img": "images/engrams/Preserving_Salt.png"
+ },
+ {
+  "name": "Engram - Desert Hat",
+  "type": "toggle",
+  "codes": "desert_hat",
+  "img": "images/engrams/Desert_Hat.png"
+ },
+ {
+  "name": "Engram - Desert Shirt",
+  "type": "toggle",
+  "codes": "desert_shirt",
+  "img": "images/engrams/Desert_Shirt.png"
+ },
+ {
+  "name": "Engram - Desert Gloves",
+  "type": "toggle",
+  "codes": "desert_gloves",
+  "img": "images/engrams/Desert_Gloves.png"
+ },
+ {
+  "name": "Engram - Desert Pants",
+  "type": "toggle",
+  "codes": "desert_pants",
+  "img": "images/engrams/Desert_Pants.png"
+ },
+ {
+  "name": "Engram - Desert Boots",
+  "type": "toggle",
+  "codes": "desert_boots",
+  "img": "images/engrams/Desert_Boots.png"
+ },
+ {
+  "name": "Engram - Glass Tree Platform",
+  "type": "toggle",
+  "codes": "glass_tree_platform"
+ },
+ {
+  "name": "Engram - Stone Tree Platform",
+  "type": "toggle",
+  "codes": "stone_tree_platform"
+ },
+ {
   "name": "Setting - Bundle Saddles",
   "type": "toggle",
   "codes": "op_BS",
@@ -3955,6 +4055,24 @@
   "type": "toggle",
   "codes": "artifact_strong",
   "img": "images/engrams/Artifact_of_the_Strong.png"
+ },
+ {
+  "name": "Artifact - Crag",
+  "type": "toggle",
+  "codes": "artifact_Crag",
+  "img": "images/engrams/Artifact_of_the_Crag.png"
+ },
+ {
+  "name": "Artifact - Destroyer",
+  "type": "toggle",
+  "codes": "artifact_destroyer",
+  "img": "images/engrams/Artifact_of_the_Destroyer.png"
+ },
+ {
+  "name": "Artifact - Gatekeeper",
+  "type": "toggle",
+  "codes": "artifact_gatekeeper",
+  "img": "images/engrams/Artifact_of_the_Gatekeeper.png"
  },
  {
   "name": "Trophy - Broodmother",

@@ -39,7 +39,7 @@ ITEM_MAPPING =
   --[8730037] = "Wood Chair",
   --[8730038] = "Wood Stairs",
   --[8730040] = "Boomerang",
-  --[8730041] = "Cooking Pot",
+  [8730041] = "cooking_pot",
   [8730042] = {{"CP", "toggle"}},
   [8730043] = {{"stimulant", "toggle"}},
   [8730044] = {{"gunpowder", "toggle"}},
@@ -669,6 +669,53 @@ ITEM_MAPPING =
   [8752007] = {{"artifact_immune", "toggle"}},
   [8752008] = {{"artifact_strong", "toggle"}},
   [8752009] = {{"artifact_cunning", "toggle"}},
-  [8752010] = {{"artifact_brute", "toggle"}}
+  [8752010] = {{"artifact_brute", "toggle"}},
+ -- Mods
+ [8790003] = {{"soul_trap", "toggle"}},
+ [8810000] = {{"aircon", "toggle"}},
+ [8810024] = {{"campfire", "toggle"}},
+ [8810042] = {{"chem_bench", "toggle"}},
+ [8810052] = {{"cooking_pot", "toggle"}},
+ [8810053] = {{"large_plot", "toggle"}},
+ [8810054] = {{"medium_plot", "toggle"}},
+ [8810103] = {{"incubator", "toggle"}},
+ [8810104] = {{"outlet", "toggle"}},
+ [8810111] = {{"fabricator", "toggle"}},
+ [8810125] = {{"basic_forge", "toggle"}},
+ [8810131] = {{"stone_foundation", "toggle"}},
+ [8810134] = {{"thatch_foundation", "toggle"}},
+ [8810135] = {{"wood_foundation", "toggle"}},
+ [8810137] = {{"fridge", "toggle"}},
+ [8810155] = {{"generator", "toggle"}},
+ [8810172] = {{"industrial_cooker", "toggle"}},
+ [8810173] = {{"industrial_forge", "toggle"}},
+ [8810174] = {{"industrial_cooker", "toggle"}},
+ [8810236] = {{"mortar", "toggle"}},
+ [8810251] = {{"metal_intake", "toggle"}},
+ [8810252] = {{"stone_intake", "toggle"}},
+ [8810266] = {{"preserving_bin", "toggle"}},
+ [8810317] = {{"smithy", "toggle"}},
+ [8810362] = {{"glass_tree_platform", "toggle"}},
+ [8810363] = {{"metal_tree_platform", "toggle"}},
+ [8810364] = {{"stone_tree_platform", "toggle"}},
+ [8810366] = {{"wooden_tree_platform", "toggle"}},
+ [8810367] = {{"treetap", "toggle"}},
+ [8810432] = {{"metal_tap", "toggle"}},
+ [8810433] = {{"metal_tap", "toggle"}},
+ [8810434] = {{"wind_turbine", "toggle"}},
+ [8810448] = {{"straight_cable", "toggle"}},
+ [8810451] = {{"vertical_cable", "toggle"}},
 
+ --Bundles
+ [8738001] = {{"wood_foundation", "toggle"}, {"wooden_tree_platform", "toggle"}},
+ [8738002] = {{"stone_foundation", "toggle"}, {"stone_intake", "toggle"}, {"stone_tap", "toggle"}},
+ [8738003] = {{"metal_intake", "toggle"}, {"metal_tap", "toggle"}, {"metal_tree_platform", "toggle"}},
+ [8738006] = {{"thatch_foundation", "toggle"}},
+
+ --Mod Bundles
+ [8819000] = {{"vertical_cable", "toggle"}, {"straight_cable", "toggle"}}, --Wiring S+
+ [8819004] = {{"large_plot", "toggle"}, {"medium_plot", "toggle"}}, --Crop Plots S+
+ [8819007] = {{"fridge", "toggle"}},
+ [8819013] = {{"preserving_bin", "toggle"}},
+ [8819014] = {{"incubator", "toggle"}}
 }

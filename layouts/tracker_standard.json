@@ -7,14 +7,90 @@
     "item_size": "40,40",
     "rows": 
     [
-      ["achatina","ankylosaurus_ride", "araneo_ride", "archaeopteryx", "arthropluera_ride", "carno_ride", "daeodon_ride"],
-      ["direwolf", "doedicurus_ride", "dungbeetle", "equus_ride", "gallimimus_ride", "giantbee", "hyaenodon", "iguanodon_ride"],
-      ["jerboa", "kaprosuchus_ride", "kentrosaurus", "lystrosaurus", "mantis", "megalania_ride", "megalosaurus_ride"],
-      ["megatherium_ride", "microraptor", "morellatops", "moschops", "onyc", "ovis", "paracer_ride", "parasaur_ride"],
-      ["pegomastax", "procoptodon_ride", "pulmonoscorpius_ride", "purlovia", "raptor_ride", "rex_ride", "rock_elemental", "sabertooth_ride"],
-      [ "thorny_dragon", "terrorbird_ride", "thylacoleo_ride", "titanoboa", "troodon", "unicorn_ride"],
-      ["vulture", "yutyrannus_ride"],
+      ["achatina","ankylosaurus_ride", "araneo_ride", "archaeopteryx", "arthropluera_ride", "carno_ride", "daeodon_ride", "direwolf"],
+      ["doedicurus_ride", "dungbeetle", "equus_ride", "gallimimus_ride", "giantbee", "hyaenodon", "iguanodon_ride", "jerboa"],
+      ["kaprosuchus_ride", "kentrosaurus", "lystrosaurus", "mantis", "megalania_ride", "megalosaurus_ride", "megatherium_ride", "microraptor"],
+      ["morellatops", "moschops", "onyc", "ovis", "paracer_ride", "parasaur_ride", "pegomastax", "procoptodon_ride"],
+      ["pulmonoscorpius_ride", "purlovia", "raptor_ride", "rex_ride", "rock_elemental", "sabertooth_ride", "thorny_dragon", "terrorbird_ride"],
+      ["thylacoleo_ride", "titanoboa", "troodon", "unicorn_ride", "vulture", "yutyrannus_ride"],
       ["argentavis_ride","lymantria", "phoenix", "tapejara_ride", "wyvern"]
+    ]
+  },
+
+  "scorched_crafting_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["campfire", "mortar", "preserving_bin", "basic_forge", "smithy", "fabricator", "chem_bench"],
+      ["sparkpowder", "gunpowder", "narcotic", "stimulant", "CP", "propellant", "clay"],
+      ["electronics", "polymer", "aircon", "fridge", "industrial_forge", "industrial_grill", "incubator"],
+      ["cooking_pot", "industrial_cooker", "tent"]
+    ]
+  },
+
+  "scorched_armor_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["flak_helmet", "ghillie_mask", "desert_hat"],
+      ["flak_chest", "ghillie_chest", "desert_shirt"],
+      ["flak_gloves", "ghillie_gloves", "desert_gloves"],
+      ["flak_legs", "ghillie_legs", "desert_pants"],
+      ["flak_boots", "ghillie_boots", "desert_boots"]
+    ]
+  },
+
+  "scorched_artifact_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["artifact_crag"],
+      ["artifact_destroyer"],
+      ["artifact_gatekeeper"]
+    ]
+  },
+
+  "scorched_loot_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["drop_white", "crate_green_easy"],
+      ["drop_green", "crate_blue_easy"],
+      ["drop_blue", "crate_yellow_easy"],
+      ["drop_purple", "crate_red_easy"],
+      ["drop_yellow"],
+      ["drop_red"]
+    ]
+  },
+
+  "scorched_macro_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["can_build", "store_water"],
+      ["use_smithy", "irrigation"],
+      ["use_power", "grow_crops"],
+      ["level"]
     ]
   },
 
@@ -149,256 +225,431 @@
   },
 
   "tracker_horizontal": 
-	{
-    	"type": "container",
-    	"content": {
-      		"type": "dock",
-      		"dropshadow": true,
-      		"content": [
-                {
-                    "type": "array",
-                    "dock": "bottom",
-                    "orientation": "horizontal",
-                    "content": 
-                    [
-                      {
-                        "type": "group",
-                        "header": "Crafting",
-                        "content": 
+  {
+    "type": "container",
+    "content": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "The Island Tracker",
+          "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+              {
+                "type": "array",
+                "dock": "bottom",
+                "orientation": "horizontal",
+                "content": [
+                  {
+                    "type": "group",
+                    "header": "Crafting",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "crafting_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "crafting_grid"
                         }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Weapons",
-                        "content": 
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Weapons",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "weapon_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "weapon_grid"
                         }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Armor",
-                        "content": 
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Armor",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "armor_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "armor_grid"
                         }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Macros",
-                        "content": 
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Macros",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "macro_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "macro_grid"
                         }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Loot Crates",
-                        "content": 
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Loot Crates",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "loot_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "loot_grid"
                         }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Artifacts",
-                        "content": 
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Artifacts",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "artifact_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "artifact_grid"
                         }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Settings",
-                        "content": 
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Settings",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
                         {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "setting_grid"
-                            }
-                          ]
+                          "type": "layout",
+                          "key": "setting_grid"
                         }
-                      }
-                    ]
-                },
-                {
-                    "type": "array",
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "dock": "left",
+                "orientation": "vertical",
+                "content": [
+                  {
+                    "type": "group",
+                    "header": "Tames",
+                    "content": {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "margin": "0,0",
+                      "content": [
+                        {
+                          "type": "layout",
+                          "key": "dino_grid"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "array",
+                "v_alignment": "stretch",
+                "h_alignment": "stretch",
+                "margin": "0, 0, 0, 0",
+                "content": [
+                  {
+                    "type": "tabbed",
                     "dock": "left",
-                    "orientation": "vertical",
-                    "content": 
-                    [
+                    "tabs": [
                       {
-                        "type": "group",
-                        "header": "Tames",
-                        "content": 
-                        {
-                          "type": "array",
-                          "orientation": "vertical",
-                          "margin": "0,0",
-                          "content": 
-                          [
-                            {
-                              "type": "layout",
-                              "key": "dino_grid"
-                            }
-                          ]
+                        "title": "The Island",
+                        "content": {
+                          "type": "map",
+                          "maps": ["The_Island"]
+                        }
+                      },
+                      {
+                        "title": "Central Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Central_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Caverns of Lost Hope",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Lost_Hope"]
+                        }
+                      },
+                      {
+                        "title": "Lower South Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Lower_South_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Upper South Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Upper_South_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Lava Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Lava_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Carno Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["North_East_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Swamp Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Swamp_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Caverns of Lost Faith",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Lost_Faith"]
+                        }
+                      },
+                      {
+                        "title": "North West Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["North_West_Cave"]
+                        }
+                      },
+                      {
+                        "title": "Snow Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Snow_Cave"]
                         }
                       }
                     ]
-                },
-                {
-                    "type": "array",
-                    "v_alignment": "stretch",
-                    "h_alignment": "stretch",
-                    "margin": "0, 0, 0, 0",
-                    "content": [
-                        {
-                            "type": "tabbed",
-                            "dock": "left",
-                            "tabs": [
-                                {
-                                    "title": "The Island",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["The_Island"]
-                                    }
-                                },
-                                {
-                                    "title": "Central Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Central_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Caverns of Lost Hope",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Lost_Hope"]
-                                    }
-                                },
-                                {
-                                    "title": "Lower South Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Lower_South_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Upper South Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Upper_South_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Lava Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Lava_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Carno Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["North_East_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Swamp Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Swamp_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Caverns of Lost Faith",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Lost_Faith"]
-                                    }
-                                },
-                                {
-                                    "title": "North West Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["North_West_Cave"]
-                                    }
-                                },
-                                {
-                                    "title": "Snow Cave",
-                                    "content": {
-                                        "type":"map",
-                                        "maps": ["Snow_Cave"]
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                }
-			]
-		}
-	}
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        // {
+        //   "title": "Scorched Earth Tracker",
+        //   "content": {
+        //     "type": "dock",
+        //     "dropshadow": true,
+        //     "content": [
+        //       {
+        //         "type": "array",
+        //         "dock": "bottom",
+        //         "orientation": "horizontal",
+        //         "content": [
+        //           {
+        //             "type": "group",
+        //             "header": "Crafting",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "scorched_crafting_grid"
+        //                 }
+        //               ]
+        //             }
+        //           },
+        //           {
+        //             "type": "group",
+        //             "header": "Weapons",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "weapon_grid"
+        //                 }
+        //               ]
+        //             }
+        //           },
+        //           {
+        //             "type": "group",
+        //             "header": "Armor",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "scorched_armor_grid"
+        //                 }
+        //               ]
+        //             }
+        //           },
+        //           {
+        //             "type": "group",
+        //             "header": "Macros",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "scorched_macro_grid"
+        //                 }
+        //               ]
+        //             }
+        //           },
+        //           {
+        //             "type": "group",
+        //             "header": "Loot Crates",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "scorched_loot_grid"
+        //                 }
+        //               ]
+        //             }
+        //           },
+        //           {
+        //             "type": "group",
+        //             "header": "Artifacts",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "scorched_artifact_grid"
+        //                 }
+        //               ]
+        //             }
+        //           },
+        //           {
+        //             "type": "group",
+        //             "header": "Settings",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "setting_grid"
+        //                 }
+        //               ]
+        //             }
+        //           }
+        //         ]
+        //       },
+        //       {
+        //         "type": "array",
+        //         "dock": "left",
+        //         "orientation": "vertical",
+        //         "content": [
+        //           {
+        //             "type": "group",
+        //             "header": "Tames",
+        //             "content": {
+        //               "type": "array",
+        //               "orientation": "vertical",
+        //               "margin": "0,0",
+        //               "content": [
+        //                 {
+        //                   "type": "layout",
+        //                   "key": "scorched_dino_grid"
+        //                 }
+        //               ]
+        //             }
+        //           }
+        //         ]
+        //       },
+        //       {
+        //         "type": "array",
+        //         "v_alignment": "stretch",
+        //         "h_alignment": "stretch",
+        //         "margin": "0, 0, 0, 0",
+        //         "content": [
+        //           {
+        //             "type": "tabbed",
+        //             "dock": "left",
+        //             "tabs": [
+        //               {
+        //                 "title": "Scorched Earth",
+        //                 "content": {
+        //                   "type": "map",
+        //                   "maps": ["Scorched_Earth"]
+        //                 }
+        //               },
+        //               {
+        //                 "title": "Ruins of Nosti",
+        //                 "content": {
+        //                   "type": "map",
+        //                   "maps": ["Nosti_Ruins"]
+        //                 }
+        //               },
+        //               {
+        //                 "title": "The Old Tunnels",
+        //                 "content": {
+        //                   "type": "map",
+        //                   "maps": ["Old_Tunnels"]
+        //                 }
+        //               },
+        //               {
+        //                 "title": "Grave of the Tyrants",
+        //                 "content": {
+        //                   "type": "map",
+        //                   "maps": ["Tyrants_Grave"]
+        //                 }
+        //               }
+        //             ]
+        //           }
+        //         ]
+        //       }
+        //     ]
+        //   }
+        // },
+      ]
+    }
+  }
 }

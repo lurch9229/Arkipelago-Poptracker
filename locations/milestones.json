@@ -16,7 +16,7 @@
                 ],
                 "access_rules": 
                         [
-                          "@Allosaurus/Kill an Allosaurus"
+                          "@Dinos/Allosaurus/Kill an Allosaurus"
                         ],
                 "sections": [
                     {
@@ -54,11 +54,16 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 554
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 323
                     }
                 ],
                 "access_rules": 
                         [
-                            "@Argentavis/Kill an Argentavis"
+                            "@Dinos/Argentavis/Kill an Argentavis"
                         ],
                 "sections": [
                     {
@@ -111,7 +116,7 @@
                         ],
                         "access_rules": 
                         [
-                            "@Basilosaurus/Kill a Basilosaurus"
+                            "@Dinos/Basilosaurus/Kill a Basilosaurus"
                         ],
                         "item_count": 1
                     },
@@ -123,7 +128,7 @@
                         ],
                         "access_rules": 
                         [
-                            "@Basilosaurus/Kill a Basilosaurus"
+                            "@Dinos/Basilosaurus/Kill a Basilosaurus"
                         ],
                         "item_count": 1
                     }
@@ -142,7 +147,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Giganotosaurus/Kill a Giganotosaurus"
+                            "@Dinos/Giganotosaurus/Kill a Giganotosaurus"
                         ],
                 "sections": [
                     {
@@ -180,11 +185,16 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 554
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 323
                     }
                 ],
                 "access_rules": 
                         [
-                            "@Megalania/Kill a Megalania"
+                            "@Dinos/Megalania/Kill a Megalania"
                         ],
                 "sections": [
                     {
@@ -226,7 +236,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Megalodon/Kill a Megalodon"
+                            "@Dinos/Megalodon/Kill a Megalodon"
                         ],
                 "sections": [
                     {
@@ -268,7 +278,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Sarco/Kill a Sarco"
+                            "@Dinos/Sarco/Kill a Sarco"
                         ],
                 "sections": [
                     {
@@ -310,9 +320,9 @@
                 ],
                 "access_rules": 
                         [
-                            "@Brontosaurus/Kill a Brontosaurus",
-                            "@Diplodocus/Kill a Diplodocus",
-                            "@Titanosaur/Kill a Titanosaur"
+                            "@Dinos/Brontosaurus/Kill a Brontosaurus",
+                            "@Dinos/Diplodocus/Kill a Diplodocus",
+                            "@Dinos/Titanosaur/Kill a Titanosaur"
                         ],
                 "sections": [
                     {
@@ -354,7 +364,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Spino/Kill a Spino"
+                            "@Dinos/Spino/Kill a Spino"
                         ],
                 "sections": [
                     {
@@ -396,7 +406,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Therizinosaur/Kill a Therizinosaur"
+                            "@Dinos/Therizinosaur/Kill a Therizinosaur"
                         ],
                 "sections": [
                     {
@@ -434,11 +444,16 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 587
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 323
                     }
                 ],
                 "access_rules": 
                         [
-                            "@Thylacoleo/Kill a Thylacoleo"
+                            "@Dinos/Thylacoleo/Kill a Thylacoleo"
                         ],
                 "sections": [
                     {
@@ -476,11 +491,16 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 587
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 256,
+                        "y": 323
                     }
                 ],
                 "access_rules": 
                         [
-                            "@Titanoboa/Kill a Titanoboa"
+                            "@Dinos/Titanoboa/Kill a Titanoboa"
                         ],
                 "sections": [
                     {
@@ -522,7 +542,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Tusoteuthis/Kill a Tusoteuthis"
+                            "@Dinos/Tusoteuthis/Kill a Tusoteuthis"
                         ],
                 "sections": [
                     {
@@ -560,11 +580,16 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 587
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 355
                     }
                 ],
                 "access_rules": 
                         [
-                            "@Rex/Kill a Rex"
+                            "@Dinos/Rex/Kill a Rex"
                         ],
                 "sections": [
                     {
@@ -606,7 +631,7 @@
                 ],
                 "access_rules": 
                         [
-                          "@Woolly Rhino/Kill a Woolly Rhino"
+                          "@Dinos/Woolly Rhino/Kill a Woolly Rhino"
                         ],
                 "sections": [
                     {
@@ -632,11 +657,16 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 587
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 355
                     }
                 ],
                 "access_rules": 
                         [
-                            "@Yutyrannus/Kill a Yutyrannus"
+                            "@Dinos/Yutyrannus/Kill a Yutyrannus"
                         ],
                 "sections": [
                     {
@@ -674,6 +704,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -704,6 +739,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -734,6 +774,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -776,6 +821,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -806,6 +856,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -866,6 +921,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -896,6 +956,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 653
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -926,6 +991,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -956,6 +1026,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -986,6 +1061,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -1016,6 +1096,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -1046,6 +1131,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -1076,6 +1166,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -1106,6 +1201,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 620
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 389
                     }
                 ],
                 "access_rules": 
@@ -1158,6 +1258,66 @@
                 ]
             },
             {
+                "name": "Plant Species Y Seed",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 355
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Plant Species Y Trap",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 256,
+                        "y": 355
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Tame Creatures",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
@@ -1166,6 +1326,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -1280,6 +1445,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -1358,6 +1528,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -1459,6 +1634,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -1537,6 +1717,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -1675,6 +1860,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -1741,6 +1931,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 686
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -1806,7 +2001,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Dinos/Cnidaria/Kill a Cnidaria"
+                            "@Dinos/Dinos/Cnidaria/Kill a Cnidaria"
                         ],
                 "sections": [
                     {
@@ -1832,6 +2027,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 686
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -1862,6 +2062,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 686
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -1904,6 +2109,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 686
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -1946,6 +2156,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 686
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -1975,6 +2190,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 686
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -2005,6 +2225,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 719
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 422
                     }
                 ],
                 "access_rules": 
@@ -2035,6 +2260,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 719
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -2065,6 +2295,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 719
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 455
                     }
                 ],
                 "access_rules": 
@@ -2095,6 +2330,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2137,6 +2377,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2179,6 +2424,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2221,6 +2471,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2251,6 +2506,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2293,6 +2553,41 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 521
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Clay",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2323,6 +2618,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2353,6 +2653,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 752
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 488
                     }
                 ],
                 "access_rules": 
@@ -2383,6 +2688,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 785
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2425,6 +2735,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 785
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2467,6 +2782,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 785
+                    },
+                    {
+                        "map": "The_Island",
+                        "x": 92,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2497,6 +2817,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 785
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2527,6 +2852,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 785
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 192,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2557,6 +2887,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 785
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2587,6 +2922,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 785
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 521
                     }
                 ],
                 "access_rules": 
@@ -2617,6 +2957,11 @@
                         "map": "The_Island",
                         "x": 25,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2647,6 +2992,11 @@
                         "map": "The_Island",
                         "x": 58,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2677,6 +3027,11 @@
                         "map": "The_Island",
                         "x": 92,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2707,6 +3062,11 @@
                         "map": "The_Island",
                         "x": 125,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2737,6 +3097,11 @@
                         "map": "The_Island",
                         "x": 158,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2779,6 +3144,11 @@
                         "map": "The_Island",
                         "x": 191,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2809,6 +3179,11 @@
                         "map": "The_Island",
                         "x": 224,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2839,6 +3214,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 818
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 587
                     }
                 ],
                 "access_rules": 
@@ -2861,6 +3241,354 @@
                 ]
             },
             {
+                "name": "Cactus Sap",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 389
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sulfur",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Silk",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Raw Salt",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 25,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Propellant",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sand",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fire Talon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lightning Talon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 125,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Poison Talon",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Deathworm Horn",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 58,
+                        "y": 323
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "Not Yet In Pool"
+                        ],
+                "sections": [
+                    {
+                        "name": "x2",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x5",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Deaths",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
@@ -2869,6 +3597,11 @@
                         "map": "The_Island",
                         "x": 257,
                         "y": 851
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 257,
+                        "y": 620
                     }
                 ],
                 "access_rules": 
@@ -3059,7 +3792,7 @@
                 ]
             },
             {
-                "name": "Exploration",
+                "name": "Exploration (The Island)",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
                 "map_locations": [
@@ -3674,6 +4407,456 @@
                         ],
                         "item_count": 1
                     }                    
+                ]
+            },
+            {
+                "name": "Exploration (Scorched Earth)",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 620
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                  {
+                        "name": "Explore 5 Regions",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                  {
+                        "name": "Explore 10 Regions",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Explore 15 Regions",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Explore 20 Regions",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Explore 25 Regions",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The North East Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Eastern Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The South East",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit South Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The South West Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Western Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit North Western Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Northern Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit North East Badlands",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit Eastern Badlands",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit South Eastern Badlands",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Central Dunes",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The South High Desert",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Southern Mountains",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Southern West Mountains",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Western Moutains",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The North Western Mountains",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Northern Mountains",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Central Mountain",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Northern Central Mountain",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Green Obelisk",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Red Obelisk",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Blue Obelisk",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Graveyard of the Tyrants",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Old Tunnels",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Ruins of Nosti",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Central Desert",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Northern Desert",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Northern Canyon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The Central Canyon",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Visit The World Scar",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }                
                 ]
             }
         ]

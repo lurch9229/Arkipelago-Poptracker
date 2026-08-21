@@ -68,13 +68,13 @@
   {
     "name": "Scorched_Earth",
     "location_size": 10,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/Scorched_Earth.png"
   },
   {
     "name": "Old_Tunnels",
-    "location_size": 10,
-    "location_border_thickness": 3,
+    "location_size": 15,
+    "location_border_thickness": 4,
     "img": "images/maps/The_Old_Tunnels.png"
   },
   {
@@ -85,8 +85,8 @@
   },
   {
     "name": "Tyrants_Grave",
-    "location_size": 10,
-    "location_border_thickness": 3,
+    "location_size": 20,
+    "location_border_thickness": 5,
     "img": "images/maps/Grave_of_the_Tyrants.png"
   }
 ]

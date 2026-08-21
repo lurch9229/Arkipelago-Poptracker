@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.0.5] - More Scorched Earth Prep
+
+## Fixed
+- Explorer Notes in the Tek Cave now have correct logic `notes.json`
+- References for tributes from dinos now have the correct format in `milestones.json`
+- Cooking Pot was commented out in `item_mapping.lua`
+
+## Added
+- More Locations for Scorched Earth
+- Final assets for SE
+- `items.json` has everything needed for SE
+- Added Support for S+/SS Structures (automatically applied) using `item_mapping.lua`
+- Added Bundled Strutures (automatically applied) using `item_mapping.lua`
+- `tracker_standard.json` layout changes for Scorched Earth
+
+## Changed
+- SE Map now has more collect icons as a few were missing
+- Therizino is now captialized on item grid
+
+## Todo
+- Apply Tame Logic to The Island
+- Finalize Logic for The Island Explorer Notes
+- Create handling for player settings
+
+---
+
 ## [0.0.4] - Setting Support Phase One
 
 ## Fixed
@@ -21,6 +47,8 @@
 - Add support for more setting once Ghios adds them to slot_data
 - Liase with Ghios  on a way to support > 1 location rewards
 
+---
+
 ## [0.0.3] - Cave Logic Applied
 
 ### Fixed
@@ -38,6 +66,8 @@
 - Give starter engrams when setting enabled
 - Sync saddles to tames when saddles are bundled
 - Work out a way for multiple engrams and tames when reward amount > 1
+
+---
 
 ## [0.0.2] - Finalised Autotracking
 
