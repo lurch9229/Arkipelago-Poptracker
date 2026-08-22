@@ -21,6 +21,8 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+TRACKER_GROUPS = {}
+TRACKER_GROUPS_ACTIVE = false
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -101,12 +103,72 @@ function incrementItem(item_code, item_type, multiplier)
     end
 end
 
+function incrementMappedItem(item_id)
+    local mapping_entry = ITEM_MAPPING[item_id]
+    if not mapping_entry then
+        return
+    end
+
+    for _, item_table in pairs(mapping_entry) do
+        if item_table then
+            local item_code = item_table[1]
+            local item_type = item_table[2]
+            local multiplier = item_table[3] or 1
+            if item_code then
+                incrementItem(item_code, item_type, multiplier)
+            end
+        end
+    end
+end
+
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
+    TRACKER_GROUPS = {}
+    local engrams_per_item = tonumber(slot_data["engrams_per_item"]) or 1
+    local tames_per_item = tonumber(slot_data["tames_per_item"]) or 1
+    TRACKER_GROUPS_ACTIVE = engrams_per_item > 1 or tames_per_item > 1
+
+    if TRACKER_GROUPS_ACTIVE and type(slot_data["tracker_groups"]) == "table" then
+        for representative_id, member_ids in pairs(slot_data["tracker_groups"]) do
+            TRACKER_GROUPS[tostring(representative_id)] = member_ids
+        end
+    end
+
+    local engram_count_obj = Tracker:FindObjectForCode("engram_per_item")
+    if engram_count_obj then
+        engram_count_obj.AcquiredCount = engrams_per_item
+    end
+
+    local tame_count_obj = Tracker:FindObjectForCode("tame_per_item")
+    if tame_count_obj then
+        tame_count_obj.AcquiredCount = tames_per_item
+    end
+
     if slot_data['bundle_saddles'] ~= nil then
         local obj = Tracker:FindObjectForCode("op_BS")
         if obj then
             obj.Active = (slot_data['bundle_saddles'] == true or slot_data['bundle_saddles'] == 1)
+        end
+    end
+
+    if slot_data['lock_taming'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_ST")
+        if obj then
+            obj.Active = (slot_data['lock_taming'] == true or slot_data['lock_taming'] == 1)
+        end
+    end
+
+    if slot_data['lock_supply_crates'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_SC")
+        if obj then
+            obj.Active = (slot_data['lock_supply_crates'] == true or slot_data['lock_supply_crates'] == 1)
+        end
+    end
+
+    if slot_data['death_milestones'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_DM")
+        if obj then
+            obj.Active = (slot_data['death_milestones'] == true or slot_data['death_milestones'] == 1)
         end
     end
 
@@ -338,6 +400,16 @@ function onItem(index, item_id, item_name, player_number)
             print(string.format("onClear: skipping empty item_table"))
         end
     end
+
+    if TRACKER_GROUPS_ACTIVE then
+        local grouped_members = TRACKER_GROUPS[tostring(item_id)]
+        if grouped_members then
+            for _, member_id in ipairs(grouped_members) do
+                incrementMappedItem(member_id)
+            end
+        end
+    end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))

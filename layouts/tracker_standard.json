@@ -56,8 +56,8 @@
     "item_size": "35,35",
     "rows": 
     [
-      ["artifact_crag"],
-      ["artifact_destroyer"],
+      ["artifact_crag", "deathworm_trophy"],
+      ["artifact_destroyer", "wyvern_trophy"],
       ["artifact_gatekeeper"]
     ]
   },
@@ -205,7 +205,9 @@
     "item_size": "35,35",
     "rows": 
     [
-      ["op_BS", "op_FSE"]
+      ["op_BS", "op_FSE", "op_ST"],
+      ["op_TS", "op_DS", "op_DM"],
+      ["engram_per_item", "tame_per_item", "op_SC"]
     ]
   },
 

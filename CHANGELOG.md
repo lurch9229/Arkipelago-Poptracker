@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.0.6] - Setting Support Phase 2
+
+## Fixed
+- Collect Bio Toxin now uses correct ref for Kill Cnidaria `milestone.json`
+
+## Added
+- Alpha Trophies For SE
+- Support for Setting Engrams Per Item `archipelago.lua`
+- Support for Setting Tames Per Item `archipelago.lua`
+- Toggle for Tame and Crate Lock settings `archipelago.lua`
+- New Milestone Locations `milestones.json`
+- `items.json` updated with settings items
+
+## Changed
+- Layouts to support new settings `tracker_standard.json`
+- Collect Element reduced to x1 and x5 `milestones.json`
+- Alpha Wyvern and Alpha Deathworm now have hosted items for their trophies `dinos.json`
+
+## TODO
+- Apply Tame Logic
+- Finalize Player Settings
+- Apply Logic for Milestones and Collects once added to APWorld
+
 ## [0.0.5] - More Scorched Earth Prep
 
 ## Fixed
@@ -19,7 +42,7 @@
 - SE Map now has more collect icons as a few were missing
 - Therizino is now captialized on item grid
 
-## Todo
+## TODO
 - Apply Tame Logic to The Island
 - Finalize Logic for The Island Explorer Notes
 - Create handling for player settings

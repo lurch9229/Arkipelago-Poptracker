@@ -3985,6 +3985,66 @@
   "img": "images/settings/op_FSE.png"
  },
  {
+  "name": "Setting - Shuffle Tames",
+  "type": "toggle",
+  "codes": "op_ST",
+  "img": "images/settings/op_ST.png"
+ },
+ {
+  "name": "Setting - Shuffle Crates",
+  "type": "toggle",
+  "codes": "op_SC",
+  "img": "images/settings/op_SC.png"
+ },
+ {
+  "name": "Setting - Foodsanity",
+  "type": "toggle",
+  "codes": "op_FS",
+  "img": "images/settings/op_FS.png"
+ },
+ {
+  "name": "Setting - Tamesanity",
+  "type": "toggle",
+  "codes": "op_TS",
+  "img": "images/settings/op_TS.png"
+ },
+ {
+  "name": "Setting - Deathsanity",
+  "type": "toggle",
+  "codes": "op_DS",
+  "img": "images/settings/op_DS.png"
+ },
+ {
+  "name": "Setting - Death Milestones",
+  "type": "toggle",
+  "codes": "op_DM",
+  "img": "images/settings/op_DM.png"
+ },
+ {
+  "name": "Engrams Per Item",
+  "type": "consumable",
+  "min_quantity": 1,
+  "max_quantity": 4,
+  "increment": 1,
+  "loop": "false",
+  "img": "images/engrams/Engram_Count.png",
+  "overlay_background": "#000",
+  "overlay_font_size": 15,
+  "codes": "engram_per_item"
+ },
+ {
+  "name": "Tames Per Item",
+  "type": "consumable",
+  "min_quantity": 1,
+  "max_quantity": 4,
+  "increment": 1,
+  "loop": "false",
+  "img": "images/engrams/Tame_Count.png",
+  "overlay_background": "#000",
+  "overlay_font_size": 15,
+  "codes": "tame_per_item"
+ },
+ {
   "name": "Level",
   "type": "consumable",
   "min_quantity": 1,
@@ -4091,6 +4151,18 @@
   "type": "toggle",
   "codes": "dragon_trophy",
   "img": "images/engrams/dragon_trophy.png"
+ },
+ {
+  "name": "Trophy - Alpha Wyvern",
+  "type": "toggle",
+  "codes": "wyvern",
+  "img": "images/engrams/wyvern_trophy.png"
+ },
+ {
+  "name": "Trophy - Alpha Deathworm",
+  "type": "toggle",
+  "codes": "deathworm_trophy",
+  "img": "images/engrams/deathworm_trophy.png"
  },
  {
   "name": "Can Build",

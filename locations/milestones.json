@@ -2001,7 +2001,7 @@
                 ],
                 "access_rules": 
                         [
-                            "@Dinos/Dinos/Cnidaria/Kill a Cnidaria"
+                            "@Dinos/Cnidaria/Kill a Cnidaria"
                         ],
                 "sections": [
                     {
@@ -2097,6 +2097,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x800",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2179,9 +2191,22 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
-            },{
+            },
+            {
                 "name": "Pelt",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
@@ -2283,6 +2308,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2365,6 +2402,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x2000",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2412,6 +2461,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x1500",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2450,6 +2511,18 @@
                     },
                     {
                         "name": "x600",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x2000",
                         "visibility_rules": 
                         [
                             ""
@@ -2541,6 +2614,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x1500",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2592,11 +2677,11 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "clay, $CanUseMortar"
                         ],
                 "sections": [
                     {
-                        "name": "x100",
+                        "name": "x50",
                         "visibility_rules": 
                         [
                             ""
@@ -2641,6 +2726,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x500",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2667,6 +2764,18 @@
                 "sections": [
                     {
                         "name": "x250",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x500",
                         "visibility_rules": 
                         [
                             ""
@@ -2723,6 +2832,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x1000",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2770,6 +2891,18 @@
                             "can_build, basic_forge"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2805,6 +2938,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2831,6 +2976,18 @@
                 "sections": [
                     {
                         "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x300",
                         "visibility_rules": 
                         [
                             ""
@@ -2910,6 +3067,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2935,7 +3104,19 @@
                         ],
                 "sections": [
                     {
-                        "name": "x10",
+                        "name": "x1",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x5",
                         "visibility_rules": 
                         [
                             ""
@@ -3050,6 +3231,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -3076,6 +3269,18 @@
                 "sections": [
                     {
                         "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x300",
                         "visibility_rules": 
                         [
                             ""
@@ -3132,6 +3337,18 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x400",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -3158,6 +3375,18 @@
                 "sections": [
                     {
                         "name": "x50",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x150",
                         "visibility_rules": 
                         [
                             ""
@@ -3227,7 +3456,7 @@
                         ],
                 "sections": [
                     {
-                        "name": "x30",
+                        "name": "x10",
                         "visibility_rules": 
                         [
                             ""
@@ -3361,6 +3590,36 @@
                 ]
             },
             {
+                "name": "Preserving Salt",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 158,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "preserving_salt, $CanUseMortar"
+                        ],
+                "sections": [
+                    {
+                        "name": "x30",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Propellant",
                 "chest_unopened_img": "images/items/chest_gold_x.png",
                 "chest_opened_img": "images/items/chest_o.png",
@@ -3373,7 +3632,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "propellant, $CanUseMortar"
                         ],
                 "sections": [
                     {
@@ -3408,6 +3667,36 @@
                 "sections": [
                     {
                         "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Wyvern Milk",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 224,
+                        "y": 554
+                    }
+                ],
+                "access_rules": 
+                        [
+                            "Needs Logic"
+                        ],
+                "sections": [
+                    {
+                        "name": "x5",
                         "visibility_rules": 
                         [
                             ""
@@ -3559,21 +3848,9 @@
                 ],
                 "access_rules": 
                         [
-                            "Not Yet In Pool"
+                            "Needs Logic"
                         ],
                 "sections": [
-                    {
-                        "name": "x2",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "x5",
                         "visibility_rules": 
@@ -3613,7 +3890,7 @@
                         "name": "Die Once",
                         "visibility_rules": 
                         [
-                            ""
+                            "op_DM"
                         ],
                         "access_rules": 
                         [
@@ -3625,7 +3902,7 @@
                         "name": "Die 5 Times",
                         "visibility_rules": 
                         [
-                            ""
+                            "op_DM"
                         ],
                         "access_rules": 
                         [
@@ -3637,7 +3914,7 @@
                         "name": "Die 10 Times",
                         "visibility_rules": 
                         [
-                            ""
+                            "op_DM"
                         ],
                         "access_rules": 
                         [
@@ -3649,7 +3926,7 @@
                         "name": "Die 25 Times",
                         "visibility_rules": 
                         [
-                            ""
+                            "op_DM"
                         ],
                         "access_rules": 
                         [
@@ -3661,7 +3938,7 @@
                         "name": "Die 40 Times",
                         "visibility_rules": 
                         [
-                            ""
+                            "op_DM"
                         ],
                         "access_rules": 
                         [
