@@ -630,6 +630,58 @@ end
 --========================================================================
 
 --========================================================================
+--Reptile List for eggs
+local reptile_list = {
+    "allosaurus",
+    "baryonyx",
+    "carno",
+    "carcharodontosaurus",
+    "compy",
+    "dilophosaur",
+    "gallimimus",
+    "giganotosaurus",
+    "megalosaurus",
+    "microraptor",
+    "raptor",
+    "rex",
+    "spino",
+    "therizinosaur",
+    "troodon",
+    "yutyrannus",
+    "ankylosaurus",
+    "bronto",
+    "diplodocus",
+    "iguanadon",
+    "kentrosaurus",
+    "morellatops",
+    "pachy",
+    "pachyrhinosaurus",
+    "parasaur",
+    "pegomastax",
+    "stegosaurus",
+    "trike",
+    "carbonemys",
+    "thorny_dragon",
+    "megalania",
+    "dimorphodon",
+    "pteranodon",
+    "quetzal",
+    "tapejara",
+    "wyvern"
+}
+
+function reptile_tames()
+    for _, tame_code in ipairs(reptile_list) do
+        if has(tame_code) then
+            return true
+        end
+    end
+    return false
+end
+
+--========================================================================
+
+--========================================================================
 --Enter Snow
 function EnterSnow()
   local requirements = {"fur_boots", "fur_leggings", "fur_gloves", "fur_chestpiece", "fur_helmet", "otter"}
@@ -1032,7 +1084,6 @@ function MakeCake()
   end
 end
 
-
 function CraftGasMask()
   if has("use_power") and has("subsrate") and has("gas_mask")
   then
@@ -1046,6 +1097,24 @@ function OceanArtifactTames()
   if has("diplocaulus_tame")
   or (has("ichthyosaurus") and has("ichthyosaurus_saddle"))
   or (has("tusoteuthis") and has("tusoteuthis_saddle"))
+  then
+    return true
+  else
+    return false
+  end
+end
+
+function BowKO()
+  if has("bow") and has("narcotic") and has("stone_arrow") and has("tranq_arrow") and CanUseMortar()
+  then
+    return true
+  else
+    return false
+  end
+end
+
+function GhillieSet()
+  if has("ghillie_mask") and has("ghillie_legs") and has("ghillie_gloves") and has("ghillie_chest") and has("ghillie_boots")
   then
     return true
   else

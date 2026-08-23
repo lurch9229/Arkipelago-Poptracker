@@ -28,11 +28,13 @@
                         "name": "Tame an Achatina",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_achatina_enabled"
                         ],
                         "access_rules": 
                         [
-                            "achatina, $MakeCake"
+                            "achatina, $MakeCake, $CrossbowKO",
+                            "achatina, $MakeCake, $RifleKO",
+                            "achatina, $MakeCake, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -77,11 +79,13 @@
                         "name": "Tame an Allosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_allosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "allosaurus"
+                            "allosaurus, $BowKO, $UseNets",
+                            "allosaurus, $CrossbowOK",
+                            "allosaurus, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -131,11 +135,15 @@
                         "name": "Tame an Ankylosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_ankylosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "ankylosaurus"
+                            "ankylosaurus, slingshot",
+                            "ankylosaurus, $BowKO",
+                            "ankylosaurus, $CrossbowOK",
+                            "ankylosaurus, $RifleKO",
+                            "ankylosaurus, $UseNet, club"
                         ],
                         "item_count": 1
                     },
@@ -187,11 +195,11 @@
                         "name": "Tame an Araneo",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_araneo_enabled"
                         ],
                         "access_rules": 
                         [
-                            "araneo"
+                            "araneo, repellant, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -242,11 +250,17 @@
                         "name": "Tame an Archaeopteryx",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_archaeopteryx_enabled"
                         ],
                         "access_rules": 
                         [
-                            "archaeopteryx"
+                            "archaeopteryx, $BowKO",
+                            "archaeopteryx, $CrossbowKO",
+                            "archaeopteryx, $RifleKO",
+                            "archaeopteryx, bola, club",
+                            "archaeopteryx, bola, slingshot",
+                            "archaeopteryx, $UseNets, club",
+                            "archaeopteryx, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -289,11 +303,11 @@
                         "name": "Tame an Arthropluera",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_arthropleura_enabled"
                         ],
                         "access_rules": 
                         [
-                            "arthropluera"
+                            "arthropluera, repellant, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -338,11 +352,13 @@
                         "name": "Tame a Baryonyx",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_baryonyx_enabled"
                         ],
                         "access_rules": 
                         [
-                            "baryonyx"
+                            "baryonyx, $CrossbowKO",
+                            "baryonyx, $RifleKO",
+                            "baryonyx, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -388,11 +404,15 @@
                         "name": "Tame a Beelzebufo",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_beelzebufo_enabled"
                         ],
                         "access_rules": 
                         [
-                            "beelzebufo"
+                            "beezlebufo, slingshot",
+                            "beezlebufo, $BowKO",
+                            "beezlebufo, $CrossbowOK",
+                            "beezlebufo, $RifleKO",
+                            "beezlebufo, bola, club"
                         ],
                         "item_count": 1
                     },
@@ -439,11 +459,12 @@
                         "name": "Tame a Brontosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_bronto_enabled"
                         ],
                         "access_rules": 
                         [
-                            "bronto"
+                            "bronto, $CrossbowKO",
+                            "bronto, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -485,11 +506,14 @@
                         "name": "Tame a Carbonemys",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_carbonemys_enabled"
                         ],
                         "access_rules": 
                         [
-                            "carbonemys"
+                            "carbonemys, slingshot",
+                            "carbonemys, $BowKO",
+                            "carbonemys, $CrossbowOK",
+                            "carbonemys, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -534,7 +558,7 @@
                         "name": "Tame a Carcharodontosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_carcharodontosaurus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -595,11 +619,13 @@
                         "name": "Tame a Carno",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_carno_enabled"
                         ],
                         "access_rules": 
                         [
-                            "carno"
+                            "carno, $CrossbowKO",
+                            "carno, $RifleKO",
+                            "carno, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -644,11 +670,14 @@
                         "name": "Tame a Castoroides",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_castoroides_enabled"
                         ],
                         "access_rules": 
                         [
-                            "castoroides"
+                            "castoroides, $BowKO",
+                            "castoroides, $CrossbowOK",
+                            "castoroides, $RifleKO",
+                            "castoroides, bola, club"
                         ],
                         "item_count": 1
                     },
@@ -687,7 +716,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$tame_sanity_chalicotherium_enabled"
                         ],
                 "sections": [
                     {
@@ -698,7 +727,8 @@
                         ],
                         "access_rules": 
                         [
-                            "chalicotherium"
+                            "chalicotherium, beer_barrel, irrigation",
+                            "chalicotherium, beer_barrel, store_water"
                         ],
                         "item_count": 1
                     },
@@ -742,7 +772,7 @@
                         "name": "Tame a Compy",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_compsognathus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -789,11 +819,13 @@
                         "name": "Tame a Daeodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_daeodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "daeodon"
+                            "daeodon, $RifleKO",
+                            "daeodon, $UseNets, $CrossbowKO",
+                            "daeodon, $useNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -835,7 +867,7 @@
                         "name": "Tame a Dilophosaur",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_dilophosaur_enabled"
                         ],
                         "access_rules": 
                         [
@@ -877,11 +909,13 @@
                         "name": "Tame a Dimetrodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_dimetrodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "dimetrodon"
+                            "dimetrodon, $BowKO",
+                            "dimetrodon, $CrossbowOK",
+                            "dimetrodon, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -919,11 +953,15 @@
                         "name": "Tame a Dimorphodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_dimorphodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "dimorphodon"
+                            "dimorphodon, $BowKO",
+                            "dimorphodon, $CrossbowKO",
+                            "dimorphodon, $RifleKO",
+                            "dimorphodon, bola, club",
+                            "dimorphodon, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -961,11 +999,16 @@
                         "name": "Tame a Diplocaulus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_diplocaulus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "diplocaulus"
+                            "diplocaulus, $BowKO, $UseNets",
+                            "diplocaulus, $BowKO, bola",
+                            "diplocaulus, $CrossbowOK",
+                            "diplocaulus, $RifleKO",
+                            "diplocaulus, bola, slingshot",
+                            "diplocaulus, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -1013,7 +1056,7 @@
                         "name": "Tame a Diplodocus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_diplodocus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1063,11 +1106,13 @@
                         "name": "Tame a Dire Bear",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_direbear_enabled"
                         ],
                         "access_rules": 
                         [
-                            "direbear"
+                            "direbear, $RifleKO",
+                            "direbear, $UseNets, $CrossbowKO",
+                            "direbear, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -1116,11 +1161,17 @@
                         "name": "Tame a Direwolf",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_direwolf_enabled"
                         ],
                         "access_rules": 
                         [
-                            "direwolf"
+                            "direwolf, $BowKO",
+                            "direwolf, $CrossbowOK",
+                            "direwolf, $RifleKO",
+                            "direwolf, bola, club",
+                            "direwolf, bola, slingshot",
+                            "direwolf, $UseNets, club",
+                            "direwolf, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -1166,7 +1217,7 @@
                         "name": "Tame a Dodo",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_dodo_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1213,11 +1264,13 @@
                         "name": "Tame a Doedicurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_doedicurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "doedicurus"
+                            "doedicurus, $BowKO",
+                            "doedicurus, $CrossbowKO",
+                            "doedicurus, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -1267,7 +1320,7 @@
                         "name": "Tame a Dung Beetle",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_dung_beetle_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1322,7 +1375,7 @@
                         "name": "Tame a Equus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_equus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1376,11 +1429,13 @@
                         "name": "Tame a Gallimimus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_gallimimus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "gallimimus"
+                            "gallimimus, $CrossbowOK",
+                            "gallimimus, $RifleKO",
+                            "gallimimus, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -1431,11 +1486,11 @@
                         "name": "Tame a Giant Bee",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_giant_bee_enabled"
                         ],
                         "access_rules": 
                         [
-                            "giantbee"
+                            "giantbee, $GhillieSet, repellant"
                         ],
                         "item_count": 1
                     },
@@ -1473,11 +1528,11 @@
                         "name": "Tame a Giganotosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_giganotosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "giganotosaurus"
+                            "giganotosaurus, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -1516,7 +1571,7 @@
                         "name": "Tame a Gigantopithecus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_gigantopithecus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1566,7 +1621,7 @@
                         "name": "Tame a Hesperornis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_hesperornis_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1613,11 +1668,11 @@
                         "name": "Tame a Hyaenodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_hyaenodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "hyaenodon"
+                            "hyaenodon, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -1664,11 +1719,15 @@
                         "name": "Tame a Ichthyornis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_ichthyornis_enabled"
                         ],
                         "access_rules": 
                         [
-                            "ichthyornis"
+                            "ichthyornis, slingshot",
+                            "ichthyornis, $BowKO",
+                            "ichthyornis, $CrossbowOK",
+                            "ichthyornis, $RifleKO",
+                            "ichthyornis, bola, club"
                         ],
                         "item_count": 1
                     },
@@ -1718,11 +1777,17 @@
                         "name": "Tame a Iguanodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_iguanodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "iguanodon"
+                            "iguanodon, $BowKO",
+                            "iguanodon, $CrossbowOK",
+                            "iguanodon, $RifleKO",
+                            "iguanodon, bola, club",
+                            "iguanodon, bola, slingshot",
+                            "iguanodon, $UseNets, club",
+                            "iguanodon, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -1769,11 +1834,12 @@
                         "name": "Tame a Kairuku",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_kairuku_enabled"
                         ],
                         "access_rules": 
                         [
-                            "kairuku, $RifleKO"
+                            "kairuku, $RifleKO",
+                            "kairuku, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -1816,11 +1882,17 @@
                         "name": "Tame a Kaprosuchus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_kaprosuchus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "kaprosuchus"
+                            "kaprosuchus, $BowKO",
+                            "kaprosuchus, $CrossbowOK",
+                            "kaprosuchus, $RifleKO",
+                            "kaprosuchus, bola, club",
+                            "kaprosuchus, bola, slingshot",
+                            "kaprosuchus, $UseNets, club",
+                            "kaprosuchus, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -1871,11 +1943,13 @@
                         "name": "Tame a Kentrosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_kentrosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "kentrosaurus"
+                            "kentrosaurus, $BowKO",
+                            "kentrosaurus, $CrossbowOK",
+                            "kentrosaurus, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -1963,7 +2037,7 @@
                         "name": "Tame a Lystrosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_lystrosaurus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2005,11 +2079,12 @@
                         "name": "Tame a Mammoth",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_mammoth_enabled"
                         ],
                         "access_rules": 
                         [
-                            "Mammoth"
+                            "mammoth, $RifleKO",
+                            "mammoth, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -2059,11 +2134,13 @@
                         "name": "Tame a Megalania",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_megalania_enabled"
                         ],
                         "access_rules": 
                         [
-                            "megalania"
+                            "megalania, $CrossbowKO",
+                            "megalania, $RifleKO",
+                            "megalania, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -2108,11 +2185,17 @@
                         "name": "Tame a Megaloceros",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_megaloceros_enabled"
                         ],
                         "access_rules": 
                         [
-                            "megaloceros"
+                            "megaloceros, $BowKO",
+                            "megaloceros, $CrossbowOK",
+                            "megaloceros, $RifleKO",
+                            "megaloceros, bola, club",
+                            "megaloceros, bola, slingshot",
+                            "megaloceros, $UseNets, club",
+                            "megaloceros, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -2163,11 +2246,13 @@
                         "name": "Tame a Megalosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_megalosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "megalosaurus"
+                            "megalosaurus, $RifleKO",
+                            "megalosaurus, $CrossbowKO",
+                            "megalosaurus, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -2246,11 +2331,13 @@
                         "name": "Tame a Megatherium",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_megatherium_enabled"
                         ],
                         "access_rules": 
                         [
-                            "megatherium"
+                            "megatherium, $RifleKO",
+                            "megatherium, $CrossbowKO",
+                            "megatherium, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -2294,7 +2381,7 @@
                         "name": "Tame a Mesopithecus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_mesopithecus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2341,11 +2428,17 @@
                         "name": "Tame a Microraptor",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_microraptor_enabled"
                         ],
                         "access_rules": 
                         [
-                            "microraptor"
+                            "microraptor, $BowKO",
+                            "microraptor, $CrossbowOK",
+                            "microraptor, $RifleKO",
+                            "microraptor, bola, club",
+                            "microraptor, bola, slingshot",
+                            "microraptor, $UseNets, club",
+                            "microraptor, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -2396,7 +2489,7 @@
                         "name": "Tame a Moschops",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_moschops_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2443,11 +2536,11 @@
                         "name": "Tame a Onyc",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_onyc_enabled"
                         ],
                         "access_rules": 
                         [
-                            "onyc"
+                            "onyc, repellant, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -2493,7 +2586,7 @@
                         "name": "Tame a Otter",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_otter_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2535,11 +2628,15 @@
                         "name": "Tame a Oviraptor",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_oviraptor_enabled"
                         ],
                         "access_rules": 
                         [
-                            "oviraptor"
+                            "oviraptor, $reptile_tames, $BowKO",
+                            "oviraptor, $reptile_tames, $CrossbowKO",
+                            "oviraptor, $reptile_tames, $RifleKO",
+                            "oviraptor, $reptile_tames, slingshot",
+                            "oviraptor, $reptile_tames, club"
                         ],
                         "item_count": 1
                     },
@@ -2590,11 +2687,15 @@
                         "name": "Tame a Ovis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_ovis_enabled"
                         ],
                         "access_rules": 
                         [
-                            "ovis"
+                            "ovis, $MakeCake, $CrossbowKO",
+                            "ovis, $MakeCake, $RifleKO",
+                            "ovis, $MakeCake, $BowKO",
+                            "ovis, $MakeCake, club",
+                            "ovis, $MakeCake, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -2640,11 +2741,14 @@
                         "name": "Tame a Pachy",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_pachycephalosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "pachy"
+                            "pachy, slingshot",
+                            "pachy, $BowKO",
+                            "pachy, $CrossbowKO",
+                            "pachy, %RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -2682,11 +2786,13 @@
                         "name": "Tame a Pachyrhinosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_pachyrhinosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "pachyrhinosaurus"
+                            "pachyrhinosaurus, $CrossbowKO",
+                            "pachyrhinosaurus, $RifleKO",
+                            "pachyrhinosaurus, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -2737,11 +2843,13 @@
                         "name": "Tame a Paracer",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_paracertherium_enabled"
                         ],
                         "access_rules": 
                         [
-                            "paracer"
+                            "paracer, $RifleKO",
+                            "paracer, $CrossbowKO",
+                            "paracer, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -2790,11 +2898,17 @@
                         "name": "Tame a Parasaur",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_parasaur_enabled"
                         ],
                         "access_rules": 
                         [
-                            "parasaur"
+                            "parasaur, $BowKO",
+                            "parasaur, $CrossbowOK",
+                            "parasaur, $RifleKO",
+                            "parasaur, bola, club",
+                            "parasaur, bola, slingshot",
+                            "parasaur, $UseNets, club",
+                            "parasaur, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -2845,7 +2959,7 @@
                         "name": "Tame a Pegomastax",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_pegomastax_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2887,11 +3001,15 @@
                         "name": "Tame a Phiomia",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_phiomia_enabled"
                         ],
                         "access_rules": 
                         [
-                            "phiomia"
+                            "phiomia, slingshot",
+                            "phiomia, $BowKO",
+                            "phiomia, $CrossbowOK",
+                            "phiomia, $RifleKO",
+                            "phiomia, bola, club"
                         ],
                         "item_count": 1
                     },
@@ -2934,11 +3052,12 @@
                         "name": "Tame a Procoptodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_procoptodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "procoptodon"
+                            "procoptodon, $UseNets, $RifleKO",
+                            "procoptodon, $useNets, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -2989,11 +3108,17 @@
                         "name": "Tame a Pulmonoscorpius",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_pulmonoscorpius_enabled"
                         ],
                         "access_rules": 
                         [
-                            "pulmonoscorpius"
+                            "pulmonoscorpius, $BowKO",
+                            "pulmonoscorpius, $CrossbowOK",
+                            "pulmonoscorpius, $RifleKO",
+                            "pulmonoscorpius, bola, club",
+                            "pulmonoscorpius, bola, slingshot",
+                            "pulmonoscorpius, $UseNets, club",
+                            "pulmonoscorpius, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -3044,11 +3169,17 @@
                         "name": "Tame a Purlovia",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_purlovia_enabled"
                         ],
                         "access_rules": 
                         [
-                            "purlovia"
+                            "purlovia, $BowKO",
+                            "purlovia, $CrossbowOK",
+                            "purlovia, $RifleKO",
+                            "purlovia, bola, club",
+                            "purlovia, bola, slingshot",
+                            "purlovia, $UseNets, club",
+                            "purlovia, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -3099,11 +3230,17 @@
                         "name": "Tame a Raptor",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_raptor_enabled"
                         ],
                         "access_rules": 
                         [
-                            "raptor"
+                            "raptor, $BowKO",
+                            "raptor, $CrossbowOK",
+                            "raptor, $RifleKO",
+                            "raptor, bola, club",
+                            "raptor, bola, slingshot",
+                            "raptor, $UseNets, club",
+                            "raptor, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -3154,11 +3291,12 @@
                         "name": "Tame a Rex",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_rex_enabled"
                         ],
                         "access_rules": 
                         [
-                            "rex"
+                            "rex, $RifleKO",
+                            "rex, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -3205,11 +3343,17 @@
                         "name": "Tame a Sabertooth",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_sabertooth_enabled"
                         ],
                         "access_rules": 
                         [
-                            "sabertooth"
+                            "sabertooth, $BowKO",
+                            "sabertooth, $CrossbowOK",
+                            "sabertooth, $RifleKO",
+                            "sabertooth, bola, club",
+                            "sabertooth, bola, slingshot",
+                            "sabertooth, $UseNets, club",
+                            "sabertooth, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -3255,11 +3399,13 @@
                         "name": "Tame a Sarco",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_sarcosuchus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "sarco"
+                            "sarco, $BowKO",
+                            "sarco, $CrossbowKO",
+                            "sarco, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -3304,11 +3450,12 @@
                         "name": "Tame a Spino",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_spino_enabled"
                         ],
                         "access_rules": 
                         [
-                            "spino"
+                            "spino, $CrossbowKO",
+                            "spino, $RifleOK"
                         ],
                         "item_count": 1
                     },
@@ -3350,11 +3497,14 @@
                         "name": "Tame a Stego",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_stegosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "stego"
+                            "stegosaurus, $BowKO",
+                            "stegosaurus, $CrossbowOK",
+                            "stegosaurus, $RifleKO",
+                            "stegosaurus, $UseNets, club"
                         ],
                         "item_count": 1
                     },
@@ -3404,11 +3554,17 @@
                         "name": "Tame a Terrorbird",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_terror_bird_enabled"
                         ],
                         "access_rules": 
                         [
-                            "terrorbird"
+                            "terrorbird, $BowKO",
+                            "terrorbird, $CrossbowOK",
+                            "terrorbird, $RifleKO",
+                            "terrorbird, bola, club",
+                            "terrorbird, bola, slingshot",
+                            "terrorbird, $UseNets, club",
+                            "terrorbird, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -3454,11 +3610,12 @@
                         "name": "Tame a Therizinosaur",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_therizinosaurus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "therizinosaur"
+                            "therizinosaur, $RifleKO",
+                            "therizinosaur, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -3507,11 +3664,13 @@
                         "name": "Tame a Thylacoleo",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_thylacoleo_enabled"
                         ],
                         "access_rules": 
                         [
-                            "thylacoleo"
+                            "thylacoleo, $CrossbowKO",
+                            "thylacoleo, $RifleKO",
+                            "thylacoleo, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -3560,11 +3719,11 @@
                         "name": "Tame a Titanoboa",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_titanoboa_enabled"
                         ],
                         "access_rules": 
                         [
-                            "titanoboa"
+                            "titanoboa, $reptile_tames"
                         ],
                         "item_count": 1
                     },
@@ -3680,11 +3839,14 @@
                         "name": "Tame a Triceratops",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_triceratops_enabled"
                         ],
                         "access_rules": 
                         [
-                            "trike"
+                            "trike, $BowKO",
+                            "trike, $CrossbowOK",
+                            "trike, $RifleKO",
+                            "trike, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -3764,11 +3926,14 @@
                         "name": "Tame a Troodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_troodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "troodon"
+                            "troodon, $BasicFightTames",
+                            "troodon, $MediumFightTames",
+                            "troodon, $StrongFightTames",
+                            "troodon, $InsaneFightTames"
                         ],
                         "item_count": 1
                     },
@@ -3819,7 +3984,7 @@
                         "name": "Tame a Unicorn",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_unicorn_enabled"
                         ],
                         "access_rules": 
                         [
@@ -3868,11 +4033,12 @@
                         "name": "Tame a Woolly Rhino",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_woolly_rhino_enabled"
                         ],
                         "access_rules": 
                         [
-                            "rhino"
+                            "rhino, $CrossbowKO",
+                            "rhino, $RifleKO"
                         ],
                         "item_count": 1
                     },
@@ -3957,11 +4123,12 @@
                         "name": "Tame a Yutyrannus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_yutyrannus_enabled"
                         ],
                         "access_rules": 
                         [
-                            "yutyrannus"
+                            "yutyrannus, $RifleKO",
+                            "yutyrannus, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -4035,7 +4202,7 @@
                         "name": "Tame an Angler",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_angler_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4079,7 +4246,7 @@
                         "name": "Tame a Basilosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_basilsaurus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4189,7 +4356,7 @@
                         "name": "Tame a Dunkleosteus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_dunk_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4233,7 +4400,7 @@
                         "name": "Tame a Electrophorus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_electrophorus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4308,7 +4475,7 @@
                         "name": "Tame a Ichthyosaurus",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_ichthyosaurus_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4382,7 +4549,7 @@
                         "name": "Tame a Liopleurodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_liopleurodon_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4425,11 +4592,11 @@
                         "name": "Tame a Manta",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_manta_enabled"
                         ],
                         "access_rules": 
                         [
-                            "manta"
+                            "manta, @Dinos/Angler/Kill an Angler"
                         ],
                         "item_count": 1
                     },
@@ -4470,11 +4637,11 @@
                         "name": "Tame a Megalodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_megalodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "megalodon"
+                            "megalodon, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -4515,11 +4682,12 @@
                         "name": "Tame a Mosasaur",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_mosasaur_enabled"
                         ],
                         "access_rules": 
                         [
-                            "mosasaur"
+                            "mosasaur, $CrossbowKO, $shallow_tames",
+                            "mosasaur, $CrossbowKO, $deep_tames"
                         ],
                         "item_count": 1
                     },
@@ -4597,11 +4765,12 @@
                         "name": "Tame a Plesiosaur",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_plesiosaur_enabled"
                         ],
                         "access_rules": 
                         [
-                            "plesiosaur"
+                            "plesiosaur, $CrossbowKO, $shallow_tames",
+                            "plesiosaur, $CrossbowKO, $deep_tames"
                         ],
                         "item_count": 1
                     },
@@ -4672,11 +4841,12 @@
                         "name": "Tame a Tusoteuthis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_tusoteuthis_enabled"
                         ],
                         "access_rules": 
                         [
-                            "tusoteuthis"
+                            "tusoteuthis, $deep_tames",
+                            "tusoteuthis, $shallow_tames"
                         ],
                         "item_count": 1
                     },
@@ -4720,11 +4890,13 @@
                         "name": "Tame an Argentavis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_argentavis_enabled"
                         ],
                         "access_rules": 
                         [
-                            "argentavis"
+                            "argentavis, $CrossbowKO",
+                            "argentavis, $RifleKO",
+                            "argentavis, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -4769,11 +4941,17 @@
                         "name": "Tame a Pelagornis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_pelagornis_enabled"
                         ],
                         "access_rules": 
                         [
-                            "pelagornis"
+                            "pelagornis, $BowKO",
+                            "pelagornis, $CrossbowOK",
+                            "pelagornis, $RifleKO",
+                            "pelagornis, bola, club",
+                            "pelagornis, bola, slingshot",
+                            "pelagornis, $UseNets, club",
+                            "pelagornis, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -4815,11 +4993,17 @@
                         "name": "Tame a Pteranodon",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_pteranodon_enabled"
                         ],
                         "access_rules": 
                         [
-                            "pteranodon"
+                            "pteranodon, $BowKO",
+                            "pteranodon, $CrossbowOK",
+                            "pteranodon, $RifleKO",
+                            "pteranodon, bola, club",
+                            "pteranodon, bola, slingshot",
+                            "pteranodon, $UseNets, club",
+                            "pteranodon, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -4866,11 +5050,12 @@
                         "name": "Tame a Quetzal",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_quetzal_enabled"
                         ],
                         "access_rules": 
                         [
-                            "quetzal"
+                            "quetzal, $RifleKO",
+                            "quetzal, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -4916,11 +5101,12 @@
                         "name": "Tame a Rhyniognatha",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_rhyniognatha_enabled"
                         ],
                         "access_rules": 
                         [
-                            "rhyniognatha"
+                            "rhyniognatha, @Dinos/Rhyniognatha/Kill a Rhyniognatha, bronto, bronto_saddle",
+                            "rhyniognatha, @Dinos/Rhyniognatha/Kill a Rhyniognatha, paracer, paracer_saddle"
                         ],
                         "item_count": 1
                     },
@@ -4974,7 +5160,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$tame_sanity_tapejara_enabled"
                         ],
                 "sections": [
                     {
@@ -4985,7 +5171,11 @@
                         ],
                         "access_rules": 
                         [
-                            "tapejara"
+                            "iguanodon, $BowKO, $UseNets",
+                            "iguanodon, $CrossbowOK, $UseNets",
+                            "iguanodon, $RifleKO",
+                            "iguanodon, $UseNets, club",
+                            "iguanodon, $UseNets, slingshot"
                         ],
                         "item_count": 1
                     },
@@ -5027,7 +5217,7 @@
                         "name": "Tame a Phoenix",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_phoenix_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5069,7 +5259,7 @@
                         "name": "Tame a Morellatops",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_morellatops_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5104,7 +5294,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$tame_sanity_thorny_dragon_enabled"
                         ],
                 "sections": [
                     {
@@ -5153,7 +5343,7 @@
                         "name": "Tame a Vulture",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_vulture_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5195,7 +5385,7 @@
                         "name": "Tame a Lymantria",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_lymantria_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5237,7 +5427,7 @@
                         "name": "Tame a Rock Elemental",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_rock_elemental_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5276,18 +5466,6 @@
                         ],
                 "sections": [
                     {
-                        "name": "Tame a Rubble Golem",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "rubble_golem"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Kill a Rubble Golem",
                         "visibility_rules": 
                         [
@@ -5321,7 +5499,7 @@
                         "name": "Tame a Jerboa",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_jerboa_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5423,7 +5601,7 @@
                         "name": "Tame a Mantis",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_mantis_enabled"
                         ],
                         "access_rules": 
                         [
@@ -5465,11 +5643,11 @@
                         "name": "Tame a Wyvern",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_wyvern_enabled"
                         ],
                         "access_rules": 
                         [
-                            "needs a new rule as you get an egg"
+                            ""
                         ],
                         "item_count": 1
                     },

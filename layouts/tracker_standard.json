@@ -177,7 +177,7 @@
       ["slingshot", "bola", "bow", "crossbow", "stone_arrow", "tranq_arrow", "grapple"],
       ["simple_pistol", "simple_bullet", "longneck", "rifle_ammo", "tranq_dart", "simple_shotgun", "shotgun_shell"],
       ["fabricated_pistol", "advanced_pistol_ammo", "pump_shotgun", "chainsaw", "fabricated_sniper", "advanced_sniper_ammo", "grenade"],
-      ["harpoon_gun", "net_gun", "", "", "", "", "cryopod"]
+      ["harpoon_gun", "net_gun", "club", "", "", "", "cryopod"]
     ]
   },
 
@@ -207,7 +207,8 @@
     [
       ["op_BS", "op_FSE", "op_ST"],
       ["op_TS", "op_DS", "op_DM"],
-      ["engram_per_item", "tame_per_item", "op_SC"]
+      ["engram_per_item", "tame_per_item", "op_SC"],
+      ["op_FS"]
     ]
   },
 

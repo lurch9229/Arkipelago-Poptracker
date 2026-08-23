@@ -6,35 +6,198 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
--- used for hint tracking to quickly map hint status to a value from the Highlight enum
--- HINT_STATUS_MAPPING = {}
--- if Highlight then
---  HINT_STATUS_MAPPING = {
---      [20] = Highlight.Avoid,
---      [40] = Highlight.None,
---      [10] = Highlight.NoPriority,
---      [0] = Highlight.Unspecified,
---      [30] = Highlight.Priority,
---  }
--- end
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 TRACKER_GROUPS = {}
 TRACKER_GROUPS_ACTIVE = false
+INCLUDED_LOCATIONS = {}
 
--- gets the data storage key for hints for the current player
--- returns nil when not connected to AP
--- function getHintDataStorageKey()
---  if AutoTracker:GetConnectionState("AP") ~= 3 or Archipelago.TeamNumber == nil or Archipelago.TeamNumber == -1 or Archipelago.PlayerNumber == nil or Archipelago.PlayerNumber == -1 then
---      if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
---          print("Tried to call getHintDataStorageKey while not connect to AP server")
---      end
---      return nil
---  end
---  return string.format("_read_hints_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
--- end
+local function tame_sanity_location_enabled(location_id)
+    local ts_obj = Tracker:FindObjectForCode("op_TS")
+
+    if not ts_obj or not ts_obj.Active then
+        return true
+    end
+
+    return INCLUDED_LOCATIONS[location_id] == true
+end
+
+local TAME_SANITY_IDS = {
+    ["Tame: Achatina"]              = 8732001,
+    ["Tame: Allosaurus"]            = 8732003,
+    ["Tame: Angler"]                = 8732004,
+    ["Tame: Ankylosaurus"]          = 8732005,
+    ["Tame: Archaeopteryx"]         = 8732006,
+    ["Tame: Argentavis"]            = 8732007,
+    ["Tame: Arthropleura"]          = 8732008,
+    ["Tame: Baryonyx"]              = 8732009,
+    ["Tame: Basilosaurus"]          = 8732010,
+    ["Tame: Castoroides"]           = 8732011,
+    ["Tame: Dung Beetle"]           = 8732012,
+    ["Tame: Gigantopithecus"]       = 8732013,
+    ["Tame: Bronto"]                = 8732014,
+    ["Tame: Carno"]                 = 8732015,
+    ["Tame: Chalicotherium"]        = 8732016,
+    ["Tame: Compsognathus"]         = 8732017,
+    ["Tame: Daeodon"]               = 8732018,
+    ["Tame: Dilophosaur"]           = 8732019,
+    ["Tame: Dimetrodon"]            = 8732020,
+    ["Tame: Dimorphodon"]           = 8732021,
+    ["Tame: Diplodocus"]            = 8732022,
+    ["Tame: Diplocaulus"]           = 8732023,
+    ["Tame: Direbear"]              = 8732024,
+    ["Tame: Direwolf"]              = 8732025,
+    ["Tame: Dodo"]                  = 8732026,
+    ["Tame: Doedicurus"]            = 8732027,
+    ["Tame: Ichthyosaurus"]         = 8732028,
+    ["Tame: Dunk"]                  = 8732029,
+    ["Tame: Electrophorus"]         = 8732030,
+    ["Tame: Equus"]                 = 8732031,
+    ["Tame: Gallimimus"]            = 8732032,
+    ["Tame: Giganotosaurus"]        = 8732033,
+    ["Tame: Hesperornis"]           = 8732034,
+    ["Tame: Hyaenodon"]             = 8732035,
+    ["Tame: Ichthyornis"]           = 8732036,
+    ["Tame: Iguanodon"]             = 8732037,
+    ["Tame: Kairuku"]               = 8732038,
+    ["Tame: Procoptodon"]           = 8732039,
+    ["Tame: Kaprosuchus"]           = 8732040,
+    ["Tame: Kentrosaurus"]          = 8732041,
+    ["Tame: Liopleurodon"]          = 8732043,
+    ["Tame: Lystrosaurus"]          = 8732044,
+    ["Tame: Mammoth"]               = 8732045,
+    ["Tame: Manta"]                 = 8732046,
+    ["Tame: Megalodon"]             = 8732047,
+    ["Tame: Megalania"]             = 8732049,
+    ["Tame: Megalosaurus"]          = 8732050,
+    ["Tame: Megatherium"]           = 8732051,
+    ["Tame: Microraptor"]           = 8732052,
+    ["Tame: Mesopithecus"]          = 8732053,
+    ["Tame: Mosasaur"]              = 8732054,
+    ["Tame: Moschops"]              = 8732055,
+    ["Tame: Otter"]                 = 8732056,
+    ["Tame: Oviraptor"]             = 8732057,
+    ["Tame: Pachycephalosaurus"]    = 8732058,
+    ["Tame: Pachyrhinosaurus"]      = 8732059,
+    ["Tame: Parasaur"]              = 8732060,
+    ["Tame: Paraceratherium"]       = 8732061,
+    ["Tame: Pegomastax"]            = 8732062,
+    ["Tame: Pelagornis"]            = 8732063,
+    ["Tame: Phiomia"]               = 8732064,
+    ["Tame: Plesiosaur"]            = 8732065,
+    ["Tame: Pteranodon"]            = 8732066,
+    ["Tame: Purlovia"]              = 8732067,
+    ["Tame: Quetzal"]               = 8732068,
+    ["Tame: Raptor"]                = 8732069,
+    ["Tame: Rex"]                   = 8732070,
+    ["Tame: Woolly Rhino"]          = 8732071,
+    ["Tame: Sabertooth"]            = 8732072,
+    ["Tame: Sarcosuchus"]           = 8732073,
+    ["Tame: Pulmonoscorpius"]       = 8732074,
+    ["Tame: Ovis"]                  = 8732075,
+    ["Tame: Araneo"]                = 8732076,
+    ["Tame: Spino"]                 = 8732077,
+    ["Tame: Megaloceros"]           = 8732078,
+    ["Tame: Stegosaurus"]           = 8732079,
+    ["Tame: Tapejara"]              = 8732081,
+    ["Tame: Terror Bird"]           = 8732082,
+    ["Tame: Therizinosaurus"]       = 8732083,
+    ["Tame: Thylacoleo"]            = 8732084,
+    ["Tame: Titanoboa"]             = 8732086,
+    ["Tame: Beelzebufo"]            = 8732087,
+    ["Tame: Triceratops"]           = 8732088,
+    ["Tame: Troodon"]               = 8732089,
+    ["Tame: Carbonemys"]            = 8732090,
+    ["Tame: Tusoteuthis"]           = 8732091,
+    ["Tame: Yutyrannus"]            = 8732092,
+    ["Tame: Onyc"]                  = 8732100,
+    ["Tame: Giant Bee"]             = 8732101,
+    ["Tame: Rhyniognatha"]          = 8732102,
+    ["Tame: Carcharodontosaurus"]   = 8732103,
+    ["Tame: Unicorn"]               = 8732104,
+    ["Tame: Griffin"]               = 8732105,
+    ["Tame: Mantis"]                = 8732106,
+    ["Tame: Lymantria"]             = 8732107,
+    ["Tame: Rock Elemental"]        = 8732108,
+    ["Tame: Thorny Dragon"]         = 8732109,
+    ["Tame: Vulture"]               = 8732110,
+    ["Tame: Wyvern"]                = 8732111,
+    ["Tame: Morellatops"]           = 8732112,
+    ["Tame: Jerboa"]                = 8732113,
+    ["Tame: Phoenix"]               = 8732114,
+}
+
+for key_name, id in pairs(TAME_SANITY_IDS) do
+    local clean_name = key_name:lower():gsub("tame:%s*", ""):gsub("[%s%-]", "_")
+    
+    _G["tame_sanity_" .. clean_name .. "_enabled"] = function()
+        return tame_sanity_location_enabled(id)
+    end
+end
+
+local function food_sanity_location_enabled(location_id)
+    local fs_obj = Tracker:FindObjectForCode("op_FS")
+
+    if not fs_obj or not fs_obj.Active then
+        return true
+    end
+
+    return INCLUDED_LOCATIONS[location_id] == true
+end
+
+local FOOD_SANITY_IDS = {
+    citronal               = 8757300,
+    longrass               = 8757301,
+    rockarrot              = 8757302,
+    savoroot               = 8757303,
+    cooked_meat            = 8757304,
+    cooked_meat_jerky      = 8757305,
+    cooked_prime_meat      = 8757306,
+    prime_meat_jerky       = 8757307,
+    cooked_fish_meat       = 8757308,
+    cooked_prime_fish_meat = 8757309,
+    giant_bee_honey        = 8757310,
+    rare_flower            = 8757311,
+    rare_mushroom          = 8757312,
+    plant_species_x_seed   = 8757313,
+}
+
+for name, id in pairs(FOOD_SANITY_IDS) do
+    _G["food_sanity_" .. name .. "_enabled"] = function()
+        return food_sanity_location_enabled(id)
+    end
+end
+
+local function death_sanity_location_enabled(location_id)
+    local ds_obj = Tracker:FindObjectForCode("op_DS")
+
+    if not ds_obj or not ds_obj.Active then
+        return true
+    end
+
+    return INCLUDED_LOCATIONS[location_id] == true
+end
+
+local DEATH_SANITY_IDS = {
+    carnivore   = 8759000,
+    herbivore   = 8759001,
+    alpha       = 8759002,
+    cold        = 8759003,
+    heat        = 8759004,
+    drowning    = 8759005,
+    lava        = 8759006,
+    falling     = 8759007,
+    starvation  = 8759008,
+    dehydration = 8759009,
+}
+
+for name, id in pairs(DEATH_SANITY_IDS) do
+    _G["death_sanity_" .. name .. "_enabled"] = function()
+        return death_sanity_location_enabled(id)
+    end
+end
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -124,6 +287,17 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
     TRACKER_GROUPS = {}
+    INCLUDED_LOCATIONS = {}
+
+    if type(slot_data["included_locations"]) == "table" then
+        for _, location_id in ipairs(slot_data["included_locations"]) do
+            local numeric_id = tonumber(location_id)
+            if numeric_id then
+                INCLUDED_LOCATIONS[numeric_id] = true
+            end
+        end
+    end
+
     local engrams_per_item = tonumber(slot_data["engrams_per_item"]) or 1
     local tames_per_item = tonumber(slot_data["tames_per_item"]) or 1
     TRACKER_GROUPS_ACTIVE = engrams_per_item > 1 or tames_per_item > 1
@@ -172,13 +346,34 @@ function apply_slot_data(slot_data)
         end
     end
 
+    if slot_data['death_sanity'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_DS")
+        if obj then
+            local is_active = (tonumber(slot_data['death_sanity']) or 0) > 0
+            obj.Active = is_active
+        end
+    end
+
+    if slot_data['food_sanity'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_FS")
+        if obj then
+            obj.Active = (slot_data['food_sanity'] == true or slot_data['food_sanity'] == 1)
+        end
+    end
+
+    if slot_data['tame_sanity'] ~= nil then
+        local obj = Tracker:FindObjectForCode("op_TS")
+        if obj then
+            obj.Active = (slot_data['tame_sanity'] == true or slot_data['tame_sanity'] == 1)
+        end
+    end
+
     if slot_data['free_starter_engrams'] ~= nil then
         local obj = Tracker:FindObjectForCode("op_FSE")
         if obj then
             local is_active = (slot_data['free_starter_engrams'] == true or slot_data['free_starter_engrams'] == 1)
             obj.Active = is_active
-            if is_active
-            then
+            if is_active then
                 local free_starter_items = {
                     "stone_hatchet",
                     "spear",
@@ -188,8 +383,7 @@ function apply_slot_data(slot_data)
                 }
                 for _, item_code in ipairs(free_starter_items) do
                     local item_obj = Tracker:FindObjectForCode(item_code)
-                    if item_obj
-                    then
+                    if item_obj then
                         item_obj.Active = true
                     end
                 end
@@ -200,12 +394,12 @@ end
 
 -- called right after an AP slot is connected
 function onClear(slot_data)
-    -- use bulk update to pause logic updates until we are done resetting all items/locations
     Tracker.BulkUpdate = true
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
     CUR_INDEX = -1
+
     -- reset locations
     for _, mapping_entry in pairs(LOCATION_MAPPING) do
         for _, location_table in ipairs(mapping_entry) do
@@ -226,7 +420,6 @@ function onClear(slot_data)
                             print(string.format("onClear: could not find location object for code %s", location_code))
                         end
                     else
-                        -- reset hosted item
                         local item_type = location_table[2]
                         resetItem(location_code, item_type)
                     end
@@ -238,6 +431,7 @@ function onClear(slot_data)
             end
         end
     end
+
     -- reset items
     for _, mapping_entry in pairs(ITEM_MAPPING) do
         for _, item_table in ipairs(mapping_entry) do
@@ -254,24 +448,15 @@ function onClear(slot_data)
             end
         end
     end
+    
     apply_slot_data(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
+    
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
-    -- -- setup data storage tracking for hint tracking
-    -- local data_strorage_keys = {}
-    -- if PopVersion >= "0.32.0" then
-    --     data_strorage_keys = { getHintDataStorageKey() }
-    -- end
-    -- subscribes to the data storage keys for updates
-    -- triggers callback in the SetNotify handler on update
-    -- Archipelago:SetNotify(data_strorage_keys)
-    -- gets the current value for the data storage keys
-    -- triggers callback in the Retrieved handler when result is received
-    -- Archipelago:Get(data_strorage_keys)
+    
     Tracker.BulkUpdate = false
 end
 
@@ -286,6 +471,7 @@ function onItem(index, item_id, item_name, player_number)
     if index <= CUR_INDEX then
         return
     end
+
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index
     local mapping_entry = ITEM_MAPPING[item_id]
@@ -295,6 +481,7 @@ function onItem(index, item_id, item_name, player_number)
         end
         return
     end
+
     for _, item_table in pairs(mapping_entry) do
         if item_table then
             local item_code = item_table[1]
@@ -302,11 +489,9 @@ function onItem(index, item_id, item_name, player_number)
             local multiplier = item_table[3] or 1
             if item_code then
                 incrementItem(item_code, item_type, multiplier)
-                
-                -- BUNDLE SADDLES INTERCEPTION
+
                 local bundle_saddles_active = Tracker:FindObjectForCode("op_BS")
-                if bundle_saddles_active and bundle_saddles_active.Active
-                then
+                if bundle_saddles_active and bundle_saddles_active.Active then
                     local tame_to_saddle_map = {
                         ["phiomia"] = "phiomia_saddle",
                         ["parasaur"] = "parasaur_saddle",
@@ -381,17 +566,9 @@ function onItem(index, item_id, item_name, player_number)
                 end
 
                 if is_local then
-                    if LOCAL_ITEMS[item_code] then
-                        LOCAL_ITEMS[item_code] = LOCAL_ITEMS[item_code] + 1
-                    else
-                        LOCAL_ITEMS[item_code] = 1
-                    end
+                    LOCAL_ITEMS[item_code] = (LOCAL_ITEMS[item_code] or 0) + 1
                 else
-                    if GLOBAL_ITEMS[item_code] then
-                        GLOBAL_ITEMS[item_code] = GLOBAL_ITEMS[item_code] + 1
-                    else
-                        GLOBAL_ITEMS[item_code] = 1
-                    end
+                    GLOBAL_ITEMS[item_code] = (GLOBAL_ITEMS[item_code] or 0) + 1
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: skipping item_table with no item_code"))
@@ -414,34 +591,9 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
-    -- track local items via snes interface
+    
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions for local item tracking here
-    end
-end
-
-
---called when a location gets cleared
-function onLocation(location_id, location_name)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onLocation: %s, %s", location_id, location_name))
-    end
-    local v = LOCATION_MAPPING[location_id]
-    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
-    end
-    if not v[1] then
-        return
-    end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
-        else
-            obj.Active = true
-        end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
 
@@ -453,6 +605,7 @@ function onLocation(location_id, location_name)
     if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
         return
     end
+    
     local mapping_entry = LOCATION_MAPPING[location_id]
     if not mapping_entry then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -460,6 +613,7 @@ function onLocation(location_id, location_name)
         end
         return
     end
+    
     for _, location_table in pairs(mapping_entry) do
         if location_table then
             local location_code = location_table[1]
@@ -469,7 +623,6 @@ function onLocation(location_id, location_name)
                     if location_code:sub(1, 1) == "@" then
                         obj.AvailableChestCount = obj.AvailableChestCount - 1
                     else
-                        -- increment hosted item
                         local item_type = location_table[2]
                         local multiplier = location_table[3] or 1
                         incrementItem(location_code, item_type, multiplier)
@@ -481,7 +634,7 @@ function onLocation(location_id, location_name)
                 print(string.format("onLocation: skipping location_table with no location_code"))
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: skipping empty location_table"))
+                    print(string.format("onLocation: skipping empty location_table"))
         end
     end
 end
@@ -495,5 +648,3 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)

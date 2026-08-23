@@ -748,8 +748,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "campfire"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_cooked_meat_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x20",
@@ -759,7 +763,7 @@
                         ],
                         "access_rules": 
                         [
-                            "campfire"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -830,8 +834,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "campfire"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_cooked_prime_meat_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x20",
@@ -841,7 +849,7 @@
                         ],
                         "access_rules": 
                         [
-                            "campfire"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -865,8 +873,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "campfire"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_cooked_fish_meat_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x20",
@@ -895,8 +907,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "campfire"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_cooked_prime_fish_meat_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x20",
@@ -906,7 +922,7 @@
                         ],
                         "access_rules": 
                         [
-                            "campfire"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -930,8 +946,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "campfire, preserving_bin, mortar, sparkpowder"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_cooked_meat_jerky_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x5",
@@ -941,7 +961,7 @@
                         ],
                         "access_rules": 
                         [
-                            "campfire, preserving_bin, mortar, sparkpowder"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -965,8 +985,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "campfire, preserving_bin, mortar, sparkpowder"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_prime_meat_jerky_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x5",
@@ -976,7 +1000,7 @@
                         ],
                         "access_rules": 
                         [
-                            "campfire, preserving_bin, mortar, sparkpowder"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1002,6 +1026,10 @@
                         [
                             ""
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_rare_flower_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x50",
@@ -1037,6 +1065,10 @@
                         [
                             ""
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_rare_mushroom_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x50",
@@ -1070,8 +1102,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "grow_crops"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_citronal_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x10",
@@ -1081,7 +1117,7 @@
                         ],
                         "access_rules": 
                         [
-                            "grow_crops"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1105,8 +1141,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "grow_crops"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_longrass_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x10",
@@ -1116,7 +1156,7 @@
                         ],
                         "access_rules": 
                         [
-                            "grow_crops"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1140,8 +1180,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "grow_crops"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_rockarrot_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x10",
@@ -1151,7 +1195,7 @@
                         ],
                         "access_rules": 
                         [
-                            "grow_crops"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1175,8 +1219,12 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "grow_crops"
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_savoroot_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x10",
@@ -1186,7 +1234,7 @@
                         ],
                         "access_rules": 
                         [
-                            "grow_crops"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1242,6 +1290,10 @@
                         [
                             ""
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_plant_species_x_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x20",
@@ -2261,6 +2313,10 @@
                         [
                             ""
                         ],
+                "visibility_rules":
+                [
+                  "$food_sanity_giant_bee_honey_enabled"
+                ],
                 "sections": [
                     {
                         "name": "x3",
@@ -2917,7 +2973,7 @@
                         "y": 785
                     },
                     {
-                        "map": "The_Island",
+                        "map": "Scorched_Earth",
                         "x": 92,
                         "y": 521
                     }
@@ -3950,7 +4006,7 @@
                         "name": "Die To A Carnivore",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_carnivore_enabled"
                         ],
                         "access_rules": 
                         [
@@ -3962,7 +4018,7 @@
                         "name": "Die To A Herbivore",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_herbivore_enabled"
                         ],
                         "access_rules": 
                         [
@@ -3974,7 +4030,7 @@
                         "name": "Die To An Alpha",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_alpha_enabled"
                         ],
                         "access_rules": 
                         [
@@ -3986,7 +4042,7 @@
                         "name": "Die To Cold",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_cold_enabled"
                         ],
                         "access_rules": 
                         [
@@ -3998,7 +4054,7 @@
                         "name": "Die To Heat",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_heat_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4010,7 +4066,7 @@
                         "name": "Die To Drowning",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_drowning_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4022,7 +4078,7 @@
                         "name": "Die To Lava",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_lava_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4034,7 +4090,7 @@
                         "name": "Die To Fall Damage",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_falling_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4046,7 +4102,7 @@
                         "name": "Die To Starvation",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_starvation_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4058,7 +4114,7 @@
                         "name": "Die To Dehydration",
                         "visibility_rules": 
                         [
-                            ""
+                            "$death_sanity_dehydration_enabled"
                         ],
                         "access_rules": 
                         [

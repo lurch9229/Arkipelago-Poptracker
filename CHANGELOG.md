@@ -4,6 +4,8 @@
 
 ## Fixed
 - Collect Bio Toxin now uses correct ref for Kill Cnidaria `milestone.json`
+- Some ref were calling wrong locations `location_mapping.lua`
+- Some logic using campfire was incorrect `milestones.json`
 
 ## Added
 - Alpha Trophies For SE
@@ -12,6 +14,10 @@
 - Toggle for Tame and Crate Lock settings `archipelago.lua`
 - New Milestone Locations `milestones.json`
 - `items.json` updated with settings items
+- Tame Logic now applied `dinos.json`
+- Support for sanity options (food,tames,deaths) `archipelago.lua`
+- Support for death milestones `archipelago.lua`
+- Mapping for new collect tasks `location_mapping.lua`
 
 ## Changed
 - Layouts to support new settings `tracker_standard.json`
@@ -19,8 +25,6 @@
 - Alpha Wyvern and Alpha Deathworm now have hosted items for their trophies `dinos.json`
 
 ## TODO
-- Apply Tame Logic
-- Finalize Player Settings
 - Apply Logic for Milestones and Collects once added to APWorld
 
 ## [0.0.5] - More Scorched Earth Prep

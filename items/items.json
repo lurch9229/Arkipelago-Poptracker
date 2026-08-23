@@ -3885,6 +3885,12 @@
   "img": "images/engrams/Cryopod.png"
  },
  {
+  "name": "Engram - Wooden Club",
+  "type": "toggle",
+  "codes": "club",
+  "img": "images/engrams/Wooden_Club.png"
+ },
+ {
   "name": "Engram - Clay",
   "type": "toggle",
   "codes": "clay",
@@ -3971,6 +3977,11 @@
   "name": "Engram - Stone Tree Platform",
   "type": "toggle",
   "codes": "stone_tree_platform"
+ },
+ {
+  "name": "Engram - Soul Trap",
+  "type": "toggle",
+  "codes": "soul_trap"
  },
  {
   "name": "Setting - Bundle Saddles",
