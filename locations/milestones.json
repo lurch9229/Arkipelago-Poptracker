@@ -1292,7 +1292,7 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_plant_species_x_enabled"
+                  "$food_sanity_plant_species_x_seed_enabled"
                 ],
                 "sections": [
                     {

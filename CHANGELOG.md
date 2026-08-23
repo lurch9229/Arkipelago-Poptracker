@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.0.6.1]
+
+## Fixed
+- function names incorrect for some tame sanity calls `dinos.josn`
+- restored commented item mapping for wooden club, slingshot and some SE items
+
+## Added
+- Some S+ engrams to bundles that were not in the APWorld originally
+- Native support for Lethal's Reusables Mod
+
+## Changed
+- Explorer Notes now use the region they are contained in rather than just saying surface
+
+## TODO
+- Apply Logic for Milestones and Collects once added to APWorld
+
 ## [0.0.6] - Setting Support Phase 2
 
 ## Fixed
@@ -26,6 +42,8 @@
 
 ## TODO
 - Apply Logic for Milestones and Collects once added to APWorld
+
+---
 
 ## [0.0.5] - More Scorched Earth Prep
 

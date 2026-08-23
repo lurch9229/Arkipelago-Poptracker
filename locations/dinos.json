@@ -2843,7 +2843,7 @@
                         "name": "Tame a Paracer",
                         "visibility_rules": 
                         [
-                            "$tame_sanity_paracertherium_enabled"
+                            "$tame_sanity_paraceratherium_enabled"
                         ],
                         "access_rules": 
                         [
@@ -4246,7 +4246,7 @@
                         "name": "Tame a Basilosaurus",
                         "visibility_rules": 
                         [
-                            "$tame_sanity_basilsaurus_enabled"
+                            "$tame_sanity_basilosaurus_enabled"
                         ],
                         "access_rules": 
                         [
