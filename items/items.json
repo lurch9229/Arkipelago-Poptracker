@@ -2057,13 +2057,13 @@
   "img": "images/dinos/sarco.png"
  },
  {
-  "name": "sarco Saddle",
+  "name": "Sarco Saddle",
   "type": "toggle",
   "codes": "sarco_saddle",
   "img": "images/saddles/saddle2.png"
  },
  {
-  "name": "sarco Tame + Ride",
+  "name": "Sarco Tame + Ride",
   "type": "composite_toggle",
   "codes": "sarco_ride",
   "item_left": "sarco",
@@ -2198,13 +2198,13 @@
   "img": "images/dinos/spinosaur.png"
  },
  {
-  "name": "spino Saddle",
+  "name": "Spino Saddle",
   "type": "toggle",
   "codes": "spino_saddle",
   "img": "images/saddles/saddle2.png"
  },
  {
-  "name": "spino Tame + Ride",
+  "name": "Spino Tame + Ride",
   "type": "composite_toggle",
   "codes": "spino_ride",
   "item_left": "spino",
@@ -2294,7 +2294,7 @@
   "img": "images/saddles/saddle2.png"
  },
  {
-  "name": "stegos Tame + Ride",
+  "name": "Stegos Tame + Ride",
   "type": "composite_toggle",
   "codes": "stegosaurus_ride",
   "item_left": "stegosaurus",
@@ -4008,21 +4008,43 @@
   "img": "images/settings/op_SC.png"
  },
  {
+  "name": "Setting - Explorer Notes",
+  "type": "static",
+  "codes": "op_NS",
+  "min_quantity": 0,
+  "max_quantity": 369,
+  "initial_quantity": 0,
+  "overlay_background": "#000000",
+  "img": "images/settings/op_NS.png"
+ },
+ {
   "name": "Setting - Foodsanity",
-  "type": "toggle",
+  "type": "static",
   "codes": "op_FS",
+  "min_quantity": 0,
+  "max_quantity": 100,
+  "initial_quantity": 0,
+  "overlay_background": "#000000",
   "img": "images/settings/op_FS.png"
  },
  {
   "name": "Setting - Tamesanity",
-  "type": "toggle",
+  "type": "static",
   "codes": "op_TS",
+  "min_quantity": 0,
+  "max_quantity": 100,
+  "initial_quantity": 0,
+  "overlay_background": "#000000",
   "img": "images/settings/op_TS.png"
  },
  {
   "name": "Setting - Deathsanity",
-  "type": "toggle",
+  "type": "static",
   "codes": "op_DS",
+  "min_quantity": 0,
+  "max_quantity": 100,
+  "initial_quantity": 0,
+  "overlay_background": "#000000",
   "img": "images/settings/op_DS.png"
  },
  {

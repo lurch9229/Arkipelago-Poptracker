@@ -208,7 +208,7 @@
       ["op_BS", "op_FSE", "op_ST"],
       ["op_TS", "op_DS", "op_DM"],
       ["engram_per_item", "tame_per_item", "op_SC"],
-      ["op_FS"]
+      ["op_FS", "op_NS"]
     ]
   },
 

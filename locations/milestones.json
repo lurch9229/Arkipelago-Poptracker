@@ -720,7 +720,90 @@
                         "name": "x100",
                         "visibility_rules": 
                         [
+                            "$food_sanity_raw_meat_100_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_meat_200_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x500",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_meat_500_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Raw Fish Meat",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 125,
+                        "y": 719
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 191,
+                        "y": 355
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_meat_100_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_meat_200_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x500",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_meat_500_enabled"
                         ],
                         "access_rules": 
                         [
@@ -752,14 +835,62 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_cooked_meat_enabled"
+                  ""
                 ],
                 "sections": [
                     {
                         "name": "x20",
                         "visibility_rules": 
                         [
+                            "$food_sanity_cooked_meat_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_meat_50_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_meat_100_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_meat_200_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x500",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_meat_500_enabled"
                         ],
                         "access_rules": 
                         [
@@ -794,7 +925,7 @@
                         "name": "x20",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_raw_prime_meat_20_enabled"
                         ],
                         "access_rules": 
                         [
@@ -806,7 +937,54 @@
                         "name": "x50",
                         "visibility_rules": 
                         [
+                            "$food_sanity_raw_prime_meat_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Raw Prime Fish Meat",
+                "chest_unopened_img": "images/items/chest_gold_x.png",
+                "chest_opened_img": "images/items/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "The_Island",
+                        "x": 158,
+                        "y": 719
+                    },
+                    {
+                        "map": "Scorched_Earth",
+                        "x": 92,
+                        "y": 422
+                    }
+                ],
+                "access_rules": 
+                        [
+                            ""
+                        ],
+                "sections": [
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_prime_fish_meat_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_raw_prime_fish_meat_50_enabled"
                         ],
                         "access_rules": 
                         [
@@ -838,14 +1016,38 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_cooked_prime_meat_enabled"
+                  ""
                 ],
                 "sections": [
+                    {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_prime_meat_10_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "x20",
                         "visibility_rules": 
                         [
+                            "$food_sanity_cooked_prime_meat_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_prime_meat_50_enabled"
                         ],
                         "access_rules": 
                         [
@@ -877,18 +1079,54 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_cooked_fish_meat_enabled"
+                  ""
                 ],
                 "sections": [
                     {
                         "name": "x20",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_cooked_fish_meat_20_enabled"
                         ],
                         "access_rules": 
                         [
-                            "campfire"
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_fish_meat_50_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_fish_meat_100_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_fish_meat_200_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -911,21 +1149,45 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_cooked_prime_fish_meat_enabled"
+                  ""
                 ],
                 "sections": [
-                    {
-                        "name": "x20",
+                  {
+                        "name": "x10",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_cooked_prime_fish_meat_10_enabled"
                         ],
                         "access_rules": 
                         [
                             ""
                         ],
                         "item_count": 1
-                    }
+                    },
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_prime_fish_meat_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_prime_fish_meat_50_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
                 ]
             },
             {
@@ -950,14 +1212,26 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_cooked_meat_jerky_enabled"
+                  ""
                 ],
                 "sections": [
                     {
                         "name": "x5",
                         "visibility_rules": 
                         [
+                            "$food_sanity_cooked_meat_jerky_5_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_cooked_meat_jerky_10_enabled"
                         ],
                         "access_rules": 
                         [
@@ -989,14 +1263,26 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_prime_meat_jerky_enabled"
+                  ""
                 ],
                 "sections": [
                     {
                         "name": "x5",
                         "visibility_rules": 
                         [
+                            "$food_sanity_prime_meat_jerky_5_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_prime_meat_jerky_10_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1028,14 +1314,26 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_rare_flower_enabled"
+                  ""
                 ],
                 "sections": [
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_rare_flower_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "x50",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_rare_flower_50_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1067,14 +1365,26 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_rare_mushroom_enabled"
+                  ""
                 ],
                 "sections": [
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_rare_mushroom_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "x50",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_rare_mushroom_50_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1106,14 +1416,38 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_citronal_enabled"
+                  ""
                 ],
                 "sections": [
                     {
                         "name": "x10",
                         "visibility_rules": 
                         [
+                            "$food_sanity_citronal_10_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_citronal_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x30",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_citronal_30_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1145,14 +1479,38 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_longrass_enabled"
+                  "$food_sanity_longrass_10_enabled"
                 ],
                 "sections": [
                     {
                         "name": "x10",
                         "visibility_rules": 
                         [
+                            "$food_sanity_longrass_10_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_longrass_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x30",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_longrass_30_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1184,7 +1542,7 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_rockarrot_enabled"
+                  "$food_sanity_rockarrot_10_enabled"
                 ],
                 "sections": [
                     {
@@ -1195,7 +1553,31 @@
                         ],
                         "access_rules": 
                         [
+                            "$food_sanity_rockarrot_10_enabled"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
                             ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$food_sanity_rockarrot_20_enabled"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x30",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$food_sanity_rockarrot_30_enabled"
                         ],
                         "item_count": 1
                     }
@@ -1223,14 +1605,38 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_savoroot_enabled"
+                  "$food_sanity_savoroot_10_enabled"
                 ],
                 "sections": [
                     {
                         "name": "x10",
                         "visibility_rules": 
                         [
+                            "$food_sanity_savoroot_10_enabled"
+                        ],
+                        "access_rules": 
+                        [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x20",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_savoroot_20_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x30",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_savoroot_30_enabled"
                         ],
                         "access_rules": 
                         [
@@ -1292,7 +1698,7 @@
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_plant_species_x_seed_enabled"
+                  ""
                 ],
                 "sections": [
                     {
@@ -1303,7 +1709,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$food_sanity_plant_species_x_seed_20_enabled"
                         ],
                         "item_count": 1
                     }
@@ -1333,7 +1739,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$food_sanity_plant_species_y_seed_20_enabled"
                         ],
                         "item_count": 1
                     }
@@ -1359,7 +1765,7 @@
                         "name": "x20",
                         "visibility_rules": 
                         [
-                            ""
+                            "no yet in use"
                         ],
                         "access_rules": 
                         [
@@ -2006,6 +2412,30 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2290,6 +2720,30 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x500",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x1000",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2320,6 +2774,18 @@
                 "sections": [
                     {
                         "name": "x3",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x10",
                         "visibility_rules": 
                         [
                             ""
@@ -2402,6 +2868,30 @@
                 "sections": [
                     {
                         "name": "x30",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x50",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x100",
                         "visibility_rules": 
                         [
                             ""
@@ -3078,6 +3568,30 @@
                         ],
                 "sections": [
                     {
+                        "name": "x10",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseTaps"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x30",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "$UseTaps"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "x50",
                         "visibility_rules": 
                         [
@@ -3217,6 +3731,30 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -3252,7 +3790,31 @@
                             ""
                         ],
                         "item_count": 1
-                    }
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x300",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
                 ]
             },
             {
@@ -3487,6 +4049,29 @@
                             ""
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "x100",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },{
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -3545,7 +4130,7 @@
                         "name": "x100",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_cactus_sap_100_enabled"
                         ],
                         "access_rules": 
                         [

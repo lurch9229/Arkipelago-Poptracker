@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.0.7]
+
+## Fixed
+- `location_mapping.lua` now has the correct names for Ovis and Ichthornis
+- `location_mapping.lua` now has explore regions (Not sure how I missed this previously)
+- hosted items will now clear locations correctly (I Hope)
+
+## Added
+- Support for Note Sanity - The Tracker will now show which notes are checks if < max count
+- `location_mapping.lua` now has autotracking done for Scorched Earth. SE is nearing completion and just needs logic
+- `items.lua`
+- More collect tasks (I think this is all of them for now)
+
+## Changed
+- Capitalization of some tame names
+- Food, Tame and Note sanity icons are now static and can't be interacted with. Slot data determines the percentage or count and displays this on the icons
+- Updated Island Map to have new collects
+- foodsanity now has functions for each count rather than a global function. Now tracker will only show the collects you need to do when foodsanity < 100
+
+## Todo
+- Apply Logic for Collect and Explorer Notes once added to APWorld
+- Finalise tracker for Scorched Earth
+
+---
+
 ## [0.0.6.1]
 
 ## Fixed
@@ -17,6 +42,8 @@
 - Apply Logic for Milestones and Collects once added to APWorld
 
 ## [0.0.6] - Setting Support Phase 2
+
+---
 
 ## Fixed
 - Collect Bio Toxin now uses correct ref for Kill Cnidaria `milestone.json`
