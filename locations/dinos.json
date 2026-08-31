@@ -84,7 +84,7 @@
                         "access_rules": 
                         [
                             "allosaurus, $BowKO, $UseNets",
-                            "allosaurus, $CrossbowOK",
+                            "allosaurus, $CrossbowKO",
                             "allosaurus, $RifleKO"
                         ],
                         "item_count": 1
@@ -141,7 +141,7 @@
                         [
                             "ankylosaurus, slingshot",
                             "ankylosaurus, $BowKO",
-                            "ankylosaurus, $CrossbowOK",
+                            "ankylosaurus, $CrossbowKO",
                             "ankylosaurus, $RifleKO",
                             "ankylosaurus, $UseNet, club"
                         ],
@@ -199,7 +199,7 @@
                         ],
                         "access_rules": 
                         [
-                            "araneo, repellant, $GhillieSet"
+                            "araneo, $craftRepellant, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -307,7 +307,7 @@
                         ],
                         "access_rules": 
                         [
-                            "arthropluera, repellant, $GhillieSet"
+                            "arthropluera, $craftRepellant, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -410,7 +410,7 @@
                         [
                             "beezlebufo, slingshot",
                             "beezlebufo, $BowKO",
-                            "beezlebufo, $CrossbowOK",
+                            "beezlebufo, $CrossbowKO",
                             "beezlebufo, $RifleKO",
                             "beezlebufo, bola, club"
                         ],
@@ -512,7 +512,7 @@
                         [
                             "carbonemys, slingshot",
                             "carbonemys, $BowKO",
-                            "carbonemys, $CrossbowOK",
+                            "carbonemys, $CrossbowKO",
                             "carbonemys, $RifleKO"
                         ],
                         "item_count": 1
@@ -675,7 +675,7 @@
                         "access_rules": 
                         [
                             "castoroides, $BowKO",
-                            "castoroides, $CrossbowOK",
+                            "castoroides, $CrossbowKO",
                             "castoroides, $RifleKO",
                             "castoroides, bola, club"
                         ],
@@ -914,7 +914,7 @@
                         "access_rules": 
                         [
                             "dimetrodon, $BowKO",
-                            "dimetrodon, $CrossbowOK",
+                            "dimetrodon, $CrossbowKO",
                             "dimetrodon, $RifleKO"
                         ],
                         "item_count": 1
@@ -1005,7 +1005,7 @@
                         [
                             "diplocaulus, $BowKO, $UseNets",
                             "diplocaulus, $BowKO, bola",
-                            "diplocaulus, $CrossbowOK",
+                            "diplocaulus, $CrossbowKO",
                             "diplocaulus, $RifleKO",
                             "diplocaulus, bola, slingshot",
                             "diplocaulus, $UseNets, slingshot"
@@ -1166,7 +1166,7 @@
                         "access_rules": 
                         [
                             "direwolf, $BowKO",
-                            "direwolf, $CrossbowOK",
+                            "direwolf, $CrossbowKO",
                             "direwolf, $RifleKO",
                             "direwolf, bola, club",
                             "direwolf, bola, slingshot",
@@ -1433,7 +1433,7 @@
                         ],
                         "access_rules": 
                         [
-                            "gallimimus, $CrossbowOK",
+                            "gallimimus, $CrossbowKO",
                             "gallimimus, $RifleKO",
                             "gallimimus, $UseNets, $BowKO"
                         ],
@@ -1490,7 +1490,7 @@
                         ],
                         "access_rules": 
                         [
-                            "giantbee, $GhillieSet, repellant"
+                            "giantbee, $GhillieSet, $craftRepellant"
                         ],
                         "item_count": 1
                     },
@@ -1725,7 +1725,7 @@
                         [
                             "ichthyornis, slingshot",
                             "ichthyornis, $BowKO",
-                            "ichthyornis, $CrossbowOK",
+                            "ichthyornis, $CrossbowKO",
                             "ichthyornis, $RifleKO",
                             "ichthyornis, bola, club"
                         ],
@@ -1782,7 +1782,7 @@
                         "access_rules": 
                         [
                             "iguanodon, $BowKO",
-                            "iguanodon, $CrossbowOK",
+                            "iguanodon, $CrossbowKO",
                             "iguanodon, $RifleKO",
                             "iguanodon, bola, club",
                             "iguanodon, bola, slingshot",
@@ -1887,7 +1887,7 @@
                         "access_rules": 
                         [
                             "kaprosuchus, $BowKO",
-                            "kaprosuchus, $CrossbowOK",
+                            "kaprosuchus, $CrossbowKO",
                             "kaprosuchus, $RifleKO",
                             "kaprosuchus, bola, club",
                             "kaprosuchus, bola, slingshot",
@@ -1948,7 +1948,7 @@
                         "access_rules": 
                         [
                             "kentrosaurus, $BowKO",
-                            "kentrosaurus, $CrossbowOK",
+                            "kentrosaurus, $CrossbowKO",
                             "kentrosaurus, $RifleKO"
                         ],
                         "item_count": 1
@@ -2190,7 +2190,7 @@
                         "access_rules": 
                         [
                             "megaloceros, $BowKO",
-                            "megaloceros, $CrossbowOK",
+                            "megaloceros, $CrossbowKO",
                             "megaloceros, $RifleKO",
                             "megaloceros, bola, club",
                             "megaloceros, bola, slingshot",
@@ -2433,7 +2433,7 @@
                         "access_rules": 
                         [
                             "microraptor, $BowKO",
-                            "microraptor, $CrossbowOK",
+                            "microraptor, $CrossbowKO",
                             "microraptor, $RifleKO",
                             "microraptor, bola, club",
                             "microraptor, bola, slingshot",
@@ -2540,7 +2540,7 @@
                         ],
                         "access_rules": 
                         [
-                            "onyc, repellant, $GhillieSet"
+                            "onyc, $craftRepellant, $GhillieSet"
                         ],
                         "item_count": 1
                     },
@@ -2903,7 +2903,7 @@
                         "access_rules": 
                         [
                             "parasaur, $BowKO",
-                            "parasaur, $CrossbowOK",
+                            "parasaur, $CrossbowKO",
                             "parasaur, $RifleKO",
                             "parasaur, bola, club",
                             "parasaur, bola, slingshot",
@@ -3007,7 +3007,7 @@
                         [
                             "phiomia, slingshot",
                             "phiomia, $BowKO",
-                            "phiomia, $CrossbowOK",
+                            "phiomia, $CrossbowKO",
                             "phiomia, $RifleKO",
                             "phiomia, bola, club"
                         ],
@@ -3113,7 +3113,7 @@
                         "access_rules": 
                         [
                             "pulmonoscorpius, $BowKO",
-                            "pulmonoscorpius, $CrossbowOK",
+                            "pulmonoscorpius, $CrossbowKO",
                             "pulmonoscorpius, $RifleKO",
                             "pulmonoscorpius, bola, club",
                             "pulmonoscorpius, bola, slingshot",
@@ -3174,7 +3174,7 @@
                         "access_rules": 
                         [
                             "purlovia, $BowKO",
-                            "purlovia, $CrossbowOK",
+                            "purlovia, $CrossbowKO",
                             "purlovia, $RifleKO",
                             "purlovia, bola, club",
                             "purlovia, bola, slingshot",
@@ -3235,7 +3235,7 @@
                         "access_rules": 
                         [
                             "raptor, $BowKO",
-                            "raptor, $CrossbowOK",
+                            "raptor, $CrossbowKO",
                             "raptor, $RifleKO",
                             "raptor, bola, club",
                             "raptor, bola, slingshot",
@@ -3348,7 +3348,7 @@
                         "access_rules": 
                         [
                             "sabertooth, $BowKO",
-                            "sabertooth, $CrossbowOK",
+                            "sabertooth, $CrossbowKO",
                             "sabertooth, $RifleKO",
                             "sabertooth, bola, club",
                             "sabertooth, bola, slingshot",
@@ -3502,7 +3502,7 @@
                         "access_rules": 
                         [
                             "stegosaurus, $BowKO",
-                            "stegosaurus, $CrossbowOK",
+                            "stegosaurus, $CrossbowKO",
                             "stegosaurus, $RifleKO",
                             "stegosaurus, $UseNets, club"
                         ],
@@ -3559,7 +3559,7 @@
                         "access_rules": 
                         [
                             "terrorbird, $BowKO",
-                            "terrorbird, $CrossbowOK",
+                            "terrorbird, $CrossbowKO",
                             "terrorbird, $RifleKO",
                             "terrorbird, bola, club",
                             "terrorbird, bola, slingshot",
@@ -3844,7 +3844,7 @@
                         "access_rules": 
                         [
                             "trike, $BowKO",
-                            "trike, $CrossbowOK",
+                            "trike, $CrossbowKO",
                             "trike, $RifleKO",
                             "trike, slingshot"
                         ],
@@ -4946,7 +4946,7 @@
                         "access_rules": 
                         [
                             "pelagornis, $BowKO",
-                            "pelagornis, $CrossbowOK",
+                            "pelagornis, $CrossbowKO",
                             "pelagornis, $RifleKO",
                             "pelagornis, bola, club",
                             "pelagornis, bola, slingshot",
@@ -4998,7 +4998,7 @@
                         "access_rules": 
                         [
                             "pteranodon, $BowKO",
-                            "pteranodon, $CrossbowOK",
+                            "pteranodon, $CrossbowKO",
                             "pteranodon, $RifleKO",
                             "pteranodon, bola, club",
                             "pteranodon, bola, slingshot",
@@ -5172,7 +5172,7 @@
                         "access_rules": 
                         [
                             "iguanodon, $BowKO, $UseNets",
-                            "iguanodon, $CrossbowOK, $UseNets",
+                            "iguanodon, $CrossbowKO, $UseNets",
                             "iguanodon, $RifleKO",
                             "iguanodon, $UseNets, club",
                             "iguanodon, $UseNets, slingshot"

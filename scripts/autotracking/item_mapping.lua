@@ -727,5 +727,5 @@ ITEM_MAPPING =
  [8840014] = {{"grapple", "toggle"}},
  [8840028] = {{"scuba_tank", "toggle"}},
  [8840029] = {{"spear", "toggle"}},
- [8840033] = {{"torch", "toggle"}}
+--  [8840033] = {{"torch", "toggle"}}
 }

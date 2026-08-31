@@ -918,7 +918,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$pmDino"
                         ],
                 "sections": [
                     {
@@ -965,9 +965,9 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$pfmDino"
                         ],
-                "sections": [
+                "sections": [                  
                     {
                         "name": "x20",
                         "visibility_rules": 
@@ -1012,7 +1012,7 @@
                 ],
                 "access_rules": 
                         [
-                            "campfire"
+                            "campfire, $pmDino"
                         ],
                 "visibility_rules":
                 [
@@ -1145,7 +1145,7 @@
                 ],
                 "access_rules": 
                         [
-                            "campfire"
+                            "campfire, @Milestones/Raw Prime Fish Meat/x10"
                         ],
                 "visibility_rules":
                 [
@@ -1187,7 +1187,7 @@
                             ""
                         ],
                         "item_count": 1
-                    },
+                    }
                 ]
             },
             {
@@ -1208,7 +1208,7 @@
                 ],
                 "access_rules": 
                         [
-                            "campfire, preserving_bin, mortar, sparkpowder"
+                            "campfire, preserving_bin, mortar, sparkpowder, @Milestones/Oil/x250"
                         ],
                 "visibility_rules":
                 [
@@ -1259,7 +1259,7 @@
                 ],
                 "access_rules": 
                         [
-                            "campfire, preserving_bin, mortar, sparkpowder"
+                            "campfire, preserving_bin, mortar, sparkpowder, @Milestones/Oil/x250, @Milestones/Cooked Prime Meat/x10"
                         ],
                 "visibility_rules":
                 [
@@ -1310,7 +1310,8 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "moschops",
+                            "therizinosaur, therizinosaur_saddle"
                         ],
                 "visibility_rules":
                 [
@@ -1361,7 +1362,11 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "ankylosaurus, ankylosaurus_saddle",
+                            "therizinosaur, therizinosaur_saddle",
+                            "castoroides, castoroides_saddle",
+                            "moschops"
                         ],
                 "visibility_rules":
                 [
@@ -1667,15 +1672,75 @@
                             ""
                         ],
                 "sections": [
-                    {
-                        "name": "x200",
+                      {
+                        "name": "x100",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_mejoberries_100_enabled"
                         ],
                         "access_rules": 
                         [
                             ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x200",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_mejoberries_200_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x500",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_mejoberries_500_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            "parasaur, parasaur_saddle",
+                            "ankylosaurus, ankylosaurus_saddle",
+                            "therizinosaur, therizinosaur_saddle",
+                            "castoroides, castoroides_saddle",
+                            "triceratops, triceratops_saddle",
+                            "megatherium, megatherium_saddle",
+                            "stegosaurus, stegosaurus_saddle",
+                            "moschops",
+                            "gigantopithecus",
+                            "iguanodon, iguanodon_saddle",
+                            "woollyrhino, woollyrhino_saddle",
+                            "bronto, bronto_saddle",
+                            "mammoth, mammoth_saddle"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x1000",
+                        "visibility_rules": 
+                        [
+                            "$food_sanity_mejoberries_1000_enabled"
+                        ],
+                        "access_rules": 
+                        [
+                            "parasaur, parasaur_saddle",
+                            "ankylosaurus, ankylosaurus_saddle",
+                            "therizinosaur, therizinosaur_saddle",
+                            "castoroides, castoroides_saddle",
+                            "triceratops, triceratops_saddle",
+                            "megatherium, megatherium_saddle",
+                            "stegosaurus, stegosaurus_saddle",
+                            "moschops",
+                            "gigantopithecus",
+                            "iguanodon, iguanodon_saddle",
+                            "woollyrhino, woollyrhino_saddle",
+                            "bronto, bronto_saddle",
+                            "mammoth, mammoth_saddle"
                         ],
                         "item_count": 1
                     }
@@ -1705,11 +1770,11 @@
                         "name": "x20",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_plant_species_x_seed_20_enabled"
                         ],
                         "access_rules": 
                         [
-                            "$food_sanity_plant_species_x_seed_20_enabled"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1735,11 +1800,11 @@
                         "name": "x20",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_plant_species_y_seed_20_enabled"
                         ],
                         "access_rules": 
                         [
-                            "$food_sanity_plant_species_y_seed_20_enabled"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -1793,7 +1858,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$can_tame_1"
                         ],
                 "sections": [
                     {
@@ -1923,7 +1988,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$can_tame_1"
                         ],
                         "item_count": 1
                     },
@@ -1935,7 +2000,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$can_tame_5"
                         ],
                         "item_count": 1
                     },
@@ -1947,7 +2012,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$can_tame_10"
                         ],
                         "item_count": 1
                     },
@@ -1959,7 +2024,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$can_tame_20"
                         ],
                         "item_count": 1
                     },
@@ -1971,7 +2036,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$can_tame_50"
                         ],
                         "item_count": 1
                     }
@@ -2041,7 +2106,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MediumFightTames"
                         ],
                         "item_count": 1
                     },
@@ -2053,7 +2118,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MediumFightTames"
                         ],
                         "item_count": 1
                     },
@@ -2136,7 +2201,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MediumFightTames"
                         ],
                         "item_count": 1
                     },
@@ -2148,7 +2213,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MediumFightTames"
                         ],
                         "item_count": 1
                     },
@@ -2160,7 +2225,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$MediumFightTames, $DeepFightTames, $DeepDive"
                         ],
                         "item_count": 1
                     }
@@ -2452,8 +2517,7 @@
                 ],
                 "access_rules": 
                         [
-                            "$DeepDive, $shallow_tames_combat",
-                            "$DeepDive, $deep_tames_combat"
+                            "@Dinos/Angler/Kill an Angler"
                         ],
                 "sections": [
                     {
@@ -2518,7 +2582,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Trilobite/Kill a Trilobite"
                         ],
                 "sections": [
                     {
@@ -2564,7 +2628,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -2576,7 +2640,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -2588,7 +2652,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_hatchet, use_smithy",
+                            "megatherium, megatherium_saddle"
                         ],
                         "item_count": 1
                     }
@@ -2623,7 +2688,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -2635,7 +2700,21 @@
                         ],
                         "access_rules": 
                         [
+                            "metal_hatchet, use_smithy",
+                            "$useChainsaw"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "x2000",
+                        "visibility_rules": 
+                        [
                             ""
+                        ],
+                        "access_rules": 
+                        [
+                            "metal_hatchet, use_smithy",
+                            "$useChainsaw"
                         ],
                         "item_count": 1
                     }
@@ -2670,7 +2749,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -2682,7 +2761,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     }
@@ -2717,7 +2796,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet, $peltDino"
                         ],
                         "item_count": 1
                     },
@@ -2729,7 +2808,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet, $peltDino"
                         ],
                         "item_count": 1
                     },
@@ -2741,7 +2820,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_hatchet, $peltDino, use_smithy"
                         ],
                         "item_count": 1
                     }
@@ -2765,18 +2844,18 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$craftRepellant, $peltDino"
                         ],
                 "visibility_rules":
                 [
-                  "$food_sanity_giant_bee_honey_enabled"
+                  ""
                 ],
                 "sections": [
                     {
                         "name": "x3",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_giant_bee_honey_3_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2788,7 +2867,7 @@
                         "name": "x10",
                         "visibility_rules": 
                         [
-                            ""
+                            "$food_sanity_giant_bee_honey_10_enabled"
                         ],
                         "access_rules": 
                         [
@@ -2816,7 +2895,8 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Hesperornis/Kill a Hesperornis",
+                            "$EnterSnow, @Dinos/Kairuku/Kill a Kairuku"
                         ],
                 "sections": [
                     {
@@ -2933,7 +3013,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -2945,7 +3025,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -2957,7 +3037,10 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_hatchet, use_smithy",
+                            "$useChainsaw",
+                            "castoroides, castoroides_saddle",
+                            "therizinosaur, therizinosaur_saddle"
                         ],
                         "item_count": 1
                     }
@@ -2992,7 +3075,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_pick"
                         ],
                         "item_count": 1
                     },
@@ -3004,7 +3087,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_pick"
                         ],
                         "item_count": 1
                     },
@@ -3016,7 +3099,12 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "triceratops, triceratops_saddle",
+                            "moschops",
+                            "parasaur, parasaur_saddle",
+                            "megaloceros, megalosaurus_saddle",
+                            "therizinosaur, therizinosaur_saddle"
                         ],
                         "item_count": 1
                     }
@@ -3051,7 +3139,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -3063,7 +3151,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_hatchet"
                         ],
                         "item_count": 1
                     },
@@ -3075,7 +3163,9 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_hatchet, use_smithy",
+                            "$useDrill",
+                            "doedicurus, doedicurus_saddle"
                         ],
                         "item_count": 1
                     }
@@ -3169,7 +3259,12 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_sickle, use_smithy",
+                            "moschops",
+                            "gigantopithecus",
+                            "therizinosaur, therizinosaur_saddle",
+                            "direbear, direbear_saddle",
+                            "megatherium, megatherium_saddle"
                         ],
                         "item_count": 1
                     }
@@ -3269,7 +3364,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$DeepDive",
+                            "$EnterSnow"
                         ],
                         "item_count": 1
                     },
@@ -3281,7 +3377,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$DeepDive",
+                            "$EnterSnow"
                         ],
                         "item_count": 1
                     }
@@ -3316,7 +3413,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$DeepDive",
+                            "$EnterSnow"
                         ],
                         "item_count": 1
                     },
@@ -3328,7 +3426,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$DeepDive",
+                            "$EnterSnow"
                         ],
                         "item_count": 1
                     }
@@ -3363,7 +3462,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_pick"
                         ],
                         "item_count": 1
                     },
@@ -3375,7 +3474,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "stone_pick"
                         ],
                         "item_count": 1
                     },
@@ -3387,7 +3486,9 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "ankylosaurus, ankylosaurus_saddle",
+                            "$useDrill"
                         ],
                         "item_count": 1
                     }
@@ -3422,7 +3523,7 @@
                         ],
                         "access_rules": 
                         [
-                            "can_build, basic_forge"
+                            "can_build, basic_forge, stone_pick"
                         ],
                         "item_count": 1
                     },
@@ -3434,7 +3535,7 @@
                         ],
                         "access_rules": 
                         [
-                            "can_build, basic_forge"
+                            "can_build, basic_forge, stone_pick"
                         ],
                         "item_count": 1
                     },
@@ -3446,7 +3547,9 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "can_build, basic_forge, metal_pick, use_smithy",
+                            "can_build, basic_forge, ankylosaurus, ankylosaurus_saddle",
+                            "can_build, basic_forge, $useDrill"
                         ],
                         "item_count": 1
                     }
@@ -3481,7 +3584,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "ankylosaurus, ankylosaurus_saddle"
                         ],
                         "item_count": 1
                     },
@@ -3493,7 +3597,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "ankylosaurus, ankylosaurus_saddle"
                         ],
                         "item_count": 1
                     }
@@ -3528,7 +3633,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "ankylosaurus, ankylosaurus_saddle"
                         ],
                         "item_count": 1
                     },
@@ -3540,7 +3646,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "metal_pick, use_smithy",
+                            "ankylosaurus, ankylosaurus_saddle"
                         ],
                         "item_count": 1
                     }
@@ -3623,7 +3730,10 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Parasaur/Kill a Parasaur",
+                            "@Dinos/Raptor/Kill a Raptor",
+                            "@Dinos/Stego/Kill a Stego",
+                            "@Dinos/Rex/Kill a Rex"
                         ],
                 "sections": [
                     {
@@ -3670,7 +3780,13 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Parasaur/Kill a Parasaur, $useChainsaw",
+                            "@Dinos/Raptor/Kill a Raptor, $useChainsaw",
+                            "@Dinos/Stego/Kill a Stego, $useChainsaw",
+                            "@Dinos/Rex/Kill a Rex, $useChainsaw",
+                            "@Dinos/Broodmother/Broodmother Hologram",
+                            "@Dinos/Megapithecus/Megapithecus Hologram",
+                            "@Dinos/Dragon/Dragon Hologram"
                         ],
                 "sections": [
                     {
@@ -3776,7 +3892,7 @@
                 ],
                 "access_rules": 
                         [
-                            "$CanUseMortar, stimulant"
+                            "$CanUseMortar, stimulant, sparkpowder"
                         ],
                 "sections": [
                     {
@@ -3814,7 +3930,7 @@
                             ""
                         ],
                         "item_count": 1
-                    },
+                    }
                 ]
             },
             {
@@ -3929,7 +4045,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$CanUseMortar, CP"
+                            "$CanUseMortar, CP",
+                            "beelzebufo, beelzebufo_saddle"
                         ],
                 "sections": [
                     {
@@ -3988,7 +4105,7 @@
                 ],
                 "access_rules": 
                         [
-                            "$CanUseFabricator, electronics"
+                            "$CanUseFabricator, electronics, $Milestones/Silica Pearls/x250"
                         ],
                 "sections": [
                     {
@@ -4035,7 +4152,7 @@
                 ],
                 "access_rules": 
                         [
-                            "can_build, basic_forge"
+                            "can_build, basic_forge, @Milestones/Oil/x250"
                         ],
                 "sections": [
                     {
@@ -4093,7 +4210,8 @@
                 ],
                 "access_rules": 
                         [
-                            "$CanUseFabricator, can_tree_tap, substrate"
+                            "$CanUseFabricator, can_tree_tap, substrate",
+                            "@Dinos/Tusoteuthis/Kill a Tusoteuthis"
                         ],
                 "sections": [
                     {

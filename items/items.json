@@ -3984,6 +3984,18 @@
   "codes": "soul_trap"
  },
  {
+  "name": "Engram - Mining Drill",
+  "type": "toggle",
+  "codes": "drill",
+  "img": "images/engrams/Mining_Drill.png"
+ },
+  {
+  "name": "Engram - Boomerang",
+  "type": "toggle",
+  "codes": "boomerang",
+  "img": "images/engrams/Boomerang.png"
+ },
+ {
   "name": "Setting - Bundle Saddles",
   "type": "toggle",
   "codes": "op_BS",

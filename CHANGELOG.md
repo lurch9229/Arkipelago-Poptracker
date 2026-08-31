@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.0.8]
+
+## Fixed
+- Missing `location_mapping` for SE notes
+- Requirements to craft Bug Repellant
+- Spelling error that was causing some functions not to be called
+- 
+
+## Added
+- Logic for collect tasks
+- Collect task for more mejoberries
+- counter for how many creatures can be tamed in `logic.lua`
+- Mining Drill and Boomerang to `items.lua`
+
+## Changed 
+- Dino lists in `logic.lua` read proper requirements. Taming now uses the locations logic
+- General cleanup of lua scripts
+
+## TODO
+- Scorched Earth Finalisations
+
+---
+
 ## [0.0.7]
 
 ## Fixed

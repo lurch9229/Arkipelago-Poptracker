@@ -129,7 +129,7 @@ function Irrigation()
   end
 
   local stone = {"stone_intake", "stone_tap"}
-  local metal = {"smithy", "metal_intake", "metal_tap"}
+  local metal = {"use_smithy", "metal_intake", "metal_tap"}
 
   local function hasAll(items)
     for _, item in ipairs(items) do
@@ -206,473 +206,321 @@ end
 
 ScriptHost:AddWatchForCode("taps watch", "*", UseTaps)
 
---=======================================================================
+--========================================================================
 
---=======================================================================
---Saddle Check
-local function has_tame_and_saddle(entry_code)
-    if type(entry_code) == "string"
-    then
-        return Tracker:ProviderCountForCode(entry_code) > 0
-    elseif type(entry_code) == "table"
-    then
-        for _, code in ipairs(entry_code) do
-            if Tracker:ProviderCountForCode(code) == 0
-            then
-                return false
-            end
-        end
-        return true
-    end
-    return false
+--========================================================================
+-- can ride tame
+local function can_use_tame(tame_data)
+    local loc_obj = Tracker:FindObjectForCode(tame_data.location)
+    if not loc_obj then return false end
+
+    local is_accessible = loc_obj.AccessibilityLevel >= 3
+    local is_cleared = loc_obj.AvailableChestCount < loc_obj.ChestCount
+    local location_valid = is_accessible or is_cleared
+    local has_saddle = (tame_data.saddle == nil) or has(tame_data.saddle)
+
+    return location_valid and has_saddle
 end
---=========================================================================
+--========================================================================
 
---=========================================================================
--- Shallow tame logic
-local shallow_tames_list = {
-    { code = { "megalodon", "megalodon_saddle" },can_fight = true },
-    { code = { "sarco", "sarco_saddle" }, can_fight = true },
-    { code = { "baryonyx", "baryonyx_saddle" },can_fight = true },
-    { code = "diplocaulus",can_fight = false },
-    { code = { "manta", "manta_saddle" }, can_fight = false },
-    { code = { "basilosaurus", "basilosaurus_saddle" },can_fight = true },
-    { code = { "beelzebufo", "beelzebufo_saddle" },can_fight = true },
-    { code = { "icthysaurus", "icthysaurus_saddle" },can_fight = true },
-    { code = { "casteroides", "casteroides_saddle" }, can_fight = true },
-    { code = { "kaprosuchus", "kaprosuchus_saddle" },can_fight = true },
-    { code = { "allosaurus", "allosaurus_saddle" },can_fight = true }
+--========================================================================
+-- Shallow Tames Logic
+SHALLOW_TAMES_LIST = {
+    baryonyx     = { location = "@Dinos/Baryonyx/Tame a Baryonyx",         saddle = "baryonyx_saddle",     can_fight = true },
+    basilosaurus = { location = "@Dinos/Basilosaurus/Tame a Basilosaurus", saddle = "basilosaurus_saddle", can_fight = true },
+    beelzebufo   = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo",     saddle = "beelzebufo_saddle",   can_fight = true },
+    castoroides  = { location = "@Dinos/Castoroides/Tame a Castoroides",   saddle = "castoroides_saddle",  can_fight = true },
+    diplocaulus  = { location = "@Dinos/Diplocaulus/Tame a Diplocaulus",   saddle = nil,                   can_fight = false },
+    ichthysaurus  = { location = "@Dinos/Ichthyosaurus/Tame a Ichthyosaurus", saddle = "ichthysaurus_saddle",  can_fight = true },
+    kaprosuchus  = { location = "@Dinos/Kaprosuchus/Tame a Kaprosuchus",   saddle = "kaprosuchus_saddle",  can_fight = true },
+    manta        = { location = "@Dinos/Manta/Tame a Manta",               saddle = "manta_saddle",        can_fight = false },
+    megalodon    = { location = "@Dinos/Megalodon/Tame a Megalodon",       saddle = "megalodon_saddle",    can_fight = true },
+    sarco        = { location = "@Dinos/Sarco/Tame a Sarco",               saddle = "sarco_saddle",        can_fight = true }
 }
 
 function shallow_tames()
-    for _, tame in ipairs(shallow_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(SHALLOW_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
 
 function shallow_tames_combat()
-    for _, tame in ipairs(shallow_tames_list) do
-        if tame.can_fight and has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(SHALLOW_TAMES_LIST) do
+        if tame.can_fight and can_use_tame(tame) then return true end
     end
     return false
 end
---=====================================================================
+--========================================================================
 
---=====================================================================
---Deep tame logic
-local deep_tames_list = {
-    { code = { "mosasaur", "mosasaur_saddle" },can_fight = true },
-    { code = { "plesiosaur", "plesiosaur_saddle" }, can_fight = true },
-    { code = "lioplurodon" ,can_fight = false },
-    { code = {"dunkleosteus", "dunkleosteus_saddle"},can_fight = false },
-    { code = "angler",can_fight = false },
-    { code = { "tusoteuthis", "tusoteuthis_saddle" },can_fight = true }
+--========================================================================
+--Deep Tames Logic
+DEEP_TAMES_LIST = {
+    angler       = { location = "@Dinos/Angler/Tame an Angler",               saddle = nil,                   can_fight = false },
+    dunkleosteus = { location = "@Dinos/Dunkleosteus/Tame a Dunkleosteus",   saddle = "dunkleosteus_saddle", can_fight = false },
+    liopleurodon  = { location = "@Dinos/Liopleurodon/Tame a Liopleurodon",     saddle = nil,                   can_fight = false },
+    mosasaur     = { location = "@Dinos/Mosasaur/Tame a Mosasaur",           saddle = "mosasaur_saddle",     can_fight = true },
+    plesiosaur   = { location = "@Dinos/Plesiosaur/Tame a Plesiosaur",       saddle = "plesiosaur_saddle",   can_fight = true },
+    tusoteuthis  = { location = "@Dinos/Tusoteuthis/Tame a Tusoteuthis",     saddle = "tusoteuthis_saddle",  can_fight = true }
 }
 
 function deep_tames()
-    for _, tame in ipairs(deep_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(DEEP_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
 
 function deep_tames_combat()
-    for _, tame in ipairs(deep_tames_list) do
-        if tame.can_fight and has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(DEEP_TAMES_LIST) do
+        if tame.can_fight and can_use_tame(tame) then return true end
     end
     return false
 end
---=====================================================================
+--========================================================================
 
---=====================================================================
+--========================================================================
 --Can Fly Logic
-local flyer_list = {
-    { code = { "argentavis", "argentavis_saddle" }},
-    { code = { "pelagornis", "pelagornis_saddle" }},
-    { code = { "pteranodon", "pteranodon_saddle"}},
-    { code = { "quetzal", "quetzal_saddle" }},
-    { code = { "rhyniognatha", "rhyniognatha_saddle" }},
-    { code = { "tapejara", "tapejara_saddle" }}
+FLYER_LIST = {
+    argentavis   = { location = "@Dinos/Argentavis/Tame an Argentavis",     saddle = "argentavis_saddle" },
+    pelagornis   = { location = "@Dinos/Pelagornis/Tame a Pelagornis",     saddle = "pelagornis_saddle" },
+    pteranodon   = { location = "@Dinos/Pteranodon/Tame a Pteranodon",     saddle = "pteranodon_saddle" },
+    quetzal      = { location = "@Dinos/Quetzal/Tame a Quetzal",           saddle = "quetzal_saddle" },
+    rhyniognatha = { location = "@Dinos/Rhyniognatha/Tame a Rhyniognatha", saddle = "rhyniognatha_saddle" },
+    tapejara     = { location = "@Dinos/Tapejara/Tame a Tapejara",         saddle = "tapejara_saddle" }
 }
 
 function CanFly()
-    for _, tame in ipairs(flyer_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(FLYER_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---=====================================================================
+--========================================================================
 
---=====================================================================
+--========================================================================
 --Basic Fight Tames
-local basic_fight_tames_list = {
-    { code = { "iguanadon", "iguanadon_saddle" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "moschops" }},
-    { code = { "pteranodon", "pteranodon_saddle" }},
-    { code = { "pelagornis", "pelagornis_saddle" }},
-    { code = { "ankylosaurus", "ankylosaurus_saddle" }},
-    { code = { "carbonemys", "carbonemys_saddle" }},
-    { code = { "castoroides", "castoroides_saddle" }},
-    { code = { "araneo", "araneo_saddle" }},
-    { code = { "arthropluera", "arthropluera_saddle" }},
-    { code = { "doedicurus", "doedicurus_saddle" }},
-    { code = { "beelzebufo", "beelzebufo_saddle" }},
-    { code = { "gallimimus", "gallimimus_saddle" }},
-    { code = { "equus" }},
-    { code = { "unicorn" }},
-    { code = { "pulmonoscorpius", "pulmonoscorpius_saddle" }},
-    { code = { "gigantopithecus" }}
+BASIC_FIGHT_TAMES_LIST = {
+    ankylosaurus    = { location = "@Dinos/Ankylosaurus/Tame an Ankylosaurus",       saddle = "ankylosaurus_saddle" },
+    araneo          = { location = "@Dinos/Araneo/Tame an Araneo",                   saddle = "araneo_saddle" },
+    arthropluera    = { location = "@Dinos/Arthropluera/Tame an Arthropluera",       saddle = "arthropluera_saddle" },
+    beelzebufo      = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo",           saddle = "beelzebufo_saddle" },
+    carbonemys      = { location = "@Dinos/Carbonemys/Tame a Carbonemys",           saddle = "carbonemys_saddle" },
+    castoroides     = { location = "@Dinos/Castoroides/Tame a Castoroides",         saddle = "castoroides_saddle" },
+    doedicurus      = { location = "@Dinos/Doedicurus/Tame a Doedicurus",           saddle = "doedicurus_saddle" },
+    equus           = { location = "@Dinos/Equus/Tame a Equus",                     saddle = nil },
+    gallimimus      = { location = "@Dinos/Gallimimus/Tame a Gallimimus",           saddle = "gallimimus_saddle" },
+    gigantopithecus = { location = "@Dinos/Gigantopithecus/Tame a Gigantopithecus", saddle = nil },
+    iguanodon       = { location = "@Dinos/Iguanodon/Tame a Iguanodon",             saddle = "iguanodon_saddle" },
+    moschops        = { location = "@Dinos/Moschops/Tame a Moschops",               saddle = nil },
+    pelagornis      = { location = "@Dinos/Pelagornis/Tame a Pelagornis",           saddle = "pelagornis_saddle" },
+    pteranodon      = { location = "@Dinos/Pteranodon/Tame a Pteranodon",           saddle = "pteranodon_saddle" },
+    pulmonoscorpius = { location = "@Dinos/Pulmonoscorpius/Tame a Pulmonoscorpius", saddle = "pulmonoscorpius_saddle" },
+    raptor          = { location = "@Dinos/Raptor/Tame a Raptor",                   saddle = "raptor_saddle" },
+    sabertooth      = { location = "@Dinos/Sabertooth/Tame a Sabertooth",           saddle = "sabertooth_saddle" },
+    unicorn         = { location = "@Dinos/Unicorn/Tame a Unicorn",                 saddle = nil }
 }
 
 function BasicFightTames()
-    for _, tame in ipairs(basic_fight_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(BASIC_FIGHT_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---=======================================================================
+--========================================================================
 
---=======================================================================
+--========================================================================
 --Medium Fight Tames
-local medium_fight_tames_list = {
-    { code = { "argentavis", "argentavis_saddle" }},
-    { code = { "daeodon", "daeodon_saddle" }},
-    { code = { "chalicotherium", "chalicotherium_saddle" }},
-    { code = { "carno", "carno_saddle" }},
-    { code = { "sarco", "sarco_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "mammoth", "mammoth_saddle" }},
-    { code = { "woolly_rhino", "woolly_rhino_saddle" }},
-    { code = { "direbear", "direbear_saddle" }},
-    { code = { "allosaurus", "allosaurus_saddle" }},
-    { code = { "kaprosuchus", "kaprosuchus_saddle" }},
-    { code = { "terror_bird", "terrorbird_saddle" }},
-    { code = { "quetzal", "quetzal_saddle" }},
-    { code = { "trike", "triceratops_saddle" }},
-    { code = { "stegosaurus", "stegosaurus_saddle" }},
-    { code = { "bronto", "bronto_saddle" }},
-    { code = { "direwolf" }}
+MEDIUM_FIGHT_TAMES_LIST = {
+    allosaurus     = { location = "@Dinos/Allosaurus/Tame an Allosaurus",        saddle = "allosaurus_saddle" },
+    argentavis     = { location = "@Dinos/Argentavis/Tame an Argentavis",        saddle = "argentavis_saddle" },
+    baryonyx       = { location = "@Dinos/Baryonyx/Tame a Baryonyx",             saddle = "baryonyx_saddle" },
+    Brontosaurus   = { location = "@Dinos/Brontosaurus/Tame a Brontosaurus",     saddle = "bronto_saddle" },
+    carno          = { location = "@Dinos/Carno/Tame a Carno",                   saddle = "carno_saddle" },
+    chalicotherium = { location = "@Dinos/Chalicotherium/Tame a Chalicotherium", saddle = "chalicotherium_saddle" },
+    daeodon        = { location = "@Dinos/Daeodon/Tame a Daeodon",               saddle = "daeodon_saddle" },
+    direbear       = { location = "@Dinos/Dire Bear/Tame a Dire Bear",           saddle = "direbear_saddle" },
+    direwolf       = { location = "@Dinos/Direwolf/Tame a Direwolf",             saddle = nil },
+    kaprosuchus    = { location = "@Dinos/Kaprosuchus/Tame a Kaprosuchus",       saddle = "kaprosuchus_saddle" },
+    mammoth        = { location = "@Dinos/Mammoth/Tame a Mammoth",               saddle = "mammoth_saddle" },
+    quetzal        = { location = "@Dinos/Quetzal/Tame a Quetzal",               saddle = "quetzal_saddle" },
+    sarco          = { location = "@Dinos/Sarco/Tame a Sarco",                   saddle = "sarco_saddle" },
+    stegosaurus    = { location = "@Dinos/Stego/Tame a Stego",                   saddle = "stegosaurus_saddle" },
+    terror_bird    = { location = "@Dinos/Terrorbird/Tame a Terrorbird",         saddle = "terrorbird_saddle" },
+    Triceratops    = { location = "@Dinos/Triceratops/Tame a Triceratops",       saddle = "triceratops_saddle" },
+    woolly_rhino   = { location = "@Dinos/Woolly Rhino/Tame a Woolly Rhino",     saddle = "woolly_rhino_saddle" }
 }
 
 function MediumFightTames()
-    for _, tame in ipairs(medium_fight_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(MEDIUM_FIGHT_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---=========================================================================
+--========================================================================
 
---=========================================================================
+--========================================================================
 --Strong Fight Tames
-local strong_fight_tames_list = {
-    { code = { "rex", "rex_saddle" }},
-    { code = { "therizinosaur", "therizinosaur_saddle" }},
-    { code = { "spino", "spino_saddle" }},
-    { code = { "yutyrannus", "yutyrannus_saddle" }},
-    { code = { "titanosaur", "titanosaur_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-    { code = { "rhyniognatha", "rhyniognatha_saddle" }}
+STRONG_FIGHT_TAMES_LIST = {
+    rex           = { location = "@Dinos/Rex/Tame a Rex",                     saddle = "rex_saddle" },
+    rhyniognatha  = { location = "@Dinos/Rhyniognatha/Tame a Rhyniognatha",   saddle = "rhyniognatha_saddle" },
+    spino         = { location = "@Dinos/Spino/Tame a Spino",                 saddle = "spino_saddle" },
+    therizinosaur = { location = "@Dinos/Therizinosaur/Tame a Therizinosaur", saddle = "therizinosaur_saddle" },
+    thylacoleo    = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo",       saddle = "thylacoleo_saddle" },
+    -- titanosaur    = { location = "@Dinos/Titanosaur/Tame a Titanosaur",       saddle = "titanosaur_saddle" },
+    yutyrannus    = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus",       saddle = "yutyrannus_saddle" }
 }
 
 function StrongFightTames()
-    for _, tame in ipairs(strong_fight_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(STRONG_FIGHT_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---=========================================================================
+--========================================================================
 
---=========================================================================
+--========================================================================
 --Insane Fight Tames
-local insane_fight_tames_list = {
-    { code = { "giganotosaurus", "giganotosaurus_saddle" }},
-    { code = { "carchardontosaurus", "carchardontosaurus_saddle" }}
+INSANE_FIGHT_TAMES_LIST = {
+    carcharodontosaurus = { location = "@Dinos/Carcharodontosaurus/Tame a Carcharodontosaurus", saddle = "carchardontosaurus_saddle" },
+    giganotosaurus      = { location = "@Dinos/Giganotosaurus/Tame a Giganotosaurus",          saddle = "giganotosaurus_saddle" }
 }
 
 function InsaneFightTames()
-    for _, tame in ipairs(insane_fight_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(INSANE_FIGHT_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
 --==========================================================================
 
 --==========================================================================
---Immune Useful Tames
-local immune_tames_list = {
-    { code = { "beelzebufo", "beelzebufo_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }}
+--Cave Tames
+STANDARD_CAVE_TAMES_LIST = {
+    sabertooth = { location = "@Dinos/Sabertooth/Tame a Sabertooth", saddle = "sabertooth_saddle" },
+    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle" },
+    direwolf   = { location = "@Dinos/Direwolf/Tame a Direwolf",     saddle = nil },
+    raptor     = { location = "@Dinos/Raptor/Tame a Raptor",         saddle = "raptor_saddle" },
+    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo", saddle = "thylacoleo_saddle" }
+}
+
+IMMUNE_TAMES_LIST = {
+    beelzebufo = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo", saddle = "beelzebufo_saddle" },
+    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle" }
+}
+
+STRONG_TAMES_LIST = {
+    allosaurus = { location = "@Dinos/Allosaurus/Tame a Allosaurus", saddle = "allosaurus_saddle" },
+    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo", saddle = "thylacoleo_saddle" },
+    yutyrannus = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus", saddle = "yutyrannus_saddle" }
+}
+
+SWAMP_RIVER_TAMES_LIST = {
+    sarco      = { location = "@Dinos/Sarco/Tame a Sarco",           saddle = "sarco_saddle" },
+    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle" },
+    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo", saddle = "thylacoleo_saddle" }
 }
 
 function ImmuneTames()
-    for _, tame in ipairs(immune_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(IMMUNE_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---==========================================================================
-
---==========================================================================
---Strong Useful Tames
-local strong_tames_list = {
-    { code = { "allosaurus", "allosaurus_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-    { code = { "yutyrannus", "yutyrannus_saddle"}}
-}
 
 function StrongTames()
-    for _, tame in ipairs(strong_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(STRONG_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---==========================================================================
-
---==========================================================================
---Massive Useful Tames
-local massive_tames_list = {
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "direwolf" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
-
-function MassiveTames()
-    for _, tame in ipairs(massive_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
-    end
-    return false
-end
-
---==========================================================================
-
---==========================================================================
---Clever Useful Tames
-local clever_tames_list = {
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "direwolf" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
-
-function CleverTames()
-    for _, tame in ipairs(clever_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
-    end
-    return false
-end
---=========================================================================
-
---=========================================================================
---Pack Useful Tames
-local pack_tames_list = {
-    { code = { "sarco", "sarco_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
 
 function PackTames()
-    for _, tame in ipairs(pack_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(SWAMP_RIVER_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
---=========================================================================
-
---=========================================================================
--- Hunter Useful Tames
-local hunter_tames_list = {
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "direwolf" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
-
-function HunterTames()
-    for _, tame in ipairs(hunter_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
-    end
-    return false
-end
---=========================================================================
-
---=========================================================================
--- Devourer Useful Tames
-local devourer_tames_list = {
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "direwolf" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
-
-function DevourerTames()
-    for _, tame in ipairs(devourer_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
-    end
-    return false
-end
---=======================================================================
--- Central Useful Tames
-local central_tames_list = {
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "direwolf" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
-
-function CentralTames()
-    for _, tame in ipairs(central_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
-    end
-    return false
-end
---========================================================================
-
---========================================================================
--- Upper South Tames
-local upper_south_tames_list = {
-    { code = { "sarco", "sarco_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
 
 function UpperSouthTames()
-    for _, tame in ipairs(upper_south_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
+    for _, tame in pairs(SWAMP_RIVER_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
     end
     return false
 end
 
---========================================================================
+function MassiveTames()
+    for _, tame in pairs(STANDARD_CAVE_TAMES_LIST) do
+        if can_use_tame(tame) then return true end
+    end
+    return false
+end
 
---========================================================================
--- Lower South Tames
-local lower_south_tames_list = {
-    { code = { "sabertooth", "sabertooth_saddle" }},
-    { code = { "baryonyx", "baryonyx_saddle" }},
-    { code = { "direwolf" }},
-    { code = { "raptor", "raptor_saddle" }},
-    { code = { "thylacoleo", "thylacoleo_saddle" }},
-}
+function CleverTames()
+    return MassiveTames()
+end
+
+function HunterTames()
+    return MassiveTames()
+end
+
+function DevourerTames()
+    return MassiveTames()
+end
+
+function CentralTames()
+    return MassiveTames()
+end
 
 function LowerSouthTames()
-    for _, tame in ipairs(lower_south_tames_list) do
-        if has_tame_and_saddle(tame.code)
-        then
-            return true
-        end
-    end
-    return false
+    return MassiveTames()
 end
-
 --========================================================================
 
 --========================================================================
 --Reptile List for eggs
-local reptile_list = {
-    "allosaurus",
-    "baryonyx",
-    "carno",
-    "carcharodontosaurus",
-    "compy",
-    "dilophosaur",
-    "gallimimus",
-    "giganotosaurus",
-    "megalosaurus",
-    "microraptor",
-    "raptor",
-    "rex",
-    "spino",
-    "therizinosaur",
-    "troodon",
-    "yutyrannus",
-    "ankylosaurus",
-    "bronto",
-    "diplodocus",
-    "iguanadon",
-    "kentrosaurus",
-    "morellatops",
-    "pachy",
-    "pachyrhinosaurus",
-    "parasaur",
-    "pegomastax",
-    "stegosaurus",
-    "trike",
-    "carbonemys",
-    "thorny_dragon",
-    "megalania",
-    "dimorphodon",
-    "pteranodon",
-    "quetzal",
-    "tapejara",
-    "wyvern"
+REPTILE_LIST = {
+    allosaurus          = { location = "@Dinos/Allosaurus/Tame a Allosaurus" },
+    ankylosaurus        = { location = "@Dinos/Ankylosaurus/Tame a Ankylosaurus" },
+    baryonyx            = { location = "@Dinos/Baryonyx/Tame a Baryonyx" },
+    Brontosaurus        = { location = "@Dinos/Brontosaurus/Tame a Brontosaurus" },
+    carbonemys          = { location = "@Dinos/Carbonemys/Tame a Carbonemys" },
+    carcharodontosaurus = { location = "@Dinos/Carcharodontosaurus/Tame a Carcharodontosaurus" },
+    carno               = { location = "@Dinos/Carno/Tame a Carno" },
+    compy               = { location = "@Dinos/Compy/Tame a Compy" },
+    dilophosaur         = { location = "@Dinos/Dilophosaur/Tame a Dilophosaur" },
+    dimorphodon         = { location = "@Dinos/Dimorphodon/Tame a Dimorphodon" },
+    diplodocus          = { location = "@Dinos/Diplodocus/Tame a Diplodocus" },
+    gallimimus          = { location = "@Dinos/Gallimimus/Tame a Gallimimus" },
+    giganotosaurus      = { location = "@Dinos/Giganotosaurus/Tame a Giganotosaurus" },
+    iguanodon           = { location = "@Dinos/Iguanodon/Tame a Iguanodon" },
+    kentrosaurus        = { location = "@Dinos/Kentrosaurus/Tame a Kentrosaurus" },
+    megalania           = { location = "@Dinos/Megalania/Tame a Megalania" },
+    megalosaurus        = { location = "@Dinos/Megalosaurus/Tame a Megalosaurus" },
+    microraptor         = { location = "@Dinos/Microraptor/Tame a Microraptor" },
+    morellatops         = { location = "@Dinos/Morellatops/Tame a Morellatops" },
+    pachy               = { location = "@Dinos/Pachy/Tame a Pachy" },
+    pachyrhinosaurus    = { location = "@Dinos/Pachyrhinosaurus/Tame a Pachyrhinosaurus" },
+    parasaur            = { location = "@Dinos/Parasaur/Tame a Parasaur" },
+    pegomastax          = { location = "@Dinos/Pegomastax/Tame a Pegomastax" },
+    pteranodon          = { location = "@Dinos/Pteranodon/Tame a Pteranodon" },
+    quetzal             = { location = "@Dinos/Quetzal/Tame a Quetzal" },
+    raptor              = { location = "@Dinos/Raptor/Tame a Raptor" },
+    rex                 = { location = "@Dinos/Rex/Tame a Rex" },
+    spino               = { location = "@Dinos/Spino/Tame a Spino" },
+    stegosaurus         = { location = "@Dinos/Stegosaurus/Tame a Stegosaurus" },
+    tapejara            = { location = "@Dinos/Tapejara/Tame a Tapejara" },
+    therizinosaur       = { location = "@Dinos/Therizinosaur/Tame a Therizinosaur" },
+    thorny_dragon       = { location = "@Dinos/Thorny Dragon/Tame a Thorny Dragon" },
+    Triceratops         = { location = "@Dinos/Triceratops/Tame a Triceratops" },
+    troodon             = { location = "@Dinos/Troodon/Tame a Troodon" },
+    wyvern              = { location = "@Dinos/Wyvern/Tame a Wyvern" },
+    yutyrannus          = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus" }
 }
 
 function reptile_tames()
-    for _, tame_code in ipairs(reptile_list) do
-        if has(tame_code) then
+    for _, tame in pairs(REPTILE_LIST) do
+        if can_use_tame(tame) then
             return true
         end
     end
@@ -680,6 +528,211 @@ function reptile_tames()
 end
 
 --========================================================================
+
+--========================================================================
+--Non Fighter Dinos
+NON_FIGHTER_LIST = {
+    achatina         = { location = "@Dinos/Achatina/Tame an Achatina" },
+    archaeopteryx    = { location = "@Dinos/Archaeopteryx/Tame an Archaeopteryx" },
+    compy            = { location = "@Dinos/Compy/Tame a Compy" },
+    dilophosaur      = { location = "@Dinos/Dilophosaur/Tame a Dilophosaur" },
+    dimetrodon       = { location = "@Dinos/Dimetrodon/Tame a Dimetrodon" },
+    dimorphodon      = { location = "@Dinos/Dimorphodon/Tame a Dimorphodon" },
+    diplocaulus      = { location = "@Dinos/Diplocaulus/Tame a Diplocaulus" },
+    diplodocus       = { location = "@Dinos/Diplodocus/Tame a Diplodocus" },
+    dodo             = { location = "@Dinos/Dodo/Tame a Dodo" },
+    hesperornis      = { location = "@Dinos/Hesperornis/Tame a Hesperornis" },
+    kentrosaurus     = { location = "@Dinos/Kentrosaurus/Tame a Kentrosaurus" },
+    lystrosaurus     = { location = "@Dinos/Lystrosaurus/Tame a Lystrosaurus" },
+    megalania        = { location = "@Dinos/Megalania/Tame a Megalania" },
+    megaloceros      = { location = "@Dinos/Megaloceros/Tame a Megaloceros" },
+    megalosaurus     = { location = "@Dinos/Megalosaurus/Tame a Megalosaurus" },
+    mesopithecus     = { location = "@Dinos/Mesopithecus/Tame a Mesopithecus" },
+    microraptor      = { location = "@Dinos/Microraptor/Tame a Microraptor" },
+    onyc             = { location = "@Dinos/Onyc/Tame a Onyc" },
+    otter            = { location = "@Dinos/Otter/Tame a Otter" },
+    oviraptor        = { location = "@Dinos/Oviraptor/Tame a Oviraptor" },
+    ovis             = { location = "@Dinos/Ovis/Tame a Ovis" },
+    pachy            = { location = "@Dinos/Pachy/Tame a Pachy" },
+    pachyrhinosaurus = { location = "@Dinos/Pachyrhinosaurus/Tame a Pachyrhinosaurus" },
+    paracer          = { location = "@Dinos/Paracer/Tame a Paracer" },
+    parasaur         = { location = "@Dinos/Parasaur/Tame a Parasaur" },
+    pegomastax       = { location = "@Dinos/Pegomastax/Tame a Pegomastax" },
+    phiomia          = { location = "@Dinos/Phiomia/Tame a Phiomia" },
+    procoptodon      = { location = "@Dinos/Procoptodon/Tame a Procoptodon" },
+    titanoboa        = { location = "@Dinos/Titanoboa/Tame a Titanoboa" },
+    troodon          = { location = "@Dinos/Troodon/Tame a Troodon" }
+}
+
+function nonFighters()
+    for _, tame in pairs(NON_FIGHTER_LIST) do
+        if can_use_tame(tame) then
+            return true
+        end
+    end
+    return false
+end
+
+--========================================================================
+
+--========================================================================
+
+--========================================================================
+--Tame Count
+local function count_accessible_tames(lists)
+    local seen_tames = {}
+    local total_count = 0
+
+    for _, tame_list in ipairs(lists) do
+        for tame_key, tame in pairs(tame_list) do
+            -- Deduplicate by creature key across all lists
+            if not seen_tames[tame_key] then
+                seen_tames[tame_key] = true
+                if can_use_tame(tame) then
+                    total_count = total_count + 1
+                end
+            end
+        end
+    end
+
+    return total_count
+end
+
+function can_tame_count(required_amount)
+    local all_tame_lists = {
+        SHALLOW_TAMES_LIST,
+        DEEP_TAMES_LIST,
+        FLYER_LIST,
+        BASIC_FIGHT_TAMES_LIST,
+        MEDIUM_FIGHT_TAMES_LIST,
+        STRONG_FIGHT_TAMES_LIST,
+        INSANE_FIGHT_TAMES_LIST,
+        REPTILE_LIST,
+        NON_FIGHTER_LIST
+    }
+
+    return count_accessible_tames(all_tame_lists) >= tonumber(required_amount)
+end
+
+function can_tame_1()
+  return can_tame_count(1)
+end
+
+function can_tame_5()
+  return can_tame_count(5)
+end
+
+function can_tame_10()
+  return can_tame_count(10)
+end
+
+function can_tame_20()
+  return can_tame_count(20)
+end
+
+function can_tame_50()
+  return can_tame_count(50)
+end
+
+--========================================================================
+--Pelt Droppers
+PELT_DROPPERS = {
+    castoroides  = "@Dinos/Castoroides/Kill a Castoroides",
+    direwolf     = "@Dinos/Direwolf/Kill a Direwold",
+    direbear     = "@Dinos/Dire Bear/Kill a Dire Bear",
+    mammoth      = "@Dinos/Mammoth/Kill a Mammoth",
+    megatherium  = "@Dinos/Megatherium/Kill a Megatherium",
+    ovis         = "@Dinos/Ovis/Kill a Ovis",
+    otter        = "@Dinos/Otter/Kill a Otter",
+    yutyrannus   = "@Dinos/Yutyrannus/Kill a Yutyrannus",
+    woolly_rhino = "@Dinos/Woolly Rhino/Kill a Woolly Rhino",
+}
+
+function peltDino()
+    for _, loc_path in pairs(PELT_DROPPERS) do
+        local loc_obj = Tracker:FindObjectForCode(loc_path)
+        if loc_obj then
+            local is_accessible = loc_obj.AccessibilityLevel >= 3
+            local is_cleared = loc_obj.AvailableChestCount < loc_obj.ChestCount
+            if is_accessible or is_cleared then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+--========================================================================
+
+--========================================================================
+--Prime Meat Droppers
+PRIME_DROPPERS = {
+    allosaurus               = "@Dinos/Allosaurus/Kill an Allosaurus",
+    argentavis               = "@Dinos/Argentavis/Kill an Argentavis",
+    Brontosaurus             = "@Dinos/Brontosaurus/Kill a Brontosaurus",
+    carno                    = "@Dinos/Carno/Kill a Carno",
+    dimetrodon               = "@Dinos/Dimetrodon/Kill a Dimetrodon",
+    diplodocus               = "@Dinos/Diplodocus/Kill a Diplodocus",
+    giganotosaurus           = "@Dinos/Giganotosaurus/Kill a Giganotosaurus",
+    hyaenodon                = "@Dinos/Hyaenodon/Kill a Hyaenodon",
+    mammoth                  = "@Dinos/Mammoth/Kill a Mammoth",
+    megalosaurus             = "@Dinos/Megalosaurus/Kill a Megalosaurus",
+    paracer                  = "@Dinos/Paracer/Kill a Paracer",
+    purlovia                 = "@Dinos/Purlovia/Kill a Purlovia",
+    quetzal                  = "@Dinos/Quetzal/Kill a Quetzal",
+    rex                      = "@Dinos/Rex/Kill a Rex",
+    sarco                    = "@Dinos/Sarco/Kill a Sarco",
+    spino                    = "@Dinos/Spino/Kill a Spino",
+    therizinosaur            = "@Dinos/Therizinosaur/Kill a Therizinosaur",
+    titanoboa                = "@Dinos/Titanoboa/Kill a Titanoboa",
+}
+
+function pmDino()
+    for _, loc_path in pairs(PRIME_DROPPERS) do
+        local loc_obj = Tracker:FindObjectForCode(loc_path)
+        if loc_obj then
+            local is_accessible = loc_obj.AccessibilityLevel >= 3
+            local is_cleared = loc_obj.AvailableChestCount < loc_obj.ChestCount
+            if is_accessible or is_cleared then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+--========================================================================
+
+--========================================================================
+--Prime Fish Droppers
+PRIME_FISH_DROPPERS = {
+    alpha_megalodon       = "@Dinos/Alpha Megalodon/Kill an Alpha Megalodon",
+    alpha_tusoteuthis     = "@Dinos/Alpha Tusoteuthis/Kill an Alpha Tusoteuthis",
+    dunkleosteus          = "@Dinos/Dunkleosteus/Kill a Dunkleosteus",
+    leedsichthys          = "@Dinos/Leedsichthys/Kill a Leedsichthys",
+    megalodon             = "@Dinos/Megalodon/Kill a Megalodon",
+    sabertooth_salmon     = "@Dinos/Sabertooth Salmon/Kill a Sabertooth Salmon",
+    tusoteuthis           = "@Dinos/Tusoteuthis/Kill a Tusoteuthis",
+    }
+
+function pfmDino()
+    for _, loc_path in pairs(PRIME_FISH_DROPPERS) do
+        local loc_obj = Tracker:FindObjectForCode(loc_path)
+        if loc_obj then
+            local is_accessible = loc_obj.AccessibilityLevel >= 3
+            local is_cleared = loc_obj.AvailableChestCount < loc_obj.ChestCount
+            if is_accessible or is_cleared then
+                return true
+            end
+        end
+    end
+    return false
+end
+--========================================================================
+
+--========================================================================
+
+
 
 --========================================================================
 --Enter Snow
@@ -1115,6 +1168,33 @@ end
 
 function GhillieSet()
   if has("ghillie_mask") and has("ghillie_legs") and has("ghillie_gloves") and has("ghillie_chest") and has("ghillie_boots")
+  then
+    return true
+  else
+    return false
+  end
+end
+
+function useChainsaw()
+  if has("chainsaw") and CanUseFabricator()
+  then
+    return true
+  else
+    return false
+  end
+end
+
+function useDrill()
+  if has("drill") and CanUseFabricator()
+  then
+    return true
+  else
+    return false
+  end
+end
+
+function craftRepellant()
+  if CanUseMortar() and has("grow_crops") and has("repellant") and peltDino()
   then
     return true
   else

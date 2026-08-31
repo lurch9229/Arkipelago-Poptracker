@@ -122,7 +122,7 @@
             "name": "Northern Plains: 25.4-40.0",
             "visibility_rules": 
             [
-                "$explorer_note_dossier_angler_enabled"
+                "$explorer_note_dossier_anglerfish_enabled"
             ],
             "access_rules": 
             [
@@ -2235,7 +2235,7 @@
             "name": "Redwood Forests: 65.1-31.4",
             "visibility_rules": 
             [
-                "$explorer_note_dossier_paracertherium_enabled"
+                "$explorer_note_dossier_paracer_enabled"
             ],
             "access_rules": 
             [
@@ -2523,7 +2523,7 @@
             "name": "Southern Islets: 80.6-61.9",
             "visibility_rules": 
             [
-                "$explorer_note_dossier_pulmonoscorius_enabled"
+                "$explorer_note_dossier_pulmonoscorpius_enabled"
             ],
             "access_rules": 
             [
@@ -3163,7 +3163,7 @@
             "name": "Caverns of Lost Faith: 59.9-21.3",
             "visibility_rules": 
             [
-                "$explorer_note_dossier_tusotuethis_enabled"
+                "$explorer_note_dossier_tusoteuthis_enabled"
             ],
             "access_rules": 
             [
@@ -3259,7 +3259,7 @@
             "name": "Ocean Cave: 8.5-90.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_1_enabled"
+                "$explorer_note_helena_1_enabled"
             ],
             "access_rules": 
             [
@@ -3291,7 +3291,7 @@
             "name": "Ocean Cave: 91.8-71.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_2_enabled"
+                "$explorer_note_helena_2_enabled"
             ],
             "access_rules": 
             [
@@ -3323,7 +3323,7 @@
             "name": "Ocean Cave: 91.0-36.2",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_3_enabled"
+                "$explorer_note_helena_3_enabled"
             ],
             "access_rules": 
             [
@@ -3355,7 +3355,7 @@
             "name": "Ocean Cave: 90.6-13.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_4_enabled"
+                "$explorer_note_helena_4_enabled"
             ],
             "access_rules": 
             [
@@ -3387,7 +3387,7 @@
             "name": "Southern Islets: 81.5-44.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_5_enabled"
+                "$explorer_note_helena_5_enabled"
             ],
             "access_rules": 
             [
@@ -3419,7 +3419,7 @@
             "name": "Southern Islets: 77.2-76.4",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_6_enabled"
+                "$explorer_note_helena_6_enabled"
             ],
             "access_rules": 
             [
@@ -3451,7 +3451,7 @@
             "name": "The Footpaw: 78.7-27.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_7_enabled"
+                "$explorer_note_helena_7_enabled"
             ],
             "access_rules": 
             [
@@ -3483,7 +3483,7 @@
             "name": "Southern Islets: 61.2-81.5",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_8_enabled"
+                "$explorer_note_helena_8_enabled"
             ],
             "access_rules": 
             [
@@ -3515,7 +3515,7 @@
             "name": "Caverns of Lost Hope: 49.4-79.2",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_9_enabled"
+                "$explorer_note_helena_9_enabled"
             ],
             "access_rules": 
             [
@@ -3547,7 +3547,7 @@
             "name": "Redwood Forests: 52.4-59.0",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_10_enabled"
+                "$explorer_note_helena_10_enabled"
             ],
             "access_rules": 
             [
@@ -3579,7 +3579,7 @@
             "name": "Upper South Cave: 69.8-61.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_11_enabled"
+                "$explorer_note_helena_11_enabled"
             ],
             "access_rules": 
             [
@@ -3611,7 +3611,7 @@
             "name": "Lower South Cave: 84.0-52.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_12_enabled"
+                "$explorer_note_helena_12_enabled"
             ],
             "access_rules": 
             [
@@ -3643,7 +3643,7 @@
             "name": "Western Approach: 55.2-27.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_13_enabled"
+                "$explorer_note_helena_13_enabled"
             ],
             "access_rules": 
             [
@@ -3675,7 +3675,7 @@
             "name": "Winter's Mouth: 26.3-62.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_14_enabled"
+                "$explorer_note_helena_14_enabled"
             ],
             "access_rules": 
             [
@@ -3707,7 +3707,7 @@
             "name": "Frozen Tooth: 34.0-56.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_15_enabled"
+                "$explorer_note_helena_15_enabled"
             ],
             "access_rules": 
             [
@@ -3739,7 +3739,7 @@
             "name": "Western Plains: 40.7-26.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_16_enabled"
+                "$explorer_note_helena_16_enabled"
             ],
             "access_rules": 
             [
@@ -3771,7 +3771,7 @@
             "name": "Southern Islets: 76.8-77.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_17_enabled"
+                "$explorer_note_helena_17_enabled"
             ],
             "access_rules": 
             [
@@ -3803,7 +3803,7 @@
             "name": "Southern Islets: 76.6-70.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_18_enabled"
+                "$explorer_note_helena_18_enabled"
             ],
             "access_rules": 
             [
@@ -3835,7 +3835,7 @@
             "name": "Winter's Mouth: 25.1-44.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_19_enabled"
+                "$explorer_note_helena_19_enabled"
             ],
             "access_rules": 
             [
@@ -3867,7 +3867,7 @@
             "name": "Winter's Mouth: 19.2-49.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_20_enabled"
+                "$explorer_note_helena_20_enabled"
             ],
             "access_rules": 
             [
@@ -3899,7 +3899,7 @@
             "name": "Winter's Mouth: 12.6-49.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_21_enabled"
+                "$explorer_note_helena_21_enabled"
             ],
             "access_rules": 
             [
@@ -3931,7 +3931,7 @@
             "name": "Winter's Mouth: 24.9-60.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_22_enabled"
+                "$explorer_note_helena_22_enabled"
             ],
             "access_rules": 
             [
@@ -3963,7 +3963,7 @@
             "name": "Smuggler's Pass: 23.9-65.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_23_enabled"
+                "$explorer_note_helena_23_enabled"
             ],
             "access_rules": 
             [
@@ -3995,7 +3995,7 @@
             "name": "Whitesky Peak: 28.9-23.2",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_24_enabled"
+                "$explorer_note_helena_24_enabled"
             ],
             "access_rules": 
             [
@@ -4027,7 +4027,7 @@
             "name": "Western Plains: 36.2-22.4",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_25_enabled"
+                "$explorer_note_helena_25_enabled"
             ],
             "access_rules": 
             [
@@ -4059,7 +4059,7 @@
             "name": "Winter's Mouth: 27.6-56.4",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_26_enabled"
+                "$explorer_note_helena_26_enabled"
             ],
             "access_rules": 
             [
@@ -4091,7 +4091,7 @@
             "name": "Whitesky Peak: 26.0-25.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_27_enabled"
+                "$explorer_note_helena_27_enabled"
             ],
             "access_rules": 
             [
@@ -4123,7 +4123,7 @@
             "name": "Whitesky Peak: 22.3-23.4",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_28_enabled"
+                "$explorer_note_helena_28_enabled"
             ],
             "access_rules": 
             [
@@ -4155,7 +4155,7 @@
             "name": "Dead Island: 16.3-81.2",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_29_enabled"
+                "$explorer_note_helena_29_enabled"
             ],
             "access_rules": 
             [
@@ -4187,7 +4187,7 @@
             "name": "Tek Cave Acension: 19.2-77.14",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_30_enabled"
+                "$explorer_note_helena_30_enabled"
             ],
             "access_rules": 
             [
@@ -4219,7 +4219,7 @@
             "name": "Hidden Lake: 25.3-73.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_1_enabled"
+                "$explorer_note_rockwell_1_enabled"
             ],
             "access_rules": 
             [
@@ -4251,7 +4251,7 @@
             "name": "Cragg's Island: 83.2-24.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_2_enabled"
+                "$explorer_note_rockwell_2_enabled"
             ],
             "access_rules": 
             [
@@ -4283,7 +4283,7 @@
             "name": "Western Coast: 54.8-13.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_3_enabled"
+                "$explorer_note_rockwell_3_enabled"
             ],
             "access_rules": 
             [
@@ -4315,7 +4315,7 @@
             "name": "Dead Island: 14.1-85.9",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_4_enabled"
+                "$explorer_note_rockwell_4_enabled"
             ],
             "access_rules": 
             [
@@ -4347,7 +4347,7 @@
             "name": "Hidden Lake: 21.3-69.2",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_5_enabled"
+                "$explorer_note_rockwell_5_enabled"
             ],
             "access_rules": 
             [
@@ -4379,7 +4379,7 @@
             "name": "Caverns of Lost Hope: 46.4-83.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_6_enabled"
+                "$explorer_note_rockwell_6_enabled"
             ],
             "access_rules": 
             [
@@ -4411,7 +4411,7 @@
             "name": "Eastern Forest: 44.1-81.4",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_7_enabled"
+                "$explorer_note_rockwell_7_enabled"
             ],
             "access_rules": 
             [
@@ -4443,7 +4443,7 @@
             "name": "Redwood Forests: 64.5-34.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_8_enabled"
+                "$explorer_note_rockwell_8_enabled"
             ],
             "access_rules": 
             [
@@ -4475,7 +4475,7 @@
             "name": "Caverns of Lost Faith: 61.6-16.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_9_enabled"
+                "$explorer_note_rockwell_9_enabled"
             ],
             "access_rules": 
             [
@@ -4507,7 +4507,7 @@
             "name": "Southern Islets: 75.7-71.5",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_10_enabled"
+                "$explorer_note_rockwell_10_enabled"
             ],
             "access_rules": 
             [
@@ -4539,7 +4539,7 @@
             "name": "Southern Islets: 80.0-67.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_11_enabled"
+                "$explorer_note_rockwell_11_enabled"
             ],
             "access_rules": 
             [
@@ -4571,7 +4571,7 @@
             "name": "Southern Islets: 82.6-51.3",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_12_enabled"
+                "$explorer_note_rockwell_12_enabled"
             ],
             "access_rules": 
             [
@@ -4603,7 +4603,7 @@
             "name": "Writhing Swamps: 64.1-61.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_13_enabled"
+                "$explorer_note_rockwell_13_enabled"
             ],
             "access_rules": 
             [
@@ -4635,7 +4635,7 @@
             "name": "The Red Peak: 58.6-49.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_14_enabled"
+                "$explorer_note_rockwell_14_enabled"
             ],
             "access_rules": 
             [
@@ -4667,7 +4667,7 @@
             "name": "Writhing Swamps: 70.1-32.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_15_enabled"
+                "$explorer_note_rockwell_15_enabled"
             ],
             "access_rules": 
             [
@@ -4699,7 +4699,7 @@
             "name": "Writhing Swamps: 69.5-24.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_16_enabled"
+                "$explorer_note_rockwell_16_enabled"
             ],
             "access_rules": 
             [
@@ -4731,7 +4731,7 @@
             "name": "Central Cave: 40.8-47.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_17_enabled"
+                "$explorer_note_rockwell_17_enabled"
             ],
             "access_rules": 
             [
@@ -4763,7 +4763,7 @@
             "name": "Lava Cave: 68.7-86.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_18_enabled"
+                "$explorer_note_rockwell_18_enabled"
             ],
             "access_rules": 
             [
@@ -4795,7 +4795,7 @@
             "name": "Cragg's Island: 83.8-27.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_19_enabled"
+                "$explorer_note_rockwell_19_enabled"
             ],
             "access_rules": 
             [
@@ -4827,7 +4827,7 @@
             "name": "Cragg's Island: 86.4-26.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_20_enabled"
+                "$explorer_note_rockwell_20_enabled"
             ],
             "access_rules": 
             [
@@ -4859,7 +4859,7 @@
             "name": "The Footpaw: 77.1-31.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_21_enabled"
+                "$explorer_note_rockwell_21_enabled"
             ],
             "access_rules": 
             [
@@ -4891,7 +4891,7 @@
             "name": "Southern Islets: 76.0-46.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_22_enabled"
+                "$explorer_note_rockwell_22_enabled"
             ],
             "access_rules": 
             [
@@ -4923,7 +4923,7 @@
             "name": "Southern Islets: 75.5-74.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_23_enabled"
+                "$explorer_note_rockwell_23_enabled"
             ],
             "access_rules": 
             [
@@ -4955,7 +4955,7 @@
             "name": "Southern Islets: 76.5-68.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_24_enabled"
+                "$explorer_note_rockwell_24_enabled"
             ],
             "access_rules": 
             [
@@ -4987,7 +4987,7 @@
             "name": "Southern Islets: 75.0-65.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_25_enabled"
+                "$explorer_note_rockwell_25_enabled"
             ],
             "access_rules": 
             [
@@ -5019,7 +5019,7 @@
             "name": "Southern Islets: 75.8-75.5",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_26_enabled"
+                "$explorer_note_rockwell_26_enabled"
             ],
             "access_rules": 
             [
@@ -5051,7 +5051,7 @@
             "name": "Dead Island: 20.1-85.9",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_27_enabled"
+                "$explorer_note_rockwell_27_enabled"
             ],
             "access_rules": 
             [
@@ -5083,7 +5083,7 @@
             "name": "Southern Islets: 78.3-47.2",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_28_enabled"
+                "$explorer_note_rockwell_28_enabled"
             ],
             "access_rules": 
             [
@@ -5115,7 +5115,7 @@
             "name": "Tek Cave Ascension: 14.1-75.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_29_enabled"
+                "$explorer_note_rockwell_29_enabled"
             ],
             "access_rules": 
             [
@@ -5147,7 +5147,7 @@
             "name": "Whitesky Peak: 25.0-18.9",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_1_enabled"
+                "$explorer_note_mei_yin_1_enabled"
             ],
             "access_rules": 
             [
@@ -5179,7 +5179,7 @@
             "name": "Whitesky Peak: 15.2-20.7",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_2_enabled"
+                "$explorer_note_mei_yin_2_enabled"
             ],
             "access_rules": 
             [
@@ -5211,7 +5211,7 @@
             "name": "Winter's Mouth: 15.7-52.5",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_3_enabled"
+                "$explorer_note_mei_yin_3_enabled"
             ],
             "access_rules": 
             [
@@ -5243,7 +5243,7 @@
             "name": "Whitesky Peak: 19.8-30.1",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_4_enabled"
+                "$explorer_note_mei_yin_4_enabled"
             ],
             "access_rules": 
             [
@@ -5275,7 +5275,7 @@
             "name": "Whitesky Peak: 26.6-16.4",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_5_enabled"
+                "$explorer_note_mei_yin_5_enabled"
             ],
             "access_rules": 
             [
@@ -5307,7 +5307,7 @@
             "name": "Whitesky Peak: 16.8-29.0",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_6_enabled"
+                "$explorer_note_mei_yin_6_enabled"
             ],
             "access_rules": 
             [
@@ -5339,7 +5339,7 @@
             "name": "Whitesky Peak: 21.3-30.0",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_7_enabled"
+                "$explorer_note_mei_yin_7_enabled"
             ],
             "access_rules": 
             [
@@ -5371,7 +5371,7 @@
             "name": "Whitesky Peak: 32.5-16.1",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_8_enabled"
+                "$explorer_note_mei_yin_8_enabled"
             ],
             "access_rules": 
             [
@@ -5403,7 +5403,7 @@
             "name": "Caverns of Lost Hope: 47.2-81.6",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_9_enabled"
+                "$explorer_note_mei_yin_9_enabled"
             ],
             "access_rules": 
             [
@@ -5435,7 +5435,7 @@
             "name": "Winter's Mouth: 27.3-43.9",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_10_enabled"
+                "$explorer_note_mei_yin_10_enabled"
             ],
             "access_rules": 
             [
@@ -5467,7 +5467,7 @@
             "name": "Northern Plains: 20.5-40.8",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_11_enabled"
+                "$explorer_note_mei_yin_11_enabled"
             ],
             "access_rules": 
             [
@@ -5499,7 +5499,7 @@
             "name": "Winter's Mouth: 12.8-54.5",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_12_enabled"
+                "$explorer_note_mei_yin_12_enabled"
             ],
             "access_rules": 
             [
@@ -5531,7 +5531,7 @@
             "name": "Northern Plains: 21.3-40.9",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_13_enabled"
+                "$explorer_note_mei_yin_13_enabled"
             ],
             "access_rules": 
             [
@@ -5563,7 +5563,7 @@
             "name": "Winter's Mouth: 15.3-53.2",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_14_enabled"
+                "$explorer_note_mei_yin_14_enabled"
             ],
             "access_rules": 
             [
@@ -5595,7 +5595,7 @@
             "name": "Northern Plains: 26.8-39.7",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_15_enabled"
+                "$explorer_note_mei_yin_15_enabled"
             ],
             "access_rules": 
             [
@@ -5627,7 +5627,7 @@
             "name": "Western Plains: 34.4-29.4",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_16_enabled"
+                "$explorer_note_mei_yin_16_enabled"
             ],
             "access_rules": 
             [
@@ -5659,7 +5659,7 @@
             "name": "Whitesky Peak: 28.0-33.9",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_17_enabled"
+                "$explorer_note_mei_yin_17_enabled"
             ],
             "access_rules": 
             [
@@ -5691,7 +5691,7 @@
             "name": "Winter's Mouth: 26.5-51.6",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_18_enabled"
+                "$explorer_note_mei_yin_18_enabled"
             ],
             "access_rules": 
             [
@@ -5723,7 +5723,7 @@
             "name": "Grand Hills: 39.0-44.1",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_19_enabled"
+                "$explorer_note_mei_yin_19_enabled"
             ],
             "access_rules": 
             [
@@ -5755,7 +5755,7 @@
             "name": "Northern Shores: 39.1-71.1",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_20_enabled"
+                "$explorer_note_mei_yin_20_enabled"
             ],
             "access_rules": 
             [
@@ -5787,7 +5787,7 @@
             "name": "Far's Peak: 32.4-73.3",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_21_enabled"
+                "$explorer_note_mei_yin_21_enabled"
             ],
             "access_rules": 
             [
@@ -5819,7 +5819,7 @@
             "name": "Far's Peak: 30.1-82.3",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_22_enabled"
+                "$explorer_note_mei_yin_22_enabled"
             ],
             "access_rules": 
             [
@@ -5851,7 +5851,7 @@
             "name": "Eastern Forest: 40.2-78.8",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_23_enabled"
+                "$explorer_note_mei_yin_23_enabled"
             ],
             "access_rules": 
             [
@@ -5883,7 +5883,7 @@
             "name": "Western Approach: 50.4-23.3",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_24_enabled"
+                "$explorer_note_mei_yin_24_enabled"
             ],
             "access_rules": 
             [
@@ -5915,7 +5915,7 @@
             "name": "Western Plains: 42.6-23.0",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_25_enabled"
+                "$explorer_note_mei_yin_25_enabled"
             ],
             "access_rules": 
             [
@@ -5947,7 +5947,7 @@
             "name": "Western Approach: 52.4-17.4",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_26_enabled"
+                "$explorer_note_mei_yin_26_enabled"
             ],
             "access_rules": 
             [
@@ -5979,7 +5979,7 @@
             "name": "Whitesky Peak: 22.1-9.7",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_27_enabled"
+                "$explorer_note_mei_yin_27_enabled"
             ],
             "access_rules": 
             [
@@ -6011,7 +6011,7 @@
             "name": "Whitesky Peak: 23.5-37.8",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_28_enabled"
+                "$explorer_note_mei_yin_28_enabled"
             ],
             "access_rules": 
             [
@@ -6043,7 +6043,7 @@
             "name": "Whitesky Peak: 18.2-38.0",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_29_enabled"
+                "$explorer_note_mei_yin_29_enabled"
             ],
             "access_rules": 
             [
@@ -6075,7 +6075,7 @@
             "name": "Grand Hills: 39.9-40.6",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_30_enabled"
+                "$explorer_note_mei_yin_30_enabled"
             ],
             "access_rules": 
             [
@@ -6107,7 +6107,7 @@
             "name": "Tek Cave Ascension: 13.3-73.8",
             "visibility_rules": 
             [
-                "$explorer_note_mei_yin_note_31_enabled"
+                "$explorer_note_mei_yin_31_enabled"
             ],
             "access_rules": 
             [
@@ -6139,7 +6139,7 @@
             "name": "Hidden Lake: 22.4-68.4",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_1_enabled"
+                "$explorer_note_nerva_1_enabled"
             ],
             "access_rules": 
             [
@@ -6171,7 +6171,7 @@
             "name": "Far's Peak: 35.7-78.1",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_2_enabled"
+                "$explorer_note_nerva_2_enabled"
             ],
             "access_rules": 
             [
@@ -6203,7 +6203,7 @@
             "name": "Western Plains: 39.5-24.5",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_3_enabled"
+                "$explorer_note_nerva_3_enabled"
             ],
             "access_rules": 
             [
@@ -6235,7 +6235,7 @@
             "name": "The Maw: 41.1-68.0",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_4_enabled"
+                "$explorer_note_nerva_4_enabled"
             ],
             "access_rules": 
             [
@@ -6267,7 +6267,7 @@
             "name": "Grand Hills: 45.3-31.5",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_5_enabled"
+                "$explorer_note_nerva_5_enabled"
             ],
             "access_rules": 
             [
@@ -6299,7 +6299,7 @@
             "name": "Eastern Forest: 49.4-79.0",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_6_enabled"
+                "$explorer_note_nerva_6_enabled"
             ],
             "access_rules": 
             [
@@ -6331,7 +6331,7 @@
             "name": "The Maw: 47.8-60.9",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_7_enabled"
+                "$explorer_note_nerva_7_enabled"
             ],
             "access_rules": 
             [
@@ -6363,7 +6363,7 @@
             "name": "Redwood Forests: 52.5-49.1",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_8_enabled"
+                "$explorer_note_nerva_8_enabled"
             ],
             "access_rules": 
             [
@@ -6395,7 +6395,7 @@
             "name": "Caverns of Lost Faith: 58.2-19.8",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_9_enabled"
+                "$explorer_note_nerva_9_enabled"
             ],
             "access_rules": 
             [
@@ -6427,7 +6427,7 @@
             "name": "Redwood Forests: 51.4-54.6",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_10_enabled"
+                "$explorer_note_nerva_10_enabled"
             ],
             "access_rules": 
             [
@@ -6459,7 +6459,7 @@
             "name": "Cragg's Island: 82.7-27.1",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_11_enabled"
+                "$explorer_note_nerva_11_enabled"
             ],
             "access_rules": 
             [
@@ -6491,7 +6491,7 @@
             "name": "Southern Jungle: 77.4-16.4",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_12_enabled"
+                "$explorer_note_nerva_12_enabled"
             ],
             "access_rules": 
             [
@@ -6523,7 +6523,7 @@
             "name": "Southern Islets: 69.6-84.6",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_13_enabled"
+                "$explorer_note_nerva_13_enabled"
             ],
             "access_rules": 
             [
@@ -6555,7 +6555,7 @@
             "name": "Writhing Swamps: 72.3-59.2",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_14_enabled"
+                "$explorer_note_nerva_14_enabled"
             ],
             "access_rules": 
             [
@@ -6587,7 +6587,7 @@
             "name": "Southern Jungle: 62.1-20.4",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_15_enabled"
+                "$explorer_note_nerva_15_enabled"
             ],
             "access_rules": 
             [
@@ -6619,7 +6619,7 @@
             "name": "Writhing Swamps: 53.7-77.8",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_16_enabled"
+                "$explorer_note_nerva_16_enabled"
             ],
             "access_rules": 
             [
@@ -6651,7 +6651,7 @@
             "name": "Eastern Plains: 43.3-69.3",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_17_enabled"
+                "$explorer_note_nerva_17_enabled"
             ],
             "access_rules": 
             [
@@ -6683,7 +6683,7 @@
             "name": "Redwood Forests: 57.9-32.2",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_18_enabled"
+                "$explorer_note_nerva_18_enabled"
             ],
             "access_rules": 
             [
@@ -6715,7 +6715,7 @@
             "name": "Grand Hills: 43.4-31.0",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_19_enabled"
+                "$explorer_note_nerva_19_enabled"
             ],
             "access_rules": 
             [
@@ -6747,7 +6747,7 @@
             "name": "Grand Hills: 50.6-38.5",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_20_enabled"
+                "$explorer_note_nerva_20_enabled"
             ],
             "access_rules": 
             [
@@ -6779,7 +6779,7 @@
             "name": "Writhing Swamps: 54.8-70.8",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_21_enabled"
+                "$explorer_note_nerva_21_enabled"
             ],
             "access_rules": 
             [
@@ -6811,7 +6811,7 @@
             "name": "The Maw: 43.6-61.0",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_22_enabled"
+                "$explorer_note_nerva_22_enabled"
             ],
             "access_rules": 
             [
@@ -6843,7 +6843,7 @@
             "name": "Eastern Plains: 45.3-68.4",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_23_enabled"
+                "$explorer_note_nerva_23_enabled"
             ],
             "access_rules": 
             [
@@ -6875,7 +6875,7 @@
             "name": "Eastern Forest: 44.1-77.0",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_24_enabled"
+                "$explorer_note_nerva_24_enabled"
             ],
             "access_rules": 
             [
@@ -6907,7 +6907,7 @@
             "name": "Writhing Swamps: 55.2-75.9",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_25_enabled"
+                "$explorer_note_nerva_25_enabled"
             ],
             "access_rules": 
             [
@@ -6939,7 +6939,7 @@
             "name": "Southern Jungle: 73.8-17.6",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_26_enabled"
+                "$explorer_note_nerva_26_enabled"
             ],
             "access_rules": 
             [
@@ -6971,7 +6971,7 @@
             "name": "The Red Peak: 56.2-51.1",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_27_enabled"
+                "$explorer_note_nerva_27_enabled"
             ],
             "access_rules": 
             [
@@ -7003,7 +7003,7 @@
             "name": "Grand Hills: 47.9-47.5",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_28_enabled"
+                "$explorer_note_nerva_28_enabled"
             ],
             "access_rules": 
             [
@@ -7035,7 +7035,7 @@
             "name": "Writhing Swamps: 71.2-57.9",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_29_enabled"
+                "$explorer_note_nerva_29_enabled"
             ],
             "access_rules": 
             [
@@ -7067,7 +7067,7 @@
             "name": "Volcanic Maw: 43.0-39.2",
             "visibility_rules": 
             [
-                "$explorer_note_nerva_note_30_enabled"
+                "$explorer_note_nerva_30_enabled"
             ],
             "access_rules": 
             [
@@ -7099,7 +7099,7 @@
             "name": "Tek Cave Overseer Arena: 23.6-78.2",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_1_enabled"
+                "$explorer_note_ascendant_1_enabled"
             ],
             "access_rules": 
             [
@@ -7131,7 +7131,7 @@
             "name": "Far's Peak: 36.2-79.0",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_4_enabled"
+                "$explorer_note_ascendant_4_enabled"
             ],
             "access_rules": 
             [
@@ -7163,7 +7163,7 @@
             "name": "Southern Islets: 75.6-60.5",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_7_enabled"
+                "$explorer_note_ascendant_7_enabled"
             ],
             "access_rules": 
             [
@@ -7195,7 +7195,7 @@
             "name": "Western Plains: 44.4-23.6",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_10_enabled"
+                "$explorer_note_ascendant_10_enabled"
             ],
             "access_rules": 
             [
@@ -7227,7 +7227,7 @@
             "name": "Cragg's Island: 89.2-24.2",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_13_enabled"
+                "$explorer_note_ascendant_13_enabled"
             ],
             "access_rules": 
             [
@@ -8329,7 +8329,7 @@
             "name": "Northern West Dunes: 11.2-40.0",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_1_enabled"
+                "$explorer_note_raia_1_enabled"
             ],
             "access_rules": 
             [
@@ -8361,7 +8361,7 @@
             "name": "Central Canyons: 51.4-49.4",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_2_enabled"
+                "$explorer_note_raia_2_enabled"
             ],
             "access_rules": 
             [
@@ -8393,7 +8393,7 @@
             "name": "Central Canyons: 49.3-50-8",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_3_enabled"
+                "$explorer_note_raia_3_enabled"
             ],
             "access_rules": 
             [
@@ -8425,7 +8425,7 @@
             "name": "South East Dunes: 86.1-68.8",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_4_enabled"
+                "$explorer_note_raia_4_enabled"
             ],
             "access_rules": 
             [
@@ -8457,7 +8457,7 @@
             "name": "Central Dunes: 69.9-59.3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_5_enabled"
+                "$explorer_note_raia_5_enabled"
             ],
             "access_rules": 
             [
@@ -8489,7 +8489,7 @@
             "name": "Northern Mountains: 22.2-60.8",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_6_enabled"
+                "$explorer_note_raia_6_enabled"
             ],
             "access_rules": 
             [
@@ -8521,7 +8521,7 @@
             "name": "Ruins of Nosti: 78.3-76.1",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_7_enabled"
+                "$explorer_note_raia_7_enabled"
             ],
             "access_rules": 
             [
@@ -8553,7 +8553,7 @@
             "name": "Northern Dunes: 16.8-56.5",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_8_enabled"
+                "$explorer_note_raia_8_enabled"
             ],
             "access_rules": 
             [
@@ -8585,7 +8585,7 @@
             "name": "Eastern Badlands: 50.3-80.3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_9_enabled"
+                "$explorer_note_raia_9_enabled"
             ],
             "access_rules": 
             [
@@ -8617,7 +8617,7 @@
             "name": "Southern West Dunes: 88.7-38.6",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_10_enabled"
+                "$explorer_note_raia_10_enabled"
             ],
             "access_rules": 
             [
@@ -8649,7 +8649,7 @@
             "name": "Southern East High Desert: 76.8-69.2",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_11_enabled"
+                "$explorer_note_raia_11_enabled"
             ],
             "access_rules": 
             [
@@ -8681,7 +8681,7 @@
             "name": "Southern High Desert: 76.1-60.3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_12_enabled"
+                "$explorer_note_raia_12_enabled"
             ],
             "access_rules": 
             [
@@ -8713,7 +8713,7 @@
             "name": "South East Dunes: 77.4-77.9",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_13_enabled"
+                "$explorer_note_raia_13_enabled"
             ],
             "access_rules": 
             [
@@ -8745,7 +8745,7 @@
             "name": "Northern East Dunes: 33.1-87.5",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_14_enabled"
+                "$explorer_note_raia_14_enabled"
             ],
             "access_rules": 
             [
@@ -8777,7 +8777,7 @@
             "name": "Northern East Dunes: 27.6-88.6",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_15_enabled"
+                "$explorer_note_raia_15_enabled"
             ],
             "access_rules": 
             [
@@ -8809,7 +8809,7 @@
             "name": "Western Dunes: 45.8-09.5",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_16_enabled"
+                "$explorer_note_raia_16_enabled"
             ],
             "access_rules": 
             [
@@ -8841,7 +8841,7 @@
             "name": "Western Mountains: 49.1-20.3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_17_enabled"
+                "$explorer_note_raia_17_enabled"
             ],
             "access_rules": 
             [
@@ -8873,7 +8873,7 @@
             "name": "Western High Desert: 43.1-37-3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_18_enabled"
+                "$explorer_note_raia_18_enabled"
             ],
             "access_rules": 
             [
@@ -8905,7 +8905,7 @@
             "name": "Eastern Low Desert: 43.7-59.4",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_19_enabled"
+                "$explorer_note_raia_19_enabled"
             ],
             "access_rules": 
             [
@@ -8937,7 +8937,7 @@
             "name": "Eastern Low Desert: 54.8-61.5",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_20_enabled"
+                "$explorer_note_raia_20_enabled"
             ],
             "access_rules": 
             [
@@ -8969,7 +8969,7 @@
             "name": "Southern West Dunes: 79.7-15.5",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_21_enabled"
+                "$explorer_note_raia_21_enabled"
             ],
             "access_rules": 
             [
@@ -9001,7 +9001,7 @@
             "name": "Southern West Dunes: 82.2-13.6",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_22_enabled"
+                "$explorer_note_raia_22_enabled"
             ],
             "access_rules": 
             [
@@ -9033,7 +9033,7 @@
             "name": "Southern Mountains: 62.7-44.3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_23_enabled"
+                "$explorer_note_raia_23_enabled"
             ],
             "access_rules": 
             [
@@ -9065,7 +9065,7 @@
             "name": "Southern East Canyons: 60.1-59.4",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_24_enabled"
+                "$explorer_note_raia_24_enabled"
             ],
             "access_rules": 
             [
@@ -9097,7 +9097,7 @@
             "name": "Southern West Dunes: 84.6-32.2",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_25_enabled"
+                "$explorer_note_raia_25_enabled"
             ],
             "access_rules": 
             [
@@ -9129,7 +9129,7 @@
             "name": "Southern High Desert: 75.8-54.1",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_26_enabled"
+                "$explorer_note_raia_26_enabled"
             ],
             "access_rules": 
             [
@@ -9161,7 +9161,7 @@
             "name": "Northern West High Desert: 37.5-40.0",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_27_enabled"
+                "$explorer_note_raia_27_enabled"
             ],
             "access_rules": 
             [
@@ -9193,7 +9193,7 @@
             "name": "Western Mountains: 45.3-30.0",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_28_enabled"
+                "$explorer_note_raia_28_enabled"
             ],
             "access_rules": 
             [
@@ -9225,7 +9225,7 @@
             "name": "Western Mountains: 46.6-22.1",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_29_enabled"
+                "$explorer_note_raia_29_enabled"
             ],
             "access_rules": 
             [
@@ -9257,7 +9257,7 @@
             "name": "Southern West Oasis: 70.2-39.3",
             "visibility_rules": 
             [
-                "$explorer_note_raia_note_30_enabled"
+                "$explorer_note_raia_30_enabled"
             ],
             "access_rules": 
             [
@@ -9289,7 +9289,7 @@
             "name": "Northern West Dunes: 17.7-12.3",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_1_enabled"
+                "$explorer_note_dahkeya_1_enabled"
             ],
             "access_rules": 
             [
@@ -9321,7 +9321,7 @@
             "name": "Northern West Mountains: 14.8-27.7",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_2_enabled"
+                "$explorer_note_dahkeya_2_enabled"
             ],
             "access_rules": 
             [
@@ -9353,7 +9353,7 @@
             "name": "Southern West Dunes: 66.3-14.4",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_3_enabled"
+                "$explorer_note_dahkeya_3_enabled"
             ],
             "access_rules": 
             [
@@ -9385,7 +9385,7 @@
             "name": "Southern Mountains: 71.1-48.1",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_4_enabled"
+                "$explorer_note_dahkeya_4_enabled"
             ],
             "access_rules": 
             [
@@ -9417,7 +9417,7 @@
             "name": "Central Mountains: 53.3-43.7",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_5_enabled"
+                "$explorer_note_dahkeya_5_enabled"
             ],
             "access_rules": 
             [
@@ -9449,7 +9449,7 @@
             "name": "Southern Mountains: 78.9-49.9",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_6_enabled"
+                "$explorer_note_dahkeya_6_enabled"
             ],
             "access_rules": 
             [
@@ -9481,7 +9481,7 @@
             "name": "Northern Canyons: 30.6-53.8",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_7_enabled"
+                "$explorer_note_dahkeya_7_enabled"
             ],
             "access_rules": 
             [
@@ -9513,7 +9513,7 @@
             "name": "Northern High Desert: 22.4-44.2",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_8_enabled"
+                "$explorer_note_dahkeya_8_enabled"
             ],
             "access_rules": 
             [
@@ -9545,7 +9545,7 @@
             "name": "Eastern Dunes: 42.3-88.4",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_9_enabled"
+                "$explorer_note_dahkeya_9_enabled"
             ],
             "access_rules": 
             [
@@ -9577,7 +9577,7 @@
             "name": "Eastern Badlands: 61.2-77.8",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_10_enabled"
+                "$explorer_note_dahkeya_10_enabled"
             ],
             "access_rules": 
             [
@@ -9609,7 +9609,7 @@
             "name": "Northern East Dunes: 24.5-77.6",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_11_enabled"
+                "$explorer_note_dahkeya_11_enabled"
             ],
             "access_rules": 
             [
@@ -9641,7 +9641,7 @@
             "name": "Northern East Dunes: 17.6-87.5",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_12_enabled"
+                "$explorer_note_dahkeya_12_enabled"
             ],
             "access_rules": 
             [
@@ -9673,7 +9673,7 @@
             "name": "Northern East Dunes: 33.6-10.7",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_13_enabled"
+                "$explorer_note_dahkeya_13_enabled"
             ],
             "access_rules": 
             [
@@ -9705,7 +9705,7 @@
             "name": "Northern East Dunes: 28.5-12.4",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_14_enabled"
+                "$explorer_note_dahkeya_14_enabled"
             ],
             "access_rules": 
             [
@@ -9729,7 +9729,7 @@
         ],
         "access_rules": 
         [
-            "$explorer_note_dahkeya_note_15_enabled"
+            "$explorer_note_dahkeya_15_enabled"
         ],
         "sections": 
         [
@@ -9769,7 +9769,7 @@
             "name": "Northern West High Desert: 35.8-37.8",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_16_enabled"
+                "$explorer_note_dahkeya_16_enabled"
             ],
             "access_rules": 
             [
@@ -9801,7 +9801,7 @@
             "name": "Northern West High Desert: 30.4-39.7",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_17_enabled"
+                "$explorer_note_dahkeya_17_enabled"
             ],
             "access_rules": 
             [
@@ -9833,7 +9833,7 @@
             "name": "Northern West High Desert: 28.2-41.7",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_18_enabled"
+                "$explorer_note_dahkeya_18_enabled"
             ],
             "access_rules": 
             [
@@ -9865,7 +9865,7 @@
             "name": "Western High Desert: 45.6-34.6",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_19_enabled"
+                "$explorer_note_dahkeya_19_enabled"
             ],
             "access_rules": 
             [
@@ -9897,7 +9897,7 @@
             "name": "Western High Desert: 54.5-31.7",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_20_enabled"
+                "$explorer_note_dahkeya_20_enabled"
             ],
             "access_rules": 
             [
@@ -9929,7 +9929,7 @@
             "name": "Eastern Badlands: 48.7-64.0",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_21_enabled"
+                "$explorer_note_dahkeya_21_enabled"
             ],
             "access_rules": 
             [
@@ -9961,7 +9961,7 @@
             "name": "Southern West Dunes: 84.8-18.9",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_22_enabled"
+                "$explorer_note_dahkeya_22_enabled"
             ],
             "access_rules": 
             [
@@ -9993,7 +9993,7 @@
             "name": "Southern West Dunes: 63.7-10.4",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_23_enabled"
+                "$explorer_note_dahkeya_23_enabled"
             ],
             "access_rules": 
             [
@@ -10025,7 +10025,7 @@
             "name": "Southern West High Desert: 72.8-36-6",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_24_enabled"
+                "$explorer_note_dahkeya_24_enabled"
             ],
             "access_rules": 
             [
@@ -10057,7 +10057,7 @@
             "name": "Southern Mountains: 61.1-46.9",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_25_enabled"
+                "$explorer_note_dahkeya_25_enabled"
             ],
             "access_rules": 
             [
@@ -10089,7 +10089,7 @@
             "name": "Southern High Desert: 65.4-55.5",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_26_enabled"
+                "$explorer_note_dahkeya_26_enabled"
             ],
             "access_rules": 
             [
@@ -10121,7 +10121,7 @@
             "name": "Southern High Desert: 78.4-55.5",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_27_enabled"
+                "$explorer_note_dahkeya_27_enabled"
             ],
             "access_rules": 
             [
@@ -10153,7 +10153,7 @@
             "name": "South East Dunes: 76.5-76.9",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_28_enabled"
+                "$explorer_note_dahkeya_28_enabled"
             ],
             "access_rules": 
             [
@@ -10185,7 +10185,7 @@
             "name": "Oasis Dunes: 83.4-71.8",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_29_enabled"
+                "$explorer_note_dahkeya_29_enabled"
             ],
             "access_rules": 
             [
@@ -10217,7 +10217,7 @@
             "name": "Oasis Dunes: 86.1-51.1",
             "visibility_rules": 
             [
-                "$explorer_note_dahkeya_note_30_enabled"
+                "$explorer_note_dahkeya_30_enabled"
             ],
             "access_rules": 
             [
@@ -10249,7 +10249,7 @@
             "name": "Central Canyons: 53.3-45.0",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_1_SE_enabled"
+                "$explorer_note_helena_1_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10281,7 +10281,7 @@
             "name": "Eastern Low Desert: 48.8-71.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_2_SE_enabled"
+                "$explorer_note_helena_2_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10313,7 +10313,7 @@
             "name": "Eastern Badlands: 57.0-76.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_3_SE_enabled"
+                "$explorer_note_helena_3_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10345,7 +10345,7 @@
             "name": "Southern High Desert: 81.6-63.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_4_SE_enabled"
+                "$explorer_note_helena_4_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10377,7 +10377,7 @@
             "name": "Northern Canyons: 41.0-54.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_5_SE_enabled"
+                "$explorer_note_helena_5_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10409,7 +10409,7 @@
             "name": "Western High Desert: 50.8-25.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_6_SE_enabled"
+                "$explorer_note_helena_6_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10441,7 +10441,7 @@
             "name": "Grave of the Tyrants: 31.9-29.4",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_7_SE_enabled"
+                "$explorer_note_helena_7_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10473,7 +10473,7 @@
             "name": "Northern Canyons: 23.4-53.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_8_SE_enabled"
+                "$explorer_note_helena_8_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10505,7 +10505,7 @@
             "name": "Eastern Badlands: 51.0-86.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_9_SE_enabled"
+                "$explorer_note_helena_9_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10537,7 +10537,7 @@
             "name": "South East Dunes: 80.0-75.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_10_SE_enabled"
+                "$explorer_note_helena_10_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10569,7 +10569,7 @@
             "name": "Northern West Dunes: 10.6-19.5",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_11_SE_enabled"
+                "$explorer_note_helena_11_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10601,7 +10601,7 @@
             "name": "Northern West Dunes: 15.7-21.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_12_SE_enabled"
+                "$explorer_note_helena_12_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10633,7 +10633,7 @@
             "name": "Northern West Dunes: 23.7-12.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_13_SE_enabled"
+                "$explorer_note_helena_13_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10665,7 +10665,7 @@
             "name": "Northern West Dunes: 15.8-40.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_14_SE_enabled"
+                "$explorer_note_helena_14_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10697,7 +10697,7 @@
             "name": "Northern West Oasis: 14.1-35.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_15_SE_enabled"
+                "$explorer_note_helena_15_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10729,7 +10729,7 @@
             "name": "Northern Dunes: 16.6-56.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_16_SE_enabled"
+                "$explorer_note_helena_16_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10761,7 +10761,7 @@
             "name": "Northern Canyons: 23.3-52.2",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_17_SE_enabled"
+                "$explorer_note_helena_17_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10793,7 +10793,7 @@
             "name": "Northern East Dunes: 10.4-66.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_18_SE_enabled"
+                "$explorer_note_helena_18_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10825,7 +10825,7 @@
             "name": "Western High Desert: 53.0-26.5",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_19_SE_enabled"
+                "$explorer_note_helena_19_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10857,7 +10857,7 @@
             "name": "Central Canyons: 54.8-48.6",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_20_SE_enabled"
+                "$explorer_note_helena_20_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10889,7 +10889,7 @@
             "name": "Southern West Dunes: 85.8-13.5",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_21_SE_enabled"
+                "$explorer_note_helena_21_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10921,7 +10921,7 @@
             "name": "Southern West Dunes: 84.8-18.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_22_SE_enabled"
+                "$explorer_note_helena_22_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10953,7 +10953,7 @@
             "name": "Southern West High Desert: 66.0-39.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_23_SE_enabled"
+                "$explorer_note_helena_23_SE_enabled"
             ],
             "access_rules": 
             [
@@ -10985,7 +10985,7 @@
             "name": "Southern East Low Desert: 60.2-70.7",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_24_SE_enabled"
+                "$explorer_note_helena_24_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11017,7 +11017,7 @@
             "name": "Southern East Canyons: 72.4-70.8",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_25_SE_enabled"
+                "$explorer_note_helena_25_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11049,7 +11049,7 @@
             "name": "Oasis Dunes: 85.1-37.3",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_26_SE_enabled"
+                "$explorer_note_helena_26_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11081,7 +11081,7 @@
             "name": "Oasis Dunes: 54.8-13.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_27_SE_enabled"
+                "$explorer_note_helena_27_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11113,7 +11113,7 @@
             "name": "Northern West Oasis: 17.5-34.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_28_SE_enabled"
+                "$explorer_note_helena_28_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11145,7 +11145,7 @@
             "name": "Northern High Desert: 21.8-43.1",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_29_SE_enabled"
+                "$explorer_note_helena_29_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11177,7 +11177,7 @@
             "name": "Northern Canyons: 23.8-48.9",
             "visibility_rules": 
             [
-                "$explorer_note_helena_note_30_SE_enabled"
+                "$explorer_note_helena_30_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11209,7 +11209,7 @@
             "name": "Southern West Dunes: 71.8-10.5",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_1_SE_enabled"
+                "$explorer_note_rockwell_1_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11241,7 +11241,7 @@
             "name": "South East Dunes: 72.0-85.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_2_SE_enabled"
+                "$explorer_note_rockwell_2_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11273,7 +11273,7 @@
             "name": "Southern West Dunes: 84.3-13.9",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_3_SE_enabled"
+                "$explorer_note_rockwell_3_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11297,7 +11297,7 @@
         ],
         "access_rules": 
         [
-            "$explorer_note_rockwell_note_4_SE_enabled"
+            "$explorer_note_rockwell_4_SE_enabled"
         ],
         "sections": 
         [
@@ -11337,7 +11337,7 @@
             "name": "Northern East Dunes: 13.3-77.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_5_SE_enabled"
+                "$explorer_note_rockwell_5_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11369,7 +11369,7 @@
             "name": "Northern West High Desert: 24.2-39.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_6_SE_enabled"
+                "$explorer_note_rockwell_6_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11401,7 +11401,7 @@
             "name": "The Old Tunnels: 58.0-44.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_7_SE_enabled"
+                "$explorer_note_rockwell_7_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11433,7 +11433,7 @@
             "name": "Northern East Dunes: 23.4-65.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_8_SE_enabled"
+                "$explorer_note_rockwell_8_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11465,7 +11465,7 @@
             "name": "Eastern Badlands: 54.3-76.4",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_9_SE_enabled"
+                "$explorer_note_rockwell_9_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11497,7 +11497,7 @@
             "name": "South East Dunes: 86.3-69.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_10_SE_enabled"
+                "$explorer_note_rockwell_10_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11529,7 +11529,7 @@
             "name": "Northern Canyons: 28.3-49.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_11_SE_enabled"
+                "$explorer_note_rockwell_11_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11561,7 +11561,7 @@
             "name": "Northern High Desert: 36.2-42.2",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_12_SE_enabled"
+                "$explorer_note_rockwell_12_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11593,7 +11593,7 @@
             "name": "Northern Mountains: 27.6-55.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_13_SE_enabled"
+                "$explorer_note_rockwell_13_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11625,7 +11625,7 @@
             "name": "Northern East Badlands: 36.2-68.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_14_SE_enabled"
+                "$explorer_note_rockwell_14_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11657,7 +11657,7 @@
             "name": "Northern East Dunes: 31.7-72.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_15_SE_enabled"
+                "$explorer_note_rockwell_15_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11689,7 +11689,7 @@
             "name": "Northern East High Desert: 31.3-59.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_16_SE_enabled"
+                "$explorer_note_rockwell_16_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11721,7 +11721,7 @@
             "name": "Northern East Badlands: 40.5-77.4",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_17_SE_enabled"
+                "$explorer_note_rockwell_17_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11753,7 +11753,7 @@
             "name": "Northern East Dunes: 39.9-86.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_18_SE_enabled"
+                "$explorer_note_rockwell_18_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11785,7 +11785,7 @@
             "name": "Eastern Badlands: 55.0-56.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_19_SE_enabled"
+                "$explorer_note_rockwell_19_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11817,7 +11817,7 @@
             "name": "Central Canyons: 44.6-63.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_20_SE_enabled"
+                "$explorer_note_rockwell_20_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11849,7 +11849,7 @@
             "name": "Southern West Dunes: 83.2-19.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_21_SE_enabled"
+                "$explorer_note_rockwell_21_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11881,7 +11881,7 @@
             "name": "Southern West Dunes: 81.8-17.9",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_22_SE_enabled"
+                "$explorer_note_rockwell_22_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11913,7 +11913,7 @@
             "name": "South East Dunes: 59.4-86.4",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_23_SE_enabled"
+                "$explorer_note_rockwell_23_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11945,7 +11945,7 @@
             "name": "South East Dunes: 66.0-86.6",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_24_SE_enabled"
+                "$explorer_note_rockwell_24_SE_enabled"
             ],
             "access_rules": 
             [
@@ -11977,7 +11977,7 @@
             "name": "Southern West Canyons: 80.4-39.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_25_SE_enabled"
+                "$explorer_note_rockwell_25_SE_enabled"
             ],
             "access_rules": 
             [
@@ -12009,7 +12009,7 @@
             "name": "Northern Canyons: 25.7-52.7",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_26_SE_enabled"
+                "$explorer_note_rockwell_26_SE_enabled"
             ],
             "access_rules": 
             [
@@ -12041,7 +12041,7 @@
             "name": "Northern Canyons: 31.5-51.8",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_27_SE_enabled"
+                "$explorer_note_rockwell_27_SE_enabled"
             ],
             "access_rules": 
             [
@@ -12073,7 +12073,7 @@
             "name": "Northern Canyons: 37.1-50.0",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_28_SE_enabled"
+                "$explorer_note_rockwell_28_SE_enabled"
             ],
             "access_rules": 
             [
@@ -12105,7 +12105,7 @@
             "name": "Northern Canyons: 32.2-48.9",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_29_SE_enabled"
+                "$explorer_note_rockwell_29_SE_enabled"
             ],
             "access_rules": 
             [
@@ -12137,7 +12137,7 @@
             "name": "Northern Mountains: 30.6-44.1",
             "visibility_rules": 
             [
-                "$explorer_note_rockwell_note_30_SE_enabled"
+                "$explorer_note_rockwell_30_SE_enabled"
             ],
             "access_rules": 
             [
@@ -12169,7 +12169,7 @@
             "name": "Manticore Arena: 51.5-49.6",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_2_enabled"
+                "$explorer_note_ascendant_2_enabled"
             ],
             "access_rules": 
             [
@@ -12201,7 +12201,7 @@
             "name": "Southern East Badlands: 63.3-61.5",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_5_enabled"
+                "$explorer_note_ascendant_5_enabled"
             ],
             "access_rules": 
             [
@@ -12233,7 +12233,7 @@
             "name": "Southern West Mountains: 63.3-29.4",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_8_enabled"
+                "$explorer_note_ascendant_8_enabled"
             ],
             "access_rules": 
             [
@@ -12265,7 +12265,7 @@
             "name": "Northern East Badlands: 30.7-56.2",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_11_enabled"
+                "$explorer_note_ascendant_11_enabled"
             ],
             "access_rules": 
             [
@@ -12297,7 +12297,7 @@
             "name": "Northern West Mountains: 24.4-29.7",
             "visibility_rules": 
             [
-                "$explorer_note_ascendant_note_14_enabled"
+                "$explorer_note_ascendant_14_enabled"
             ],
             "access_rules": 
             [

@@ -94,6 +94,22 @@
     ]
   },
 
+  "scorched_weapon_grid":
+  {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "2,3,-10,-10",
+    "item_size": "35,35",
+    "rows": 
+    [
+      ["stone_pick", "stone_hatchet", "spear", "metal_pick", "metal_hatchet", "pike", "sword"],
+      ["slingshot", "bola", "bow", "crossbow", "stone_arrow", "tranq_arrow", "grapple"],
+      ["simple_pistol", "simple_bullet", "longneck", "rifle_ammo", "tranq_dart", "simple_shotgun", "shotgun_shell"],
+      ["fabricated_pistol", "advanced_pistol_ammo", "pump_shotgun", "chainsaw", "fabricated_sniper", "advanced_sniper_ammo", "grenade"],
+      ["harpoon_gun", "net_gun", "club", "drill", "boomerang", "", "cryopod"]
+    ]
+  },
+
   "dino_grid": 
   {
     "type": "itemgrid",
@@ -177,7 +193,7 @@
       ["slingshot", "bola", "bow", "crossbow", "stone_arrow", "tranq_arrow", "grapple"],
       ["simple_pistol", "simple_bullet", "longneck", "rifle_ammo", "tranq_dart", "simple_shotgun", "shotgun_shell"],
       ["fabricated_pistol", "advanced_pistol_ammo", "pump_shotgun", "chainsaw", "fabricated_sniper", "advanced_sniper_ammo", "grenade"],
-      ["harpoon_gun", "net_gun", "club", "", "", "", "cryopod"]
+      ["harpoon_gun", "net_gun", "club", "drill", "", "", "cryopod"]
     ]
   },
 
@@ -503,7 +519,7 @@
         //               "content": [
         //                 {
         //                   "type": "layout",
-        //                   "key": "weapon_grid"
+        //                   "key": "scorched_weapon_grid"
         //                 }
         //               ]
         //             }
