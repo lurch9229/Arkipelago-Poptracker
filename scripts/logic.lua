@@ -34,7 +34,10 @@ function canBuild()
   cb.Active = ok
 end
 
-ScriptHost:AddWatchForCode("foundation watch", "*", canBuild)
+local foundation_items = {"thatch_foundation", "wood_foundation", "stone_foundation"}
+for _, f in ipairs(foundation_items) do
+  ScriptHost:AddWatchForCode("foundation watch_" .. f, f, canBuild)
+end
 --=====================================================================
 
 --=====================================================================
@@ -60,7 +63,10 @@ function storeWater()
   sw.Active = ok
 end
 
-ScriptHost:AddWatchForCode("water watch", "*", storeWater)
+local waterContainer = {"waterskin", "water_jar", "canteen"}
+for _, f in ipairs(waterContainer) do
+  ScriptHost:AddWatchForCode("water watch_" .. f, f, storeWater)
+end
 --==================================================================
 
 --==================================================================
@@ -90,7 +96,10 @@ function growCrops()
   gc.Active = ok
 end
 
-ScriptHost:AddWatchForCode("crop watch", "*", growCrops)
+local cropWatchItems = {"medium_plot", "large_plot", "store_water", "irrigation"}
+for _, f in ipairs(cropWatchItems) do
+  ScriptHost:AddWatchForCode("crop watch_" .. f, f, growCrops)
+end
 --==================================================================
 
 --==================================================================
@@ -106,7 +115,7 @@ function usePower()
   local ok = false
 
   for _, f in ipairs(cable) do 
-    if has(f) and has("outlet") and has("fabricator") and has("basic_forge") and has("electronics") and has("polymer")and (has("generator") or has("wind_turbine"))
+    if has(f) and has("outlet") and has("fabricator") and has("basic_forge") and has("electronics") and has("polymer") and (has("generator") or has("wind_turbine"))
     then
       ok = true
       break
@@ -116,7 +125,10 @@ function usePower()
   up.Active = ok
 end
 
-ScriptHost:AddWatchForCode("power watch", "*", usePower)
+local powerWatchItems = {"straight_cable", "vertical_cable", "outlet", "fabricator", "basic_forge", "electronics", "polymer", "generator", "wind_turbine"}
+for _, f in ipairs(powerWatchItems) do
+  ScriptHost:AddWatchForCode("power watch_" .. f, f, usePower)
+end
 --===================================================================
 
 --===================================================================
@@ -146,7 +158,10 @@ function Irrigation()
   ci.Active = ok
 end
 
-ScriptHost:AddWatchForCode("irrigation watch", "*", Irrigation)
+local irrigationWatchItems = {"stone_intake", "stone_tap", "use_smithy", "metal_intake", "metal_tap"}
+for _, f in ipairs(irrigationWatchItems) do
+  ScriptHost:AddWatchForCode("irrigation watch_" .. f, f, Irrigation)
+end
 --===================================================================
 
 --===================================================================
@@ -174,7 +189,10 @@ function UseSmithy()
   smithy.Active = ok
 end
 
-ScriptHost:AddWatchForCode("smithy watch", "*", UseSmithy)
+local smithyWatchItems = {"smithy", "can_build", "basic_forge"}
+for _, f in ipairs(smithyWatchItems) do
+  ScriptHost:AddWatchForCode("smithy watch_" .. f, f, UseSmithy)
+end
 --=======================================================================
 
 --=======================================================================
@@ -204,13 +222,16 @@ function UseTaps()
   taps.Active = ok
 end
 
-ScriptHost:AddWatchForCode("taps watch", "*", UseTaps)
+local tapsWatchItems = {"wooden_tree_platform", "metal_tree_platform", "glass_tree_platform", "stone_tree_platform", "use_smithy"}
+for _, f in ipairs(tapsWatchItems) do
+  ScriptHost:AddWatchForCode("taps watch_" .. f, f, UseTaps)
+end
 
 --========================================================================
 
 --========================================================================
 -- can ride tame
-local function can_use_tame(tame_data)
+function can_use_tame(tame_data)
     local loc_obj = Tracker:FindObjectForCode(tame_data.location)
     if not loc_obj then return false end
 
@@ -579,7 +600,7 @@ end
 
 --========================================================================
 --Tame Count
-local function count_accessible_tames(lists)
+function count_accessible_tames(lists)
     local seen_tames = {}
     local total_count = 0
 
@@ -638,7 +659,7 @@ end
 --Pelt Droppers
 PELT_DROPPERS = {
     castoroides  = "@Dinos/Castoroides/Kill a Castoroides",
-    direwolf     = "@Dinos/Direwolf/Kill a Direwold",
+    direwolf     = "@Dinos/Direwolf/Kill a Direwolf",
     direbear     = "@Dinos/Dire Bear/Kill a Dire Bear",
     mammoth      = "@Dinos/Mammoth/Kill a Mammoth",
     megatherium  = "@Dinos/Megatherium/Kill a Megatherium",

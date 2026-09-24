@@ -105,7 +105,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Basilosaurus/Kill a Basilosaurus"
                         ],
                 "sections": [
                     {
@@ -116,7 +116,7 @@
                         ],
                         "access_rules": 
                         [
-                            "@Dinos/Basilosaurus/Kill a Basilosaurus"
+                            ""
                         ],
                         "item_count": 1
                     },
@@ -128,7 +128,7 @@
                         ],
                         "access_rules": 
                         [
-                            "@Dinos/Basilosaurus/Kill a Basilosaurus"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -965,9 +965,9 @@
                 ],
                 "access_rules": 
                         [
-                            "$pfmDino"
+                            "$pfmDino, use_smithy, sickle"
                         ],
-                "sections": [                  
+                "sections": [           
                     {
                         "name": "x20",
                         "visibility_rules": 
@@ -1145,7 +1145,7 @@
                 ],
                 "access_rules": 
                         [
-                            "campfire, @Milestones/Raw Prime Fish Meat/x10"
+                            "campfire, @Milestones/Raw Prime Fish Meat/x20"
                         ],
                 "visibility_rules":
                 [
@@ -1311,7 +1311,7 @@
                 "access_rules": 
                         [
                             "moschops",
-                            "therizinosaur, therizinosaur_saddle"
+                            "@Dinos/Therizinosaur/Tame a Therizinosaur, therizinosaur_saddle"
                         ],
                 "visibility_rules":
                 [
@@ -1363,8 +1363,8 @@
                 "access_rules": 
                         [
                             "metal_pick, use_smithy",
-                            "ankylosaurus, ankylosaurus_saddle",
-                            "therizinosaur, therizinosaur_saddle",
+                            "@Dinos/Ankylosaurus/Tame an Ankylosaurus, ankylosaurus_saddle",
+                            "@Dinos/Therizinosaur/Tame a Therizinosaur, therizinosaur_saddle",
                             "castoroides, castoroides_saddle",
                             "moschops"
                         ],
@@ -2463,7 +2463,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "@Dinos/Achatina/Tame an Achatina"
                         ],
                 "sections": [
                     {
@@ -4976,7 +4976,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit Weathertop",
+                        "name": "Visit The Weathertop",
                         "visibility_rules": 
                         [
                             ""
@@ -5312,7 +5312,7 @@
                         "item_count": 1
                     },                    
                     {
-                        "name": "Visit Central Cave",
+                        "name": "Visit The Central Cave",
                         "visibility_rules": 
                         [
                             ""
@@ -5408,7 +5408,7 @@
                         "item_count": 1
                     },                                        
                     {
-                        "name": "Visit The Tek Cave",
+                        "name": "Visit The Tek Cave Entrance",
                         "visibility_rules": 
                         [
                             ""
@@ -5522,7 +5522,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit The North East Dunes",
+                        "name": "Visit The Northern East Dunes",
                         "visibility_rules": 
                         [
                             ""
@@ -5546,7 +5546,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit The South East",
+                        "name": "Visit The South East Dunes",
                         "visibility_rules": 
                         [
                             ""
@@ -5558,7 +5558,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit South Dunes",
+                        "name": "Visit The South Dunes",
                         "visibility_rules": 
                         [
                             ""
@@ -5570,7 +5570,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit The South West Dunes",
+                        "name": "Visit The Southern West Dunes",
                         "visibility_rules": 
                         [
                             ""
@@ -5594,7 +5594,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit North Western Dunes",
+                        "name": "Visit The North Western Dunes",
                         "visibility_rules": 
                         [
                             ""
@@ -5618,7 +5618,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit North East Badlands",
+                        "name": "Visit The North East Badlands",
                         "visibility_rules": 
                         [
                             ""
@@ -5630,7 +5630,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit Eastern Badlands",
+                        "name": "Visit The Eastern Badlands",
                         "visibility_rules": 
                         [
                             ""
@@ -5642,7 +5642,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit South Eastern Badlands",
+                        "name": "Visit The South Eastern Badlands",
                         "visibility_rules": 
                         [
                             ""
@@ -5702,7 +5702,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit The Western Moutains",
+                        "name": "Visit The Western Mountains",
                         "visibility_rules": 
                         [
                             ""
@@ -5798,7 +5798,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Visit The Graveyard of the Tyrants",
+                        "name": "Visit The Grave of the Tyrants",
                         "visibility_rules": 
                         [
                             ""

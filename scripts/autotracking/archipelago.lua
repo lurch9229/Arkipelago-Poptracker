@@ -16,119 +16,117 @@ INCLUDED_LOCATIONS = {}
 
 -- TAME SANITY MAPPINGS
 local TAME_SANITY_IDS = {
-    ["Tame: Achatina"]              = 8732001,
-    ["Tame: Allosaurus"]            = 8732003,
-    ["Tame: Angler"]                = 8732004,
-    ["Tame: Ankylosaurus"]          = 8732005,
-    ["Tame: Archaeopteryx"]         = 8732006,
-    ["Tame: Argentavis"]            = 8732007,
-    ["Tame: Arthropleura"]          = 8732008,
-    ["Tame: Baryonyx"]              = 8732009,
-    ["Tame: Basilosaurus"]          = 8732010,
-    ["Tame: Castoroides"]           = 8732011,
-    ["Tame: Dung Beetle"]           = 8732012,
-    ["Tame: Gigantopithecus"]       = 8732013,
-    ["Tame: Bronto"]                = 8732014,
-    ["Tame: Carno"]                 = 8732015,
-    ["Tame: Chalicotherium"]        = 8732016,
-    ["Tame: Compsognathus"]         = 8732017,
-    ["Tame: Daeodon"]               = 8732018,
-    ["Tame: Dilophosaur"]           = 8732019,
-    ["Tame: Dimetrodon"]            = 8732020,
-    ["Tame: Dimorphodon"]           = 8732021,
-    ["Tame: Diplodocus"]            = 8732022,
-    ["Tame: Diplocaulus"]           = 8732023,
-    ["Tame: Direbear"]              = 8732024,
-    ["Tame: Direwolf"]              = 8732025,
-    ["Tame: Dodo"]                  = 8732026,
-    ["Tame: Doedicurus"]            = 8732027,
-    ["Tame: Ichthyosaurus"]         = 8732028,
-    ["Tame: Dunk"]                  = 8732029,
-    ["Tame: Electrophorus"]         = 8732030,
-    ["Tame: Equus"]                 = 8732031,
-    ["Tame: Gallimimus"]            = 8732032,
-    ["Tame: Giganotosaurus"]        = 8732033,
-    ["Tame: Hesperornis"]           = 8732034,
-    ["Tame: Hyaenodon"]             = 8732035,
-    ["Tame: Ichthyornis"]           = 8732036,
-    ["Tame: Iguanodon"]             = 8732037,
-    ["Tame: Kairuku"]               = 8732038,
-    ["Tame: Procoptodon"]           = 8732039,
-    ["Tame: Kaprosuchus"]           = 8732040,
-    ["Tame: Kentrosaurus"]          = 8732041,
-    ["Tame: Liopleurodon"]          = 8732043,
-    ["Tame: Lystrosaurus"]          = 8732044,
-    ["Tame: Mammoth"]               = 8732045,
-    ["Tame: Manta"]                 = 8732046,
-    ["Tame: Megalodon"]             = 8732047,
-    ["Tame: Megalania"]             = 8732049,
-    ["Tame: Megalosaurus"]          = 8732050,
-    ["Tame: Megatherium"]           = 8732051,
-    ["Tame: Microraptor"]           = 8732052,
-    ["Tame: Mesopithecus"]          = 8732053,
-    ["Tame: Mosasaur"]              = 8732054,
-    ["Tame: Moschops"]              = 8732055,
-    ["Tame: Otter"]                 = 8732056,
-    ["Tame: Oviraptor"]             = 8732057,
-    ["Tame: Pachycephalosaurus"]    = 8732058,
-    ["Tame: Pachyrhinosaurus"]      = 8732059,
-    ["Tame: Parasaur"]              = 8732060,
-    ["Tame: Paraceratherium"]       = 8732061,
-    ["Tame: Pegomastax"]            = 8732062,
-    ["Tame: Pelagornis"]            = 8732063,
-    ["Tame: Phiomia"]               = 8732064,
-    ["Tame: Plesiosaur"]            = 8732065,
-    ["Tame: Pteranodon"]            = 8732066,
-    ["Tame: Purlovia"]              = 8732067,
-    ["Tame: Quetzal"]               = 8732068,
-    ["Tame: Raptor"]                = 8732069,
-    ["Tame: Rex"]                   = 8732070,
-    ["Tame: Woolly Rhino"]          = 8732071,
-    ["Tame: Sabertooth"]            = 8732072,
-    ["Tame: Sarcosuchus"]           = 8732073,
-    ["Tame: Pulmonoscorpius"]       = 8732074,
-    ["Tame: Ovis"]                  = 8732075,
-    ["Tame: Araneo"]                = 8732076,
-    ["Tame: Spino"]                 = 8732077,
-    ["Tame: Megaloceros"]           = 8732078,
-    ["Tame: Stegosaurus"]           = 8732079,
-    ["Tame: Tapejara"]              = 8732081,
-    ["Tame: Terror Bird"]           = 8732082,
-    ["Tame: Therizinosaurus"]       = 8732083,
-    ["Tame: Thylacoleo"]            = 8732084,
-    ["Tame: Titanoboa"]             = 8732086,
-    ["Tame: Beelzebufo"]            = 8732087,
-    ["Tame: Triceratops"]           = 8732088,
-    ["Tame: Troodon"]               = 8732089,
-    ["Tame: Carbonemys"]            = 8732090,
-    ["Tame: Tusoteuthis"]           = 8732091,
-    ["Tame: Yutyrannus"]            = 8732092,
-    ["Tame: Onyc"]                  = 8732100,
-    ["Tame: Giant Bee"]             = 8732101,
-    ["Tame: Rhyniognatha"]          = 8732102,
-    ["Tame: Carcharodontosaurus"]   = 8732103,
-    ["Tame: Unicorn"]               = 8732104,
-    ["Tame: Griffin"]               = 8732105,
-    ["Tame: Mantis"]                = 8732106,
-    ["Tame: Lymantria"]             = 8732107,
-    ["Tame: Rock Elemental"]        = 8732108,
-    ["Tame: Thorny Dragon"]         = 8732109,
-    ["Tame: Vulture"]               = 8732110,
-    ["Tame: Wyvern"]                = 8732111,
-    ["Tame: Morellatops"]           = 8732112,
-    ["Tame: Jerboa"]                = 8732113,
-    ["Tame: Phoenix"]               = 8732114,
+    achatina              = 8753000,
+    allosaurus            = 8753002,
+    angler                = 8753003,
+    ankylosaurus          = 8753004,
+    archaeopteryx         = 8753005,
+    argentavis            = 8753006,
+    arthropleura          = 8753007,
+    baryonyx              = 8753008,
+    basilosaurus          = 8753009,
+    castoroides           = 8753010,
+    dung_beetle           = 8753011,
+    gigantopithecus       = 8753012,
+    bronto                = 8753013,
+    carno                 = 8753014,
+    chalicotherium        = 8753015,
+    compsognathus         = 8753016,
+    daeodon               = 8753017,
+    dilophosaur           = 8753018,
+    dimetrodon            = 8753019,
+    dimorphodon           = 8753020,
+    diplodocus            = 8753021,
+    diplocaulus           = 8753022,
+    direbear              = 8753023,
+    direwolf              = 8753024,
+    dodo                  = 8753025,
+    doedicurus            = 8753026,
+    ichthyosaurus         = 8753027,
+    dunk                  = 8753028,
+    electrophorus         = 8753029,
+    equus                 = 8753030,
+    gallimimus            = 8753031,
+    giganotosaurus        = 8753032,
+    hesperornis           = 8753033,
+    hyaenodon             = 8753034,
+    ichthyornis           = 8753035,
+    iguanodon             = 8753036,
+    kairuku               = 8753037,
+    procoptodon           = 8753038,
+    kaprosuchus           = 8753039,
+    kentrosaurus          = 8753040,
+    liopleurodon          = 8753042,
+    lystrosaurus          = 8753043,
+    mammoth               = 8753044,
+    manta                 = 8753045,
+    megalodon             = 8753046,
+    megalania             = 8753048,
+    megalosaurus          = 8753049,
+    megatherium           = 8753050,
+    microraptor           = 8753051,
+    mesopithecus          = 8753052,
+    mosasaur              = 8753053,
+    moschops              = 8753054,
+    otter                 = 8753055,
+    oviraptor             = 8753056,
+    pachycephalosaurus    = 8753057,
+    pachyrhinosaurus      = 8753058,
+    parasaur              = 8753059,
+    paraceratherium       = 8753060,
+    pegomastax            = 8753061,
+    pelagornis            = 8753062,
+    phiomia               = 8753063,
+    plesiosaur            = 8753064,
+    pteranodon            = 8753065,
+    purlovia              = 8753066,
+    quetzal               = 8753067,
+    raptor                = 8753068,
+    rex                   = 8753069,
+    woolly_rhino          = 8753070,
+    sabertooth            = 8753071,
+    sarcosuchus           = 8753072,
+    pulmonoscorpius       = 8753073,
+    ovis                  = 8753074,
+    araneo                = 8753075,
+    spino                 = 8753076,
+    megaloceros           = 8753077,
+    stegosaurus           = 8753078,
+    tapejara              = 8753080,
+    terror_bird           = 8753081,
+    therizinosaurus       = 8753082,
+    thylacoleo            = 8753083,
+    titanoboa             = 8753085,
+    beelzebufo            = 8753086,
+    triceratops           = 8753087,
+    troodon               = 8753088,
+    carbonemys            = 8753089,
+    tusoteuthis           = 8753090,
+    yutyrannus            = 8753091,
+    onyc                  = 8753100,
+    giant_bee             = 8753101,
+    rhyniognatha          = 8753102,
+    carcharodontosaurus   = 8753103,
+    unicorn               = 8753104,
+    griffin               = 8753105,
+    mantis                = 8753106,
+    lymantria             = 8753107,
+    rock_elemental        = 8753108,
+    thorny_dragon         = 8753109,
+    vulture               = 8753110,
+    wyvern                = 8753111,
+    morellatops           = 8753112,
+    jerboa                = 8753113,
+    phoenix               = 8753114,
 }
-
-for key_name, id in pairs(TAME_SANITY_IDS) do
-    local clean_name = key_name:lower():gsub("tame:%s*", ""):gsub("[%s%-]", "_")
-    
-    _G["tame_sanity_" .. clean_name .. "_enabled"] = function()
+for name, id in pairs(TAME_SANITY_IDS) do
+    _G["tame_sanity_" .. name .. "_enabled"] = function()
         local ts_obj = Tracker:FindObjectForCode("op_TS")
         if not ts_obj or ts_obj.AcquiredCount == 0 then
             return true
         end
-        return INCLUDED_LOCATIONS[id] == true
+        local val = INCLUDED_LOCATIONS[id] or INCLUDED_LOCATIONS[tostring(id)] or INCLUDED_LOCATIONS[tonumber(id)]
+        return val == true or val == 1 or val == "true" or val == "1"
     end
 end
 
@@ -719,7 +717,14 @@ function apply_slot_data(slot_data)
         if not ts_obj or ts_obj.AcquiredCount == 0 then
             return true
         end
-        return INCLUDED_LOCATIONS[location_id] == true
+        
+        -- Check both string and numeric keys to prevent type mismatch issues
+        local val = INCLUDED_LOCATIONS[location_id] 
+                 or INCLUDED_LOCATIONS[tostring(location_id)] 
+                 or INCLUDED_LOCATIONS[tonumber(location_id)]
+
+        -- Return true if the value is truthy (true, 1, "true", etc.)
+        return val == true or val == 1 or val == "true" or val == "1"
     end
 
     function food_sanity_location_enabled(location_id)
@@ -840,6 +845,15 @@ function apply_slot_data(slot_data)
             end
         end
     end
+    print("--- INCLUDED_LOCATIONS CONTENTS ---")
+if INCLUDED_LOCATIONS then
+    for k, v in pairs(INCLUDED_LOCATIONS) do
+        print(tostring(k) .. " = " .. tostring(v) .. " (type: " .. type(v) .. ")")
+    end
+else
+    print("INCLUDED_LOCATIONS is nil or not initialized yet.")
+end
+print("-----------------------------------")
 end
 
 -- called right after an AP slot is connected

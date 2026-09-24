@@ -193,7 +193,8 @@
       ["slingshot", "bola", "bow", "crossbow", "stone_arrow", "tranq_arrow", "grapple"],
       ["simple_pistol", "simple_bullet", "longneck", "rifle_ammo", "tranq_dart", "simple_shotgun", "shotgun_shell"],
       ["fabricated_pistol", "advanced_pistol_ammo", "pump_shotgun", "chainsaw", "fabricated_sniper", "advanced_sniper_ammo", "grenade"],
-      ["harpoon_gun", "net_gun", "club", "drill", "", "", "cryopod"]
+      ["harpoon_gun", "net_gun", "club", "drill", "raft", "canoe", "cryopod"],
+      ["sickle"]
     ]
   },
 

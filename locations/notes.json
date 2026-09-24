@@ -382,7 +382,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -990,7 +990,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -1279,7 +1279,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "herbiIsland"
             ],
             "item_count": 1
           }
@@ -1311,7 +1311,7 @@
             ],
             "access_rules": 
             [
-              ""
+              "herbiIsland"
             ],
             "item_count": 1
           }
@@ -1727,7 +1727,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "herbiIsland"
             ],
             "item_count": 1
           }
@@ -1823,7 +1823,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -1919,7 +1919,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -1983,7 +1983,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -4159,7 +4159,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -4319,7 +4319,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -5055,7 +5055,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "item_count": 1
           }
@@ -7455,7 +7455,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "$carnoIsland"
             ],
             "hosted_item": "artifact_devourer"
           }

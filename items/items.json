@@ -3989,11 +3989,29 @@
   "codes": "drill",
   "img": "images/engrams/Mining_Drill.png"
  },
-  {
+ {
   "name": "Engram - Boomerang",
   "type": "toggle",
   "codes": "boomerang",
   "img": "images/engrams/Boomerang.png"
+ },
+ {
+  "name": "Engram - Canoe",
+  "type": "toggle",
+  "codes": "Canoe",
+  "img": "images/engrams/Canoe.png"
+ },
+ {
+  "name": "Engram - Raft",
+  "type": "toggle",
+  "codes": "raft",
+  "img": "images/engrams/Wooden_Raft.png"
+ },
+ {
+  "name": "Engram - Sickle",
+  "type": "toggle",
+  "codes": "sickle",
+  "img": "images/engrams/Metal_Sickle.png"
  },
  {
   "name": "Setting - Bundle Saddles",
@@ -4250,5 +4268,10 @@
   "type": "toggle",
   "codes": "use_smithy",
   "img": "images/engrams/use_smithy.png"
+ },
+ {
+  "name": "Craft Paste",
+  "type": "toggle",
+  "codes": "make_paste"
  }
 ]

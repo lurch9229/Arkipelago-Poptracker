@@ -716,14 +716,14 @@
                 ],
                 "access_rules": 
                         [
-                            "$tame_sanity_chalicotherium_enabled"
+                            ""
                         ],
                 "sections": [
                     {
                         "name": "Tame a Chalicotherium",
                         "visibility_rules": 
                         [
-                            ""
+                            "$tame_sanity_chalicotherium_enabled"
                         ],
                         "access_rules": 
                         [
@@ -825,7 +825,7 @@
                         [
                             "daeodon, $RifleKO",
                             "daeodon, $UseNets, $CrossbowKO",
-                            "daeodon, $useNets, $BowKO"
+                            "daeodon, $UseNets, $BowKO"
                         ],
                         "item_count": 1
                     },
@@ -3057,7 +3057,7 @@
                         "access_rules": 
                         [
                             "procoptodon, $UseNets, $RifleKO",
-                            "procoptodon, $useNets, $CrossbowKO"
+                            "procoptodon, $UseNets, $CrossbowKO"
                         ],
                         "item_count": 1
                     },
@@ -3455,7 +3455,7 @@
                         "access_rules": 
                         [
                             "spino, $CrossbowKO",
-                            "spino, $RifleOK"
+                            "spino, $RifleKO"
                         ],
                         "item_count": 1
                     },
