@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.0.9]
+
+## Fixed
+ - Tame sanity was using the wrong IDs
+ - Some location mapping was incorrectly named
+
+## Added
+- Logic for collect tasks
+- Sickle for collect logic
+- Logic for regions
+- Canoe and Raft for region logic
+- Logic for Crafting and using Saddles
+- Explorer Note logic
+- Mejoberry milestones to `location_mapping.lua`
+- Flippers are now a deep dive requirement
+- Logic for Yeti now requires access to Snow Cave
+
+## Changed 
+- Dino lists in `logic.lua` read proper requirements. Taming now uses the locations logic
+- Riding a dino now requires being able to craft its saddle
+- Devourer now uses region logic for Carno Island
+- Kill an Anglerfish can now be achieved in the Snow Cave
+- Cleaned up some backend code which is no longer required (most was used for debug)
+- Cave Dinos are now in their own Class if they were overlapping through different caves
+
+## TODO
+- Scorched Earth Finalisations
+- Create logic for kill/tame in specific regions (mostly snow for mammoth etc)
+- Create Logic for Scorched Earth (Creatures, Exploration, Artifacts, Collection etc)
+
 ## [0.0.8]
 
 ## Fixed
