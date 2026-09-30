@@ -62,7 +62,10 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
+
             ],
             "item_count": 1
           }
@@ -158,7 +161,12 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $canFly",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $useGrapple",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, thylacoleo, thylacoleo_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, megalania, megalania_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, raft",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, canoe"
             ],
             "item_count": 1
           }
@@ -222,7 +230,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -254,7 +262,7 @@
             ],
             "access_rules": 
             [
-              ""
+              "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -382,7 +390,7 @@
             ],
             "access_rules": 
             [
-                "$carnoIsland"
+                 "@Milestones/Exploration(The Island)/Visit The Dead Island(Carno Island)"
             ],
             "item_count": 1
           }
@@ -414,7 +422,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -446,7 +454,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -542,7 +552,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -606,7 +616,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }
@@ -702,7 +712,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -830,7 +842,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -990,7 +1002,7 @@
             ],
             "access_rules": 
             [
-                "$carnoIsland"
+                "@Milestones/Exploration(The Island)/Visit The Dead Island(Carno Island)"
             ],
             "item_count": 1
           }
@@ -1022,7 +1034,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }
@@ -1054,7 +1066,11 @@
             ],
             "access_rules": 
             [
-                ""
+                "parachute",
+                "$canFly",
+                "$UseGrapple",
+                "thylacoleo, use_smithy, thylacoleo_saddle",
+                "megalania, use_smithy, megalania_saddle"
             ],
             "item_count": 1
           }
@@ -1086,7 +1102,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }
@@ -1150,7 +1166,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }
@@ -1202,7 +1218,7 @@
         ],
         "access_rules": 
         [
-            ""
+            "$tier2"
         ],
         "sections": 
         [
@@ -1247,7 +1263,10 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $canFly",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $useGrapple",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, thylacoleo, thylacoleo_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, megalania, megalania_saddle"
             ],
             "item_count": 1
           }
@@ -1279,7 +1298,7 @@
             ],
             "access_rules": 
             [
-                "herbiIsland"
+                "@Milestones/Exploration(The Island)/Visit South Haven(Herbie Island)"
             ],
             "item_count": 1
           }
@@ -1311,7 +1330,7 @@
             ],
             "access_rules": 
             [
-              "herbiIsland"
+              "@Milestones/Exploration(The Island)/Visit South Haven(Herbie Island)"
             ],
             "item_count": 1
           }
@@ -1727,7 +1746,7 @@
             ],
             "access_rules": 
             [
-                "herbiIsland"
+                 "@Milestones/Exploration(The Island)/Visit South Haven(Herbie Island)"
             ],
             "item_count": 1
           }
@@ -2075,11 +2094,11 @@
             "name": "Frozen Tooth: 35.7-59.1",
             "visibility_rules": 
             [
-                "$explorer_note_dossier_otter_enabled"
+              "$explorer_note_dossier_otter_enabled"
             ],
             "access_rules": 
             [
-                ""
+              "@Milestones/Exploration(The Island)/Visit The Frozen Tooth"
             ],
             "item_count": 1
           }
@@ -2655,7 +2674,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -2943,7 +2964,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Frozen Tooth"
             ],
             "item_count": 1
           }
@@ -2975,7 +2996,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3007,7 +3030,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3071,7 +3096,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3103,7 +3130,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3263,7 +3292,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3295,7 +3326,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3327,7 +3360,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3359,7 +3394,9 @@
             ],
             "access_rules": 
             [
-                "$DeepDive"
+                "$DeepDive",
+                "$shallow_tames",
+                "$deep_tames"
             ],
             "item_count": 1
           }
@@ -3647,7 +3684,11 @@
             ],
             "access_rules": 
             [
-                ""
+                "parachute",
+                "$canFly",
+                "$UseGrapple",
+                "thylacoleo, use_smithy, thylacoleo_saddle",
+                "megalania, use_smithy, megalania_saddle"
             ],
             "item_count": 1
           }
@@ -3679,7 +3720,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -3711,7 +3752,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Frozen Tooth"
             ],
             "item_count": 1
           }
@@ -3839,7 +3880,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -3871,7 +3912,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -3903,7 +3944,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -3935,7 +3976,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -3999,7 +4040,10 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $canFly",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $useGrapple",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, thylacoleo, thylacoleo_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, megalania, megalania_saddle"
             ],
             "item_count": 1
           }
@@ -4063,7 +4107,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -4095,7 +4139,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -4127,7 +4171,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -4159,7 +4203,7 @@
             ],
             "access_rules": 
             [
-                "$carnoIsland"
+                "@Milestones/Exploration(The Island)/Visit The Dead Island(Carno Island)"
             ],
             "item_count": 1
           }
@@ -4319,7 +4363,7 @@
             ],
             "access_rules": 
             [
-                "$carnoIsland"
+                "@Milestones/Exploration(The Island)/Visit The Dead Island(Carno Island)"
             ],
             "item_count": 1
           }
@@ -5055,7 +5099,7 @@
             ],
             "access_rules": 
             [
-                "$carnoIsland"
+                "@Milestones/Exploration(The Island)/Visit The Dead Island(Carno Island)"
             ],
             "item_count": 1
           }
@@ -5151,7 +5195,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -5183,7 +5227,15 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $canFly",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $useGrapple",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, thylacoleo, thylacoleo_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, megalania, megalania_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, raft",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, canoe",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $shallow_tames",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $deep_tames",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_fabricator, scuba_flippers"
             ],
             "item_count": 1
           }
@@ -5215,7 +5267,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -5247,7 +5299,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -5279,7 +5331,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -5311,7 +5363,10 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $canFly",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $useGrapple",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, thylacoleo, thylacoleo_saddle",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_smithy, megalania, megalania_saddle"
             ],
             "item_count": 1
           }
@@ -5343,7 +5398,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -5375,7 +5430,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -5439,7 +5494,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -5503,7 +5558,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -5567,7 +5622,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -5663,7 +5718,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -5695,7 +5750,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Winter's Mouth"
             ],
             "item_count": 1
           }
@@ -5983,7 +6038,13 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $canFly",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $useGrapple",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, raft",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, canoe",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $shallow_tames",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, $deep_tames",
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak, use_fabricator, scuba_flippers"
             ],
             "item_count": 1
           }
@@ -6015,7 +6076,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -6047,7 +6108,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit Whitesky Peak"
             ],
             "item_count": 1
           }
@@ -6239,7 +6300,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }
@@ -6335,7 +6396,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }
@@ -6815,7 +6876,7 @@
             ],
             "access_rules": 
             [
-                ""
+                "@Milestones/Exploration(The Island)/Visit The Maw"
             ],
             "item_count": 1
           }

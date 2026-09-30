@@ -9,9 +9,9 @@
     [
       ["achatina","ankylosaurus_ride", "araneo_ride", "archaeopteryx", "arthropluera_ride", "carno_ride", "daeodon_ride", "direwolf"],
       ["doedicurus_ride", "dungbeetle", "equus_ride", "gallimimus_ride", "giantbee", "hyaenodon", "iguanodon_ride", "jerboa"],
-      ["kaprosuchus_ride", "kentrosaurus", "lystrosaurus", "mantis", "megalania_ride", "megalosaurus_ride", "megatherium_ride", "microraptor"],
+      ["kaprosuchus_ride", "kentrosaurus", "lystrosaurus", "mantis_ride", "megalania_ride", "megalosaurus_ride", "megatherium_ride", "microraptor"],
       ["morellatops", "moschops", "onyc", "ovis", "paracer_ride", "parasaur_ride", "pegomastax", "procoptodon_ride"],
-      ["pulmonoscorpius_ride", "purlovia", "raptor_ride", "rex_ride", "rock_elemental", "sabertooth_ride", "thorny_dragon", "terrorbird_ride"],
+      ["pulmonoscorpius_ride", "purlovia", "raptor_ride", "rex_ride", "rock_elemental_ride", "sabertooth_ride", "thorny_dragon", "terrorbird_ride"],
       ["thylacoleo_ride", "titanoboa", "troodon", "unicorn_ride", "vulture", "yutyrannus_ride"],
       ["argentavis_ride","lymantria", "phoenix", "tapejara_ride", "wyvern"]
     ]
@@ -106,7 +106,7 @@
       ["slingshot", "bola", "bow", "crossbow", "stone_arrow", "tranq_arrow", "grapple"],
       ["simple_pistol", "simple_bullet", "longneck", "rifle_ammo", "tranq_dart", "simple_shotgun", "shotgun_shell"],
       ["fabricated_pistol", "advanced_pistol_ammo", "pump_shotgun", "chainsaw", "fabricated_sniper", "advanced_sniper_ammo", "grenade"],
-      ["harpoon_gun", "net_gun", "club", "drill", "boomerang", "", "cryopod"]
+      ["harpoon_gun", "net_gun", "club", "drill", "boomerang", "sickle", "cryopod"]
     ]
   },
 

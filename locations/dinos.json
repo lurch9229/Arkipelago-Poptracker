@@ -4075,7 +4075,7 @@
                 ],
                 "access_rules": 
                         [
-                            ""
+                            "$EnterSnowCave"
                         ],
                 "sections": [
                     {
@@ -4220,7 +4220,8 @@
                         "access_rules": 
                         [
                             "$shallow_tames_combat",
-                            "$deep_tames_combat"
+                            "$deep_tames_combat",
+                            "$EnterSnowCave"
                         ],
                         "item_count": 1
                     }

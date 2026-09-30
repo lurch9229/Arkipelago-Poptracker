@@ -4995,7 +4995,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$EnterSnow"
                         ],
                         "item_count": 1
                     },
@@ -5079,7 +5079,13 @@
                         ],
                         "access_rules": 
                         [
-                            "$EnterSnow"
+                            "$EnterSnow, $canFly",
+                            "$EnterSnow, $shallow_tames",
+                            "$EnterSnow, $deep_tames_combat",
+                            "$EnterSnow, @Dinos/Angler/Tame an Angler",
+                            "$EnterSnow, canoe",
+                            "$EnterSnow, raft",
+                            "$EnterSnow, $CanUseFabricator, scuba_flippers"
                         ],
                         "item_count": 1
                     },
@@ -5127,7 +5133,13 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$canFly",
+                            "$shallow_tames",
+                            "$deep_tames_combat",
+                            "@Dinos/Angler/Tame an Angler",
+                            "canoe",
+                            "raft",
+                            "$CanUseFabricator, scuba_flippers"
                         ],
                         "item_count": 1
                     },
@@ -5139,7 +5151,13 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$canFly",
+                            "$shallow_tames",
+                            "$deep_tames_combat",
+                            "@Dinos/Angler/Tame an Angler",
+                            "canoe",
+                            "raft",
+                            "$CanUseFabricator, scuba_flippers"
                         ],
                         "item_count": 1
                     },
@@ -5283,7 +5301,7 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$SnowMountains"
                         ],
                         "item_count": 1
                     },

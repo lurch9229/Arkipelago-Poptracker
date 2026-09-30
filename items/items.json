@@ -3008,7 +3008,7 @@
   "type": "composite_toggle",
   "codes": "thorny_dragon_ride",
   "item_left": "thorny_dragon",
-  "item_right": "mantis_saddle",
+  "item_right": "thorny_dragon_saddle",
   "images": 
   [
     {

@@ -845,15 +845,6 @@ function apply_slot_data(slot_data)
             end
         end
     end
-    print("--- INCLUDED_LOCATIONS CONTENTS ---")
-if INCLUDED_LOCATIONS then
-    for k, v in pairs(INCLUDED_LOCATIONS) do
-        print(tostring(k) .. " = " .. tostring(v) .. " (type: " .. type(v) .. ")")
-    end
-else
-    print("INCLUDED_LOCATIONS is nil or not initialized yet.")
-end
-print("-----------------------------------")
 end
 
 -- called right after an AP slot is connected

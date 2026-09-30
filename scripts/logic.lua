@@ -38,9 +38,29 @@ local foundation_items = {"thatch_foundation", "wood_foundation", "stone_foundat
 for _, f in ipairs(foundation_items) do
   ScriptHost:AddWatchForCode("foundation watch_" .. f, f, canBuild)
 end
---=====================================================================
+--========================================================================
 
---=====================================================================
+--========================================================================
+-- craft Paste
+function canCraftPaste()
+    local cp = Tracker:FindObjectForCode("make_paste")
+    if not cp then
+        return
+    end
+
+    local ok = has("CanUseMortar") and has("cp")
+
+    cp.Active = ok
+end
+
+local paste_items = {"CanUseMortar", "cp"}
+for _, f in ipairs(paste_items) do
+    ScriptHost:AddWatchForCode("paste_watch_" .. f, f, canCraftPaste)
+end
+
+--========================================================================
+
+--========================================================================
 --Water
 function storeWater()
   local sw = Tracker:FindObjectForCode("store_water")
@@ -208,7 +228,7 @@ function UseTaps()
   local ok = false
 
   for _, f in ipairs(platform) do
-    if has(f) and has("use_smithy") and CanFly()
+    if has(f) and has("use_smithy") and canFly()
     then
       ok = true
       break
@@ -238,7 +258,15 @@ function can_use_tame(tame_data)
     local is_accessible = loc_obj.AccessibilityLevel >= 3
     local is_cleared = loc_obj.AvailableChestCount < loc_obj.ChestCount
     local location_valid = is_accessible or is_cleared
-    local has_saddle = (tame_data.saddle == nil) or has(tame_data.saddle)
+
+    local has_saddle_item = (tame_data.saddle == nil) or has(tame_data.saddle)
+
+    local saddle_craft_valid = true
+    if tame_data.craft_saddle then
+        saddle_craft_valid = has(tame_data.craft_saddle)
+    end
+
+    local has_saddle = has_saddle_item or saddle_craft_valid
 
     return location_valid and has_saddle
 end
@@ -247,16 +275,16 @@ end
 --========================================================================
 -- Shallow Tames Logic
 SHALLOW_TAMES_LIST = {
-    baryonyx     = { location = "@Dinos/Baryonyx/Tame a Baryonyx",         saddle = "baryonyx_saddle",     can_fight = true },
-    basilosaurus = { location = "@Dinos/Basilosaurus/Tame a Basilosaurus", saddle = "basilosaurus_saddle", can_fight = true },
-    beelzebufo   = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo",     saddle = "beelzebufo_saddle",   can_fight = true },
-    castoroides  = { location = "@Dinos/Castoroides/Tame a Castoroides",   saddle = "castoroides_saddle",  can_fight = true },
-    diplocaulus  = { location = "@Dinos/Diplocaulus/Tame a Diplocaulus",   saddle = nil,                   can_fight = false },
-    ichthysaurus  = { location = "@Dinos/Ichthyosaurus/Tame a Ichthyosaurus", saddle = "ichthysaurus_saddle",  can_fight = true },
-    kaprosuchus  = { location = "@Dinos/Kaprosuchus/Tame a Kaprosuchus",   saddle = "kaprosuchus_saddle",  can_fight = true },
-    manta        = { location = "@Dinos/Manta/Tame a Manta",               saddle = "manta_saddle",        can_fight = false },
-    megalodon    = { location = "@Dinos/Megalodon/Tame a Megalodon",       saddle = "megalodon_saddle",    can_fight = true },
-    sarco        = { location = "@Dinos/Sarco/Tame a Sarco",               saddle = "sarco_saddle",        can_fight = true }
+    baryonyx     = { location = "@Dinos/Baryonyx/Tame a Baryonyx",            saddle = "baryonyx_saddle",         craft_saddle = "use_smithy",                  can_fight = true },
+    basilosaurus = { location = "@Dinos/Basilosaurus/Tame a Basilosaurus",    saddle = "basilosaurus_saddle",     craft_saddle = "use_smithy",                  can_fight = true },
+    beelzebufo   = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo",        saddle = "beelzebufo_saddle",       craft_saddle = "make_paste",                  can_fight = true },
+    castoroides  = { location = "@Dinos/Castoroides/Tame a Castoroides",      saddle = "castoroides_saddle",      craft_saddle = "use_smithy, make_paste",      can_fight = true },
+    diplocaulus  = { location = "@Dinos/Diplocaulus/Tame a Diplocaulus",      saddle = nil,                       craft_saddle = nil,                           can_fight = false },
+    ichthysaurus = { location = "@Dinos/Ichthyosaurus/Tame a Ichthyosaurus",  saddle = "ichthysaurus_saddle",     craft_saddle = nil,                           can_fight = true },
+    kaprosuchus  = { location = "@Dinos/Kaprosuchus/Tame a Kaprosuchus",      saddle = "kaprosuchus_saddle",      craft_saddle = nil,                           can_fight = true },
+    manta        = { location = "@Dinos/Manta/Tame a Manta",                  saddle = "manta_saddle",            craft_saddle = "use_smithy",                  can_fight = false },
+    megalodon    = { location = "@Dinos/Megalodon/Tame a Megalodon",          saddle = "megalodon_saddle",        craft_saddle = "make_paste",                  can_fight = true },
+    sarco        = { location = "@Dinos/Sarco/Tame a Sarco",                  saddle = "sarco_saddle",            craft_saddle = "make_paste",                  can_fight = true }
 }
 
 function shallow_tames()
@@ -277,12 +305,12 @@ end
 --========================================================================
 --Deep Tames Logic
 DEEP_TAMES_LIST = {
-    angler       = { location = "@Dinos/Angler/Tame an Angler",               saddle = nil,                   can_fight = false },
-    dunkleosteus = { location = "@Dinos/Dunkleosteus/Tame a Dunkleosteus",   saddle = "dunkleosteus_saddle", can_fight = false },
-    liopleurodon  = { location = "@Dinos/Liopleurodon/Tame a Liopleurodon",     saddle = nil,                   can_fight = false },
-    mosasaur     = { location = "@Dinos/Mosasaur/Tame a Mosasaur",           saddle = "mosasaur_saddle",     can_fight = true },
-    plesiosaur   = { location = "@Dinos/Plesiosaur/Tame a Plesiosaur",       saddle = "plesiosaur_saddle",   can_fight = true },
-    tusoteuthis  = { location = "@Dinos/Tusoteuthis/Tame a Tusoteuthis",     saddle = "tusoteuthis_saddle",  can_fight = true }
+    angler       = { location = "@Dinos/Angler/Tame an Angler",                 saddle = nil,                       craft_saddle = nil,                           can_fight = false },
+    dunkleosteus = { location = "@Dinos/Dunkleosteus/Tame a Dunkleosteus",      saddle = "dunkleosteus_saddle",     craft_saddle = "use_smithy, make_paste",      can_fight = false },
+    liopleurodon = { location = "@Dinos/Liopleurodon/Tame a Liopleurodon",      saddle = nil,                       craft_saddle = nil,                           can_fight = false },
+    mosasaur     = { location = "@Dinos/Mosasaur/Tame a Mosasaur",              saddle = "mosasaur_saddle",         craft_saddle = "use_smithy, make_paste",      can_fight = true },
+    plesiosaur   = { location = "@Dinos/Plesiosaur/Tame a Plesiosaur",          saddle = "plesiosaur_saddle",       craft_saddle = "use_smithy, make_paste",      can_fight = true },
+    tusoteuthis  = { location = "@Dinos/Tusoteuthis/Tame a Tusoteuthis",        saddle = "tusoteuthis_saddle",      craft_saddle = "use_smithy, make_paste",      can_fight = true }
 }
 
 function deep_tames()
@@ -303,15 +331,15 @@ end
 --========================================================================
 --Can Fly Logic
 FLYER_LIST = {
-    argentavis   = { location = "@Dinos/Argentavis/Tame an Argentavis",     saddle = "argentavis_saddle" },
-    pelagornis   = { location = "@Dinos/Pelagornis/Tame a Pelagornis",     saddle = "pelagornis_saddle" },
-    pteranodon   = { location = "@Dinos/Pteranodon/Tame a Pteranodon",     saddle = "pteranodon_saddle" },
-    quetzal      = { location = "@Dinos/Quetzal/Tame a Quetzal",           saddle = "quetzal_saddle" },
-    rhyniognatha = { location = "@Dinos/Rhyniognatha/Tame a Rhyniognatha", saddle = "rhyniognatha_saddle" },
-    tapejara     = { location = "@Dinos/Tapejara/Tame a Tapejara",         saddle = "tapejara_saddle" }
+    argentavis   = { location = "@Dinos/Argentavis/Tame an Argentavis",         saddle = "argentavis_saddle",       craft_saddle = nil },
+    pelagornis   = { location = "@Dinos/Pelagornis/Tame a Pelagornis",          saddle = "pelagornis_saddle", craft_saddle = nil, },
+    pteranodon   = { location = "@Dinos/Pteranodon/Tame a Pteranodon",          saddle = "pteranodon_saddle", craft_saddle = nil, },
+    quetzal      = { location = "@Dinos/Quetzal/Tame a Quetzal",                saddle = "quetzal_saddle", craft_saddle = "use_smithy, make_paste", },
+    rhyniognatha = { location = "@Dinos/Rhyniognatha/Tame a Rhyniognatha",      saddle = "rhyniognatha_saddle", craft_saddle = "use_smithy" },
+    tapejara     = { location = "@Dinos/Tapejara/Tame a Tapejara",              saddle = "tapejara_saddle", craft_saddle = "use_smithy" }
 }
 
-function CanFly()
+function canFly()
     for _, tame in pairs(FLYER_LIST) do
         if can_use_tame(tame) then return true end
     end
@@ -322,24 +350,25 @@ end
 --========================================================================
 --Basic Fight Tames
 BASIC_FIGHT_TAMES_LIST = {
-    ankylosaurus    = { location = "@Dinos/Ankylosaurus/Tame an Ankylosaurus",       saddle = "ankylosaurus_saddle" },
-    araneo          = { location = "@Dinos/Araneo/Tame an Araneo",                   saddle = "araneo_saddle" },
-    arthropluera    = { location = "@Dinos/Arthropluera/Tame an Arthropluera",       saddle = "arthropluera_saddle" },
-    beelzebufo      = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo",           saddle = "beelzebufo_saddle" },
-    carbonemys      = { location = "@Dinos/Carbonemys/Tame a Carbonemys",           saddle = "carbonemys_saddle" },
-    castoroides     = { location = "@Dinos/Castoroides/Tame a Castoroides",         saddle = "castoroides_saddle" },
-    doedicurus      = { location = "@Dinos/Doedicurus/Tame a Doedicurus",           saddle = "doedicurus_saddle" },
-    equus           = { location = "@Dinos/Equus/Tame a Equus",                     saddle = nil },
-    gallimimus      = { location = "@Dinos/Gallimimus/Tame a Gallimimus",           saddle = "gallimimus_saddle" },
-    gigantopithecus = { location = "@Dinos/Gigantopithecus/Tame a Gigantopithecus", saddle = nil },
-    iguanodon       = { location = "@Dinos/Iguanodon/Tame a Iguanodon",             saddle = "iguanodon_saddle" },
-    moschops        = { location = "@Dinos/Moschops/Tame a Moschops",               saddle = nil },
-    pelagornis      = { location = "@Dinos/Pelagornis/Tame a Pelagornis",           saddle = "pelagornis_saddle" },
-    pteranodon      = { location = "@Dinos/Pteranodon/Tame a Pteranodon",           saddle = "pteranodon_saddle" },
-    pulmonoscorpius = { location = "@Dinos/Pulmonoscorpius/Tame a Pulmonoscorpius", saddle = "pulmonoscorpius_saddle" },
-    raptor          = { location = "@Dinos/Raptor/Tame a Raptor",                   saddle = "raptor_saddle" },
-    sabertooth      = { location = "@Dinos/Sabertooth/Tame a Sabertooth",           saddle = "sabertooth_saddle" },
-    unicorn         = { location = "@Dinos/Unicorn/Tame a Unicorn",                 saddle = nil }
+    ankylosaurus    = { location = "@Dinos/Ankylosaurus/Tame an Ankylosaurus",            saddle = "ankylosaurus_saddle",         craft_saddle = "use_smithy"},
+    araneo          = { location = "@Dinos/Araneo/Tame an Araneo",                        saddle = "araneo_saddle",               craft_saddle = nil },
+    arthropluera    = { location = "@Dinos/Arthropluera/Tame an Arthropluera",            saddle = "arthropluera_saddle",         craft_saddle = "use_smithy, make_paste" },
+    beelzebufo      = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo",                 saddle = "beelzebufo_saddle",           craft_saddle = "make_paste" },
+    carbonemys      = { location = "@Dinos/Carbonemys/Tame a Carbonemys",                 saddle = "carbonemys_saddle",           craft_saddle = nil },
+    castoroides     = { location = "@Dinos/Castoroides/Tame a Castoroides",               saddle = "castoroides_saddle",          craft_saddle = "use_smithy, make_paste" },
+    doedicurus      = { location = "@Dinos/Doedicurus/Tame a Doedicurus",                 saddle = "doedicurus_saddle",           craft_saddle = "use_smithy" },
+    equus           = { location = "@Dinos/Equus/Tame a Equus",                           saddle = nil,                           craft_saddle = nil },
+    gallimimus      = { location = "@Dinos/Gallimimus/Tame a Gallimimus",                 saddle = "gallimimus_saddle",           craft_saddle = "use_smithy" },
+    gigantopithecus = { location = "@Dinos/Gigantopithecus/Tame a Gigantopithecus",       saddle = nil,                           craft_saddle = nil },
+    iguanodon       = { location = "@Dinos/Iguanodon/Tame a Iguanodon",                   saddle = "iguanodon_saddle",            craft_saddle = nil },
+    moschops        = { location = "@Dinos/Moschops/Tame a Moschops",                     saddle = nil,                           craft_saddle = nil },
+    megalania        = { location = "@Dinos/Megalania/Tame a Megalania",                   saddle = "megalania_saddle",            craft_saddle = "use_smithy" },
+    pelagornis      = { location = "@Dinos/Pelagornis/Tame a Pelagornis",                 saddle = "pelagornis_saddle",           craft_saddle = nil },
+    pteranodon      = { location = "@Dinos/Pteranodon/Tame a Pteranodon",                 saddle = "pteranodon_saddle",           craft_saddle = nil },
+    pulmonoscorpius = { location = "@Dinos/Pulmonoscorpius/Tame a Pulmonoscorpius",       saddle = "pulmonoscorpius_saddle",      craft_saddle = nil },
+    raptor          = { location = "@Dinos/Raptor/Tame a Raptor",                         saddle = "raptor_saddle",               craft_saddle = nil },
+    sabertooth      = { location = "@Dinos/Sabertooth/Tame a Sabertooth",                 saddle = "sabertooth_saddle",           craft_saddle = "use_smithy" },
+    unicorn         = { location = "@Dinos/Unicorn/Tame a Unicorn",                       saddle = nil,                           craft_saddle = nil }
 }
 
 function BasicFightTames()
@@ -353,23 +382,23 @@ end
 --========================================================================
 --Medium Fight Tames
 MEDIUM_FIGHT_TAMES_LIST = {
-    allosaurus     = { location = "@Dinos/Allosaurus/Tame an Allosaurus",        saddle = "allosaurus_saddle" },
-    argentavis     = { location = "@Dinos/Argentavis/Tame an Argentavis",        saddle = "argentavis_saddle" },
-    baryonyx       = { location = "@Dinos/Baryonyx/Tame a Baryonyx",             saddle = "baryonyx_saddle" },
-    Brontosaurus   = { location = "@Dinos/Brontosaurus/Tame a Brontosaurus",     saddle = "bronto_saddle" },
-    carno          = { location = "@Dinos/Carno/Tame a Carno",                   saddle = "carno_saddle" },
-    chalicotherium = { location = "@Dinos/Chalicotherium/Tame a Chalicotherium", saddle = "chalicotherium_saddle" },
-    daeodon        = { location = "@Dinos/Daeodon/Tame a Daeodon",               saddle = "daeodon_saddle" },
-    direbear       = { location = "@Dinos/Dire Bear/Tame a Dire Bear",           saddle = "direbear_saddle" },
-    direwolf       = { location = "@Dinos/Direwolf/Tame a Direwolf",             saddle = nil },
-    kaprosuchus    = { location = "@Dinos/Kaprosuchus/Tame a Kaprosuchus",       saddle = "kaprosuchus_saddle" },
-    mammoth        = { location = "@Dinos/Mammoth/Tame a Mammoth",               saddle = "mammoth_saddle" },
-    quetzal        = { location = "@Dinos/Quetzal/Tame a Quetzal",               saddle = "quetzal_saddle" },
-    sarco          = { location = "@Dinos/Sarco/Tame a Sarco",                   saddle = "sarco_saddle" },
-    stegosaurus    = { location = "@Dinos/Stego/Tame a Stego",                   saddle = "stegosaurus_saddle" },
-    terror_bird    = { location = "@Dinos/Terrorbird/Tame a Terrorbird",         saddle = "terrorbird_saddle" },
-    Triceratops    = { location = "@Dinos/Triceratops/Tame a Triceratops",       saddle = "triceratops_saddle" },
-    woolly_rhino   = { location = "@Dinos/Woolly Rhino/Tame a Woolly Rhino",     saddle = "woolly_rhino_saddle" }
+    allosaurus     = { location = "@Dinos/Allosaurus/Tame an Allosaurus",             saddle = "allosaurus_saddle",           craft_saddle = "use_smithy" },
+    argentavis     = { location = "@Dinos/Argentavis/Tame an Argentavis",             saddle = "argentavis_saddle",           craft_saddle = nil },
+    baryonyx       = { location = "@Dinos/Baryonyx/Tame a Baryonyx",                  saddle = "baryonyx_saddle",             craft_saddle = "use_smithy" },
+    Brontosaurus   = { location = "@Dinos/Brontosaurus/Tame a Brontosaurus",          saddle = "bronto_saddle",               craft_saddle = "use_smithy" },
+    carno          = { location = "@Dinos/Carno/Tame a Carno",                        saddle = "carno_saddle",                craft_saddle = "use_smithy" },
+    chalicotherium = { location = "@Dinos/Chalicotherium/Tame a Chalicotherium",      saddle = "chalicotherium_saddle",       craft_saddle = "use_smithy" },
+    daeodon        = { location = "@Dinos/Daeodon/Tame a Daeodon",                    saddle = "daeodon_saddle",              craft_saddle = "use_smithy" },
+    direbear       = { location = "@Dinos/Dire Bear/Tame a Dire Bear",                saddle = "direbear_saddle",             craft_saddle = "make_paste" },
+    direwolf       = { location = "@Dinos/Direwolf/Tame a Direwolf",                  saddle = nil,                           craft_saddle = nil },
+    kaprosuchus    = { location = "@Dinos/Kaprosuchus/Tame a Kaprosuchus",            saddle = "kaprosuchus_saddle",          craft_saddle = nil },
+    mammoth        = { location = "@Dinos/Mammoth/Tame a Mammoth",                    saddle = "mammoth_saddle",              craft_saddle = "use_smithy" },
+    quetzal        = { location = "@Dinos/Quetzal/Tame a Quetzal",                    saddle = "quetzal_saddle",              craft_saddle = "use_smithy, make_paste" },
+    sarco          = { location = "@Dinos/Sarco/Tame a Sarco",                        saddle = "sarco_saddle",                craft_saddle = "make_paste" },
+    stegosaurus    = { location = "@Dinos/Stego/Tame a Stego",                        saddle = "stegosaurus_saddle",          craft_saddle = nil },
+    terror_bird    = { location = "@Dinos/Terrorbird/Tame a Terrorbird",              saddle = "terrorbird_saddle",           craft_saddle = nil },
+    Triceratops    = { location = "@Dinos/Triceratops/Tame a Triceratops",            saddle = "triceratops_saddle",          craft_saddle = nil },
+    woolly_rhino   = { location = "@Dinos/Woolly Rhino/Tame a Woolly Rhino",          saddle = "woolly_rhino_saddle",         craft_saddle = "use_smithy, make_paste", }
 }
 
 function MediumFightTames()
@@ -383,13 +412,13 @@ end
 --========================================================================
 --Strong Fight Tames
 STRONG_FIGHT_TAMES_LIST = {
-    rex           = { location = "@Dinos/Rex/Tame a Rex",                     saddle = "rex_saddle" },
-    rhyniognatha  = { location = "@Dinos/Rhyniognatha/Tame a Rhyniognatha",   saddle = "rhyniognatha_saddle" },
-    spino         = { location = "@Dinos/Spino/Tame a Spino",                 saddle = "spino_saddle" },
-    therizinosaur = { location = "@Dinos/Therizinosaur/Tame a Therizinosaur", saddle = "therizinosaur_saddle" },
-    thylacoleo    = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo",       saddle = "thylacoleo_saddle" },
-    -- titanosaur    = { location = "@Dinos/Titanosaur/Tame a Titanosaur",       saddle = "titanosaur_saddle" },
-    yutyrannus    = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus",       saddle = "yutyrannus_saddle" }
+    rex           = { location = "@Dinos/Rex/Tame a Rex",                           saddle = "rex_saddle",                craft_saddle = "use_smithy" },
+    rhyniognatha  = { location = "@Dinos/Rhyniognatha/Tame a Rhyniognatha",         saddle = "rhyniognatha_saddle",       craft_saddle = "use_smithy" },
+    spino         = { location = "@Dinos/Spino/Tame a Spino",                       saddle = "spino_saddle",              craft_saddle = "use_smithy, make_paste" },
+    therizinosaur = { location = "@Dinos/Therizinosaur/Tame a Therizinosaur",       saddle = "therizinosaur_saddle",      craft_saddle = "use_smithy" },
+    thylacoleo    = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo",             saddle = "thylacoleo_saddle",         craft_saddle = "use_smithy" },
+    -- titanosaur    = { location = "@Dinos/Titanosaur/Tame a Titanosaur",          saddle = "titanosaur_saddle",         craft_saddle = "use_smithy, make_paste" },
+    yutyrannus    = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus",             saddle = "yutyrannus_saddle",         craft_saddle = "use_smithy" }
 }
 
 function StrongFightTames()
@@ -403,8 +432,8 @@ end
 --========================================================================
 --Insane Fight Tames
 INSANE_FIGHT_TAMES_LIST = {
-    carcharodontosaurus = { location = "@Dinos/Carcharodontosaurus/Tame a Carcharodontosaurus", saddle = "carchardontosaurus_saddle" },
-    giganotosaurus      = { location = "@Dinos/Giganotosaurus/Tame a Giganotosaurus",          saddle = "giganotosaurus_saddle" }
+    carcharodontosaurus = { location = "@Dinos/Carcharodontosaurus/Tame a Carcharodontosaurus",       saddle = "carchardontosaurus_saddle",       craft_saddle = "use_smithy" },
+    giganotosaurus      = { location = "@Dinos/Giganotosaurus/Tame a Giganotosaurus",                 saddle = "giganotosaurus_saddle",           craft_saddle = "use_smithy" }
 }
 
 function InsaneFightTames()
@@ -418,28 +447,28 @@ end
 --==========================================================================
 --Cave Tames
 STANDARD_CAVE_TAMES_LIST = {
-    sabertooth = { location = "@Dinos/Sabertooth/Tame a Sabertooth", saddle = "sabertooth_saddle" },
-    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle" },
-    direwolf   = { location = "@Dinos/Direwolf/Tame a Direwolf",     saddle = nil },
-    raptor     = { location = "@Dinos/Raptor/Tame a Raptor",         saddle = "raptor_saddle" },
-    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo", saddle = "thylacoleo_saddle" }
+    sabertooth = { location = "@Dinos/Sabertooth/Tame a Sabertooth",      saddle = "sabertooth_saddle",       craft_saddle = "use_smithy" },
+    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",          saddle = "baryonyx_saddle",         craft_saddle = "use_smithy" },
+    direwolf   = { location = "@Dinos/Direwolf/Tame a Direwolf",          saddle = nil,                       craft_saddle = nil },
+    raptor     = { location = "@Dinos/Raptor/Tame a Raptor",              saddle = "raptor_saddle",           craft_saddle = nil },
+    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo",      saddle = "thylacoleo_saddle",       craft_saddle = "use_smithy" }
 }
 
 IMMUNE_TAMES_LIST = {
-    beelzebufo = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo", saddle = "beelzebufo_saddle" },
-    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle" }
+    beelzebufo = { location = "@Dinos/Beelzebufo/Tame a Beelzebufo", saddle = "beelzebufo_saddle", craft_saddle = "make_paste" },
+    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle", craft_saddle = "use_smithy" }
 }
 
 STRONG_TAMES_LIST = {
-    allosaurus = { location = "@Dinos/Allosaurus/Tame a Allosaurus", saddle = "allosaurus_saddle" },
-    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo", saddle = "thylacoleo_saddle" },
-    yutyrannus = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus", saddle = "yutyrannus_saddle" }
+    allosaurus = { location = "@Dinos/Allosaurus/Tame a Allosaurus",      saddle = "allosaurus_saddle",       craft_saddle = "use_smithy" },
+    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo",      saddle = "thylacoleo_saddle",       craft_saddle = "use_smithy" },
+    yutyrannus = { location = "@Dinos/Yutyrannus/Tame a Yutyrannus",      saddle = "yutyrannus_saddle",       craft_saddle = "use_smithy" }
 }
 
 SWAMP_RIVER_TAMES_LIST = {
-    sarco      = { location = "@Dinos/Sarco/Tame a Sarco",           saddle = "sarco_saddle" },
-    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",     saddle = "baryonyx_saddle" },
-    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo", saddle = "thylacoleo_saddle" }
+    sarco      = { location = "@Dinos/Sarco/Tame a Sarco",                saddle = "sarco_saddle",            craft_saddle = "make_paste" },
+    baryonyx   = { location = "@Dinos/Baryonyx/Tame a Baryonyx",          saddle = "baryonyx_saddle",         craft_saddle = "use_smithy" },
+    thylacoleo = { location = "@Dinos/Thylacoleo/Tame a Thylacoleo",      saddle = "thylacoleo_saddle",       craft_saddle = "use_smithy" }
 }
 
 function ImmuneTames()
@@ -867,12 +896,17 @@ end
 --=========================================================================
 -- Carno Cave Logic
 function EnterCarnoCave()
-  if DevourerTames() or UseShotgun() or UseRifle()
-  then
-    return true
-  else
-    return false
-  end
+    local loc_obj = Tracker:FindObjectForCode("@Milestones/Exploration(The Island)/Visit The Dead Island(Carno Island)")
+    local location_valid = false
+
+    if loc_obj then
+        local is_accessible = loc_obj.AccessibilityLevel >= 3
+        local is_cleared = loc_obj.AvailableChestCount < loc_obj.ChestCount
+        location_valid = is_accessible or is_cleared
+    end
+
+    local carno_requirements = DevourerTames() or UseShotgun() or UseRifle()
+    return location_valid and carno_requirements
 end
 --========================================================================
 
@@ -984,7 +1018,7 @@ function CrossbowKO()
 end
 
 function DeepDive()
-  if has("scuba_tank") and has("scuba_mask") and has("fabricator")
+  if has("scuba_tank") and has("scuba_mask") and has("scuba_flippers") and has("fabricator")
   then
     return true
   else
